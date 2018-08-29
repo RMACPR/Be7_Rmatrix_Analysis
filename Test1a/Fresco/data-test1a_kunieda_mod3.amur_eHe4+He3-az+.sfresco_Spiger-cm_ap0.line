@@ -1,0 +1,414 @@
+#   Var     1=w2:E-1.586 value    -1.340770, step   0.1300, error   0.0000 rwa =T
+#   Var     2=w2:E-1.586 value    -0.418160, step   0.0420, error   0.0000 rwa =T
+#   Var     3=w1:E-1.586 value     1.057250, step   0.1100, error   0.0000 rwa =T
+#   Var     4=E-1.586    value    -1.586097, step   0.1000, error   0.0000 rwa =F
+#   Var     5=w2:E5.7466 value     0.948800, step   0.0950, error   0.0000 rwa =T
+#   Var     6=w1:E5.7466 value    -0.187700, step   0.0190, error   0.0000 rwa =T
+#   Var     7=E5.7466    value     5.746671, step   0.1000, error   0.0000 rwa =F
+#   Var     8=w2:E7.0883 value    -0.349470, step   0.0350, error   0.0000 rwa =T
+#   Var     9=w1:E7.0883 value    -1.183810, step   0.1200, error   0.0000 rwa =T
+#   Var    10=E7.0883    value     7.088367, step   0.1000, error   0.0000 rwa =F
+#   Var    11=w1:E3.4839 value    -0.793620, step   0.0790, error   0.0000 rwa =T
+#   Var    12=E3.4839    value     3.483949, step   0.1000, error   0.0000 rwa =F
+
+# ChiSq/N =    315.195 from    141.845   211.881   170.358   234.945   242.575   270.691
+#                              282.642   159.530   544.730   685.392   384.509   339.566
+#                              177.763   169.865   170.742   219.834   270.035   233.401
+#                               14.909     3.896   502.321   630.524  1221.012  1032.829
+#                              976.708   851.819  1007.366   716.034   293.889   423.565
+#                              457.891   429.154   539.311   636.791   394.166   392.861
+#                              458.458  1143.631   364.919   354.261    58.067   158.616
+#                              114.246   629.290   569.003   394.973   245.360   210.234
+#                              229.333   208.964   197.909   188.943   182.677   208.723
+#                              183.385   180.816   172.220   154.382   139.287   130.799
+#                              120.046    98.876    85.313    88.726    88.586    89.719
+#                               72.996    78.348    95.552   107.429   107.423   117.836
+#                              138.080   143.754   144.651
+
+#  Graph for single-energy points
+#
+@subtitle "Search file: test1a_kunieda_mod3.amur_eHe4+He3-az+.sfresco; Frescox input: test1a_kunieda_mod3.amur_eHe4+He3-az+.sfresco.frout.in"
+@subtitle size 0.7
+@legend ON
+@legend char size 0.7
+@subtitle size 0.7
+@legend ON
+@legend string   0 "CM  set  47: D/Spiger-cm_ap0@e10.3581.data"
+&
+@TYPE xy
+#     CM Dataset  47
+@ s0 color  1
+@ s0 linewidth  1
+  100.02000 0.58959E-01
+ &
+@subtitle size 0.7
+@legend ON
+@legend string   1 "CM  set  48: D/Spiger-cm_ap0@e10.8438.data"
+&
+@TYPE xy
+#     CM Dataset  48
+@ s1 color  2
+@ s1 linewidth  1
+  131.09000 0.24922    
+  150.63000 0.34206    
+ &
+@subtitle size 0.7
+@legend ON
+@legend string   2 "CM  set  49: D/Spiger-cm_ap0@e11.0296.data"
+&
+@TYPE xy
+#     CM Dataset  49
+@ s2 color  3
+@ s2 linewidth  1
+  102.62000 0.17509    
+  110.09000 0.19924    
+  119.85000 0.24384    
+  137.07000 0.34296    
+ &
+@subtitle size 0.7
+@legend ON
+@legend string   3 "CM  set  50: D/Spiger-cm_ap0@e11.1769.data"
+&
+@TYPE xy
+#     CM Dataset  50
+@ s3 color  4
+@ s3 linewidth  1
+  114.68000 0.25506    
+  123.89000 0.30812    
+  133.16000 0.36913    
+  142.48000 0.43175    
+  151.83000 0.48929    
+ &
+@subtitle size 0.7
+@legend ON
+@legend string   4 "CM  set  51: D/Spiger-cm_ap0@e11.3109.data"
+&
+@TYPE xy
+#     CM Dataset  51
+@ s4 color  5
+@ s4 linewidth  1
+  133.83000 0.42323    
+  152.22000 0.55304    
+ &
+@subtitle size 0.7
+@legend ON
+@legend string   5 "CM  set  52: D/Spiger-cm_ap0@e11.445.data"
+&
+@TYPE xy
+#     CM Dataset  52
+@ s5 color  6
+@ s5 linewidth  1
+  139.43000 0.52680    
+  152.57000 0.62589    
+ &
+@subtitle size 0.7
+@legend ON
+@legend string   6 "CM  set  53: D/Spiger-cm_ap0@e11.579.data"
+&
+@TYPE xy
+#     CM Dataset  53
+@ s6 color  7
+@ s6 linewidth  1
+  139.96000 0.60952    
+  152.89000 0.71703    
+ &
+@subtitle size 0.7
+@legend ON
+@legend string   7 "CM  set  54: D/Spiger-cm_ap0@e11.7011.data"
+&
+@TYPE xy
+#     CM Dataset  54
+@ s7 color  8
+@ s7 linewidth  1
+  107.97000 0.41744    
+  114.82000 0.46492    
+  123.83000 0.54329    
+  139.82000 0.70372    
+ &
+@subtitle size 0.7
+@legend ON
+@legend string   8 "CM  set  55: D/Spiger-cm_ap0@e11.7117.data"
+&
+@TYPE xy
+#     CM Dataset  55
+@ s8 color  9
+@ s8 linewidth  1
+  135.44000 0.66842    
+  153.17000 0.83951    
+ &
+@subtitle size 0.7
+@legend ON
+@legend string   9 "CM  set  56: D/Spiger-cm_ap0@e11.8458.data"
+&
+@TYPE xy
+#     CM Dataset  56
+@ s9 color 10
+@ s9 linewidth  1
+  101.78000 0.48405    
+  135.89000 0.81767    
+  153.43000  1.0179    
+ &
+@subtitle size 0.7
+@legend ON
+@legend string  10 "CM  set  57: D/Spiger-cm_ap0@e11.9798.data"
+&
+@TYPE xy
+#     CM Dataset  57
+@ s10 color 11
+@ s10 linewidth  1
+  102.54000 0.61703    
+  136.29000  1.0365    
+  153.67000  1.2843    
+ &
+@subtitle size 0.7
+@legend ON
+@legend string  11 "CM  set  58: D/Spiger-cm_ap0@e12.1125.data"
+&
+@TYPE xy
+#     CM Dataset  58
+@ s11 color 12
+@ s11 linewidth  1
+  103.23000 0.80384    
+  139.66000  1.4210    
+  153.89000  1.6841    
+ &
+@subtitle size 0.7
+@legend ON
+@legend string  12 "CM  set  59: D/Spiger-cm_ap0@e12.2466.data"
+&
+@TYPE xy
+#     CM Dataset  59
+@ s12 color 13
+@ s12 linewidth  1
+  103.87000  1.0725    
+  137.00000  1.8489    
+  154.09000  2.2948    
+ &
+@subtitle size 0.7
+@legend ON
+@legend string  13 "CM  set  60: D/Spiger-cm_ap0@e12.3726.data"
+&
+@TYPE xy
+#     CM Dataset  60
+@ s13 color 14
+@ s13 linewidth  1
+  111.16000  1.5751    
+  117.68000  1.7700    
+  126.26000  2.0754    
+  141.52000  2.6748    
+ &
+@subtitle size 0.7
+@legend ON
+@legend string  14 "CM  set  61: D/Spiger-cm_ap0@e12.3793.data"
+&
+@TYPE xy
+#     CM Dataset  61
+@ s14 color 15
+@ s14 linewidth  1
+  104.45000  1.4407    
+  137.32000  2.5505    
+  154.28000  3.1800    
+ &
+@subtitle size 0.7
+@legend ON
+@legend string  15 "CM  set  62: D/Spiger-cm_ap0@e12.5133.data"
+&
+@TYPE xy
+#     CM Dataset  62
+@ s15 color  1
+@ s15 linewidth  1
+  105.00000  1.9134    
+  137.61000  3.4925    
+  154.45000  4.3785    
+ &
+@subtitle size 0.7
+@legend ON
+@legend string  16 "CM  set  63: D/Spiger-cm_ap0@e12.6473.data"
+&
+@TYPE xy
+#     CM Dataset  63
+@ s16 color  2
+@ s16 linewidth  1
+  105.51000  2.4069    
+  137.89000  4.5315    
+  154.62000  5.7114    
+ &
+@subtitle size 0.7
+@legend ON
+@legend string  17 "CM  set  64: D/Spiger-cm_ap0@e12.7801.data"
+&
+@TYPE xy
+#     CM Dataset  64
+@ s17 color  3
+@ s17 linewidth  1
+   90.80000  2.3424    
+  105.97000  2.7480    
+  138.14000  5.3211    
+  154.77000  6.7372    
+ &
+@subtitle size 0.7
+@legend ON
+@legend string  18 "CM  set  65: D/Spiger-cm_ap0@e12.9141.data"
+&
+@TYPE xy
+#     CM Dataset  65
+@ s18 color  4
+@ s18 linewidth  1
+   84.12000  2.4142    
+   91.34000  2.3568    
+   98.78000  2.4882    
+  106.41000  2.8145    
+  114.22000  3.3255    
+  122.16000  3.9898    
+  130.22000  4.7615    
+  138.38000  5.5809    
+  146.62000  6.3803    
+  154.91000  7.0900    
+ &
+@subtitle size 0.7
+@legend ON
+@legend string  19 "CM  set  66: D/Spiger-cm_ap0@e13.0442.data"
+&
+@TYPE xy
+#     CM Dataset  66
+@ s19 color  5
+@ s19 linewidth  1
+  113.32000  3.0647    
+  119.30000  3.5317    
+  127.91000  4.3103    
+  142.69000  5.7494    
+ &
+@subtitle size 0.7
+@legend ON
+@legend string  20 "CM  set  67: D/Spiger-cm_ap0@e13.0481.data"
+&
+@TYPE xy
+#     CM Dataset  67
+@ s20 color  6
+@ s20 linewidth  1
+  106.83000  2.6459    
+  138.61000  5.3436    
+  155.05000  6.8035    
+ &
+@subtitle size 0.7
+@legend ON
+@legend string  21 "CM  set  68: D/Spiger-cm_ap0@e13.1808.data"
+&
+@TYPE xy
+#     CM Dataset  68
+@ s21 color  7
+@ s21 linewidth  1
+   78.30000  2.1395    
+  107.21000  2.3809    
+  138.82000  4.8714    
+  155.17000  6.2087    
+ &
+@subtitle size 0.7
+@legend ON
+@legend string  22 "CM  set  69: D/Spiger-cm_ap0@e13.3149.data"
+&
+@TYPE xy
+#     CM Dataset  69
+@ s22 color  8
+@ s22 linewidth  1
+   78.82000  1.8628    
+  107.57000  2.1141    
+  139.02000  4.3621    
+  155.29000  5.5608    
+ &
+@subtitle size 0.7
+@legend ON
+@legend string  23 "CM  set  70: D/Spiger-cm_ap0@e13.4476.data"
+&
+@TYPE xy
+#     CM Dataset  70
+@ s23 color  9
+@ s23 linewidth  1
+   79.30000  1.6359    
+  107.91000  1.8904    
+  139.21000  3.9174    
+  155.41000  4.9915    
+ &
+@subtitle size 0.7
+@legend ON
+@legend string  24 "CM  set  71: D/Spiger-cm_ap0@e13.5816.data"
+&
+@TYPE xy
+#     CM Dataset  71
+@ s24 color 10
+@ s24 linewidth  1
+   55.63000  2.5592    
+   79.75000  1.4562    
+  108.24000  1.7110    
+  139.39000  3.5492    
+  155.51000  4.5169    
+ &
+@subtitle size 0.7
+@legend ON
+@legend string  25 "CM  set  72: D/Spiger-cm_ap0@e13.7157.data"
+&
+@TYPE xy
+#     CM Dataset  72
+@ s25 color 11
+@ s25 linewidth  1
+   56.13000  2.3092    
+   80.18000  1.3175    
+  108.60000  1.5734    
+  114.89000  1.8391    
+  121.03000  2.1511    
+  129.13000  2.6180    
+  139.56000  3.2555    
+  143.87000  3.5130    
+  155.62000  4.1374    
+ &
+@subtitle size 0.7
+@legend ON
+@legend string  26 "CM  set  73: D/Spiger-cm_ap0@e13.8484.data"
+&
+@TYPE xy
+#     CM Dataset  73
+@ s26 color 12
+@ s26 linewidth  1
+   56.59000  2.1147    
+   62.11000  1.8391    
+   67.96000  1.5843    
+   74.13000  1.3686    
+   80.59000  1.2117    
+   87.31000  1.1316    
+   94.28000  1.1426    
+  101.46000  1.2533    
+  108.84000  1.4650    
+  116.37000  1.7687    
+  124.04000  2.1478    
+  131.83000  2.5772    
+  139.72000  3.0254    
+  147.68000  3.4570    
+  155.71000  3.8379    
+ &
+@subtitle size 0.7
+@legend ON
+@legend string  27 "CM  set  74: D/Spiger-cm_ap0@e14.1815.data"
+&
+@TYPE xy
+#     CM Dataset  74
+@ s27 color 13
+@ s27 linewidth  1
+   68.97000  1.3389    
+   81.51000  1.0378    
+  109.50000  1.2900    
+  140.09000  2.6322    
+  155.93000  3.3224    
+ &
+@subtitle size 0.7
+@legend ON
+@legend string  28 "CM  set  75: D/Spiger-cm_ap0@e14.3859.data"
+&
+@TYPE xy
+#     CM Dataset  75
+@ s28 color 14
+@ s28 linewidth  1
+  116.09000  1.4292    
+  122.11000  1.6634    
+  130.05000  2.0089    
+  144.21000  2.6498    
+ &

@@ -1,0 +1,20 @@
+
+cat > $*.sfin << EOF
+$*
+
+line data-$*_Barnard_aa.line 1 7
+line data-$*_Spiger_aa.line 8 9
+line data-$*_McCray_pp.line 10 18 # 34 42
+line data-$*_Elwyn_pa.line 19 46 # 64 91
+line data-$*_Spiger-cm_ap0.line 47 75 # 92 120
+line data-$*_Tombrello-cm_aa.line 76 83
+
+line data-$*_Barnard_aa-23.22.line1 1 1
+line data-$*_Spiger_aa-23.19.line1 8 8
+line data-$*_McCray_pp-155.8.line1 17 17
+line data-$*_Elwyn_pa-1.681.line1 35 35
+line data-$*_Spiger-cm_ap0-13.848.line1 73 73
+EOF
+
+sfrescox < $*.sfin
+barnsall data-*.line

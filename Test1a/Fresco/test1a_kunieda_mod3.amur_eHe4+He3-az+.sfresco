@@ -1,0 +1,122 @@
+ '=' 'test1a_kunieda_mod3.amur_eHe4+He3-az+.sfresco.frout' 
+ 12 75 
+
+R-matrix calculation test1a_kunieda_mod3.amur_eHe4+He3-az+.sfresco
+NAMELIST 
+&FRESCO 
+ hcm=0.100000 rmatch=4.241510 rintp=0.500000 
+ jtmin=0.0 jtmax=4.5 absend=-1.0 
+ thmin=30 thmax=-180 thinc=50  smats=0 weak=0 
+ iter = 0 nrbases=1 nparameters=0 btype="L" bndx=0.0 0.0 buttle=4 boldplot=F
+ pel=1 exl=1 elab(1:2) = 1.000000e+00 1.200000e+01 nlab(1)=1 /
+ 
+ &PARTITION namep='He4' massp=4.002603 zp=2 nex=1 namet='He3' masst=3.016029 zt=2 qval=0.000000 prmax=4.241510 /
+ &STATES  cpot =1 jp=0.0 ptyp=1 ep=0.000000  jt=0.5 ptyt=1 et=0.000000 /
+ &PARTITION namep='H1' massp=1.007825 zp=1 nex=1 namet='Li6' masst=6.015123 zt=3 qval=-4.019632 prmax=3.943970 /
+ &STATES  cpot =2 jp=0.5 ptyp=1 ep=0.000000  jt=1.0 ptyt=1 et=0.000000 /
+ &PARTITION /
+
+ &pot kp=1  type=0 p(1:3) = 0 0 1.0 /
+ &pot kp=2  type=0 p(1:3) = 0 0 1.0 /
+ &pot /
+
+ &overlap /
+
+ &coupling /
+
+EOF
+
+
+&Variable kind=4 name='w2:E-1.586' term=1 icch=2 iach=1 lch=1 sch=0.5 width=-1.34077 rwa=T step=1.3e-01 /
+&Variable kind=4 name='w2:E-1.586' term=1 icch=2 iach=1 lch=1 sch=1.5 width=-0.41816 rwa=T step=4.2e-02 /
+&Variable kind=4 name='w1:E-1.586' term=1 icch=1 iach=1 lch=1 sch=0.5 width=1.05725 rwa=T step=1.1e-01 /
+&Variable kind=3 name='E-1.586'    term=1 jtot=1.5 par=-1 energy=-1.5860970433 damp=0.0 step=0.1 / ! from MeV  3 
+
+&Variable kind=4 name='w2:E5.7466' term=2 icch=2 iach=1 lch=1 sch=1.5 width=0.9488 rwa=T step=9.5e-02 /
+&Variable kind=4 name='w1:E5.7466' term=2 icch=1 iach=1 lch=3 sch=0.5 width=-0.1877 rwa=T step=1.9e-02 /
+&Variable kind=3 name='E5.7466'    term=2 jtot=2.5 par=-1 energy=5.7466709567 damp=0.0 step=0.1 / ! from MeV  6 
+
+&Variable kind=4 name='w2:E7.0883' term=3 icch=2 iach=1 lch=1 sch=1.5 width=-0.34947 rwa=T step=3.5e-02 /
+&Variable kind=4 name='w1:E7.0883' term=3 icch=1 iach=1 lch=3 sch=0.5 width=-1.18381 rwa=T step=1.2e-01 /
+&Variable kind=3 name='E7.0883'    term=3 jtot=2.5 par=-1 energy=7.0883669567 damp=0.0 step=0.1 / ! from MeV  9 
+
+&Variable kind=4 name='w1:E3.4839' term=4 icch=1 iach=1 lch=3 sch=0.5 width=-0.79362 rwa=T step=7.9e-02 /
+&Variable kind=3 name='E3.4839'    term=4 jtot=3.5 par=-1 energy=3.4839489567 damp=0.0 step=0.1 / ! from MeV  11 
+
+
+
+&Data type=2 pel=1 ic=1 ia=1 angle=23.22 data_file='D/Barnard_aa@a23.22.data' idir=0 iscale=1 lab=T abserr=T / ! 83 points in 1/7 :: set 1
+&Data type=2 pel=1 ic=1 ia=1 angle=26.76 data_file='D/Barnard_aa@a26.76.data' idir=0 iscale=1 lab=T abserr=T / ! 78 points in 2/7 :: set 2
+&Data type=2 pel=1 ic=1 ia=1 angle=30.93 data_file='D/Barnard_aa@a30.93.data' idir=0 iscale=1 lab=T abserr=T / ! 108 points in 3/7 :: set 3
+&Data type=2 pel=1 ic=1 ia=1 angle=37.01 data_file='D/Barnard_aa@a37.01.data' idir=0 iscale=1 lab=T abserr=T / ! 80 points in 4/7 :: set 4
+&Data type=2 pel=1 ic=1 ia=1 angle=41.99 data_file='D/Barnard_aa@a41.99.data' idir=0 iscale=1 lab=T abserr=T / ! 73 points in 5/7 :: set 5
+&Data type=2 pel=1 ic=1 ia=1 angle=45.48 data_file='D/Barnard_aa@a45.48.data' idir=0 iscale=1 lab=T abserr=T / ! 94 points in 6/7 :: set 6
+&Data type=2 pel=1 ic=1 ia=1 angle=47.45 data_file='D/Barnard_aa@a47.45.data' idir=0 iscale=1 lab=T abserr=T / ! 77 points in 7/7 :: set 7
+&Data type=2 pel=1 ic=1 ia=1 angle=23.192 data_file='D/Spiger_aa@a23.192.data' idir=0 iscale=1 lab=T abserr=T / ! 35 points in 1/2 :: set 8
+&Data type=2 pel=1 ic=1 ia=1 angle=36.999 data_file='D/Spiger_aa@a36.999.data' idir=0 iscale=1 lab=T abserr=T / ! 37 points in 2/2 :: set 9
+&Data type=2 pel=2 ic=2 ia=1 angle=61.6 data_file='D/McCray_pp@a61.6.data' idir=0 iscale=1 lab=T abserr=T / ! 5 points in 1/9 :: set 34
+&Data type=2 pel=2 ic=2 ia=1 angle=80.5 data_file='D/McCray_pp@a80.5.data' idir=0 iscale=1 lab=T abserr=T / ! 5 points in 2/9 :: set 35
+&Data type=2 pel=2 ic=2 ia=1 angle=81.0 data_file='D/McCray_pp@a81.0.data' idir=0 iscale=1 lab=T abserr=T / ! 65 points in 3/9 :: set 36
+&Data type=2 pel=2 ic=2 ia=1 angle=100.6 data_file='D/McCray_pp@a100.6.data' idir=0 iscale=1 lab=T abserr=T / ! 5 points in 4/9 :: set 37
+&Data type=2 pel=2 ic=2 ia=1 angle=116.4 data_file='D/McCray_pp@a116.4.data' idir=0 iscale=1 lab=T abserr=T / ! 5 points in 5/9 :: set 38
+&Data type=2 pel=2 ic=2 ia=1 angle=118.1 data_file='D/McCray_pp@a118.1.data' idir=0 iscale=1 lab=T abserr=T / ! 70 points in 6/9 :: set 39
+&Data type=2 pel=2 ic=2 ia=1 angle=133.0 data_file='D/McCray_pp@a133.0.data' idir=0 iscale=1 lab=T abserr=T / ! 5 points in 7/9 :: set 40
+&Data type=2 pel=2 ic=2 ia=1 angle=155.8 data_file='D/McCray_pp@a155.8.data' idir=0 iscale=1 lab=T abserr=T / ! 70 points in 8/9 :: set 41
+&Data type=2 pel=2 ic=2 ia=1 angle=156.1 data_file='D/McCray_pp@a156.1.data' idir=0 iscale=1 lab=T abserr=T / ! 5 points in 9/9 :: set 42
+&Data type=0 pel=2 ic=1 ia=1 energy=0.136 data_file='D/Elwyn_pa@e0.136.data' idir=0 iscale=1 lab=T abserr=T / ! 10 points in 1/28 :: set 64
+&Data type=0 pel=2 ic=1 ia=1 energy=0.186 data_file='D/Elwyn_pa@e0.186.data' idir=0 iscale=1 lab=T abserr=T / ! 10 points in 2/28 :: set 65
+&Data type=0 pel=2 ic=1 ia=1 energy=0.252 data_file='D/Elwyn_pa@e0.252.data' idir=0 iscale=1 lab=T abserr=T / ! 10 points in 3/28 :: set 66
+&Data type=0 pel=2 ic=1 ia=1 energy=0.324 data_file='D/Elwyn_pa@e0.324.data' idir=0 iscale=1 lab=T abserr=T / ! 10 points in 4/28 :: set 67
+&Data type=0 pel=2 ic=1 ia=1 energy=0.49 data_file='D/Elwyn_pa@e0.49.data' idir=0 iscale=1 lab=T abserr=T / ! 14 points in 5/28 :: set 68
+&Data type=0 pel=2 ic=1 ia=1 energy=0.589 data_file='D/Elwyn_pa@e0.589.data' idir=0 iscale=1 lab=T abserr=T / ! 14 points in 6/28 :: set 69
+&Data type=0 pel=2 ic=1 ia=1 energy=0.688 data_file='D/Elwyn_pa@e0.688.data' idir=0 iscale=1 lab=T abserr=T / ! 14 points in 7/28 :: set 70
+&Data type=0 pel=2 ic=1 ia=1 energy=0.787 data_file='D/Elwyn_pa@e0.787.data' idir=0 iscale=1 lab=T abserr=T / ! 14 points in 8/28 :: set 71
+&Data type=0 pel=2 ic=1 ia=1 energy=0.887 data_file='D/Elwyn_pa@e0.887.data' idir=0 iscale=1 lab=T abserr=T / ! 14 points in 9/28 :: set 72
+&Data type=0 pel=2 ic=1 ia=1 energy=0.984 data_file='D/Elwyn_pa@e0.984.data' idir=0 iscale=1 lab=T abserr=T / ! 22 points in 10/28 :: set 73
+&Data type=0 pel=2 ic=1 ia=1 energy=1.082 data_file='D/Elwyn_pa@e1.082.data' idir=0 iscale=1 lab=T abserr=T / ! 13 points in 11/28 :: set 74
+&Data type=0 pel=2 ic=1 ia=1 energy=1.182 data_file='D/Elwyn_pa@e1.182.data' idir=0 iscale=1 lab=T abserr=T / ! 13 points in 12/28 :: set 75
+&Data type=0 pel=2 ic=1 ia=1 energy=1.282 data_file='D/Elwyn_pa@e1.282.data' idir=0 iscale=1 lab=T abserr=T / ! 13 points in 13/28 :: set 76
+&Data type=0 pel=2 ic=1 ia=1 energy=1.382 data_file='D/Elwyn_pa@e1.382.data' idir=0 iscale=1 lab=T abserr=T / ! 12 points in 14/28 :: set 77
+&Data type=0 pel=2 ic=1 ia=1 energy=1.481 data_file='D/Elwyn_pa@e1.481.data' idir=0 iscale=1 lab=T abserr=T / ! 14 points in 15/28 :: set 78
+&Data type=0 pel=2 ic=1 ia=1 energy=1.581 data_file='D/Elwyn_pa@e1.581.data' idir=0 iscale=1 lab=T abserr=T / ! 13 points in 16/28 :: set 79
+&Data type=0 pel=2 ic=1 ia=1 energy=1.681 data_file='D/Elwyn_pa@e1.681.data' idir=0 iscale=1 lab=T abserr=T / ! 14 points in 17/28 :: set 80
+&Data type=0 pel=2 ic=1 ia=1 energy=1.78 data_file='D/Elwyn_pa@e1.78.data' idir=0 iscale=1 lab=T abserr=T / ! 12 points in 18/28 :: set 81
+&Data type=0 pel=2 ic=1 ia=1 energy=1.88 data_file='D/Elwyn_pa@e1.88.data' idir=0 iscale=1 lab=T abserr=T / ! 14 points in 19/28 :: set 82
+&Data type=0 pel=2 ic=1 ia=1 energy=1.989 data_file='D/Elwyn_pa@e1.989.data' idir=0 iscale=1 lab=T abserr=T / ! 16 points in 20/28 :: set 83
+&Data type=0 pel=2 ic=1 ia=1 energy=2.078 data_file='D/Elwyn_pa@e2.078.data' idir=0 iscale=1 lab=T abserr=T / ! 14 points in 21/28 :: set 84
+&Data type=0 pel=2 ic=1 ia=1 energy=2.177 data_file='D/Elwyn_pa@e2.177.data' idir=0 iscale=1 lab=T abserr=T / ! 14 points in 22/28 :: set 85
+&Data type=0 pel=2 ic=1 ia=1 energy=2.277 data_file='D/Elwyn_pa@e2.277.data' idir=0 iscale=1 lab=T abserr=T / ! 12 points in 23/28 :: set 86
+&Data type=0 pel=2 ic=1 ia=1 energy=2.377 data_file='D/Elwyn_pa@e2.377.data' idir=0 iscale=1 lab=T abserr=T / ! 14 points in 24/28 :: set 87
+&Data type=0 pel=2 ic=1 ia=1 energy=2.476 data_file='D/Elwyn_pa@e2.476.data' idir=0 iscale=1 lab=T abserr=T / ! 14 points in 25/28 :: set 88
+&Data type=0 pel=2 ic=1 ia=1 energy=2.575 data_file='D/Elwyn_pa@e2.575.data' idir=0 iscale=1 lab=T abserr=T / ! 12 points in 26/28 :: set 89
+&Data type=0 pel=2 ic=1 ia=1 energy=2.674 data_file='D/Elwyn_pa@e2.674.data' idir=0 iscale=1 lab=T abserr=T / ! 12 points in 27/28 :: set 90
+&Data type=0 pel=2 ic=1 ia=1 energy=2.775 data_file='D/Elwyn_pa@e2.775.data' idir=0 iscale=1 lab=T abserr=T / ! 12 points in 28/28 :: set 91
+&Data type=0 pel=1 ic=2 ia=1 energy=10.3581 data_file='D/Spiger-cm_ap0@e10.3581.data' idir=0 iscale=2 lab=F abserr=T / ! 1 points in 1/29 :: set 92
+&Data type=0 pel=1 ic=2 ia=1 energy=10.8438 data_file='D/Spiger-cm_ap0@e10.8438.data' idir=0 iscale=2 lab=F abserr=T / ! 2 points in 2/29 :: set 93
+&Data type=0 pel=1 ic=2 ia=1 energy=11.0296 data_file='D/Spiger-cm_ap0@e11.0296.data' idir=0 iscale=2 lab=F abserr=T / ! 4 points in 3/29 :: set 94
+&Data type=0 pel=1 ic=2 ia=1 energy=11.1769 data_file='D/Spiger-cm_ap0@e11.1769.data' idir=0 iscale=2 lab=F abserr=T / ! 5 points in 4/29 :: set 95
+&Data type=0 pel=1 ic=2 ia=1 energy=11.3109 data_file='D/Spiger-cm_ap0@e11.3109.data' idir=0 iscale=2 lab=F abserr=T / ! 2 points in 5/29 :: set 96
+&Data type=0 pel=1 ic=2 ia=1 energy=11.445 data_file='D/Spiger-cm_ap0@e11.445.data' idir=0 iscale=2 lab=F abserr=T / ! 2 points in 6/29 :: set 97
+&Data type=0 pel=1 ic=2 ia=1 energy=11.579 data_file='D/Spiger-cm_ap0@e11.579.data' idir=0 iscale=2 lab=F abserr=T / ! 2 points in 7/29 :: set 98
+&Data type=0 pel=1 ic=2 ia=1 energy=11.7011 data_file='D/Spiger-cm_ap0@e11.7011.data' idir=0 iscale=2 lab=F abserr=T / ! 4 points in 8/29 :: set 99
+&Data type=0 pel=1 ic=2 ia=1 energy=11.7117 data_file='D/Spiger-cm_ap0@e11.7117.data' idir=0 iscale=2 lab=F abserr=T / ! 2 points in 9/29 :: set 100
+&Data type=0 pel=1 ic=2 ia=1 energy=11.8458 data_file='D/Spiger-cm_ap0@e11.8458.data' idir=0 iscale=2 lab=F abserr=T / ! 3 points in 10/29 :: set 101
+&Data type=0 pel=1 ic=2 ia=1 energy=11.9798 data_file='D/Spiger-cm_ap0@e11.9798.data' idir=0 iscale=2 lab=F abserr=T / ! 3 points in 11/29 :: set 102
+&Data type=0 pel=1 ic=2 ia=1 energy=12.1125 data_file='D/Spiger-cm_ap0@e12.1125.data' idir=0 iscale=2 lab=F abserr=T / ! 3 points in 12/29 :: set 103
+&Data type=0 pel=1 ic=2 ia=1 energy=12.2466 data_file='D/Spiger-cm_ap0@e12.2466.data' idir=0 iscale=2 lab=F abserr=T / ! 3 points in 13/29 :: set 104
+&Data type=0 pel=1 ic=2 ia=1 energy=12.3726 data_file='D/Spiger-cm_ap0@e12.3726.data' idir=0 iscale=2 lab=F abserr=T / ! 4 points in 14/29 :: set 105
+&Data type=0 pel=1 ic=2 ia=1 energy=12.3793 data_file='D/Spiger-cm_ap0@e12.3793.data' idir=0 iscale=2 lab=F abserr=T / ! 3 points in 15/29 :: set 106
+&Data type=0 pel=1 ic=2 ia=1 energy=12.5133 data_file='D/Spiger-cm_ap0@e12.5133.data' idir=0 iscale=2 lab=F abserr=T / ! 3 points in 16/29 :: set 107
+&Data type=0 pel=1 ic=2 ia=1 energy=12.6473 data_file='D/Spiger-cm_ap0@e12.6473.data' idir=0 iscale=2 lab=F abserr=T / ! 3 points in 17/29 :: set 108
+&Data type=0 pel=1 ic=2 ia=1 energy=12.7801 data_file='D/Spiger-cm_ap0@e12.7801.data' idir=0 iscale=2 lab=F abserr=T / ! 4 points in 18/29 :: set 109
+&Data type=0 pel=1 ic=2 ia=1 energy=12.9141 data_file='D/Spiger-cm_ap0@e12.9141.data' idir=0 iscale=2 lab=F abserr=T / ! 10 points in 19/29 :: set 110
+&Data type=0 pel=1 ic=2 ia=1 energy=13.0442 data_file='D/Spiger-cm_ap0@e13.0442.data' idir=0 iscale=2 lab=F abserr=T / ! 4 points in 20/29 :: set 111
+&Data type=0 pel=1 ic=2 ia=1 energy=13.0481 data_file='D/Spiger-cm_ap0@e13.0481.data' idir=0 iscale=2 lab=F abserr=T / ! 3 points in 21/29 :: set 112
+&Data type=0 pel=1 ic=2 ia=1 energy=13.1808 data_file='D/Spiger-cm_ap0@e13.1808.data' idir=0 iscale=2 lab=F abserr=T / ! 4 points in 22/29 :: set 113
+&Data type=0 pel=1 ic=2 ia=1 energy=13.3149 data_file='D/Spiger-cm_ap0@e13.3149.data' idir=0 iscale=2 lab=F abserr=T / ! 4 points in 23/29 :: set 114
+&Data type=0 pel=1 ic=2 ia=1 energy=13.4476 data_file='D/Spiger-cm_ap0@e13.4476.data' idir=0 iscale=2 lab=F abserr=T / ! 4 points in 24/29 :: set 115
+&Data type=0 pel=1 ic=2 ia=1 energy=13.5816 data_file='D/Spiger-cm_ap0@e13.5816.data' idir=0 iscale=2 lab=F abserr=T / ! 5 points in 25/29 :: set 116
+&Data type=0 pel=1 ic=2 ia=1 energy=13.7157 data_file='D/Spiger-cm_ap0@e13.7157.data' idir=0 iscale=2 lab=F abserr=T / ! 9 points in 26/29 :: set 117
+&Data type=0 pel=1 ic=2 ia=1 energy=13.8484 data_file='D/Spiger-cm_ap0@e13.8484.data' idir=0 iscale=2 lab=F abserr=T / ! 15 points in 27/29 :: set 118
+&Data type=0 pel=1 ic=2 ia=1 energy=14.1815 data_file='D/Spiger-cm_ap0@e14.1815.data' idir=0 iscale=2 lab=F abserr=T / ! 5 points in 28/29 :: set 119
+&Data type=0 pel=1 ic=2 ia=1 energy=14.3859 data_file='D/Spiger-cm_ap0@e14.3859.data' idir=0 iscale=2 lab=F abserr=T / ! 4 points in 29/29 :: set 120
