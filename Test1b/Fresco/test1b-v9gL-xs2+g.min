@@ -1,0 +1,20 @@
+test1b-v9gL-xs2.sfrescoed+.sfresco
+q
+chi
+done
+show
+plot data_Barnard_aa.dat_1-7-9gL-xs2.agr 1 7
+plot data_Spiger-A1094004-lab_aa.dat_8-21-9gL-xs2.agr 8 21
+plot data_Tombrello_aa.dat_22-29-9gL-xs2.agr 22 29
+plot data_Mohr_aa.dat_30-39-9gL-xs2.agr 30 39
+plot data_Fasoli_pp.dat_40-45-9gL-xs2.agr 40 45
+plot data_McCray_pp.dat_46-54-9gL-xs2.agr 46 54
+plot data_Harrison_pp0.dat_55-56-9gL-xs2.agr 55 56
+plot data_Lin_pa.dat_57-73-9gL-xs2.agr 57 73
+plot data_Elwyn_pa.dat_74-101-9gL-xs2.agr 74 101
+plot data_Spiger-cm_ap0.dat_102-130-9gL-xs2.agr 102 130
+
+plot data_Elwyn_pa@eA-xs2.agr 75 78
+plot data_Elwyn_pa@eB-xs2.agr 83 85
+plot data_Spiger-cm_ap0@eC-xs2.agr 122 124
+

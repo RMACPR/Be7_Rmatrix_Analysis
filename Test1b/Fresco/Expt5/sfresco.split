@@ -1,0 +1,339 @@
+&Variable kind=5 name='r:Barnard_aa'  datanorm=0.983618775538 step=0.01   reffile='Expt5/Barnard_aa@a*'/ 
+&Variable kind=5 name='n:Spiger-A1094004-lab_aa@a16.735'  datanorm=0.910111849575 step=0.01   reffile='Expt5/Spiger-A1094004-lab_aa@a16.735.data'/ 
+&Variable kind=5 name='n:Spiger-A1094004-lab_aa@a20.002'  datanorm=0.947902936811 step=0.01   reffile='Expt5/Spiger-A1094004-lab_aa@a20.002.data'/ 
+&Variable kind=5 name='n:Spiger-A1094004-lab_aa@a23.192'  datanorm=0.922606412116 step=0.01   reffile='Expt5/Spiger-A1094004-lab_aa@a23.192.data'/ 
+&Variable kind=5 name='n:Spiger-A1094004-lab_aa@a26.738'  datanorm=0.936775431851 step=0.01   reffile='Expt5/Spiger-A1094004-lab_aa@a26.738.data'/ 
+&Variable kind=5 name='n:Spiger-A1094004-lab_aa@a29.418'  datanorm=0.951454106613 step=0.01   reffile='Expt5/Spiger-A1094004-lab_aa@a29.418.data'/ 
+&Variable kind=5 name='n:Spiger-A1094004-lab_aa@a32.12'  datanorm=0.94561892886 step=0.01   reffile='Expt5/Spiger-A1094004-lab_aa@a32.12.data'/ 
+&Variable kind=5 name='n:Spiger-A1094004-lab_aa@a33.273'  datanorm=0.928642930194 step=0.01   reffile='Expt5/Spiger-A1094004-lab_aa@a33.273.data'/ 
+&Variable kind=5 name='n:Spiger-A1094004-lab_aa@a35.257'  datanorm=0.941249851032 step=0.01   reffile='Expt5/Spiger-A1094004-lab_aa@a35.257.data'/ 
+&Variable kind=5 name='n:Spiger-A1094004-lab_aa@a36.999'  datanorm=0.941100257286 step=0.01   reffile='Expt5/Spiger-A1094004-lab_aa@a36.999.data'/ 
+&Variable kind=5 name='n:Spiger-A1094004-lab_aa@a39.951'  datanorm=0.944570230051 step=0.01   reffile='Expt5/Spiger-A1094004-lab_aa@a39.951.data'/ 
+&Variable kind=5 name='n:Spiger-A1094004-lab_aa@a42.558'  datanorm=0.931442331875 step=0.01   reffile='Expt5/Spiger-A1094004-lab_aa@a42.558.data'/ 
+&Variable kind=5 name='n:Spiger-A1094004-lab_aa@a45.53'  datanorm=0.85470738573 step=0.01   reffile='Expt5/Spiger-A1094004-lab_aa@a45.53.data'/ 
+&Variable kind=5 name='n:Spiger-A1094004-lab_aa@a47.428'  datanorm=0.844830358583 step=0.01   reffile='Expt5/Spiger-A1094004-lab_aa@a47.428.data'/ 
+&Variable kind=5 name='n:Spiger-A1094004-lab_aa@a48.755'  datanorm=0.896885749217 step=0.01   reffile='Expt5/Spiger-A1094004-lab_aa@a48.755.data'/ 
+&Variable kind=5 name='r:Tombrello_aa'  datanorm=1.07408046069 step=0.01   reffile='Expt5/Tombrello_aa@a*'/ 
+&Variable kind=5 name='n:Mohr_aa@e1.59539'  datanorm=1.04862996308 step=0.01   reffile='Expt5/Mohr_aa@e1.59539.data'/ 
+&Variable kind=5 name='n:Mohr_aa@e2.26013'  datanorm=0.898881795282 step=0.01   reffile='Expt5/Mohr_aa@e2.26013.data'/ 
+&Variable kind=5 name='n:Mohr_aa@e2.65898'  datanorm=0.912762700563 step=0.01   reffile='Expt5/Mohr_aa@e2.65898.data'/ 
+&Variable kind=5 name='n:Mohr_aa@e3.05783'  datanorm=0.987758321544 step=0.01   reffile='Expt5/Mohr_aa@e3.05783.data'/ 
+&Variable kind=5 name='n:Mohr_aa@e3.32372'  datanorm=0.86104396691 step=0.01   reffile='Expt5/Mohr_aa@e3.32372.data'/ 
+&Variable kind=5 name='n:Mohr_aa@e3.45667'  datanorm=0.983206607104 step=0.01   reffile='Expt5/Mohr_aa@e3.45667.data'/ 
+&Variable kind=5 name='n:Mohr_aa@e3.58962'  datanorm=0.935250437625 step=0.01   reffile='Expt5/Mohr_aa@e3.58962.data'/ 
+&Variable kind=5 name='n:Mohr_aa@e3.72257'  datanorm=0.961399988782 step=0.01   reffile='Expt5/Mohr_aa@e3.72257.data'/ 
+&Variable kind=5 name='n:Mohr_aa@e3.85552'  datanorm=0.949697337561 step=0.01   reffile='Expt5/Mohr_aa@e3.85552.data'/ 
+&Variable kind=5 name='n:Mohr_aa@e3.98847'  datanorm=0.995877320685 step=0.01   reffile='Expt5/Mohr_aa@e3.98847.data'/ 
+&Variable kind=5 name='n:Fasoli_pp@a81.0'  datanorm=0.823886503189 step=0.01   reffile='Expt5/Fasoli_pp@a81.0.data'/ 
+&Variable kind=5 name='n:Fasoli_pp@a100.0'  datanorm=0.941960956153 step=0.01   reffile='Expt5/Fasoli_pp@a100.0.data'/ 
+&Variable kind=5 name='n:Fasoli_pp@a117.0'  datanorm=0.985699665975 step=0.01   reffile='Expt5/Fasoli_pp@a117.0.data'/ 
+&Variable kind=5 name='n:Fasoli_pp@a141.0'  datanorm=1.07340041937 step=0.01   reffile='Expt5/Fasoli_pp@a141.0.data'/ 
+&Variable kind=5 name='n:Fasoli_pp@a144.0'  datanorm=1.0614015732 step=0.01   reffile='Expt5/Fasoli_pp@a144.0.data'/ 
+&Variable kind=5 name='n:Fasoli_pp@a166.0'  datanorm=1.07340998672 step=0.01   reffile='Expt5/Fasoli_pp@a166.0.data'/ 
+&Variable kind=5 name='n:McCray_pp@a61.6'  datanorm=1.13375726808 step=0.01   reffile='Expt5/McCray_pp@a61.6.data'/ 
+&Variable kind=5 name='n:McCray_pp@a80.5'  datanorm=1.09523592248 step=0.01   reffile='Expt5/McCray_pp@a80.5.data'/ 
+&Variable kind=5 name='n:McCray_pp@a81.0'  datanorm=1.05253783713 step=0.01   reffile='Expt5/McCray_pp@a81.0.data'/ 
+&Variable kind=5 name='n:McCray_pp@a100.6'  datanorm=1.07689175249 step=0.01   reffile='Expt5/McCray_pp@a100.6.data'/ 
+&Variable kind=5 name='n:McCray_pp@a116.4'  datanorm=1.09706589363 step=0.01   reffile='Expt5/McCray_pp@a116.4.data'/ 
+&Variable kind=5 name='n:McCray_pp@a118.1'  datanorm=1.10615330863 step=0.01   reffile='Expt5/McCray_pp@a118.1.data'/ 
+&Variable kind=5 name='n:McCray_pp@a133.0'  datanorm=1.13017314522 step=0.01   reffile='Expt5/McCray_pp@a133.0.data'/ 
+&Variable kind=5 name='n:McCray_pp@a155.8'  datanorm=1.19727037824 step=0.01   reffile='Expt5/McCray_pp@a155.8.data'/ 
+&Variable kind=5 name='n:McCray_pp@a156.1'  datanorm=1.16138285506 step=0.01   reffile='Expt5/McCray_pp@a156.1.data'/ 
+&Variable kind=5 name='r:Harrison_pp0'  datanorm=1.13566971938 step=0.01   reffile='Expt5/Harrison_pp0@e*'/ 
+&Variable kind=5 name='n:Lin_pa@e1.0'  datanorm=1.27564138035 step=0.01   reffile='Expt5/Lin_pa@e1.0.data'/ 
+&Variable kind=5 name='n:Lin_pa@e1.2'  datanorm=1.28263704621 step=0.01   reffile='Expt5/Lin_pa@e1.2.data'/ 
+&Variable kind=5 name='n:Lin_pa@e1.4'  datanorm=1.31933706711 step=0.01   reffile='Expt5/Lin_pa@e1.4.data'/ 
+&Variable kind=5 name='n:Lin_pa@e1.5'  datanorm=1.42243610101 step=0.01   reffile='Expt5/Lin_pa@e1.5.data'/ 
+&Variable kind=5 name='n:Lin_pa@e1.6'  datanorm=1.45542663654 step=0.01   reffile='Expt5/Lin_pa@e1.6.data'/ 
+&Variable kind=5 name='n:Lin_pa@e1.65'  datanorm=1.4042148726 step=0.01   reffile='Expt5/Lin_pa@e1.65.data'/ 
+&Variable kind=5 name='n:Lin_pa@e1.7'  datanorm=1.43252231652 step=0.01   reffile='Expt5/Lin_pa@e1.7.data'/ 
+&Variable kind=5 name='n:Lin_pa@e1.75'  datanorm=1.41844016501 step=0.01   reffile='Expt5/Lin_pa@e1.75.data'/ 
+&Variable kind=5 name='n:Lin_pa@e1.8'  datanorm=1.39782733693 step=0.01   reffile='Expt5/Lin_pa@e1.8.data'/ 
+&Variable kind=5 name='n:Lin_pa@e1.85'  datanorm=1.29157166494 step=0.01   reffile='Expt5/Lin_pa@e1.85.data'/ 
+&Variable kind=5 name='n:Lin_pa@e1.9'  datanorm=1.37403610499 step=0.01   reffile='Expt5/Lin_pa@e1.9.data'/ 
+&Variable kind=5 name='n:Lin_pa@e1.95'  datanorm=1.43124553144 step=0.01   reffile='Expt5/Lin_pa@e1.95.data'/ 
+&Variable kind=5 name='n:Lin_pa@e2.0'  datanorm=1.27457730222 step=0.01   reffile='Expt5/Lin_pa@e2.0.data'/ 
+&Variable kind=5 name='n:Lin_pa@e2.1'  datanorm=1.2976135951 step=0.01   reffile='Expt5/Lin_pa@e2.1.data'/ 
+&Variable kind=5 name='n:Lin_pa@e2.2'  datanorm=1.35102055838 step=0.01   reffile='Expt5/Lin_pa@e2.2.data'/ 
+&Variable kind=5 name='n:Lin_pa@e2.4'  datanorm=1.42339695176 step=0.01   reffile='Expt5/Lin_pa@e2.4.data'/ 
+&Variable kind=5 name='n:Lin_pa@e2.6'  datanorm=1.45117410859 step=0.01   reffile='Expt5/Lin_pa@e2.6.data'/ 
+&Variable kind=5 name='r:Elwyn_pa'  datanorm=1.1948536824 step=0.01   reffile='Expt5/Elwyn_pa@e*'/ 
+&Variable kind=5 name='n:Spiger-cm_ap0@e10.3581'  datanorm=1.01076984531 step=0.01   reffile='Expt5/Spiger-cm_ap0@e10.3581.data'/ 
+&Variable kind=5 name='n:Spiger-cm_ap0@e10.8438'  datanorm=1.0097947805 step=0.01   reffile='Expt5/Spiger-cm_ap0@e10.8438.data'/ 
+&Variable kind=5 name='n:Spiger-cm_ap0@e11.0296'  datanorm=1.00142631344 step=0.01   reffile='Expt5/Spiger-cm_ap0@e11.0296.data'/ 
+&Variable kind=5 name='n:Spiger-cm_ap0@e11.1769'  datanorm=1.02957114647 step=0.01   reffile='Expt5/Spiger-cm_ap0@e11.1769.data'/ 
+&Variable kind=5 name='n:Spiger-cm_ap0@e11.3109'  datanorm=1.01197824716 step=0.01   reffile='Expt5/Spiger-cm_ap0@e11.3109.data'/ 
+&Variable kind=5 name='n:Spiger-cm_ap0@e11.445'  datanorm=1.01685570951 step=0.01   reffile='Expt5/Spiger-cm_ap0@e11.445.data'/ 
+&Variable kind=5 name='n:Spiger-cm_ap0@e11.579'  datanorm=1.01859534842 step=0.01   reffile='Expt5/Spiger-cm_ap0@e11.579.data'/ 
+&Variable kind=5 name='n:Spiger-cm_ap0@e11.7011'  datanorm=1.00147569239 step=0.01   reffile='Expt5/Spiger-cm_ap0@e11.7011.data'/ 
+&Variable kind=5 name='n:Spiger-cm_ap0@e11.7117'  datanorm=1.00942663527 step=0.01   reffile='Expt5/Spiger-cm_ap0@e11.7117.data'/ 
+&Variable kind=5 name='n:Spiger-cm_ap0@e11.8458'  datanorm=1.02473465237 step=0.01   reffile='Expt5/Spiger-cm_ap0@e11.8458.data'/ 
+&Variable kind=5 name='n:Spiger-cm_ap0@e11.9798'  datanorm=1.01500117135 step=0.01   reffile='Expt5/Spiger-cm_ap0@e11.9798.data'/ 
+&Variable kind=5 name='n:Spiger-cm_ap0@e12.1125'  datanorm=1.01674383375 step=0.01   reffile='Expt5/Spiger-cm_ap0@e12.1125.data'/ 
+&Variable kind=5 name='n:Spiger-cm_ap0@e12.2466'  datanorm=1.01151097882 step=0.01   reffile='Expt5/Spiger-cm_ap0@e12.2466.data'/ 
+&Variable kind=5 name='n:Spiger-cm_ap0@e12.3726'  datanorm=1.01184133322 step=0.01   reffile='Expt5/Spiger-cm_ap0@e12.3726.data'/ 
+&Variable kind=5 name='n:Spiger-cm_ap0@e12.3793'  datanorm=1.00895816978 step=0.01   reffile='Expt5/Spiger-cm_ap0@e12.3793.data'/ 
+&Variable kind=5 name='n:Spiger-cm_ap0@e12.5133'  datanorm=1.01077518997 step=0.01   reffile='Expt5/Spiger-cm_ap0@e12.5133.data'/ 
+&Variable kind=5 name='n:Spiger-cm_ap0@e12.6473'  datanorm=1.00843847842 step=0.01   reffile='Expt5/Spiger-cm_ap0@e12.6473.data'/ 
+&Variable kind=5 name='n:Spiger-cm_ap0@e12.7801'  datanorm=1.01215070171 step=0.01   reffile='Expt5/Spiger-cm_ap0@e12.7801.data'/ 
+&Variable kind=5 name='n:Spiger-cm_ap0@e12.9141'  datanorm=1.03133029997 step=0.01   reffile='Expt5/Spiger-cm_ap0@e12.9141.data'/ 
+&Variable kind=5 name='n:Spiger-cm_ap0@e13.0442'  datanorm=1.00993887806 step=0.01   reffile='Expt5/Spiger-cm_ap0@e13.0442.data'/ 
+&Variable kind=5 name='n:Spiger-cm_ap0@e13.0481'  datanorm=1.02133592472 step=0.01   reffile='Expt5/Spiger-cm_ap0@e13.0481.data'/ 
+&Variable kind=5 name='n:Spiger-cm_ap0@e13.1808'  datanorm=1.04733552203 step=0.01   reffile='Expt5/Spiger-cm_ap0@e13.1808.data'/ 
+&Variable kind=5 name='n:Spiger-cm_ap0@e13.3149'  datanorm=1.02404885264 step=0.01   reffile='Expt5/Spiger-cm_ap0@e13.3149.data'/ 
+&Variable kind=5 name='n:Spiger-cm_ap0@e13.4476'  datanorm=1.01644100189 step=0.01   reffile='Expt5/Spiger-cm_ap0@e13.4476.data'/ 
+&Variable kind=5 name='n:Spiger-cm_ap0@e13.5816'  datanorm=1.01705717907 step=0.01   reffile='Expt5/Spiger-cm_ap0@e13.5816.data'/ 
+&Variable kind=5 name='n:Spiger-cm_ap0@e13.7157'  datanorm=1.02409647169 step=0.01   reffile='Expt5/Spiger-cm_ap0@e13.7157.data'/ 
+&Variable kind=5 name='n:Spiger-cm_ap0@e13.8484'  datanorm=1.01657793458 step=0.01   reffile='Expt5/Spiger-cm_ap0@e13.8484.data'/ 
+&Variable kind=5 name='n:Spiger-cm_ap0@e14.1815'  datanorm=1.00839614911 step=0.01   reffile='Expt5/Spiger-cm_ap0@e14.1815.data'/ 
+&Variable kind=5 name='n:Spiger-cm_ap0@e14.3859'  datanorm=0.996303330751 step=0.01   reffile='Expt5/Spiger-cm_ap0@e14.3859.data'/ 
+ 
+&Variable kind=6 name='s:Spiger-A1094004-lab_aa@a16.735'  dataEshift=-0.0397256080817 step=0.02   reffile='Expt5/Spiger-A1094004-lab_aa@a16.735.data'/ 
+&Variable kind=6 name='s:Spiger-A1094004-lab_aa@a20.002'  dataEshift=-0.0368120196864 step=0.02   reffile='Expt5/Spiger-A1094004-lab_aa@a20.002.data'/ 
+&Variable kind=6 name='s:Spiger-A1094004-lab_aa@a23.192'  dataEshift=-0.0456788175301 step=0.02   reffile='Expt5/Spiger-A1094004-lab_aa@a23.192.data'/ 
+&Variable kind=6 name='s:Spiger-A1094004-lab_aa@a26.738'  dataEshift=-0.0562550146097 step=0.02   reffile='Expt5/Spiger-A1094004-lab_aa@a26.738.data'/ 
+&Variable kind=6 name='s:Spiger-A1094004-lab_aa@a29.418'  dataEshift=-0.049418693019 step=0.02   reffile='Expt5/Spiger-A1094004-lab_aa@a29.418.data'/ 
+&Variable kind=6 name='s:Spiger-A1094004-lab_aa@a32.12'  dataEshift=-0.0679828995545 step=0.02   reffile='Expt5/Spiger-A1094004-lab_aa@a32.12.data'/ 
+&Variable kind=6 name='s:Spiger-A1094004-lab_aa@a33.273'  dataEshift=-0.0171148063393 step=0.02   reffile='Expt5/Spiger-A1094004-lab_aa@a33.273.data'/ 
+&Variable kind=6 name='s:Spiger-A1094004-lab_aa@a35.257'  dataEshift=-0.047482936792 step=0.02   reffile='Expt5/Spiger-A1094004-lab_aa@a35.257.data'/ 
+&Variable kind=6 name='s:Spiger-A1094004-lab_aa@a36.999'  dataEshift=-0.0366169516764 step=0.02   reffile='Expt5/Spiger-A1094004-lab_aa@a36.999.data'/ 
+&Variable kind=6 name='s:Spiger-A1094004-lab_aa@a39.951'  dataEshift=-0.0362614163163 step=0.02   reffile='Expt5/Spiger-A1094004-lab_aa@a39.951.data'/ 
+&Variable kind=6 name='s:Spiger-A1094004-lab_aa@a42.558'  dataEshift=-0.033951882295 step=0.02   reffile='Expt5/Spiger-A1094004-lab_aa@a42.558.data'/ 
+&Variable kind=6 name='s:Spiger-A1094004-lab_aa@a45.53'  dataEshift=-0.0363143803483 step=0.02   reffile='Expt5/Spiger-A1094004-lab_aa@a45.53.data'/ 
+&Variable kind=6 name='s:Spiger-A1094004-lab_aa@a47.428'  dataEshift=-0.043831410685 step=0.02   reffile='Expt5/Spiger-A1094004-lab_aa@a47.428.data'/ 
+&Variable kind=6 name='s:Spiger-A1094004-lab_aa@a48.755'  dataEshift=-0.0580729684506 step=0.02   reffile='Expt5/Spiger-A1094004-lab_aa@a48.755.data'/ 
+&Variable kind=6 name='s:Tombrello_aa@a23.192'  dataEshift=0.0 step=0.02   reffile='Expt5/Tombrello_aa@a23.192.data'/ 
+&Variable kind=6 name='s:Tombrello_aa@a26.738'  dataEshift=0.0 step=0.02   reffile='Expt5/Tombrello_aa@a26.738.data'/ 
+&Variable kind=6 name='s:Tombrello_aa@a29.418'  dataEshift=0.0 step=0.02   reffile='Expt5/Tombrello_aa@a29.418.data'/ 
+&Variable kind=6 name='s:Tombrello_aa@a30.836'  dataEshift=0.0 step=0.02   reffile='Expt5/Tombrello_aa@a30.836.data'/ 
+&Variable kind=6 name='s:Tombrello_aa@a36.999'  dataEshift=0.0 step=0.02   reffile='Expt5/Tombrello_aa@a36.999.data'/ 
+&Variable kind=6 name='s:Tombrello_aa@a39.951'  dataEshift=0.0 step=0.02   reffile='Expt5/Tombrello_aa@a39.951.data'/ 
+&Variable kind=6 name='s:Tombrello_aa@a42.62'  dataEshift=0.0 step=0.02   reffile='Expt5/Tombrello_aa@a42.62.data'/ 
+&Variable kind=6 name='s:Tombrello_aa@a45.53'  dataEshift=0.0 step=0.02   reffile='Expt5/Tombrello_aa@a45.53.data'/ 
+ 
+&Data type=2 pel=1 ic=1 ia=1 angle=23.22 data_file='Expt5/Barnard_aa@a23.22.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 83 points in 1/7 :: set 1
+&Data type=2 pel=1 ic=1 ia=1 angle=26.76 data_file='Expt5/Barnard_aa@a26.76.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 78 points in 2/7 :: set 2
+&Data type=2 pel=1 ic=1 ia=1 angle=30.93 data_file='Expt5/Barnard_aa@a30.93.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 108 points in 3/7 :: set 3
+&Data type=2 pel=1 ic=1 ia=1 angle=37.01 data_file='Expt5/Barnard_aa@a37.01.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 80 points in 4/7 :: set 4
+&Data type=2 pel=1 ic=1 ia=1 angle=41.99 data_file='Expt5/Barnard_aa@a41.99.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 73 points in 5/7 :: set 5
+&Data type=2 pel=1 ic=1 ia=1 angle=45.48 data_file='Expt5/Barnard_aa@a45.48.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 94 points in 6/7 :: set 6
+&Data type=2 pel=1 ic=1 ia=1 angle=47.45 data_file='Expt5/Barnard_aa@a47.45.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 77 points in 7/7 :: set 7
+&Data type=2 pel=1 ic=1 ia=1 angle=16.735 data_file='Expt5/Spiger-A1094004-lab_aa@a16.735.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 37 points in 1/14 :: set 8
+&Data type=2 pel=1 ic=1 ia=1 angle=20.002 data_file='Expt5/Spiger-A1094004-lab_aa@a20.002.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 37 points in 2/14 :: set 9
+&Data type=2 pel=1 ic=1 ia=1 angle=23.192 data_file='Expt5/Spiger-A1094004-lab_aa@a23.192.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 37 points in 3/14 :: set 10
+&Data type=2 pel=1 ic=1 ia=1 angle=26.738 data_file='Expt5/Spiger-A1094004-lab_aa@a26.738.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 36 points in 4/14 :: set 11
+&Data type=2 pel=1 ic=1 ia=1 angle=29.418 data_file='Expt5/Spiger-A1094004-lab_aa@a29.418.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 37 points in 5/14 :: set 12
+&Data type=2 pel=1 ic=1 ia=1 angle=32.12 data_file='Expt5/Spiger-A1094004-lab_aa@a32.12.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 37 points in 6/14 :: set 13
+&Data type=2 pel=1 ic=1 ia=1 angle=33.273 data_file='Expt5/Spiger-A1094004-lab_aa@a33.273.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 37 points in 7/14 :: set 14
+&Data type=2 pel=1 ic=1 ia=1 angle=35.257 data_file='Expt5/Spiger-A1094004-lab_aa@a35.257.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 31 points in 8/14 :: set 15
+&Data type=2 pel=1 ic=1 ia=1 angle=36.999 data_file='Expt5/Spiger-A1094004-lab_aa@a36.999.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 37 points in 9/14 :: set 16
+&Data type=2 pel=1 ic=1 ia=1 angle=39.951 data_file='Expt5/Spiger-A1094004-lab_aa@a39.951.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 37 points in 10/14 :: set 17
+&Data type=2 pel=1 ic=1 ia=1 angle=42.558 data_file='Expt5/Spiger-A1094004-lab_aa@a42.558.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 36 points in 11/14 :: set 18
+&Data type=2 pel=1 ic=1 ia=1 angle=45.53 data_file='Expt5/Spiger-A1094004-lab_aa@a45.53.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 37 points in 12/14 :: set 19
+&Data type=2 pel=1 ic=1 ia=1 angle=47.428 data_file='Expt5/Spiger-A1094004-lab_aa@a47.428.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 37 points in 13/14 :: set 20
+&Data type=2 pel=1 ic=1 ia=1 angle=48.755 data_file='Expt5/Spiger-A1094004-lab_aa@a48.755.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 37 points in 14/14 :: set 21
+&Data type=2 pel=1 ic=1 ia=1 angle=23.192 data_file='Expt5/Tombrello_aa@a23.192.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 44 points in 1/8 :: set 22
+&Data type=2 pel=1 ic=1 ia=1 angle=26.738 data_file='Expt5/Tombrello_aa@a26.738.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 62 points in 2/8 :: set 23
+&Data type=2 pel=1 ic=1 ia=1 angle=29.418 data_file='Expt5/Tombrello_aa@a29.418.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 41 points in 3/8 :: set 24
+&Data type=2 pel=1 ic=1 ia=1 angle=30.836 data_file='Expt5/Tombrello_aa@a30.836.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 52 points in 4/8 :: set 25
+&Data type=2 pel=1 ic=1 ia=1 angle=36.999 data_file='Expt5/Tombrello_aa@a36.999.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 56 points in 5/8 :: set 26
+&Data type=2 pel=1 ic=1 ia=1 angle=39.951 data_file='Expt5/Tombrello_aa@a39.951.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 42 points in 6/8 :: set 27
+&Data type=2 pel=1 ic=1 ia=1 angle=42.62 data_file='Expt5/Tombrello_aa@a42.62.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 56 points in 7/8 :: set 28
+&Data type=2 pel=1 ic=1 ia=1 angle=45.53 data_file='Expt5/Tombrello_aa@a45.53.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 65 points in 8/8 :: set 29
+&Data type=0 pel=1 ic=1 ia=1 energy=1.59539 data_file='Expt5/Mohr_aa@e1.59539.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 8 points in 1/10 :: set 30
+&Data type=0 pel=1 ic=1 ia=1 energy=2.26013 data_file='Expt5/Mohr_aa@e2.26013.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 8 points in 2/10 :: set 31
+&Data type=0 pel=1 ic=1 ia=1 energy=2.65898 data_file='Expt5/Mohr_aa@e2.65898.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 8 points in 3/10 :: set 32
+&Data type=0 pel=1 ic=1 ia=1 energy=3.05783 data_file='Expt5/Mohr_aa@e3.05783.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 8 points in 4/10 :: set 33
+&Data type=0 pel=1 ic=1 ia=1 energy=3.32372 data_file='Expt5/Mohr_aa@e3.32372.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 8 points in 5/10 :: set 34
+&Data type=0 pel=1 ic=1 ia=1 energy=3.45667 data_file='Expt5/Mohr_aa@e3.45667.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 10 points in 6/10 :: set 35
+&Data type=0 pel=1 ic=1 ia=1 energy=3.58962 data_file='Expt5/Mohr_aa@e3.58962.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 9 points in 7/10 :: set 36
+&Data type=0 pel=1 ic=1 ia=1 energy=3.72257 data_file='Expt5/Mohr_aa@e3.72257.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 9 points in 8/10 :: set 37
+&Data type=0 pel=1 ic=1 ia=1 energy=3.85552 data_file='Expt5/Mohr_aa@e3.85552.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 10 points in 9/10 :: set 38
+&Data type=0 pel=1 ic=1 ia=1 energy=3.98847 data_file='Expt5/Mohr_aa@e3.98847.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 10 points in 10/10 :: set 39
+&Data type=2 pel=2 ic=2 ia=1 angle=81.0 data_file='Expt5/Fasoli_pp@a81.0.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 22 points in 1/6 :: set 40
+&Data type=2 pel=2 ic=2 ia=1 angle=100.0 data_file='Expt5/Fasoli_pp@a100.0.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 27 points in 2/6 :: set 41
+&Data type=2 pel=2 ic=2 ia=1 angle=117.0 data_file='Expt5/Fasoli_pp@a117.0.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 26 points in 3/6 :: set 42
+&Data type=2 pel=2 ic=2 ia=1 angle=141.0 data_file='Expt5/Fasoli_pp@a141.0.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 27 points in 4/6 :: set 43
+&Data type=2 pel=2 ic=2 ia=1 angle=144.0 data_file='Expt5/Fasoli_pp@a144.0.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 29 points in 5/6 :: set 44
+&Data type=2 pel=2 ic=2 ia=1 angle=166.0 data_file='Expt5/Fasoli_pp@a166.0.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 28 points in 6/6 :: set 45
+&Data type=2 pel=2 ic=2 ia=1 angle=61.6 data_file='Expt5/McCray_pp@a61.6.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 5 points in 1/9 :: set 46
+&Data type=2 pel=2 ic=2 ia=1 angle=80.5 data_file='Expt5/McCray_pp@a80.5.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 5 points in 2/9 :: set 47
+&Data type=2 pel=2 ic=2 ia=1 angle=81.0 data_file='Expt5/McCray_pp@a81.0.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 65 points in 3/9 :: set 48
+&Data type=2 pel=2 ic=2 ia=1 angle=100.6 data_file='Expt5/McCray_pp@a100.6.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 5 points in 4/9 :: set 49
+&Data type=2 pel=2 ic=2 ia=1 angle=116.4 data_file='Expt5/McCray_pp@a116.4.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 5 points in 5/9 :: set 50
+&Data type=2 pel=2 ic=2 ia=1 angle=118.1 data_file='Expt5/McCray_pp@a118.1.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 70 points in 6/9 :: set 51
+&Data type=2 pel=2 ic=2 ia=1 angle=133.0 data_file='Expt5/McCray_pp@a133.0.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 5 points in 7/9 :: set 52
+&Data type=2 pel=2 ic=2 ia=1 angle=155.8 data_file='Expt5/McCray_pp@a155.8.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 70 points in 8/9 :: set 53
+&Data type=2 pel=2 ic=2 ia=1 angle=156.1 data_file='Expt5/McCray_pp@a156.1.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 5 points in 9/9 :: set 54
+&Data type=0 pel=2 ic=2 ia=1 energy=2.4 data_file='Expt5/Harrison_pp0@e2.4.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 13 points in 1/2 :: set 55
+&Data type=0 pel=2 ic=2 ia=1 energy=2.6 data_file='Expt5/Harrison_pp0@e2.6.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 13 points in 2/2 :: set 56
+&Data type=0 pel=2 ic=1 ia=1 energy=1.0 data_file='Expt5/Lin_pa@e1.0.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 13 points in 1/17 :: set 57
+&Data type=0 pel=2 ic=1 ia=1 energy=1.2 data_file='Expt5/Lin_pa@e1.2.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 13 points in 2/17 :: set 58
+&Data type=0 pel=2 ic=1 ia=1 energy=1.4 data_file='Expt5/Lin_pa@e1.4.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 13 points in 3/17 :: set 59
+&Data type=0 pel=2 ic=1 ia=1 energy=1.5 data_file='Expt5/Lin_pa@e1.5.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 13 points in 4/17 :: set 60
+&Data type=0 pel=2 ic=1 ia=1 energy=1.6 data_file='Expt5/Lin_pa@e1.6.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 16 points in 5/17 :: set 61
+&Data type=0 pel=2 ic=1 ia=1 energy=1.65 data_file='Expt5/Lin_pa@e1.65.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 16 points in 6/17 :: set 62
+&Data type=0 pel=2 ic=1 ia=1 energy=1.7 data_file='Expt5/Lin_pa@e1.7.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 16 points in 7/17 :: set 63
+&Data type=0 pel=2 ic=1 ia=1 energy=1.75 data_file='Expt5/Lin_pa@e1.75.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 16 points in 8/17 :: set 64
+&Data type=0 pel=2 ic=1 ia=1 energy=1.8 data_file='Expt5/Lin_pa@e1.8.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 16 points in 9/17 :: set 65
+&Data type=0 pel=2 ic=1 ia=1 energy=1.85 data_file='Expt5/Lin_pa@e1.85.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 16 points in 10/17 :: set 66
+&Data type=0 pel=2 ic=1 ia=1 energy=1.9 data_file='Expt5/Lin_pa@e1.9.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 16 points in 11/17 :: set 67
+&Data type=0 pel=2 ic=1 ia=1 energy=1.95 data_file='Expt5/Lin_pa@e1.95.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 16 points in 12/17 :: set 68
+&Data type=0 pel=2 ic=1 ia=1 energy=2.0 data_file='Expt5/Lin_pa@e2.0.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 16 points in 13/17 :: set 69
+&Data type=0 pel=2 ic=1 ia=1 energy=2.1 data_file='Expt5/Lin_pa@e2.1.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 16 points in 14/17 :: set 70
+&Data type=0 pel=2 ic=1 ia=1 energy=2.2 data_file='Expt5/Lin_pa@e2.2.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 16 points in 15/17 :: set 71
+&Data type=0 pel=2 ic=1 ia=1 energy=2.4 data_file='Expt5/Lin_pa@e2.4.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 16 points in 16/17 :: set 72
+&Data type=0 pel=2 ic=1 ia=1 energy=2.6 data_file='Expt5/Lin_pa@e2.6.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 16 points in 17/17 :: set 73
+&Data type=0 pel=2 ic=1 ia=1 energy=0.136 data_file='Expt5/Elwyn_pa@e0.136.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 10 points in 1/28 :: set 74
+&Data type=0 pel=2 ic=1 ia=1 energy=0.186 data_file='Expt5/Elwyn_pa@e0.186.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 10 points in 2/28 :: set 75
+&Data type=0 pel=2 ic=1 ia=1 energy=0.252 data_file='Expt5/Elwyn_pa@e0.252.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 10 points in 3/28 :: set 76
+&Data type=0 pel=2 ic=1 ia=1 energy=0.324 data_file='Expt5/Elwyn_pa@e0.324.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 10 points in 4/28 :: set 77
+&Data type=0 pel=2 ic=1 ia=1 energy=0.49 data_file='Expt5/Elwyn_pa@e0.49.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 14 points in 5/28 :: set 78
+&Data type=0 pel=2 ic=1 ia=1 energy=0.589 data_file='Expt5/Elwyn_pa@e0.589.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 14 points in 6/28 :: set 79
+&Data type=0 pel=2 ic=1 ia=1 energy=0.688 data_file='Expt5/Elwyn_pa@e0.688.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 14 points in 7/28 :: set 80
+&Data type=0 pel=2 ic=1 ia=1 energy=0.787 data_file='Expt5/Elwyn_pa@e0.787.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 14 points in 8/28 :: set 81
+&Data type=0 pel=2 ic=1 ia=1 energy=0.887 data_file='Expt5/Elwyn_pa@e0.887.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 14 points in 9/28 :: set 82
+&Data type=0 pel=2 ic=1 ia=1 energy=0.984 data_file='Expt5/Elwyn_pa@e0.984.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 22 points in 10/28 :: set 83
+&Data type=0 pel=2 ic=1 ia=1 energy=1.082 data_file='Expt5/Elwyn_pa@e1.082.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 13 points in 11/28 :: set 84
+&Data type=0 pel=2 ic=1 ia=1 energy=1.182 data_file='Expt5/Elwyn_pa@e1.182.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 13 points in 12/28 :: set 85
+&Data type=0 pel=2 ic=1 ia=1 energy=1.282 data_file='Expt5/Elwyn_pa@e1.282.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 13 points in 13/28 :: set 86
+&Data type=0 pel=2 ic=1 ia=1 energy=1.382 data_file='Expt5/Elwyn_pa@e1.382.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 12 points in 14/28 :: set 87
+&Data type=0 pel=2 ic=1 ia=1 energy=1.481 data_file='Expt5/Elwyn_pa@e1.481.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 14 points in 15/28 :: set 88
+&Data type=0 pel=2 ic=1 ia=1 energy=1.581 data_file='Expt5/Elwyn_pa@e1.581.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 13 points in 16/28 :: set 89
+&Data type=0 pel=2 ic=1 ia=1 energy=1.681 data_file='Expt5/Elwyn_pa@e1.681.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 14 points in 17/28 :: set 90
+&Data type=0 pel=2 ic=1 ia=1 energy=1.78 data_file='Expt5/Elwyn_pa@e1.78.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 12 points in 18/28 :: set 91
+&Data type=0 pel=2 ic=1 ia=1 energy=1.88 data_file='Expt5/Elwyn_pa@e1.88.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 14 points in 19/28 :: set 92
+&Data type=0 pel=2 ic=1 ia=1 energy=1.989 data_file='Expt5/Elwyn_pa@e1.989.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 16 points in 20/28 :: set 93
+&Data type=0 pel=2 ic=1 ia=1 energy=2.078 data_file='Expt5/Elwyn_pa@e2.078.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 14 points in 21/28 :: set 94
+&Data type=0 pel=2 ic=1 ia=1 energy=2.177 data_file='Expt5/Elwyn_pa@e2.177.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 14 points in 22/28 :: set 95
+&Data type=0 pel=2 ic=1 ia=1 energy=2.277 data_file='Expt5/Elwyn_pa@e2.277.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 12 points in 23/28 :: set 96
+&Data type=0 pel=2 ic=1 ia=1 energy=2.377 data_file='Expt5/Elwyn_pa@e2.377.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 14 points in 24/28 :: set 97
+&Data type=0 pel=2 ic=1 ia=1 energy=2.476 data_file='Expt5/Elwyn_pa@e2.476.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 14 points in 25/28 :: set 98
+&Data type=0 pel=2 ic=1 ia=1 energy=2.575 data_file='Expt5/Elwyn_pa@e2.575.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 12 points in 26/28 :: set 99
+&Data type=0 pel=2 ic=1 ia=1 energy=2.674 data_file='Expt5/Elwyn_pa@e2.674.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 12 points in 27/28 :: set 100
+&Data type=0 pel=2 ic=1 ia=1 energy=2.775 data_file='Expt5/Elwyn_pa@e2.775.data' idir=0 iscale=1 lab=True Mflip=False abserr=True / ! 12 points in 28/28 :: set 101
+&Data type=0 pel=1 ic=2 ia=1 energy=10.3581 data_file='Expt5/Spiger-cm_ap0@e10.3581.data' idir=0 iscale=2 lab=False Mflip=False abserr=True / ! 1 points in 1/29 :: set 102
+&Data type=0 pel=1 ic=2 ia=1 energy=10.8438 data_file='Expt5/Spiger-cm_ap0@e10.8438.data' idir=0 iscale=2 lab=False Mflip=False abserr=True / ! 2 points in 2/29 :: set 103
+&Data type=0 pel=1 ic=2 ia=1 energy=11.0296 data_file='Expt5/Spiger-cm_ap0@e11.0296.data' idir=0 iscale=2 lab=False Mflip=False abserr=True / ! 4 points in 3/29 :: set 104
+&Data type=0 pel=1 ic=2 ia=1 energy=11.1769 data_file='Expt5/Spiger-cm_ap0@e11.1769.data' idir=0 iscale=2 lab=False Mflip=False abserr=True / ! 5 points in 4/29 :: set 105
+&Data type=0 pel=1 ic=2 ia=1 energy=11.3109 data_file='Expt5/Spiger-cm_ap0@e11.3109.data' idir=0 iscale=2 lab=False Mflip=False abserr=True / ! 2 points in 5/29 :: set 106
+&Data type=0 pel=1 ic=2 ia=1 energy=11.445 data_file='Expt5/Spiger-cm_ap0@e11.445.data' idir=0 iscale=2 lab=False Mflip=False abserr=True / ! 2 points in 6/29 :: set 107
+&Data type=0 pel=1 ic=2 ia=1 energy=11.579 data_file='Expt5/Spiger-cm_ap0@e11.579.data' idir=0 iscale=2 lab=False Mflip=False abserr=True / ! 2 points in 7/29 :: set 108
+&Data type=0 pel=1 ic=2 ia=1 energy=11.7011 data_file='Expt5/Spiger-cm_ap0@e11.7011.data' idir=0 iscale=2 lab=False Mflip=False abserr=True / ! 4 points in 8/29 :: set 109
+&Data type=0 pel=1 ic=2 ia=1 energy=11.7117 data_file='Expt5/Spiger-cm_ap0@e11.7117.data' idir=0 iscale=2 lab=False Mflip=False abserr=True / ! 2 points in 9/29 :: set 110
+&Data type=0 pel=1 ic=2 ia=1 energy=11.8458 data_file='Expt5/Spiger-cm_ap0@e11.8458.data' idir=0 iscale=2 lab=False Mflip=False abserr=True / ! 3 points in 10/29 :: set 111
+&Data type=0 pel=1 ic=2 ia=1 energy=11.9798 data_file='Expt5/Spiger-cm_ap0@e11.9798.data' idir=0 iscale=2 lab=False Mflip=False abserr=True / ! 3 points in 11/29 :: set 112
+&Data type=0 pel=1 ic=2 ia=1 energy=12.1125 data_file='Expt5/Spiger-cm_ap0@e12.1125.data' idir=0 iscale=2 lab=False Mflip=False abserr=True / ! 3 points in 12/29 :: set 113
+&Data type=0 pel=1 ic=2 ia=1 energy=12.2466 data_file='Expt5/Spiger-cm_ap0@e12.2466.data' idir=0 iscale=2 lab=False Mflip=False abserr=True / ! 3 points in 13/29 :: set 114
+&Data type=0 pel=1 ic=2 ia=1 energy=12.3726 data_file='Expt5/Spiger-cm_ap0@e12.3726.data' idir=0 iscale=2 lab=False Mflip=False abserr=True / ! 4 points in 14/29 :: set 115
+&Data type=0 pel=1 ic=2 ia=1 energy=12.3793 data_file='Expt5/Spiger-cm_ap0@e12.3793.data' idir=0 iscale=2 lab=False Mflip=False abserr=True / ! 3 points in 15/29 :: set 116
+&Data type=0 pel=1 ic=2 ia=1 energy=12.5133 data_file='Expt5/Spiger-cm_ap0@e12.5133.data' idir=0 iscale=2 lab=False Mflip=False abserr=True / ! 3 points in 16/29 :: set 117
+&Data type=0 pel=1 ic=2 ia=1 energy=12.6473 data_file='Expt5/Spiger-cm_ap0@e12.6473.data' idir=0 iscale=2 lab=False Mflip=False abserr=True / ! 3 points in 17/29 :: set 118
+&Data type=0 pel=1 ic=2 ia=1 energy=12.7801 data_file='Expt5/Spiger-cm_ap0@e12.7801.data' idir=0 iscale=2 lab=False Mflip=False abserr=True / ! 4 points in 18/29 :: set 119
+&Data type=0 pel=1 ic=2 ia=1 energy=12.9141 data_file='Expt5/Spiger-cm_ap0@e12.9141.data' idir=0 iscale=2 lab=False Mflip=False abserr=True / ! 10 points in 19/29 :: set 120
+&Data type=0 pel=1 ic=2 ia=1 energy=13.0442 data_file='Expt5/Spiger-cm_ap0@e13.0442.data' idir=0 iscale=2 lab=False Mflip=False abserr=True / ! 4 points in 20/29 :: set 121
+&Data type=0 pel=1 ic=2 ia=1 energy=13.0481 data_file='Expt5/Spiger-cm_ap0@e13.0481.data' idir=0 iscale=2 lab=False Mflip=False abserr=True / ! 3 points in 21/29 :: set 122
+&Data type=0 pel=1 ic=2 ia=1 energy=13.1808 data_file='Expt5/Spiger-cm_ap0@e13.1808.data' idir=0 iscale=2 lab=False Mflip=False abserr=True / ! 4 points in 22/29 :: set 123
+&Data type=0 pel=1 ic=2 ia=1 energy=13.3149 data_file='Expt5/Spiger-cm_ap0@e13.3149.data' idir=0 iscale=2 lab=False Mflip=False abserr=True / ! 4 points in 23/29 :: set 124
+&Data type=0 pel=1 ic=2 ia=1 energy=13.4476 data_file='Expt5/Spiger-cm_ap0@e13.4476.data' idir=0 iscale=2 lab=False Mflip=False abserr=True / ! 4 points in 24/29 :: set 125
+&Data type=0 pel=1 ic=2 ia=1 energy=13.5816 data_file='Expt5/Spiger-cm_ap0@e13.5816.data' idir=0 iscale=2 lab=False Mflip=False abserr=True / ! 5 points in 25/29 :: set 126
+&Data type=0 pel=1 ic=2 ia=1 energy=13.7157 data_file='Expt5/Spiger-cm_ap0@e13.7157.data' idir=0 iscale=2 lab=False Mflip=False abserr=True / ! 9 points in 26/29 :: set 127
+&Data type=0 pel=1 ic=2 ia=1 energy=13.8484 data_file='Expt5/Spiger-cm_ap0@e13.8484.data' idir=0 iscale=2 lab=False Mflip=False abserr=True / ! 15 points in 27/29 :: set 128
+&Data type=0 pel=1 ic=2 ia=1 energy=14.1815 data_file='Expt5/Spiger-cm_ap0@e14.1815.data' idir=0 iscale=2 lab=False Mflip=False abserr=True / ! 5 points in 28/29 :: set 129
+&Data type=0 pel=1 ic=2 ia=1 energy=14.3859 data_file='Expt5/Spiger-cm_ap0@e14.3859.data' idir=0 iscale=2 lab=False Mflip=False abserr=True / ! 4 points in 29/29 :: set 130
+ 
+&Data type=6 value=1 error=0.05 abserr=T   reffile='Expt5/Barnard_aa@a*'  kind=5/
+&Data type=6 value=1 error=0.015 abserr=T   reffile='Expt5/Spiger-A1094004-lab_aa@a16.735.data' kind=5/
+&Data type=6 value=1 error=0.015 abserr=T   reffile='Expt5/Spiger-A1094004-lab_aa@a20.002.data' kind=5/
+&Data type=6 value=1 error=0.015 abserr=T   reffile='Expt5/Spiger-A1094004-lab_aa@a23.192.data' kind=5/
+&Data type=6 value=1 error=0.015 abserr=T   reffile='Expt5/Spiger-A1094004-lab_aa@a26.738.data' kind=5/
+&Data type=6 value=1 error=0.015 abserr=T   reffile='Expt5/Spiger-A1094004-lab_aa@a29.418.data' kind=5/
+&Data type=6 value=1 error=0.015 abserr=T   reffile='Expt5/Spiger-A1094004-lab_aa@a32.12.data' kind=5/
+&Data type=6 value=1 error=0.015 abserr=T   reffile='Expt5/Spiger-A1094004-lab_aa@a33.273.data' kind=5/
+&Data type=6 value=1 error=0.015 abserr=T   reffile='Expt5/Spiger-A1094004-lab_aa@a35.257.data' kind=5/
+&Data type=6 value=1 error=0.015 abserr=T   reffile='Expt5/Spiger-A1094004-lab_aa@a36.999.data' kind=5/
+&Data type=6 value=1 error=0.015 abserr=T   reffile='Expt5/Spiger-A1094004-lab_aa@a39.951.data' kind=5/
+&Data type=6 value=1 error=0.015 abserr=T   reffile='Expt5/Spiger-A1094004-lab_aa@a42.558.data' kind=5/
+&Data type=6 value=1 error=0.015 abserr=T   reffile='Expt5/Spiger-A1094004-lab_aa@a45.53.data' kind=5/
+&Data type=6 value=1 error=0.015 abserr=T   reffile='Expt5/Spiger-A1094004-lab_aa@a47.428.data' kind=5/
+&Data type=6 value=1 error=0.015 abserr=T   reffile='Expt5/Spiger-A1094004-lab_aa@a48.755.data' kind=5/
+&Data type=6 value=1 error=0.05 abserr=T   reffile='Expt5/Tombrello_aa@a*'  kind=5/
+&Data type=6 value=1 error=0.05 abserr=T   reffile='Expt5/McCray_pp@a61.6.data' kind=5/
+&Data type=6 value=1 error=0.05 abserr=T   reffile='Expt5/McCray_pp@a80.5.data' kind=5/
+&Data type=6 value=1 error=0.05 abserr=T   reffile='Expt5/McCray_pp@a81.0.data' kind=5/
+&Data type=6 value=1 error=0.05 abserr=T   reffile='Expt5/McCray_pp@a100.6.data' kind=5/
+&Data type=6 value=1 error=0.05 abserr=T   reffile='Expt5/McCray_pp@a116.4.data' kind=5/
+&Data type=6 value=1 error=0.05 abserr=T   reffile='Expt5/McCray_pp@a118.1.data' kind=5/
+&Data type=6 value=1 error=0.05 abserr=T   reffile='Expt5/McCray_pp@a133.0.data' kind=5/
+&Data type=6 value=1 error=0.05 abserr=T   reffile='Expt5/McCray_pp@a155.8.data' kind=5/
+&Data type=6 value=1 error=0.05 abserr=T   reffile='Expt5/McCray_pp@a156.1.data' kind=5/
+&Data type=6 value=1 error=0.1 abserr=T   reffile='Expt5/Lin_pa@e1.0.data' kind=5/
+&Data type=6 value=1 error=0.1 abserr=T   reffile='Expt5/Lin_pa@e1.2.data' kind=5/
+&Data type=6 value=1 error=0.1 abserr=T   reffile='Expt5/Lin_pa@e1.4.data' kind=5/
+&Data type=6 value=1 error=0.1 abserr=T   reffile='Expt5/Lin_pa@e1.5.data' kind=5/
+&Data type=6 value=1 error=0.1 abserr=T   reffile='Expt5/Lin_pa@e1.6.data' kind=5/
+&Data type=6 value=1 error=0.1 abserr=T   reffile='Expt5/Lin_pa@e1.65.data' kind=5/
+&Data type=6 value=1 error=0.1 abserr=T   reffile='Expt5/Lin_pa@e1.7.data' kind=5/
+&Data type=6 value=1 error=0.1 abserr=T   reffile='Expt5/Lin_pa@e1.75.data' kind=5/
+&Data type=6 value=1 error=0.1 abserr=T   reffile='Expt5/Lin_pa@e1.8.data' kind=5/
+&Data type=6 value=1 error=0.1 abserr=T   reffile='Expt5/Lin_pa@e1.85.data' kind=5/
+&Data type=6 value=1 error=0.1 abserr=T   reffile='Expt5/Lin_pa@e1.9.data' kind=5/
+&Data type=6 value=1 error=0.1 abserr=T   reffile='Expt5/Lin_pa@e1.95.data' kind=5/
+&Data type=6 value=1 error=0.1 abserr=T   reffile='Expt5/Lin_pa@e2.0.data' kind=5/
+&Data type=6 value=1 error=0.1 abserr=T   reffile='Expt5/Lin_pa@e2.1.data' kind=5/
+&Data type=6 value=1 error=0.1 abserr=T   reffile='Expt5/Lin_pa@e2.2.data' kind=5/
+&Data type=6 value=1 error=0.1 abserr=T   reffile='Expt5/Lin_pa@e2.4.data' kind=5/
+&Data type=6 value=1 error=0.1 abserr=T   reffile='Expt5/Lin_pa@e2.6.data' kind=5/
+&Data type=6 value=1 error=0.09 abserr=T   reffile='Expt5/Elwyn_pa@e*'  kind=5/
+&Data type=6 value=1 error=0.015 abserr=T   reffile='Expt5/Spiger-cm_ap0@e10.3581.data' kind=5/
+&Data type=6 value=1 error=0.015 abserr=T   reffile='Expt5/Spiger-cm_ap0@e10.8438.data' kind=5/
+&Data type=6 value=1 error=0.015 abserr=T   reffile='Expt5/Spiger-cm_ap0@e11.0296.data' kind=5/
+&Data type=6 value=1 error=0.015 abserr=T   reffile='Expt5/Spiger-cm_ap0@e11.1769.data' kind=5/
+&Data type=6 value=1 error=0.015 abserr=T   reffile='Expt5/Spiger-cm_ap0@e11.3109.data' kind=5/
+&Data type=6 value=1 error=0.015 abserr=T   reffile='Expt5/Spiger-cm_ap0@e11.445.data' kind=5/
+&Data type=6 value=1 error=0.015 abserr=T   reffile='Expt5/Spiger-cm_ap0@e11.579.data' kind=5/
+&Data type=6 value=1 error=0.015 abserr=T   reffile='Expt5/Spiger-cm_ap0@e11.7011.data' kind=5/
+&Data type=6 value=1 error=0.015 abserr=T   reffile='Expt5/Spiger-cm_ap0@e11.7117.data' kind=5/
+&Data type=6 value=1 error=0.015 abserr=T   reffile='Expt5/Spiger-cm_ap0@e11.8458.data' kind=5/
+&Data type=6 value=1 error=0.015 abserr=T   reffile='Expt5/Spiger-cm_ap0@e11.9798.data' kind=5/
+&Data type=6 value=1 error=0.015 abserr=T   reffile='Expt5/Spiger-cm_ap0@e12.1125.data' kind=5/
+&Data type=6 value=1 error=0.015 abserr=T   reffile='Expt5/Spiger-cm_ap0@e12.2466.data' kind=5/
+&Data type=6 value=1 error=0.015 abserr=T   reffile='Expt5/Spiger-cm_ap0@e12.3726.data' kind=5/
+&Data type=6 value=1 error=0.015 abserr=T   reffile='Expt5/Spiger-cm_ap0@e12.3793.data' kind=5/
+&Data type=6 value=1 error=0.015 abserr=T   reffile='Expt5/Spiger-cm_ap0@e12.5133.data' kind=5/
+&Data type=6 value=1 error=0.015 abserr=T   reffile='Expt5/Spiger-cm_ap0@e12.6473.data' kind=5/
+&Data type=6 value=1 error=0.015 abserr=T   reffile='Expt5/Spiger-cm_ap0@e12.7801.data' kind=5/
+&Data type=6 value=1 error=0.015 abserr=T   reffile='Expt5/Spiger-cm_ap0@e12.9141.data' kind=5/
+&Data type=6 value=1 error=0.015 abserr=T   reffile='Expt5/Spiger-cm_ap0@e13.0442.data' kind=5/
+&Data type=6 value=1 error=0.015 abserr=T   reffile='Expt5/Spiger-cm_ap0@e13.0481.data' kind=5/
+&Data type=6 value=1 error=0.015 abserr=T   reffile='Expt5/Spiger-cm_ap0@e13.1808.data' kind=5/
+&Data type=6 value=1 error=0.015 abserr=T   reffile='Expt5/Spiger-cm_ap0@e13.3149.data' kind=5/
+&Data type=6 value=1 error=0.015 abserr=T   reffile='Expt5/Spiger-cm_ap0@e13.4476.data' kind=5/
+&Data type=6 value=1 error=0.015 abserr=T   reffile='Expt5/Spiger-cm_ap0@e13.5816.data' kind=5/
+&Data type=6 value=1 error=0.015 abserr=T   reffile='Expt5/Spiger-cm_ap0@e13.7157.data' kind=5/
+&Data type=6 value=1 error=0.015 abserr=T   reffile='Expt5/Spiger-cm_ap0@e13.8484.data' kind=5/
+&Data type=6 value=1 error=0.015 abserr=T   reffile='Expt5/Spiger-cm_ap0@e14.1815.data' kind=5/
+&Data type=6 value=1 error=0.015 abserr=T   reffile='Expt5/Spiger-cm_ap0@e14.3859.data' kind=5/
+ 
+&Data type=6 value=0.0 error=0.02 abserr=T   reffile='Expt5/Spiger-A1094004-lab_aa@a16.735.data' kind=6/
+&Data type=6 value=0.0 error=0.02 abserr=T   reffile='Expt5/Spiger-A1094004-lab_aa@a20.002.data' kind=6/
+&Data type=6 value=0.0 error=0.02 abserr=T   reffile='Expt5/Spiger-A1094004-lab_aa@a23.192.data' kind=6/
+&Data type=6 value=0.0 error=0.02 abserr=T   reffile='Expt5/Spiger-A1094004-lab_aa@a26.738.data' kind=6/
+&Data type=6 value=0.0 error=0.02 abserr=T   reffile='Expt5/Spiger-A1094004-lab_aa@a29.418.data' kind=6/
+&Data type=6 value=0.0 error=0.02 abserr=T   reffile='Expt5/Spiger-A1094004-lab_aa@a32.12.data' kind=6/
+&Data type=6 value=0.0 error=0.02 abserr=T   reffile='Expt5/Spiger-A1094004-lab_aa@a33.273.data' kind=6/
+&Data type=6 value=0.0 error=0.02 abserr=T   reffile='Expt5/Spiger-A1094004-lab_aa@a35.257.data' kind=6/
+&Data type=6 value=0.0 error=0.02 abserr=T   reffile='Expt5/Spiger-A1094004-lab_aa@a36.999.data' kind=6/
+&Data type=6 value=0.0 error=0.02 abserr=T   reffile='Expt5/Spiger-A1094004-lab_aa@a39.951.data' kind=6/
+&Data type=6 value=0.0 error=0.02 abserr=T   reffile='Expt5/Spiger-A1094004-lab_aa@a42.558.data' kind=6/
+&Data type=6 value=0.0 error=0.02 abserr=T   reffile='Expt5/Spiger-A1094004-lab_aa@a45.53.data' kind=6/
+&Data type=6 value=0.0 error=0.02 abserr=T   reffile='Expt5/Spiger-A1094004-lab_aa@a47.428.data' kind=6/
+&Data type=6 value=0.0 error=0.02 abserr=T   reffile='Expt5/Spiger-A1094004-lab_aa@a48.755.data' kind=6/
+&Data type=6 value=0.0 error=0.02 abserr=T   reffile='Expt5/Tombrello_aa@a23.192.data' kind=6/
+&Data type=6 value=0.0 error=0.02 abserr=T   reffile='Expt5/Tombrello_aa@a26.738.data' kind=6/
+&Data type=6 value=0.0 error=0.02 abserr=T   reffile='Expt5/Tombrello_aa@a29.418.data' kind=6/
+&Data type=6 value=0.0 error=0.02 abserr=T   reffile='Expt5/Tombrello_aa@a30.836.data' kind=6/
+&Data type=6 value=0.0 error=0.02 abserr=T   reffile='Expt5/Tombrello_aa@a36.999.data' kind=6/
+&Data type=6 value=0.0 error=0.02 abserr=T   reffile='Expt5/Tombrello_aa@a39.951.data' kind=6/
+&Data type=6 value=0.0 error=0.02 abserr=T   reffile='Expt5/Tombrello_aa@a42.62.data' kind=6/
+&Data type=6 value=0.0 error=0.02 abserr=T   reffile='Expt5/Tombrello_aa@a45.53.data' kind=6/

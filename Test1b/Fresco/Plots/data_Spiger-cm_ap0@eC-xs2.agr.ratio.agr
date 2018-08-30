@@ -1,0 +1,64 @@
+@legend ON
+@subtitle "data_Spiger-cm_ap0@eC-xs2.agr (spacing 0.2)"
+@ s0 linestyle 4
+@ s0 errorbar length 0.10
+@ s0 symbol  1
+@ s0 color  1
+@ s0 symbol fill 1
+@ s0 symbol size 0.3
+@ s0 symbol fill color 1
+@ s0 symbol color 1
+@ s0 errorbar color 1
+@TYPE xydy
+106.83 0.949114364697 0.0569468618818
+138.61 1.03532582539 0.0621176244104
+155.05 0.900746706939 0.0540422854266
+&
+@TYPE xy
+106.83 1.0
+155.05 1.0
+@ s1 color  1
+@ s1 linewidth  1
+&
+@ s2 linestyle 4
+@ s2 errorbar length 0.10
+@ s2 symbol  2
+@ s2 color  2
+@ s2 symbol fill 1
+@ s2 symbol size 0.3
+@ s2 symbol fill color 2
+@ s2 symbol color 2
+@ s2 errorbar color 2
+@TYPE xydy
+78.3 0.921023009436 0.0432610494951
+107.21 1.21185112764 0.0607115961368
+138.82 1.2415148571 0.0624888672982
+155.17 1.15822174612 0.0574959828602
+&
+@TYPE xy
+78.3 1.2
+155.17 1.2
+@ s3 color  2
+@ s3 linewidth  1
+&
+@ s4 linestyle 4
+@ s4 errorbar length 0.10
+@ s4 symbol  3
+@ s4 color  3
+@ s4 symbol fill 1
+@ s4 symbol size 0.3
+@ s4 symbol fill color 3
+@ s4 symbol color 3
+@ s4 errorbar color 3
+@TYPE xydy
+78.82 1.29374005577 0.0536244033464
+107.57 1.42183070569 0.0613098423414
+139.02 1.4056455095 0.0603389464594
+155.29 1.34188355504 0.0565124349335
+&
+@TYPE xy
+78.82 1.4
+155.29 1.4
+@ s5 color  3
+@ s5 linewidth  1
+&

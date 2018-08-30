@@ -1,0 +1,1188 @@
+# Grace project file
+#
+@version 50125
+@page size 457, 469
+@page scroll 5%
+@page inout 5%
+@link page off
+@map font 0 to "Times-Roman", "Times-Roman"
+@map font 1 to "Times-Italic", "Times-Italic"
+@map font 2 to "Times-Bold", "Times-Bold"
+@map font 3 to "Times-BoldItalic", "Times-BoldItalic"
+@map font 4 to "Helvetica", "Helvetica"
+@map font 5 to "Helvetica-Oblique", "Helvetica-Oblique"
+@map font 6 to "Helvetica-Bold", "Helvetica-Bold"
+@map font 7 to "Helvetica-BoldOblique", "Helvetica-BoldOblique"
+@map font 8 to "Courier", "Courier"
+@map font 9 to "Courier-Oblique", "Courier-Oblique"
+@map font 10 to "Courier-Bold", "Courier-Bold"
+@map font 11 to "Courier-BoldOblique", "Courier-BoldOblique"
+@map font 12 to "Symbol", "Symbol"
+@map font 13 to "ZapfDingbats", "ZapfDingbats"
+@map color 0 to (255, 255, 255), "white"
+@map color 1 to (0, 0, 0), "black"
+@map color 2 to (255, 0, 0), "red"
+@map color 3 to (0, 255, 0), "green"
+@map color 4 to (0, 0, 255), "blue"
+@map color 5 to (255, 255, 0), "yellow"
+@map color 6 to (188, 143, 143), "brown"
+@map color 7 to (220, 220, 220), "grey"
+@map color 8 to (148, 0, 211), "violet"
+@map color 9 to (0, 255, 255), "cyan"
+@map color 10 to (255, 0, 255), "magenta"
+@map color 11 to (255, 165, 0), "orange"
+@map color 12 to (114, 33, 188), "indigo"
+@map color 13 to (103, 7, 72), "maroon"
+@map color 14 to (64, 224, 208), "turquoise"
+@map color 15 to (0, 139, 0), "green4"
+@reference date 0
+@date wrap off
+@date wrap year 1950
+@default linewidth 1.0
+@default linestyle 1
+@default color 1
+@default pattern 1
+@default font 0
+@default char size 1.000000
+@default symbol size 1.000000
+@default sformat "%.8g"
+@background color 0
+@page background fill on
+@timestamp off
+@timestamp 0.03, 0.03
+@timestamp color 1
+@timestamp rot 0
+@timestamp font 0
+@timestamp char size 1.000000
+@timestamp def "Thu Aug  9 17:26:08 2018"
+@r0 off
+@link r0 to g0
+@r0 type above
+@r0 linestyle 1
+@r0 linewidth 1.0
+@r0 color 1
+@r0 line 0, 0, 0, 0
+@r1 off
+@link r1 to g0
+@r1 type above
+@r1 linestyle 1
+@r1 linewidth 1.0
+@r1 color 1
+@r1 line 0, 0, 0, 0
+@r2 off
+@link r2 to g0
+@r2 type above
+@r2 linestyle 1
+@r2 linewidth 1.0
+@r2 color 1
+@r2 line 0, 0, 0, 0
+@r3 off
+@link r3 to g0
+@r3 type above
+@r3 linestyle 1
+@r3 linewidth 1.0
+@r3 color 1
+@r3 line 0, 0, 0, 0
+@r4 off
+@link r4 to g0
+@r4 type above
+@r4 linestyle 1
+@r4 linewidth 1.0
+@r4 color 1
+@r4 line 0, 0, 0, 0
+@g0 on
+@g0 hidden false
+@g0 type XY
+@g0 stacked false
+@g0 bar hgap 0.000000
+@g0 fixedpoint off
+@g0 fixedpoint type 0
+@g0 fixedpoint xy 0.000000, 0.000000
+@g0 fixedpoint format general general
+@g0 fixedpoint prec 6, 6
+@with g0
+@    world 1.03095467695, 16.4748355912, 2.80453230473, 165.261181546
+@    stack world 0, 0, 0, 0
+@    znorm 1
+@    view 0.115909, 0.153939, 0.888636, 0.872319
+@    title ""
+@    title font 0
+@    title size 1.500000
+@    title color 1
+@    subtitle "Search file: test1b-v9gL-xs2.sfrescoed+.sfresco; "
+@    subtitle font 0
+@    subtitle size 0.700000
+@    subtitle color 1
+@    xaxes scale Normal
+@    yaxes scale Normal
+@    xaxes invert off
+@    yaxes invert off
+@    xaxis  on
+@    xaxis  type zero false
+@    xaxis  offset 0.000000 , 0.000000
+@    xaxis  bar on
+@    xaxis  bar color 1
+@    xaxis  bar linestyle 1
+@    xaxis  bar linewidth 1.0
+@    xaxis  label ""
+@    xaxis  label layout para
+@    xaxis  label place auto
+@    xaxis  label char size 1.000000
+@    xaxis  label font 0
+@    xaxis  label color 1
+@    xaxis  label place normal
+@    xaxis  tick on
+@    xaxis  tick major 0.5
+@    xaxis  tick minor ticks 2
+@    xaxis  tick default 6
+@    xaxis  tick place rounded true
+@    xaxis  tick in
+@    xaxis  tick major size 1.000000
+@    xaxis  tick major color 1
+@    xaxis  tick major linewidth 1.0
+@    xaxis  tick major linestyle 1
+@    xaxis  tick major grid off
+@    xaxis  tick minor color 1
+@    xaxis  tick minor linewidth 1.0
+@    xaxis  tick minor linestyle 1
+@    xaxis  tick minor grid off
+@    xaxis  tick minor size 0.500000
+@    xaxis  ticklabel on
+@    xaxis  ticklabel format general
+@    xaxis  ticklabel prec 5
+@    xaxis  ticklabel formula ""
+@    xaxis  ticklabel append ""
+@    xaxis  ticklabel prepend ""
+@    xaxis  ticklabel angle 0
+@    xaxis  ticklabel skip 0
+@    xaxis  ticklabel stagger 0
+@    xaxis  ticklabel place normal
+@    xaxis  ticklabel offset auto
+@    xaxis  ticklabel offset 0.000000 , 0.010000
+@    xaxis  ticklabel start type auto
+@    xaxis  ticklabel start 0.000000
+@    xaxis  ticklabel stop type auto
+@    xaxis  ticklabel stop 0.000000
+@    xaxis  ticklabel char size 1.000000
+@    xaxis  ticklabel font 0
+@    xaxis  ticklabel color 1
+@    xaxis  tick place both
+@    xaxis  tick spec type none
+@    yaxis  on
+@    yaxis  type zero false
+@    yaxis  offset 0.000000 , 0.000000
+@    yaxis  bar on
+@    yaxis  bar color 1
+@    yaxis  bar linestyle 1
+@    yaxis  bar linewidth 1.0
+@    yaxis  label ""
+@    yaxis  label layout para
+@    yaxis  label place auto
+@    yaxis  label char size 1.000000
+@    yaxis  label font 0
+@    yaxis  label color 1
+@    yaxis  label place normal
+@    yaxis  tick on
+@    yaxis  tick major 20
+@    yaxis  tick minor ticks 2
+@    yaxis  tick default 6
+@    yaxis  tick place rounded true
+@    yaxis  tick in
+@    yaxis  tick major size 1.000000
+@    yaxis  tick major color 1
+@    yaxis  tick major linewidth 1.0
+@    yaxis  tick major linestyle 1
+@    yaxis  tick major grid off
+@    yaxis  tick minor color 1
+@    yaxis  tick minor linewidth 1.0
+@    yaxis  tick minor linestyle 1
+@    yaxis  tick minor grid off
+@    yaxis  tick minor size 0.500000
+@    yaxis  ticklabel on
+@    yaxis  ticklabel format general
+@    yaxis  ticklabel prec 5
+@    yaxis  ticklabel formula ""
+@    yaxis  ticklabel append ""
+@    yaxis  ticklabel prepend ""
+@    yaxis  ticklabel angle 0
+@    yaxis  ticklabel skip 0
+@    yaxis  ticklabel stagger 0
+@    yaxis  ticklabel place normal
+@    yaxis  ticklabel offset auto
+@    yaxis  ticklabel offset 0.000000 , 0.010000
+@    yaxis  ticklabel start type auto
+@    yaxis  ticklabel start 0.000000
+@    yaxis  ticklabel stop type auto
+@    yaxis  ticklabel stop 0.000000
+@    yaxis  ticklabel char size 1.000000
+@    yaxis  ticklabel font 0
+@    yaxis  ticklabel color 1
+@    yaxis  tick place both
+@    yaxis  tick spec type none
+@    altxaxis  off
+@    altyaxis  off
+@    legend on
+@    legend loctype view
+@    legend 0.263375558867, 0.33412131865
+@    legend box color 1
+@    legend box pattern 1
+@    legend box linewidth 1.0
+@    legend box linestyle 1
+@    legend box fill color 0
+@    legend box fill pattern 1
+@    legend font 0
+@    legend char size 0.700000
+@    legend color 1
+@    legend length 4
+@    legend vgap 1
+@    legend hgap 1
+@    legend invert false
+@    frame type 0
+@    frame linestyle 1
+@    frame linewidth 1.0
+@    frame color 1
+@    frame pattern 1
+@    frame background color 0
+@    frame background pattern 0
+@    s0 hidden false
+@    s0 type xydy
+@    s0 symbol 2
+@    s0 symbol size 0.300000
+@    s0 symbol color 1
+@    s0 symbol pattern 1
+@    s0 symbol fill color 1
+@    s0 symbol fill pattern 1
+@    s0 symbol linewidth 1.0
+@    s0 symbol linestyle 1
+@    s0 symbol char 65
+@    s0 symbol char font 0
+@    s0 symbol skip 0
+@    s0 line type 1
+@    s0 line linestyle 0
+@    s0 line linewidth 1.0
+@    s0 line color 1
+@    s0 line pattern 1
+@    s0 baseline type 0
+@    s0 baseline off
+@    s0 dropline off
+@    s0 fill type 0
+@    s0 fill rule 0
+@    s0 fill color 1
+@    s0 fill pattern 1
+@    s0 avalue off
+@    s0 avalue type 2
+@    s0 avalue char size 1.000000
+@    s0 avalue font 0
+@    s0 avalue color 1
+@    s0 avalue rot 0
+@    s0 avalue format general
+@    s0 avalue prec 3
+@    s0 avalue prepend ""
+@    s0 avalue append ""
+@    s0 avalue offset 0.000000 , 0.000000
+@    s0 errorbar on
+@    s0 errorbar place both
+@    s0 errorbar color 1
+@    s0 errorbar pattern 1
+@    s0 errorbar size 0.100000
+@    s0 errorbar linewidth 1.0
+@    s0 errorbar linestyle 1
+@    s0 errorbar riser linewidth 1.0
+@    s0 errorbar riser linestyle 1
+@    s0 errorbar riser clip off
+@    s0 errorbar riser clip length 0.100000
+@    s0 comment "data_Fasoli_pp.dat_40-45-9gL-xs2.agr"
+@    s0 legend  " 40: Fasoli_pp@a81.0 - 16.9% @  2.1"
+@    s1 hidden false
+@    s1 type xy
+@    s1 symbol 0
+@    s1 symbol size 1.000000
+@    s1 symbol color 2
+@    s1 symbol pattern 1
+@    s1 symbol fill color 2
+@    s1 symbol fill pattern 0
+@    s1 symbol linewidth 1.0
+@    s1 symbol linestyle 1
+@    s1 symbol char 65
+@    s1 symbol char font 0
+@    s1 symbol skip 0
+@    s1 line type 1
+@    s1 line linestyle 1
+@    s1 line linewidth 1.0
+@    s1 line color 1
+@    s1 line pattern 1
+@    s1 baseline type 0
+@    s1 baseline off
+@    s1 dropline off
+@    s1 fill type 0
+@    s1 fill rule 0
+@    s1 fill color 1
+@    s1 fill pattern 1
+@    s1 avalue off
+@    s1 avalue type 2
+@    s1 avalue char size 1.000000
+@    s1 avalue font 0
+@    s1 avalue color 1
+@    s1 avalue rot 0
+@    s1 avalue format general
+@    s1 avalue prec 3
+@    s1 avalue prepend ""
+@    s1 avalue append ""
+@    s1 avalue offset 0.000000 , 0.000000
+@    s1 errorbar on
+@    s1 errorbar place both
+@    s1 errorbar color 2
+@    s1 errorbar pattern 1
+@    s1 errorbar size 1.000000
+@    s1 errorbar linewidth 1.0
+@    s1 errorbar linestyle 1
+@    s1 errorbar riser linewidth 1.0
+@    s1 errorbar riser linestyle 1
+@    s1 errorbar riser clip off
+@    s1 errorbar riser clip length 0.100000
+@    s1 comment "data_Fasoli_pp.dat_40-45-9gL-xs2.agr"
+@    s1 legend  ""
+@    s2 hidden false
+@    s2 type xydy
+@    s2 symbol 3
+@    s2 symbol size 0.300000
+@    s2 symbol color 2
+@    s2 symbol pattern 1
+@    s2 symbol fill color 2
+@    s2 symbol fill pattern 1
+@    s2 symbol linewidth 1.0
+@    s2 symbol linestyle 1
+@    s2 symbol char 65
+@    s2 symbol char font 0
+@    s2 symbol skip 0
+@    s2 line type 1
+@    s2 line linestyle 0
+@    s2 line linewidth 1.0
+@    s2 line color 2
+@    s2 line pattern 1
+@    s2 baseline type 0
+@    s2 baseline off
+@    s2 dropline off
+@    s2 fill type 0
+@    s2 fill rule 0
+@    s2 fill color 1
+@    s2 fill pattern 1
+@    s2 avalue off
+@    s2 avalue type 2
+@    s2 avalue char size 1.000000
+@    s2 avalue font 0
+@    s2 avalue color 1
+@    s2 avalue rot 0
+@    s2 avalue format general
+@    s2 avalue prec 3
+@    s2 avalue prepend ""
+@    s2 avalue append ""
+@    s2 avalue offset 0.000000 , 0.000000
+@    s2 errorbar on
+@    s2 errorbar place both
+@    s2 errorbar color 2
+@    s2 errorbar pattern 1
+@    s2 errorbar size 0.100000
+@    s2 errorbar linewidth 1.0
+@    s2 errorbar linestyle 1
+@    s2 errorbar riser linewidth 1.0
+@    s2 errorbar riser linestyle 1
+@    s2 errorbar riser clip off
+@    s2 errorbar riser clip length 0.100000
+@    s2 comment "data_Fasoli_pp.dat_40-45-9gL-xs2.agr"
+@    s2 legend  " 41: Fasoli_pp@a100.0 -  5.3% @  1.9"
+@    s3 hidden false
+@    s3 type xy
+@    s3 symbol 0
+@    s3 symbol size 1.000000
+@    s3 symbol color 4
+@    s3 symbol pattern 1
+@    s3 symbol fill color 4
+@    s3 symbol fill pattern 0
+@    s3 symbol linewidth 1.0
+@    s3 symbol linestyle 1
+@    s3 symbol char 65
+@    s3 symbol char font 0
+@    s3 symbol skip 0
+@    s3 line type 1
+@    s3 line linestyle 1
+@    s3 line linewidth 1.0
+@    s3 line color 2
+@    s3 line pattern 1
+@    s3 baseline type 0
+@    s3 baseline off
+@    s3 dropline off
+@    s3 fill type 0
+@    s3 fill rule 0
+@    s3 fill color 1
+@    s3 fill pattern 1
+@    s3 avalue off
+@    s3 avalue type 2
+@    s3 avalue char size 1.000000
+@    s3 avalue font 0
+@    s3 avalue color 1
+@    s3 avalue rot 0
+@    s3 avalue format general
+@    s3 avalue prec 3
+@    s3 avalue prepend ""
+@    s3 avalue append ""
+@    s3 avalue offset 0.000000 , 0.000000
+@    s3 errorbar on
+@    s3 errorbar place both
+@    s3 errorbar color 4
+@    s3 errorbar pattern 1
+@    s3 errorbar size 1.000000
+@    s3 errorbar linewidth 1.0
+@    s3 errorbar linestyle 1
+@    s3 errorbar riser linewidth 1.0
+@    s3 errorbar riser linestyle 1
+@    s3 errorbar riser clip off
+@    s3 errorbar riser clip length 0.100000
+@    s3 comment "data_Fasoli_pp.dat_40-45-9gL-xs2.agr"
+@    s3 legend  ""
+@    s4 hidden false
+@    s4 type xydy
+@    s4 symbol 4
+@    s4 symbol size 0.300000
+@    s4 symbol color 3
+@    s4 symbol pattern 1
+@    s4 symbol fill color 3
+@    s4 symbol fill pattern 1
+@    s4 symbol linewidth 1.0
+@    s4 symbol linestyle 1
+@    s4 symbol char 65
+@    s4 symbol char font 0
+@    s4 symbol skip 0
+@    s4 line type 1
+@    s4 line linestyle 0
+@    s4 line linewidth 1.0
+@    s4 line color 3
+@    s4 line pattern 1
+@    s4 baseline type 0
+@    s4 baseline off
+@    s4 dropline off
+@    s4 fill type 0
+@    s4 fill rule 0
+@    s4 fill color 1
+@    s4 fill pattern 1
+@    s4 avalue off
+@    s4 avalue type 2
+@    s4 avalue char size 1.000000
+@    s4 avalue font 0
+@    s4 avalue color 1
+@    s4 avalue rot 0
+@    s4 avalue format general
+@    s4 avalue prec 3
+@    s4 avalue prepend ""
+@    s4 avalue append ""
+@    s4 avalue offset 0.000000 , 0.000000
+@    s4 errorbar on
+@    s4 errorbar place both
+@    s4 errorbar color 3
+@    s4 errorbar pattern 1
+@    s4 errorbar size 0.100000
+@    s4 errorbar linewidth 1.0
+@    s4 errorbar linestyle 1
+@    s4 errorbar riser linewidth 1.0
+@    s4 errorbar riser linestyle 1
+@    s4 errorbar riser clip off
+@    s4 errorbar riser clip length 0.100000
+@    s4 comment "data_Fasoli_pp.dat_40-45-9gL-xs2.agr"
+@    s4 legend  " 42: Fasoli_pp@a117.0 -  1.1% @  7.5"
+@    s5 hidden false
+@    s5 type xy
+@    s5 symbol 0
+@    s5 symbol size 1.000000
+@    s5 symbol color 6
+@    s5 symbol pattern 1
+@    s5 symbol fill color 6
+@    s5 symbol fill pattern 0
+@    s5 symbol linewidth 1.0
+@    s5 symbol linestyle 1
+@    s5 symbol char 65
+@    s5 symbol char font 0
+@    s5 symbol skip 0
+@    s5 line type 1
+@    s5 line linestyle 1
+@    s5 line linewidth 1.0
+@    s5 line color 3
+@    s5 line pattern 1
+@    s5 baseline type 0
+@    s5 baseline off
+@    s5 dropline off
+@    s5 fill type 0
+@    s5 fill rule 0
+@    s5 fill color 1
+@    s5 fill pattern 1
+@    s5 avalue off
+@    s5 avalue type 2
+@    s5 avalue char size 1.000000
+@    s5 avalue font 0
+@    s5 avalue color 1
+@    s5 avalue rot 0
+@    s5 avalue format general
+@    s5 avalue prec 3
+@    s5 avalue prepend ""
+@    s5 avalue append ""
+@    s5 avalue offset 0.000000 , 0.000000
+@    s5 errorbar on
+@    s5 errorbar place both
+@    s5 errorbar color 6
+@    s5 errorbar pattern 1
+@    s5 errorbar size 1.000000
+@    s5 errorbar linewidth 1.0
+@    s5 errorbar linestyle 1
+@    s5 errorbar riser linewidth 1.0
+@    s5 errorbar riser linestyle 1
+@    s5 errorbar riser clip off
+@    s5 errorbar riser clip length 0.100000
+@    s5 comment "data_Fasoli_pp.dat_40-45-9gL-xs2.agr"
+@    s5 legend  ""
+@    s6 hidden false
+@    s6 type xydy
+@    s6 symbol 5
+@    s6 symbol size 0.300000
+@    s6 symbol color 4
+@    s6 symbol pattern 1
+@    s6 symbol fill color 4
+@    s6 symbol fill pattern 1
+@    s6 symbol linewidth 1.0
+@    s6 symbol linestyle 1
+@    s6 symbol char 65
+@    s6 symbol char font 0
+@    s6 symbol skip 0
+@    s6 line type 1
+@    s6 line linestyle 0
+@    s6 line linewidth 1.0
+@    s6 line color 4
+@    s6 line pattern 1
+@    s6 baseline type 0
+@    s6 baseline off
+@    s6 dropline off
+@    s6 fill type 0
+@    s6 fill rule 0
+@    s6 fill color 1
+@    s6 fill pattern 1
+@    s6 avalue off
+@    s6 avalue type 2
+@    s6 avalue char size 1.000000
+@    s6 avalue font 0
+@    s6 avalue color 1
+@    s6 avalue rot 0
+@    s6 avalue format general
+@    s6 avalue prec 3
+@    s6 avalue prepend ""
+@    s6 avalue append ""
+@    s6 avalue offset 0.000000 , 0.000000
+@    s6 errorbar on
+@    s6 errorbar place both
+@    s6 errorbar color 4
+@    s6 errorbar pattern 1
+@    s6 errorbar size 0.100000
+@    s6 errorbar linewidth 1.0
+@    s6 errorbar linestyle 1
+@    s6 errorbar riser linewidth 1.0
+@    s6 errorbar riser linestyle 1
+@    s6 errorbar riser clip off
+@    s6 errorbar riser clip length 0.100000
+@    s6 comment "data_Fasoli_pp.dat_40-45-9gL-xs2.agr"
+@    s6 legend  " 43: Fasoli_pp@a141.0 +  7.5% @  1.8"
+@    s7 hidden false
+@    s7 type xy
+@    s7 symbol 0
+@    s7 symbol size 1.000000
+@    s7 symbol color 8
+@    s7 symbol pattern 1
+@    s7 symbol fill color 8
+@    s7 symbol fill pattern 0
+@    s7 symbol linewidth 1.0
+@    s7 symbol linestyle 1
+@    s7 symbol char 65
+@    s7 symbol char font 0
+@    s7 symbol skip 0
+@    s7 line type 1
+@    s7 line linestyle 1
+@    s7 line linewidth 1.0
+@    s7 line color 4
+@    s7 line pattern 1
+@    s7 baseline type 0
+@    s7 baseline off
+@    s7 dropline off
+@    s7 fill type 0
+@    s7 fill rule 0
+@    s7 fill color 1
+@    s7 fill pattern 1
+@    s7 avalue off
+@    s7 avalue type 2
+@    s7 avalue char size 1.000000
+@    s7 avalue font 0
+@    s7 avalue color 1
+@    s7 avalue rot 0
+@    s7 avalue format general
+@    s7 avalue prec 3
+@    s7 avalue prepend ""
+@    s7 avalue append ""
+@    s7 avalue offset 0.000000 , 0.000000
+@    s7 errorbar on
+@    s7 errorbar place both
+@    s7 errorbar color 8
+@    s7 errorbar pattern 1
+@    s7 errorbar size 1.000000
+@    s7 errorbar linewidth 1.0
+@    s7 errorbar linestyle 1
+@    s7 errorbar riser linewidth 1.0
+@    s7 errorbar riser linestyle 1
+@    s7 errorbar riser clip off
+@    s7 errorbar riser clip length 0.100000
+@    s7 comment "data_Fasoli_pp.dat_40-45-9gL-xs2.agr"
+@    s7 legend  ""
+@    s8 hidden false
+@    s8 type xydy
+@    s8 symbol 6
+@    s8 symbol size 0.300000
+@    s8 symbol color 5
+@    s8 symbol pattern 1
+@    s8 symbol fill color 5
+@    s8 symbol fill pattern 1
+@    s8 symbol linewidth 1.0
+@    s8 symbol linestyle 1
+@    s8 symbol char 65
+@    s8 symbol char font 0
+@    s8 symbol skip 0
+@    s8 line type 1
+@    s8 line linestyle 0
+@    s8 line linewidth 1.0
+@    s8 line color 5
+@    s8 line pattern 1
+@    s8 baseline type 0
+@    s8 baseline off
+@    s8 dropline off
+@    s8 fill type 0
+@    s8 fill rule 0
+@    s8 fill color 1
+@    s8 fill pattern 1
+@    s8 avalue off
+@    s8 avalue type 2
+@    s8 avalue char size 1.000000
+@    s8 avalue font 0
+@    s8 avalue color 1
+@    s8 avalue rot 0
+@    s8 avalue format general
+@    s8 avalue prec 3
+@    s8 avalue prepend ""
+@    s8 avalue append ""
+@    s8 avalue offset 0.000000 , 0.000000
+@    s8 errorbar on
+@    s8 errorbar place both
+@    s8 errorbar color 5
+@    s8 errorbar pattern 1
+@    s8 errorbar size 0.100000
+@    s8 errorbar linewidth 1.0
+@    s8 errorbar linestyle 1
+@    s8 errorbar riser linewidth 1.0
+@    s8 errorbar riser linestyle 1
+@    s8 errorbar riser clip off
+@    s8 errorbar riser clip length 0.100000
+@    s8 comment "data_Fasoli_pp.dat_40-45-9gL-xs2.agr"
+@    s8 legend  " 44: Fasoli_pp@a144.0 +  6.3% @  3.4"
+@    s9 hidden false
+@    s9 type xy
+@    s9 symbol 0
+@    s9 symbol size 1.000000
+@    s9 symbol color 10
+@    s9 symbol pattern 1
+@    s9 symbol fill color 10
+@    s9 symbol fill pattern 0
+@    s9 symbol linewidth 1.0
+@    s9 symbol linestyle 1
+@    s9 symbol char 65
+@    s9 symbol char font 0
+@    s9 symbol skip 0
+@    s9 line type 1
+@    s9 line linestyle 1
+@    s9 line linewidth 1.0
+@    s9 line color 5
+@    s9 line pattern 1
+@    s9 baseline type 0
+@    s9 baseline off
+@    s9 dropline off
+@    s9 fill type 0
+@    s9 fill rule 0
+@    s9 fill color 1
+@    s9 fill pattern 1
+@    s9 avalue off
+@    s9 avalue type 2
+@    s9 avalue char size 1.000000
+@    s9 avalue font 0
+@    s9 avalue color 1
+@    s9 avalue rot 0
+@    s9 avalue format general
+@    s9 avalue prec 3
+@    s9 avalue prepend ""
+@    s9 avalue append ""
+@    s9 avalue offset 0.000000 , 0.000000
+@    s9 errorbar on
+@    s9 errorbar place both
+@    s9 errorbar color 10
+@    s9 errorbar pattern 1
+@    s9 errorbar size 1.000000
+@    s9 errorbar linewidth 1.0
+@    s9 errorbar linestyle 1
+@    s9 errorbar riser linewidth 1.0
+@    s9 errorbar riser linestyle 1
+@    s9 errorbar riser clip off
+@    s9 errorbar riser clip length 0.100000
+@    s9 comment "data_Fasoli_pp.dat_40-45-9gL-xs2.agr"
+@    s9 legend  ""
+@    s10 hidden false
+@    s10 type xydy
+@    s10 symbol 7
+@    s10 symbol size 0.300000
+@    s10 symbol color 6
+@    s10 symbol pattern 1
+@    s10 symbol fill color 6
+@    s10 symbol fill pattern 1
+@    s10 symbol linewidth 1.0
+@    s10 symbol linestyle 1
+@    s10 symbol char 65
+@    s10 symbol char font 0
+@    s10 symbol skip 0
+@    s10 line type 1
+@    s10 line linestyle 0
+@    s10 line linewidth 1.0
+@    s10 line color 6
+@    s10 line pattern 1
+@    s10 baseline type 0
+@    s10 baseline off
+@    s10 dropline off
+@    s10 fill type 0
+@    s10 fill rule 0
+@    s10 fill color 1
+@    s10 fill pattern 1
+@    s10 avalue off
+@    s10 avalue type 2
+@    s10 avalue char size 1.000000
+@    s10 avalue font 0
+@    s10 avalue color 1
+@    s10 avalue rot 0
+@    s10 avalue format general
+@    s10 avalue prec 3
+@    s10 avalue prepend ""
+@    s10 avalue append ""
+@    s10 avalue offset 0.000000 , 0.000000
+@    s10 errorbar on
+@    s10 errorbar place both
+@    s10 errorbar color 6
+@    s10 errorbar pattern 1
+@    s10 errorbar size 0.100000
+@    s10 errorbar linewidth 1.0
+@    s10 errorbar linestyle 1
+@    s10 errorbar riser linewidth 1.0
+@    s10 errorbar riser linestyle 1
+@    s10 errorbar riser clip off
+@    s10 errorbar riser clip length 0.100000
+@    s10 comment "data_Fasoli_pp.dat_40-45-9gL-xs2.agr"
+@    s10 legend  " 45: Fasoli_pp@a166.0 +  7.4% @  1.6"
+@    s11 hidden false
+@    s11 type xy
+@    s11 symbol 0
+@    s11 symbol size 1.000000
+@    s11 symbol color 12
+@    s11 symbol pattern 1
+@    s11 symbol fill color 12
+@    s11 symbol fill pattern 0
+@    s11 symbol linewidth 1.0
+@    s11 symbol linestyle 1
+@    s11 symbol char 65
+@    s11 symbol char font 0
+@    s11 symbol skip 0
+@    s11 line type 1
+@    s11 line linestyle 1
+@    s11 line linewidth 1.0
+@    s11 line color 6
+@    s11 line pattern 1
+@    s11 baseline type 0
+@    s11 baseline off
+@    s11 dropline off
+@    s11 fill type 0
+@    s11 fill rule 0
+@    s11 fill color 1
+@    s11 fill pattern 1
+@    s11 avalue off
+@    s11 avalue type 2
+@    s11 avalue char size 1.000000
+@    s11 avalue font 0
+@    s11 avalue color 1
+@    s11 avalue rot 0
+@    s11 avalue format general
+@    s11 avalue prec 3
+@    s11 avalue prepend ""
+@    s11 avalue append ""
+@    s11 avalue offset 0.000000 , 0.000000
+@    s11 errorbar on
+@    s11 errorbar place both
+@    s11 errorbar color 12
+@    s11 errorbar pattern 1
+@    s11 errorbar size 1.000000
+@    s11 errorbar linewidth 1.0
+@    s11 errorbar linestyle 1
+@    s11 errorbar riser linewidth 1.0
+@    s11 errorbar riser linestyle 1
+@    s11 errorbar riser clip off
+@    s11 errorbar riser clip length 0.100000
+@    s11 comment "data_Fasoli_pp.dat_40-45-9gL-xs2.agr"
+@    s11 legend  ""
+@target G0.S0
+@type xydy
+1.6517 123.8 1.857
+1.678 127.96 1.9193
+1.7069 127.96 1.9193
+1.727 137.93 2.0772
+1.7627 142.08 2.1354
+1.803 146.24 2.1935
+1.8305 143.74 2.1603
+1.8539 142.91 2.1437
+1.8953 140.42 2.1063
+1.9482 132.11 1.9858
+2.0064 125.46 1.882
+2.0639 117.16 1.7573
+2.1181 111.34 1.6701
+2.1804 103.03 1.5538
+2.2411 100.54 1.5122
+2.2995 93.89 1.4125
+2.3587 88.905 1.3377
+2.4146 86.412 1.2962
+2.4805 84.75 1.2713
+2.5607 82.673 1.2401
+2.655 80.513 1.2077
+2.7493 78.27 1.174
+&
+@target G0.S1
+@type xy
+1.6517 125.98
+1.678 131.7
+1.7069 137.21
+1.727 140.35
+1.7627 144.15
+1.803 145.43
+1.8305 144.57
+1.8539 142.92
+1.8953 138.47
+1.9482 131.18
+2.0064 122.69
+2.0639 114.85
+2.1181 108.34
+2.1804 101.99
+2.2411 96.878
+2.2995 92.826
+2.3587 89.444
+2.4146 86.809
+2.4805 84.279
+2.5607 81.882
+2.655 79.816
+2.7493 78.379
+&
+@target G0.S2
+@type xydy
+1.3717 66.287 0.9943
+1.4382 73.957 1.1094
+1.4954 82.006 1.231
+1.5284 89.677 1.3452
+1.5815 99.43 1.4915
+1.6457 102.27 1.5435
+1.6778 108.9 1.6335
+1.6997 113.63 1.7045
+1.7164 117.42 1.7613
+1.7593 117.42 1.7613
+1.7953 113.63 1.7045
+1.8272 110.79 1.6619
+1.8489 107.01 1.6051
+1.8904 104.17 1.5625
+1.9464 93.465 1.402
+2.0047 86.836 1.3068
+2.0621 78.408 1.1761
+2.1252 71.685 1.0795
+2.1809 68.938 1.0341
+2.2394 62.404 0.93654
+2.3 59.753 0.89677
+2.361 57.764 0.86646
+2.426 54.45 0.81675
+2.4821 52.177 0.78313
+2.5534 51.42 0.77177
+2.6577 49.999 0.75094
+2.7634 50.946 0.76419
+&
+@target G0.S3
+@type xy
+1.3717 66.543
+1.4382 72.855
+1.4954 80.402
+1.5284 85.645
+1.5815 95.1
+1.6457 106.59
+1.6778 111.32
+1.6997 113.79
+1.7164 115.17
+1.7593 116.43
+1.7953 114.95
+1.8272 111.98
+1.8489 109.29
+1.8904 103.21
+1.9464 94.331
+2.0047 85.622
+2.0621 78.236
+2.1252 71.613
+2.1809 66.94
+2.2394 63.017
+2.3 59.813
+2.361 57.285
+2.426 55.195
+2.4821 53.785
+2.5534 52.403
+2.6577 50.999
+2.7634 50.096
+&
+@target G0.S4
+@type xydy
+1.265 51.325 0.77038
+1.324 54.094 0.81142
+1.3841 58.545 0.87817
+1.5012 70.313 1.0582
+1.557 83.367 1.2505
+1.6164 94.641 1.4241
+1.6657 104.83 1.5724
+1.7072 110.76 1.6614
+1.7727 115.7 1.7405
+1.8044 112.74 1.6911
+1.832 110.76 1.6713
+1.8627 106.8 1.6021
+1.8917 99.882 1.4982
+1.9529 89.894 1.3484
+2.0089 79.905 1.1986
+2.0663 72.192 1.0829
+2.119 64.478 0.96717
+2.1824 58.841 0.88311
+2.2418 54.391 0.81587
+2.3019 50.93 0.76444
+2.3573 47.765 0.71648
+2.4172 44.106 0.66159
+2.4794 44.304 0.66456
+2.5639 41.832 0.62748
+2.6641 41.436 0.62154
+2.7542 40.348 0.60522
+&
+@target G0.S5
+@type xy
+1.265 51.965
+1.324 55.815
+1.3841 61.388
+1.5012 78.228
+1.557 88.989
+1.6164 101.05
+1.6657 109.63
+1.7072 114.28
+1.7727 114.73
+1.8044 111.92
+1.832 108.24
+1.8627 103.2
+1.8917 97.93
+1.9529 86.567
+2.0089 77.102
+2.0663 68.908
+2.119 62.754
+2.1824 56.866
+2.2418 52.577
+2.3019 49.185
+2.3573 46.722
+2.4172 44.62
+2.4794 42.922
+2.5639 41.217
+2.6641 39.847
+2.7542 39.042
+&
+@target G0.S6
+@type xydy
+1.253 47.105 0.70765
+1.3783 56.354 0.84638
+1.4368 65.602 0.98511
+1.4868 76.68 1.1507
+1.5573 90.015 1.3551
+1.6161 107.22 1.6132
+1.6437 112.92 1.6992
+1.6729 121.53 1.8229
+1.714 125.83 1.8928
+1.739 127.98 1.9197
+1.7729 127.98 1.9251
+1.8048 125.83 1.8928
+1.8301 120.45 1.8068
+1.848 111.85 1.6777
+1.8874 112.92 1.6992
+1.9437 96.253 1.4438
+2.0021 82.917 1.2475
+2.0615 71.087 1.0663
+2.1246 64.957 0.97436
+2.1819 57.429 0.86144
+2.2405 51.837 0.77755
+2.2993 46.567 0.69904
+2.3593 43.126 0.64742
+2.481 39.146 0.5872
+2.5657 36.995 0.55493
+2.66 34.952 0.52482
+2.7546 33.446 0.50224
+&
+@target G0.S7
+@type xy
+1.253 45.27
+1.3783 57.83
+1.4368 66.974
+1.4868 76.814
+1.5573 93.625
+1.6161 108.71
+1.6437 115.22
+1.6729 121.07
+1.714 126.5
+1.739 127.81
+1.7729 127.04
+1.8048 123.82
+1.8301 119.89
+1.848 116.54
+1.8874 108.16
+1.9437 95.428
+2.0021 83.11
+2.0615 72.438
+2.1246 63.278
+2.1819 56.669
+2.2405 51.286
+2.2993 47
+2.3593 43.533
+2.481 38.554
+2.5657 36.254
+2.66 34.493
+2.7546 33.39
+&
+@target G0.S8
+@type xydy
+1.2607 44.206 0.66309
+1.321 48.669 0.73004
+1.3818 54.089 0.81186
+1.4366 64.822 0.97339
+1.492 76.617 1.1493
+1.5589 91.282 1.3708
+1.6075 107.33 1.6099
+1.6418 115.83 1.7374
+1.6643 121.14 1.8171
+1.7024 128.58 1.9287
+1.7324 130.71 1.9606
+1.7634 133.89 2.0084
+1.7944 129.64 1.9553
+1.8161 126.46 1.9021
+1.8545 120.08 1.8012
+1.8831 112.64 1.6896
+1.9423 100.21 1.5031
+2.0045 85.65 1.2858
+2.0556 75.979 1.1397
+2.1157 65.459 0.98189
+2.1778 58.021 0.87031
+2.2411 52.495 0.78742
+2.2961 48.776 0.73217
+2.3553 44.419 0.66628
+2.4109 41.762 0.62643
+2.4765 39.637 0.59455
+2.565 36.13 0.54195
+2.6586 33.048 0.49573
+2.7488 31.986 0.48032
+&
+@target G0.S9
+@type xy
+1.2607 45.399
+1.321 50.764
+1.3818 58.184
+1.4366 67.008
+1.492 78.265
+1.5589 94.732
+1.6075 107.57
+1.6418 116.03
+1.6643 120.86
+1.7024 126.92
+1.7324 129.29
+1.7634 129.28
+1.7944 126.85
+1.8161 123.91
+1.8545 116.87
+1.8831 110.65
+1.9423 97.023
+2.0045 83.658
+2.0556 74.225
+2.1157 65.055
+2.1778 57.529
+2.2411 51.521
+2.2961 47.384
+2.3553 43.816
+2.4109 41.131
+2.4765 38.622
+2.565 36.115
+2.6586 34.303
+2.7488 33.206
+&
+@target G0.S10
+@type xydy
+1.2516 41.674 0.62511
+1.3713 56.604 0.84906
+1.4316 68.311 1.0247
+1.4875 80.663 1.2137
+1.5493 94.841 1.4226
+1.6109 116 1.74
+1.6453 124.59 1.8689
+1.6783 131.04 1.9656
+1.7007 136.41 2.0461
+1.7299 136.41 2.0515
+1.7645 138.56 2.0837
+1.7916 136.41 2.0461
+1.8228 133.19 1.9978
+1.8338 127.82 1.9172
+1.8765 120.3 1.8045
+1.9375 103.65 1.5574
+2.0006 90.545 1.3582
+2.0554 79.375 1.1922
+2.1099 67.882 1.0182
+2.1759 59.182 0.88773
+2.231 55.745 0.83617
+2.3034 49.408 0.74112
+2.3584 45.863 0.68795
+2.4127 41.137 0.6176
+2.4739 39.741 0.59719
+2.5618 35.337 0.5306
+2.6526 35.445 0.53167
+2.7472 33.941 0.50911
+&
+@target G0.S11
+@type xy
+1.2516 42.823
+1.3713 56.224
+1.4316 66.652
+1.4875 79.089
+1.5493 95.86
+1.6109 114.21
+1.6453 123.8
+1.6783 131.47
+1.7007 135.38
+1.7299 138.49
+1.7645 138.98
+1.7916 137.01
+1.8228 132.54
+1.8338 130.51
+1.8765 121.1
+1.9375 105.84
+2.0006 90.765
+2.0554 79.452
+2.1099 70.052
+2.1759 60.908
+2.231 54.843
+2.3034 48.583
+2.3584 44.851
+2.4127 41.85
+2.4739 39.13
+2.5618 36.198
+2.6526 34.13
+2.7472 32.84
+&

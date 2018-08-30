@@ -1,0 +1,2240 @@
+# Grace project file
+#
+@version 50125
+@page size 457, 469
+@page scroll 5%
+@page inout 5%
+@link page off
+@map font 0 to "Times-Roman", "Times-Roman"
+@map font 1 to "Times-Italic", "Times-Italic"
+@map font 2 to "Times-Bold", "Times-Bold"
+@map font 3 to "Times-BoldItalic", "Times-BoldItalic"
+@map font 4 to "Helvetica", "Helvetica"
+@map font 5 to "Helvetica-Oblique", "Helvetica-Oblique"
+@map font 6 to "Helvetica-Bold", "Helvetica-Bold"
+@map font 7 to "Helvetica-BoldOblique", "Helvetica-BoldOblique"
+@map font 8 to "Courier", "Courier"
+@map font 9 to "Courier-Oblique", "Courier-Oblique"
+@map font 10 to "Courier-Bold", "Courier-Bold"
+@map font 11 to "Courier-BoldOblique", "Courier-BoldOblique"
+@map font 12 to "Symbol", "Symbol"
+@map font 13 to "ZapfDingbats", "ZapfDingbats"
+@map color 0 to (255, 255, 255), "white"
+@map color 1 to (0, 0, 0), "black"
+@map color 2 to (255, 0, 0), "red"
+@map color 3 to (0, 255, 0), "green"
+@map color 4 to (0, 0, 255), "blue"
+@map color 5 to (255, 255, 0), "yellow"
+@map color 6 to (188, 143, 143), "brown"
+@map color 7 to (220, 220, 220), "grey"
+@map color 8 to (148, 0, 211), "violet"
+@map color 9 to (0, 255, 255), "cyan"
+@map color 10 to (255, 0, 255), "magenta"
+@map color 11 to (255, 165, 0), "orange"
+@map color 12 to (114, 33, 188), "indigo"
+@map color 13 to (103, 7, 72), "maroon"
+@map color 14 to (64, 224, 208), "turquoise"
+@map color 15 to (0, 139, 0), "green4"
+@reference date 0
+@date wrap off
+@date wrap year 1950
+@default linewidth 1.0
+@default linestyle 1
+@default color 1
+@default pattern 1
+@default font 0
+@default char size 1.000000
+@default symbol size 1.000000
+@default sformat "%.8g"
+@background color 0
+@page background fill on
+@timestamp off
+@timestamp 0.03, 0.03
+@timestamp color 1
+@timestamp rot 0
+@timestamp font 0
+@timestamp char size 1.000000
+@timestamp def "Tue Aug 14 01:42:30 2018"
+@r0 off
+@link r0 to g0
+@r0 type above
+@r0 linestyle 1
+@r0 linewidth 1.0
+@r0 color 1
+@r0 line 0, 0, 0, 0
+@r1 off
+@link r1 to g0
+@r1 type above
+@r1 linestyle 1
+@r1 linewidth 1.0
+@r1 color 1
+@r1 line 0, 0, 0, 0
+@r2 off
+@link r2 to g0
+@r2 type above
+@r2 linestyle 1
+@r2 linewidth 1.0
+@r2 color 1
+@r2 line 0, 0, 0, 0
+@r3 off
+@link r3 to g0
+@r3 type above
+@r3 linestyle 1
+@r3 linewidth 1.0
+@r3 color 1
+@r3 line 0, 0, 0, 0
+@r4 off
+@link r4 to g0
+@r4 type above
+@r4 linestyle 1
+@r4 linewidth 1.0
+@r4 color 1
+@r4 line 0, 0, 0, 0
+@g0 on
+@g0 hidden false
+@g0 type XY
+@g0 stacked false
+@g0 bar hgap 0.000000
+@g0 fixedpoint off
+@g0 fixedpoint type 0
+@g0 fixedpoint xy 0.000000, 0.000000
+@g0 fixedpoint format general general
+@g0 fixedpoint prec 6, 6
+@with g0
+@    world 6.12757955641, 0.921911436461, 15.0972999036, 3.95674213409
+@    stack world 0, 0, 0, 0
+@    znorm 1
+@    view 0.115909, 0.153939, 0.888636, 0.872319
+@    title ""
+@    title font 0
+@    title size 1.500000
+@    title color 1
+@    subtitle "data_Spiger-A1094004-lab_aa.dat_8-21-9gL-xs2.agr (spacing 0.2)"
+@    subtitle font 0
+@    subtitle size 1.000000
+@    subtitle color 1
+@    xaxes scale Normal
+@    yaxes scale Normal
+@    xaxes invert off
+@    yaxes invert off
+@    xaxis  on
+@    xaxis  type zero false
+@    xaxis  offset 0.000000 , 0.000000
+@    xaxis  bar on
+@    xaxis  bar color 1
+@    xaxis  bar linestyle 1
+@    xaxis  bar linewidth 1.0
+@    xaxis  label ""
+@    xaxis  label layout para
+@    xaxis  label place auto
+@    xaxis  label char size 1.000000
+@    xaxis  label font 0
+@    xaxis  label color 1
+@    xaxis  label place normal
+@    xaxis  tick on
+@    xaxis  tick major 2
+@    xaxis  tick minor ticks 1
+@    xaxis  tick default 6
+@    xaxis  tick place rounded true
+@    xaxis  tick in
+@    xaxis  tick major size 1.000000
+@    xaxis  tick major color 1
+@    xaxis  tick major linewidth 1.0
+@    xaxis  tick major linestyle 1
+@    xaxis  tick major grid off
+@    xaxis  tick minor color 1
+@    xaxis  tick minor linewidth 1.0
+@    xaxis  tick minor linestyle 1
+@    xaxis  tick minor grid off
+@    xaxis  tick minor size 0.500000
+@    xaxis  ticklabel on
+@    xaxis  ticklabel format general
+@    xaxis  ticklabel prec 5
+@    xaxis  ticklabel formula ""
+@    xaxis  ticklabel append ""
+@    xaxis  ticklabel prepend ""
+@    xaxis  ticklabel angle 0
+@    xaxis  ticklabel skip 0
+@    xaxis  ticklabel stagger 0
+@    xaxis  ticklabel place normal
+@    xaxis  ticklabel offset auto
+@    xaxis  ticklabel offset 0.000000 , 0.010000
+@    xaxis  ticklabel start type auto
+@    xaxis  ticklabel start 0.000000
+@    xaxis  ticklabel stop type auto
+@    xaxis  ticklabel stop 0.000000
+@    xaxis  ticklabel char size 1.000000
+@    xaxis  ticklabel font 0
+@    xaxis  ticklabel color 1
+@    xaxis  tick place both
+@    xaxis  tick spec type none
+@    yaxis  on
+@    yaxis  type zero false
+@    yaxis  offset 0.000000 , 0.000000
+@    yaxis  bar on
+@    yaxis  bar color 1
+@    yaxis  bar linestyle 1
+@    yaxis  bar linewidth 1.0
+@    yaxis  label ""
+@    yaxis  label layout para
+@    yaxis  label place auto
+@    yaxis  label char size 1.000000
+@    yaxis  label font 0
+@    yaxis  label color 1
+@    yaxis  label place normal
+@    yaxis  tick on
+@    yaxis  tick major 0.5
+@    yaxis  tick minor ticks 1
+@    yaxis  tick default 6
+@    yaxis  tick place rounded true
+@    yaxis  tick in
+@    yaxis  tick major size 1.000000
+@    yaxis  tick major color 1
+@    yaxis  tick major linewidth 1.0
+@    yaxis  tick major linestyle 1
+@    yaxis  tick major grid off
+@    yaxis  tick minor color 1
+@    yaxis  tick minor linewidth 1.0
+@    yaxis  tick minor linestyle 1
+@    yaxis  tick minor grid off
+@    yaxis  tick minor size 0.500000
+@    yaxis  ticklabel on
+@    yaxis  ticklabel format general
+@    yaxis  ticklabel prec 5
+@    yaxis  ticklabel formula ""
+@    yaxis  ticklabel append ""
+@    yaxis  ticklabel prepend ""
+@    yaxis  ticklabel angle 0
+@    yaxis  ticklabel skip 0
+@    yaxis  ticklabel stagger 0
+@    yaxis  ticklabel place normal
+@    yaxis  ticklabel offset auto
+@    yaxis  ticklabel offset 0.000000 , 0.010000
+@    yaxis  ticklabel start type auto
+@    yaxis  ticklabel start 0.000000
+@    yaxis  ticklabel stop type auto
+@    yaxis  ticklabel stop 0.000000
+@    yaxis  ticklabel char size 1.000000
+@    yaxis  ticklabel font 0
+@    yaxis  ticklabel color 1
+@    yaxis  tick place both
+@    yaxis  tick spec type none
+@    altxaxis  off
+@    altyaxis  off
+@    legend on
+@    legend loctype view
+@    legend 0.656818181818, 0.821006564551
+@    legend box color 1
+@    legend box pattern 1
+@    legend box linewidth 1.0
+@    legend box linestyle 1
+@    legend box fill color 0
+@    legend box fill pattern 1
+@    legend font 0
+@    legend char size 1.000000
+@    legend color 1
+@    legend length 4
+@    legend vgap 1
+@    legend hgap 1
+@    legend invert false
+@    frame type 0
+@    frame linestyle 1
+@    frame linewidth 1.0
+@    frame color 1
+@    frame pattern 1
+@    frame background color 0
+@    frame background pattern 0
+@    s0 hidden false
+@    s0 type xydy
+@    s0 symbol 1
+@    s0 symbol size 0.300000
+@    s0 symbol color 1
+@    s0 symbol pattern 1
+@    s0 symbol fill color 1
+@    s0 symbol fill pattern 1
+@    s0 symbol linewidth 1.0
+@    s0 symbol linestyle 1
+@    s0 symbol char 65
+@    s0 symbol char font 0
+@    s0 symbol skip 0
+@    s0 line type 1
+@    s0 line linestyle 4
+@    s0 line linewidth 1.0
+@    s0 line color 1
+@    s0 line pattern 1
+@    s0 baseline type 0
+@    s0 baseline off
+@    s0 dropline off
+@    s0 fill type 0
+@    s0 fill rule 0
+@    s0 fill color 1
+@    s0 fill pattern 1
+@    s0 avalue off
+@    s0 avalue type 2
+@    s0 avalue char size 1.000000
+@    s0 avalue font 0
+@    s0 avalue color 1
+@    s0 avalue rot 0
+@    s0 avalue format general
+@    s0 avalue prec 3
+@    s0 avalue prepend ""
+@    s0 avalue append ""
+@    s0 avalue offset 0.000000 , 0.000000
+@    s0 errorbar on
+@    s0 errorbar place both
+@    s0 errorbar color 1
+@    s0 errorbar pattern 1
+@    s0 errorbar size 0.100000
+@    s0 errorbar linewidth 1.0
+@    s0 errorbar linestyle 1
+@    s0 errorbar riser linewidth 1.0
+@    s0 errorbar riser linestyle 1
+@    s0 errorbar riser clip off
+@    s0 errorbar riser clip length 0.100000
+@    s0 comment "data_Spiger-A1094004-lab_aa.dat_8-21-9gL-xs2.agr.ratio.agr"
+@    s0 legend  ""
+@    s1 hidden false
+@    s1 type xy
+@    s1 symbol 0
+@    s1 symbol size 1.000000
+@    s1 symbol color 2
+@    s1 symbol pattern 1
+@    s1 symbol fill color 2
+@    s1 symbol fill pattern 0
+@    s1 symbol linewidth 1.0
+@    s1 symbol linestyle 1
+@    s1 symbol char 65
+@    s1 symbol char font 0
+@    s1 symbol skip 0
+@    s1 line type 1
+@    s1 line linestyle 1
+@    s1 line linewidth 1.0
+@    s1 line color 1
+@    s1 line pattern 1
+@    s1 baseline type 0
+@    s1 baseline off
+@    s1 dropline off
+@    s1 fill type 0
+@    s1 fill rule 0
+@    s1 fill color 1
+@    s1 fill pattern 1
+@    s1 avalue off
+@    s1 avalue type 2
+@    s1 avalue char size 1.000000
+@    s1 avalue font 0
+@    s1 avalue color 1
+@    s1 avalue rot 0
+@    s1 avalue format general
+@    s1 avalue prec 3
+@    s1 avalue prepend ""
+@    s1 avalue append ""
+@    s1 avalue offset 0.000000 , 0.000000
+@    s1 errorbar on
+@    s1 errorbar place both
+@    s1 errorbar color 2
+@    s1 errorbar pattern 1
+@    s1 errorbar size 1.000000
+@    s1 errorbar linewidth 1.0
+@    s1 errorbar linestyle 1
+@    s1 errorbar riser linewidth 1.0
+@    s1 errorbar riser linestyle 1
+@    s1 errorbar riser clip off
+@    s1 errorbar riser clip length 0.100000
+@    s1 comment "data_Spiger-A1094004-lab_aa.dat_8-21-9gL-xs2.agr.ratio.agr"
+@    s1 legend  ""
+@    s2 hidden false
+@    s2 type xydy
+@    s2 symbol 2
+@    s2 symbol size 0.300000
+@    s2 symbol color 2
+@    s2 symbol pattern 1
+@    s2 symbol fill color 2
+@    s2 symbol fill pattern 1
+@    s2 symbol linewidth 1.0
+@    s2 symbol linestyle 1
+@    s2 symbol char 65
+@    s2 symbol char font 0
+@    s2 symbol skip 0
+@    s2 line type 1
+@    s2 line linestyle 4
+@    s2 line linewidth 1.0
+@    s2 line color 2
+@    s2 line pattern 1
+@    s2 baseline type 0
+@    s2 baseline off
+@    s2 dropline off
+@    s2 fill type 0
+@    s2 fill rule 0
+@    s2 fill color 1
+@    s2 fill pattern 1
+@    s2 avalue off
+@    s2 avalue type 2
+@    s2 avalue char size 1.000000
+@    s2 avalue font 0
+@    s2 avalue color 1
+@    s2 avalue rot 0
+@    s2 avalue format general
+@    s2 avalue prec 3
+@    s2 avalue prepend ""
+@    s2 avalue append ""
+@    s2 avalue offset 0.000000 , 0.000000
+@    s2 errorbar on
+@    s2 errorbar place both
+@    s2 errorbar color 2
+@    s2 errorbar pattern 1
+@    s2 errorbar size 0.100000
+@    s2 errorbar linewidth 1.0
+@    s2 errorbar linestyle 1
+@    s2 errorbar riser linewidth 1.0
+@    s2 errorbar riser linestyle 1
+@    s2 errorbar riser clip off
+@    s2 errorbar riser clip length 0.100000
+@    s2 comment "data_Spiger-A1094004-lab_aa.dat_8-21-9gL-xs2.agr.ratio.agr"
+@    s2 legend  ""
+@    s3 hidden false
+@    s3 type xy
+@    s3 symbol 0
+@    s3 symbol size 1.000000
+@    s3 symbol color 4
+@    s3 symbol pattern 1
+@    s3 symbol fill color 4
+@    s3 symbol fill pattern 0
+@    s3 symbol linewidth 1.0
+@    s3 symbol linestyle 1
+@    s3 symbol char 65
+@    s3 symbol char font 0
+@    s3 symbol skip 0
+@    s3 line type 1
+@    s3 line linestyle 1
+@    s3 line linewidth 1.0
+@    s3 line color 2
+@    s3 line pattern 1
+@    s3 baseline type 0
+@    s3 baseline off
+@    s3 dropline off
+@    s3 fill type 0
+@    s3 fill rule 0
+@    s3 fill color 1
+@    s3 fill pattern 1
+@    s3 avalue off
+@    s3 avalue type 2
+@    s3 avalue char size 1.000000
+@    s3 avalue font 0
+@    s3 avalue color 1
+@    s3 avalue rot 0
+@    s3 avalue format general
+@    s3 avalue prec 3
+@    s3 avalue prepend ""
+@    s3 avalue append ""
+@    s3 avalue offset 0.000000 , 0.000000
+@    s3 errorbar on
+@    s3 errorbar place both
+@    s3 errorbar color 4
+@    s3 errorbar pattern 1
+@    s3 errorbar size 1.000000
+@    s3 errorbar linewidth 1.0
+@    s3 errorbar linestyle 1
+@    s3 errorbar riser linewidth 1.0
+@    s3 errorbar riser linestyle 1
+@    s3 errorbar riser clip off
+@    s3 errorbar riser clip length 0.100000
+@    s3 comment "data_Spiger-A1094004-lab_aa.dat_8-21-9gL-xs2.agr.ratio.agr"
+@    s3 legend  ""
+@    s4 hidden false
+@    s4 type xydy
+@    s4 symbol 3
+@    s4 symbol size 0.300000
+@    s4 symbol color 3
+@    s4 symbol pattern 1
+@    s4 symbol fill color 3
+@    s4 symbol fill pattern 1
+@    s4 symbol linewidth 1.0
+@    s4 symbol linestyle 1
+@    s4 symbol char 65
+@    s4 symbol char font 0
+@    s4 symbol skip 0
+@    s4 line type 1
+@    s4 line linestyle 4
+@    s4 line linewidth 1.0
+@    s4 line color 3
+@    s4 line pattern 1
+@    s4 baseline type 0
+@    s4 baseline off
+@    s4 dropline off
+@    s4 fill type 0
+@    s4 fill rule 0
+@    s4 fill color 1
+@    s4 fill pattern 1
+@    s4 avalue off
+@    s4 avalue type 2
+@    s4 avalue char size 1.000000
+@    s4 avalue font 0
+@    s4 avalue color 1
+@    s4 avalue rot 0
+@    s4 avalue format general
+@    s4 avalue prec 3
+@    s4 avalue prepend ""
+@    s4 avalue append ""
+@    s4 avalue offset 0.000000 , 0.000000
+@    s4 errorbar on
+@    s4 errorbar place both
+@    s4 errorbar color 3
+@    s4 errorbar pattern 1
+@    s4 errorbar size 0.100000
+@    s4 errorbar linewidth 1.0
+@    s4 errorbar linestyle 1
+@    s4 errorbar riser linewidth 1.0
+@    s4 errorbar riser linestyle 1
+@    s4 errorbar riser clip off
+@    s4 errorbar riser clip length 0.100000
+@    s4 comment "data_Spiger-A1094004-lab_aa.dat_8-21-9gL-xs2.agr.ratio.agr"
+@    s4 legend  ""
+@    s5 hidden false
+@    s5 type xy
+@    s5 symbol 0
+@    s5 symbol size 1.000000
+@    s5 symbol color 6
+@    s5 symbol pattern 1
+@    s5 symbol fill color 6
+@    s5 symbol fill pattern 0
+@    s5 symbol linewidth 1.0
+@    s5 symbol linestyle 1
+@    s5 symbol char 65
+@    s5 symbol char font 0
+@    s5 symbol skip 0
+@    s5 line type 1
+@    s5 line linestyle 1
+@    s5 line linewidth 1.0
+@    s5 line color 3
+@    s5 line pattern 1
+@    s5 baseline type 0
+@    s5 baseline off
+@    s5 dropline off
+@    s5 fill type 0
+@    s5 fill rule 0
+@    s5 fill color 1
+@    s5 fill pattern 1
+@    s5 avalue off
+@    s5 avalue type 2
+@    s5 avalue char size 1.000000
+@    s5 avalue font 0
+@    s5 avalue color 1
+@    s5 avalue rot 0
+@    s5 avalue format general
+@    s5 avalue prec 3
+@    s5 avalue prepend ""
+@    s5 avalue append ""
+@    s5 avalue offset 0.000000 , 0.000000
+@    s5 errorbar on
+@    s5 errorbar place both
+@    s5 errorbar color 6
+@    s5 errorbar pattern 1
+@    s5 errorbar size 1.000000
+@    s5 errorbar linewidth 1.0
+@    s5 errorbar linestyle 1
+@    s5 errorbar riser linewidth 1.0
+@    s5 errorbar riser linestyle 1
+@    s5 errorbar riser clip off
+@    s5 errorbar riser clip length 0.100000
+@    s5 comment "data_Spiger-A1094004-lab_aa.dat_8-21-9gL-xs2.agr.ratio.agr"
+@    s5 legend  ""
+@    s6 hidden false
+@    s6 type xydy
+@    s6 symbol 4
+@    s6 symbol size 0.300000
+@    s6 symbol color 4
+@    s6 symbol pattern 1
+@    s6 symbol fill color 4
+@    s6 symbol fill pattern 1
+@    s6 symbol linewidth 1.0
+@    s6 symbol linestyle 1
+@    s6 symbol char 65
+@    s6 symbol char font 0
+@    s6 symbol skip 0
+@    s6 line type 1
+@    s6 line linestyle 4
+@    s6 line linewidth 1.0
+@    s6 line color 4
+@    s6 line pattern 1
+@    s6 baseline type 0
+@    s6 baseline off
+@    s6 dropline off
+@    s6 fill type 0
+@    s6 fill rule 0
+@    s6 fill color 1
+@    s6 fill pattern 1
+@    s6 avalue off
+@    s6 avalue type 2
+@    s6 avalue char size 1.000000
+@    s6 avalue font 0
+@    s6 avalue color 1
+@    s6 avalue rot 0
+@    s6 avalue format general
+@    s6 avalue prec 3
+@    s6 avalue prepend ""
+@    s6 avalue append ""
+@    s6 avalue offset 0.000000 , 0.000000
+@    s6 errorbar on
+@    s6 errorbar place both
+@    s6 errorbar color 4
+@    s6 errorbar pattern 1
+@    s6 errorbar size 0.100000
+@    s6 errorbar linewidth 1.0
+@    s6 errorbar linestyle 1
+@    s6 errorbar riser linewidth 1.0
+@    s6 errorbar riser linestyle 1
+@    s6 errorbar riser clip off
+@    s6 errorbar riser clip length 0.100000
+@    s6 comment "data_Spiger-A1094004-lab_aa.dat_8-21-9gL-xs2.agr.ratio.agr"
+@    s6 legend  ""
+@    s7 hidden false
+@    s7 type xy
+@    s7 symbol 0
+@    s7 symbol size 1.000000
+@    s7 symbol color 8
+@    s7 symbol pattern 1
+@    s7 symbol fill color 8
+@    s7 symbol fill pattern 0
+@    s7 symbol linewidth 1.0
+@    s7 symbol linestyle 1
+@    s7 symbol char 65
+@    s7 symbol char font 0
+@    s7 symbol skip 0
+@    s7 line type 1
+@    s7 line linestyle 1
+@    s7 line linewidth 1.0
+@    s7 line color 4
+@    s7 line pattern 1
+@    s7 baseline type 0
+@    s7 baseline off
+@    s7 dropline off
+@    s7 fill type 0
+@    s7 fill rule 0
+@    s7 fill color 1
+@    s7 fill pattern 1
+@    s7 avalue off
+@    s7 avalue type 2
+@    s7 avalue char size 1.000000
+@    s7 avalue font 0
+@    s7 avalue color 1
+@    s7 avalue rot 0
+@    s7 avalue format general
+@    s7 avalue prec 3
+@    s7 avalue prepend ""
+@    s7 avalue append ""
+@    s7 avalue offset 0.000000 , 0.000000
+@    s7 errorbar on
+@    s7 errorbar place both
+@    s7 errorbar color 8
+@    s7 errorbar pattern 1
+@    s7 errorbar size 1.000000
+@    s7 errorbar linewidth 1.0
+@    s7 errorbar linestyle 1
+@    s7 errorbar riser linewidth 1.0
+@    s7 errorbar riser linestyle 1
+@    s7 errorbar riser clip off
+@    s7 errorbar riser clip length 0.100000
+@    s7 comment "data_Spiger-A1094004-lab_aa.dat_8-21-9gL-xs2.agr.ratio.agr"
+@    s7 legend  ""
+@    s8 hidden false
+@    s8 type xydy
+@    s8 symbol 5
+@    s8 symbol size 0.300000
+@    s8 symbol color 5
+@    s8 symbol pattern 1
+@    s8 symbol fill color 5
+@    s8 symbol fill pattern 1
+@    s8 symbol linewidth 1.0
+@    s8 symbol linestyle 1
+@    s8 symbol char 65
+@    s8 symbol char font 0
+@    s8 symbol skip 0
+@    s8 line type 1
+@    s8 line linestyle 4
+@    s8 line linewidth 1.0
+@    s8 line color 5
+@    s8 line pattern 1
+@    s8 baseline type 0
+@    s8 baseline off
+@    s8 dropline off
+@    s8 fill type 0
+@    s8 fill rule 0
+@    s8 fill color 1
+@    s8 fill pattern 1
+@    s8 avalue off
+@    s8 avalue type 2
+@    s8 avalue char size 1.000000
+@    s8 avalue font 0
+@    s8 avalue color 1
+@    s8 avalue rot 0
+@    s8 avalue format general
+@    s8 avalue prec 3
+@    s8 avalue prepend ""
+@    s8 avalue append ""
+@    s8 avalue offset 0.000000 , 0.000000
+@    s8 errorbar on
+@    s8 errorbar place both
+@    s8 errorbar color 5
+@    s8 errorbar pattern 1
+@    s8 errorbar size 0.100000
+@    s8 errorbar linewidth 1.0
+@    s8 errorbar linestyle 1
+@    s8 errorbar riser linewidth 1.0
+@    s8 errorbar riser linestyle 1
+@    s8 errorbar riser clip off
+@    s8 errorbar riser clip length 0.100000
+@    s8 comment "data_Spiger-A1094004-lab_aa.dat_8-21-9gL-xs2.agr.ratio.agr"
+@    s8 legend  ""
+@    s9 hidden false
+@    s9 type xy
+@    s9 symbol 0
+@    s9 symbol size 1.000000
+@    s9 symbol color 10
+@    s9 symbol pattern 1
+@    s9 symbol fill color 10
+@    s9 symbol fill pattern 0
+@    s9 symbol linewidth 1.0
+@    s9 symbol linestyle 1
+@    s9 symbol char 65
+@    s9 symbol char font 0
+@    s9 symbol skip 0
+@    s9 line type 1
+@    s9 line linestyle 1
+@    s9 line linewidth 1.0
+@    s9 line color 5
+@    s9 line pattern 1
+@    s9 baseline type 0
+@    s9 baseline off
+@    s9 dropline off
+@    s9 fill type 0
+@    s9 fill rule 0
+@    s9 fill color 1
+@    s9 fill pattern 1
+@    s9 avalue off
+@    s9 avalue type 2
+@    s9 avalue char size 1.000000
+@    s9 avalue font 0
+@    s9 avalue color 1
+@    s9 avalue rot 0
+@    s9 avalue format general
+@    s9 avalue prec 3
+@    s9 avalue prepend ""
+@    s9 avalue append ""
+@    s9 avalue offset 0.000000 , 0.000000
+@    s9 errorbar on
+@    s9 errorbar place both
+@    s9 errorbar color 10
+@    s9 errorbar pattern 1
+@    s9 errorbar size 1.000000
+@    s9 errorbar linewidth 1.0
+@    s9 errorbar linestyle 1
+@    s9 errorbar riser linewidth 1.0
+@    s9 errorbar riser linestyle 1
+@    s9 errorbar riser clip off
+@    s9 errorbar riser clip length 0.100000
+@    s9 comment "data_Spiger-A1094004-lab_aa.dat_8-21-9gL-xs2.agr.ratio.agr"
+@    s9 legend  ""
+@    s10 hidden false
+@    s10 type xydy
+@    s10 symbol 6
+@    s10 symbol size 0.300000
+@    s10 symbol color 6
+@    s10 symbol pattern 1
+@    s10 symbol fill color 6
+@    s10 symbol fill pattern 1
+@    s10 symbol linewidth 1.0
+@    s10 symbol linestyle 1
+@    s10 symbol char 65
+@    s10 symbol char font 0
+@    s10 symbol skip 0
+@    s10 line type 1
+@    s10 line linestyle 4
+@    s10 line linewidth 1.0
+@    s10 line color 6
+@    s10 line pattern 1
+@    s10 baseline type 0
+@    s10 baseline off
+@    s10 dropline off
+@    s10 fill type 0
+@    s10 fill rule 0
+@    s10 fill color 1
+@    s10 fill pattern 1
+@    s10 avalue off
+@    s10 avalue type 2
+@    s10 avalue char size 1.000000
+@    s10 avalue font 0
+@    s10 avalue color 1
+@    s10 avalue rot 0
+@    s10 avalue format general
+@    s10 avalue prec 3
+@    s10 avalue prepend ""
+@    s10 avalue append ""
+@    s10 avalue offset 0.000000 , 0.000000
+@    s10 errorbar on
+@    s10 errorbar place both
+@    s10 errorbar color 6
+@    s10 errorbar pattern 1
+@    s10 errorbar size 0.100000
+@    s10 errorbar linewidth 1.0
+@    s10 errorbar linestyle 1
+@    s10 errorbar riser linewidth 1.0
+@    s10 errorbar riser linestyle 1
+@    s10 errorbar riser clip off
+@    s10 errorbar riser clip length 0.100000
+@    s10 comment "data_Spiger-A1094004-lab_aa.dat_8-21-9gL-xs2.agr.ratio.agr"
+@    s10 legend  ""
+@    s11 hidden false
+@    s11 type xy
+@    s11 symbol 0
+@    s11 symbol size 1.000000
+@    s11 symbol color 12
+@    s11 symbol pattern 1
+@    s11 symbol fill color 12
+@    s11 symbol fill pattern 0
+@    s11 symbol linewidth 1.0
+@    s11 symbol linestyle 1
+@    s11 symbol char 65
+@    s11 symbol char font 0
+@    s11 symbol skip 0
+@    s11 line type 1
+@    s11 line linestyle 1
+@    s11 line linewidth 1.0
+@    s11 line color 6
+@    s11 line pattern 1
+@    s11 baseline type 0
+@    s11 baseline off
+@    s11 dropline off
+@    s11 fill type 0
+@    s11 fill rule 0
+@    s11 fill color 1
+@    s11 fill pattern 1
+@    s11 avalue off
+@    s11 avalue type 2
+@    s11 avalue char size 1.000000
+@    s11 avalue font 0
+@    s11 avalue color 1
+@    s11 avalue rot 0
+@    s11 avalue format general
+@    s11 avalue prec 3
+@    s11 avalue prepend ""
+@    s11 avalue append ""
+@    s11 avalue offset 0.000000 , 0.000000
+@    s11 errorbar on
+@    s11 errorbar place both
+@    s11 errorbar color 12
+@    s11 errorbar pattern 1
+@    s11 errorbar size 1.000000
+@    s11 errorbar linewidth 1.0
+@    s11 errorbar linestyle 1
+@    s11 errorbar riser linewidth 1.0
+@    s11 errorbar riser linestyle 1
+@    s11 errorbar riser clip off
+@    s11 errorbar riser clip length 0.100000
+@    s11 comment "data_Spiger-A1094004-lab_aa.dat_8-21-9gL-xs2.agr.ratio.agr"
+@    s11 legend  ""
+@    s12 hidden false
+@    s12 type xydy
+@    s12 symbol 7
+@    s12 symbol size 0.300000
+@    s12 symbol color 7
+@    s12 symbol pattern 1
+@    s12 symbol fill color 7
+@    s12 symbol fill pattern 1
+@    s12 symbol linewidth 1.0
+@    s12 symbol linestyle 1
+@    s12 symbol char 65
+@    s12 symbol char font 0
+@    s12 symbol skip 0
+@    s12 line type 1
+@    s12 line linestyle 4
+@    s12 line linewidth 1.0
+@    s12 line color 7
+@    s12 line pattern 1
+@    s12 baseline type 0
+@    s12 baseline off
+@    s12 dropline off
+@    s12 fill type 0
+@    s12 fill rule 0
+@    s12 fill color 1
+@    s12 fill pattern 1
+@    s12 avalue off
+@    s12 avalue type 2
+@    s12 avalue char size 1.000000
+@    s12 avalue font 0
+@    s12 avalue color 1
+@    s12 avalue rot 0
+@    s12 avalue format general
+@    s12 avalue prec 3
+@    s12 avalue prepend ""
+@    s12 avalue append ""
+@    s12 avalue offset 0.000000 , 0.000000
+@    s12 errorbar on
+@    s12 errorbar place both
+@    s12 errorbar color 7
+@    s12 errorbar pattern 1
+@    s12 errorbar size 0.100000
+@    s12 errorbar linewidth 1.0
+@    s12 errorbar linestyle 1
+@    s12 errorbar riser linewidth 1.0
+@    s12 errorbar riser linestyle 1
+@    s12 errorbar riser clip off
+@    s12 errorbar riser clip length 0.100000
+@    s12 comment "data_Spiger-A1094004-lab_aa.dat_8-21-9gL-xs2.agr.ratio.agr"
+@    s12 legend  ""
+@    s13 hidden false
+@    s13 type xy
+@    s13 symbol 0
+@    s13 symbol size 1.000000
+@    s13 symbol color 14
+@    s13 symbol pattern 1
+@    s13 symbol fill color 14
+@    s13 symbol fill pattern 0
+@    s13 symbol linewidth 1.0
+@    s13 symbol linestyle 1
+@    s13 symbol char 65
+@    s13 symbol char font 0
+@    s13 symbol skip 0
+@    s13 line type 1
+@    s13 line linestyle 1
+@    s13 line linewidth 1.0
+@    s13 line color 7
+@    s13 line pattern 1
+@    s13 baseline type 0
+@    s13 baseline off
+@    s13 dropline off
+@    s13 fill type 0
+@    s13 fill rule 0
+@    s13 fill color 1
+@    s13 fill pattern 1
+@    s13 avalue off
+@    s13 avalue type 2
+@    s13 avalue char size 1.000000
+@    s13 avalue font 0
+@    s13 avalue color 1
+@    s13 avalue rot 0
+@    s13 avalue format general
+@    s13 avalue prec 3
+@    s13 avalue prepend ""
+@    s13 avalue append ""
+@    s13 avalue offset 0.000000 , 0.000000
+@    s13 errorbar on
+@    s13 errorbar place both
+@    s13 errorbar color 14
+@    s13 errorbar pattern 1
+@    s13 errorbar size 1.000000
+@    s13 errorbar linewidth 1.0
+@    s13 errorbar linestyle 1
+@    s13 errorbar riser linewidth 1.0
+@    s13 errorbar riser linestyle 1
+@    s13 errorbar riser clip off
+@    s13 errorbar riser clip length 0.100000
+@    s13 comment "data_Spiger-A1094004-lab_aa.dat_8-21-9gL-xs2.agr.ratio.agr"
+@    s13 legend  ""
+@    s14 hidden false
+@    s14 type xydy
+@    s14 symbol 8
+@    s14 symbol size 0.300000
+@    s14 symbol color 8
+@    s14 symbol pattern 1
+@    s14 symbol fill color 8
+@    s14 symbol fill pattern 1
+@    s14 symbol linewidth 1.0
+@    s14 symbol linestyle 1
+@    s14 symbol char 65
+@    s14 symbol char font 0
+@    s14 symbol skip 0
+@    s14 line type 1
+@    s14 line linestyle 4
+@    s14 line linewidth 1.0
+@    s14 line color 8
+@    s14 line pattern 1
+@    s14 baseline type 0
+@    s14 baseline off
+@    s14 dropline off
+@    s14 fill type 0
+@    s14 fill rule 0
+@    s14 fill color 1
+@    s14 fill pattern 1
+@    s14 avalue off
+@    s14 avalue type 2
+@    s14 avalue char size 1.000000
+@    s14 avalue font 0
+@    s14 avalue color 1
+@    s14 avalue rot 0
+@    s14 avalue format general
+@    s14 avalue prec 3
+@    s14 avalue prepend ""
+@    s14 avalue append ""
+@    s14 avalue offset 0.000000 , 0.000000
+@    s14 errorbar on
+@    s14 errorbar place both
+@    s14 errorbar color 8
+@    s14 errorbar pattern 1
+@    s14 errorbar size 0.100000
+@    s14 errorbar linewidth 1.0
+@    s14 errorbar linestyle 1
+@    s14 errorbar riser linewidth 1.0
+@    s14 errorbar riser linestyle 1
+@    s14 errorbar riser clip off
+@    s14 errorbar riser clip length 0.100000
+@    s14 comment "data_Spiger-A1094004-lab_aa.dat_8-21-9gL-xs2.agr.ratio.agr"
+@    s14 legend  ""
+@    s15 hidden false
+@    s15 type xy
+@    s15 symbol 0
+@    s15 symbol size 1.000000
+@    s15 symbol color 1
+@    s15 symbol pattern 1
+@    s15 symbol fill color 1
+@    s15 symbol fill pattern 0
+@    s15 symbol linewidth 1.0
+@    s15 symbol linestyle 1
+@    s15 symbol char 65
+@    s15 symbol char font 0
+@    s15 symbol skip 0
+@    s15 line type 1
+@    s15 line linestyle 1
+@    s15 line linewidth 1.0
+@    s15 line color 8
+@    s15 line pattern 1
+@    s15 baseline type 0
+@    s15 baseline off
+@    s15 dropline off
+@    s15 fill type 0
+@    s15 fill rule 0
+@    s15 fill color 1
+@    s15 fill pattern 1
+@    s15 avalue off
+@    s15 avalue type 2
+@    s15 avalue char size 1.000000
+@    s15 avalue font 0
+@    s15 avalue color 1
+@    s15 avalue rot 0
+@    s15 avalue format general
+@    s15 avalue prec 3
+@    s15 avalue prepend ""
+@    s15 avalue append ""
+@    s15 avalue offset 0.000000 , 0.000000
+@    s15 errorbar on
+@    s15 errorbar place both
+@    s15 errorbar color 1
+@    s15 errorbar pattern 1
+@    s15 errorbar size 1.000000
+@    s15 errorbar linewidth 1.0
+@    s15 errorbar linestyle 1
+@    s15 errorbar riser linewidth 1.0
+@    s15 errorbar riser linestyle 1
+@    s15 errorbar riser clip off
+@    s15 errorbar riser clip length 0.100000
+@    s15 comment "data_Spiger-A1094004-lab_aa.dat_8-21-9gL-xs2.agr.ratio.agr"
+@    s15 legend  ""
+@    s16 hidden false
+@    s16 type xydy
+@    s16 symbol 9
+@    s16 symbol size 0.300000
+@    s16 symbol color 9
+@    s16 symbol pattern 1
+@    s16 symbol fill color 9
+@    s16 symbol fill pattern 1
+@    s16 symbol linewidth 1.0
+@    s16 symbol linestyle 1
+@    s16 symbol char 65
+@    s16 symbol char font 0
+@    s16 symbol skip 0
+@    s16 line type 1
+@    s16 line linestyle 4
+@    s16 line linewidth 1.0
+@    s16 line color 9
+@    s16 line pattern 1
+@    s16 baseline type 0
+@    s16 baseline off
+@    s16 dropline off
+@    s16 fill type 0
+@    s16 fill rule 0
+@    s16 fill color 1
+@    s16 fill pattern 1
+@    s16 avalue off
+@    s16 avalue type 2
+@    s16 avalue char size 1.000000
+@    s16 avalue font 0
+@    s16 avalue color 1
+@    s16 avalue rot 0
+@    s16 avalue format general
+@    s16 avalue prec 3
+@    s16 avalue prepend ""
+@    s16 avalue append ""
+@    s16 avalue offset 0.000000 , 0.000000
+@    s16 errorbar on
+@    s16 errorbar place both
+@    s16 errorbar color 9
+@    s16 errorbar pattern 1
+@    s16 errorbar size 0.100000
+@    s16 errorbar linewidth 1.0
+@    s16 errorbar linestyle 1
+@    s16 errorbar riser linewidth 1.0
+@    s16 errorbar riser linestyle 1
+@    s16 errorbar riser clip off
+@    s16 errorbar riser clip length 0.100000
+@    s16 comment "data_Spiger-A1094004-lab_aa.dat_8-21-9gL-xs2.agr.ratio.agr"
+@    s16 legend  ""
+@    s17 hidden false
+@    s17 type xy
+@    s17 symbol 0
+@    s17 symbol size 1.000000
+@    s17 symbol color 3
+@    s17 symbol pattern 1
+@    s17 symbol fill color 3
+@    s17 symbol fill pattern 0
+@    s17 symbol linewidth 1.0
+@    s17 symbol linestyle 1
+@    s17 symbol char 65
+@    s17 symbol char font 0
+@    s17 symbol skip 0
+@    s17 line type 1
+@    s17 line linestyle 1
+@    s17 line linewidth 1.0
+@    s17 line color 9
+@    s17 line pattern 1
+@    s17 baseline type 0
+@    s17 baseline off
+@    s17 dropline off
+@    s17 fill type 0
+@    s17 fill rule 0
+@    s17 fill color 1
+@    s17 fill pattern 1
+@    s17 avalue off
+@    s17 avalue type 2
+@    s17 avalue char size 1.000000
+@    s17 avalue font 0
+@    s17 avalue color 1
+@    s17 avalue rot 0
+@    s17 avalue format general
+@    s17 avalue prec 3
+@    s17 avalue prepend ""
+@    s17 avalue append ""
+@    s17 avalue offset 0.000000 , 0.000000
+@    s17 errorbar on
+@    s17 errorbar place both
+@    s17 errorbar color 3
+@    s17 errorbar pattern 1
+@    s17 errorbar size 1.000000
+@    s17 errorbar linewidth 1.0
+@    s17 errorbar linestyle 1
+@    s17 errorbar riser linewidth 1.0
+@    s17 errorbar riser linestyle 1
+@    s17 errorbar riser clip off
+@    s17 errorbar riser clip length 0.100000
+@    s17 comment "data_Spiger-A1094004-lab_aa.dat_8-21-9gL-xs2.agr.ratio.agr"
+@    s17 legend  ""
+@    s18 hidden false
+@    s18 type xydy
+@    s18 symbol 1
+@    s18 symbol size 0.300000
+@    s18 symbol color 10
+@    s18 symbol pattern 1
+@    s18 symbol fill color 10
+@    s18 symbol fill pattern 1
+@    s18 symbol linewidth 1.0
+@    s18 symbol linestyle 1
+@    s18 symbol char 65
+@    s18 symbol char font 0
+@    s18 symbol skip 0
+@    s18 line type 1
+@    s18 line linestyle 4
+@    s18 line linewidth 1.0
+@    s18 line color 10
+@    s18 line pattern 1
+@    s18 baseline type 0
+@    s18 baseline off
+@    s18 dropline off
+@    s18 fill type 0
+@    s18 fill rule 0
+@    s18 fill color 1
+@    s18 fill pattern 1
+@    s18 avalue off
+@    s18 avalue type 2
+@    s18 avalue char size 1.000000
+@    s18 avalue font 0
+@    s18 avalue color 1
+@    s18 avalue rot 0
+@    s18 avalue format general
+@    s18 avalue prec 3
+@    s18 avalue prepend ""
+@    s18 avalue append ""
+@    s18 avalue offset 0.000000 , 0.000000
+@    s18 errorbar on
+@    s18 errorbar place both
+@    s18 errorbar color 10
+@    s18 errorbar pattern 1
+@    s18 errorbar size 0.100000
+@    s18 errorbar linewidth 1.0
+@    s18 errorbar linestyle 1
+@    s18 errorbar riser linewidth 1.0
+@    s18 errorbar riser linestyle 1
+@    s18 errorbar riser clip off
+@    s18 errorbar riser clip length 0.100000
+@    s18 comment "data_Spiger-A1094004-lab_aa.dat_8-21-9gL-xs2.agr.ratio.agr"
+@    s18 legend  ""
+@    s19 hidden false
+@    s19 type xy
+@    s19 symbol 0
+@    s19 symbol size 1.000000
+@    s19 symbol color 5
+@    s19 symbol pattern 1
+@    s19 symbol fill color 5
+@    s19 symbol fill pattern 0
+@    s19 symbol linewidth 1.0
+@    s19 symbol linestyle 1
+@    s19 symbol char 65
+@    s19 symbol char font 0
+@    s19 symbol skip 0
+@    s19 line type 1
+@    s19 line linestyle 1
+@    s19 line linewidth 1.0
+@    s19 line color 10
+@    s19 line pattern 1
+@    s19 baseline type 0
+@    s19 baseline off
+@    s19 dropline off
+@    s19 fill type 0
+@    s19 fill rule 0
+@    s19 fill color 1
+@    s19 fill pattern 1
+@    s19 avalue off
+@    s19 avalue type 2
+@    s19 avalue char size 1.000000
+@    s19 avalue font 0
+@    s19 avalue color 1
+@    s19 avalue rot 0
+@    s19 avalue format general
+@    s19 avalue prec 3
+@    s19 avalue prepend ""
+@    s19 avalue append ""
+@    s19 avalue offset 0.000000 , 0.000000
+@    s19 errorbar on
+@    s19 errorbar place both
+@    s19 errorbar color 5
+@    s19 errorbar pattern 1
+@    s19 errorbar size 1.000000
+@    s19 errorbar linewidth 1.0
+@    s19 errorbar linestyle 1
+@    s19 errorbar riser linewidth 1.0
+@    s19 errorbar riser linestyle 1
+@    s19 errorbar riser clip off
+@    s19 errorbar riser clip length 0.100000
+@    s19 comment "data_Spiger-A1094004-lab_aa.dat_8-21-9gL-xs2.agr.ratio.agr"
+@    s19 legend  ""
+@    s20 hidden false
+@    s20 type xydy
+@    s20 symbol 2
+@    s20 symbol size 0.300000
+@    s20 symbol color 11
+@    s20 symbol pattern 1
+@    s20 symbol fill color 11
+@    s20 symbol fill pattern 1
+@    s20 symbol linewidth 1.0
+@    s20 symbol linestyle 1
+@    s20 symbol char 65
+@    s20 symbol char font 0
+@    s20 symbol skip 0
+@    s20 line type 1
+@    s20 line linestyle 4
+@    s20 line linewidth 1.0
+@    s20 line color 11
+@    s20 line pattern 1
+@    s20 baseline type 0
+@    s20 baseline off
+@    s20 dropline off
+@    s20 fill type 0
+@    s20 fill rule 0
+@    s20 fill color 1
+@    s20 fill pattern 1
+@    s20 avalue off
+@    s20 avalue type 2
+@    s20 avalue char size 1.000000
+@    s20 avalue font 0
+@    s20 avalue color 1
+@    s20 avalue rot 0
+@    s20 avalue format general
+@    s20 avalue prec 3
+@    s20 avalue prepend ""
+@    s20 avalue append ""
+@    s20 avalue offset 0.000000 , 0.000000
+@    s20 errorbar on
+@    s20 errorbar place both
+@    s20 errorbar color 11
+@    s20 errorbar pattern 1
+@    s20 errorbar size 0.100000
+@    s20 errorbar linewidth 1.0
+@    s20 errorbar linestyle 1
+@    s20 errorbar riser linewidth 1.0
+@    s20 errorbar riser linestyle 1
+@    s20 errorbar riser clip off
+@    s20 errorbar riser clip length 0.100000
+@    s20 comment "data_Spiger-A1094004-lab_aa.dat_8-21-9gL-xs2.agr.ratio.agr"
+@    s20 legend  ""
+@    s21 hidden false
+@    s21 type xy
+@    s21 symbol 0
+@    s21 symbol size 1.000000
+@    s21 symbol color 7
+@    s21 symbol pattern 1
+@    s21 symbol fill color 7
+@    s21 symbol fill pattern 0
+@    s21 symbol linewidth 1.0
+@    s21 symbol linestyle 1
+@    s21 symbol char 65
+@    s21 symbol char font 0
+@    s21 symbol skip 0
+@    s21 line type 1
+@    s21 line linestyle 1
+@    s21 line linewidth 1.0
+@    s21 line color 11
+@    s21 line pattern 1
+@    s21 baseline type 0
+@    s21 baseline off
+@    s21 dropline off
+@    s21 fill type 0
+@    s21 fill rule 0
+@    s21 fill color 1
+@    s21 fill pattern 1
+@    s21 avalue off
+@    s21 avalue type 2
+@    s21 avalue char size 1.000000
+@    s21 avalue font 0
+@    s21 avalue color 1
+@    s21 avalue rot 0
+@    s21 avalue format general
+@    s21 avalue prec 3
+@    s21 avalue prepend ""
+@    s21 avalue append ""
+@    s21 avalue offset 0.000000 , 0.000000
+@    s21 errorbar on
+@    s21 errorbar place both
+@    s21 errorbar color 7
+@    s21 errorbar pattern 1
+@    s21 errorbar size 1.000000
+@    s21 errorbar linewidth 1.0
+@    s21 errorbar linestyle 1
+@    s21 errorbar riser linewidth 1.0
+@    s21 errorbar riser linestyle 1
+@    s21 errorbar riser clip off
+@    s21 errorbar riser clip length 0.100000
+@    s21 comment "data_Spiger-A1094004-lab_aa.dat_8-21-9gL-xs2.agr.ratio.agr"
+@    s21 legend  ""
+@    s22 hidden false
+@    s22 type xydy
+@    s22 symbol 3
+@    s22 symbol size 0.300000
+@    s22 symbol color 12
+@    s22 symbol pattern 1
+@    s22 symbol fill color 12
+@    s22 symbol fill pattern 1
+@    s22 symbol linewidth 1.0
+@    s22 symbol linestyle 1
+@    s22 symbol char 65
+@    s22 symbol char font 0
+@    s22 symbol skip 0
+@    s22 line type 1
+@    s22 line linestyle 4
+@    s22 line linewidth 1.0
+@    s22 line color 12
+@    s22 line pattern 1
+@    s22 baseline type 0
+@    s22 baseline off
+@    s22 dropline off
+@    s22 fill type 0
+@    s22 fill rule 0
+@    s22 fill color 1
+@    s22 fill pattern 1
+@    s22 avalue off
+@    s22 avalue type 2
+@    s22 avalue char size 1.000000
+@    s22 avalue font 0
+@    s22 avalue color 1
+@    s22 avalue rot 0
+@    s22 avalue format general
+@    s22 avalue prec 3
+@    s22 avalue prepend ""
+@    s22 avalue append ""
+@    s22 avalue offset 0.000000 , 0.000000
+@    s22 errorbar on
+@    s22 errorbar place both
+@    s22 errorbar color 12
+@    s22 errorbar pattern 1
+@    s22 errorbar size 0.100000
+@    s22 errorbar linewidth 1.0
+@    s22 errorbar linestyle 1
+@    s22 errorbar riser linewidth 1.0
+@    s22 errorbar riser linestyle 1
+@    s22 errorbar riser clip off
+@    s22 errorbar riser clip length 0.100000
+@    s22 comment "data_Spiger-A1094004-lab_aa.dat_8-21-9gL-xs2.agr.ratio.agr"
+@    s22 legend  ""
+@    s23 hidden false
+@    s23 type xy
+@    s23 symbol 0
+@    s23 symbol size 1.000000
+@    s23 symbol color 9
+@    s23 symbol pattern 1
+@    s23 symbol fill color 9
+@    s23 symbol fill pattern 0
+@    s23 symbol linewidth 1.0
+@    s23 symbol linestyle 1
+@    s23 symbol char 65
+@    s23 symbol char font 0
+@    s23 symbol skip 0
+@    s23 line type 1
+@    s23 line linestyle 1
+@    s23 line linewidth 1.0
+@    s23 line color 12
+@    s23 line pattern 1
+@    s23 baseline type 0
+@    s23 baseline off
+@    s23 dropline off
+@    s23 fill type 0
+@    s23 fill rule 0
+@    s23 fill color 1
+@    s23 fill pattern 1
+@    s23 avalue off
+@    s23 avalue type 2
+@    s23 avalue char size 1.000000
+@    s23 avalue font 0
+@    s23 avalue color 1
+@    s23 avalue rot 0
+@    s23 avalue format general
+@    s23 avalue prec 3
+@    s23 avalue prepend ""
+@    s23 avalue append ""
+@    s23 avalue offset 0.000000 , 0.000000
+@    s23 errorbar on
+@    s23 errorbar place both
+@    s23 errorbar color 9
+@    s23 errorbar pattern 1
+@    s23 errorbar size 1.000000
+@    s23 errorbar linewidth 1.0
+@    s23 errorbar linestyle 1
+@    s23 errorbar riser linewidth 1.0
+@    s23 errorbar riser linestyle 1
+@    s23 errorbar riser clip off
+@    s23 errorbar riser clip length 0.100000
+@    s23 comment "data_Spiger-A1094004-lab_aa.dat_8-21-9gL-xs2.agr.ratio.agr"
+@    s23 legend  ""
+@    s24 hidden false
+@    s24 type xydy
+@    s24 symbol 4
+@    s24 symbol size 0.300000
+@    s24 symbol color 13
+@    s24 symbol pattern 1
+@    s24 symbol fill color 13
+@    s24 symbol fill pattern 1
+@    s24 symbol linewidth 1.0
+@    s24 symbol linestyle 1
+@    s24 symbol char 65
+@    s24 symbol char font 0
+@    s24 symbol skip 0
+@    s24 line type 1
+@    s24 line linestyle 4
+@    s24 line linewidth 1.0
+@    s24 line color 13
+@    s24 line pattern 1
+@    s24 baseline type 0
+@    s24 baseline off
+@    s24 dropline off
+@    s24 fill type 0
+@    s24 fill rule 0
+@    s24 fill color 1
+@    s24 fill pattern 1
+@    s24 avalue off
+@    s24 avalue type 2
+@    s24 avalue char size 1.000000
+@    s24 avalue font 0
+@    s24 avalue color 1
+@    s24 avalue rot 0
+@    s24 avalue format general
+@    s24 avalue prec 3
+@    s24 avalue prepend ""
+@    s24 avalue append ""
+@    s24 avalue offset 0.000000 , 0.000000
+@    s24 errorbar on
+@    s24 errorbar place both
+@    s24 errorbar color 13
+@    s24 errorbar pattern 1
+@    s24 errorbar size 0.100000
+@    s24 errorbar linewidth 1.0
+@    s24 errorbar linestyle 1
+@    s24 errorbar riser linewidth 1.0
+@    s24 errorbar riser linestyle 1
+@    s24 errorbar riser clip off
+@    s24 errorbar riser clip length 0.100000
+@    s24 comment "data_Spiger-A1094004-lab_aa.dat_8-21-9gL-xs2.agr.ratio.agr"
+@    s24 legend  ""
+@    s25 hidden false
+@    s25 type xy
+@    s25 symbol 0
+@    s25 symbol size 1.000000
+@    s25 symbol color 11
+@    s25 symbol pattern 1
+@    s25 symbol fill color 11
+@    s25 symbol fill pattern 0
+@    s25 symbol linewidth 1.0
+@    s25 symbol linestyle 1
+@    s25 symbol char 65
+@    s25 symbol char font 0
+@    s25 symbol skip 0
+@    s25 line type 1
+@    s25 line linestyle 1
+@    s25 line linewidth 1.0
+@    s25 line color 13
+@    s25 line pattern 1
+@    s25 baseline type 0
+@    s25 baseline off
+@    s25 dropline off
+@    s25 fill type 0
+@    s25 fill rule 0
+@    s25 fill color 1
+@    s25 fill pattern 1
+@    s25 avalue off
+@    s25 avalue type 2
+@    s25 avalue char size 1.000000
+@    s25 avalue font 0
+@    s25 avalue color 1
+@    s25 avalue rot 0
+@    s25 avalue format general
+@    s25 avalue prec 3
+@    s25 avalue prepend ""
+@    s25 avalue append ""
+@    s25 avalue offset 0.000000 , 0.000000
+@    s25 errorbar on
+@    s25 errorbar place both
+@    s25 errorbar color 11
+@    s25 errorbar pattern 1
+@    s25 errorbar size 1.000000
+@    s25 errorbar linewidth 1.0
+@    s25 errorbar linestyle 1
+@    s25 errorbar riser linewidth 1.0
+@    s25 errorbar riser linestyle 1
+@    s25 errorbar riser clip off
+@    s25 errorbar riser clip length 0.100000
+@    s25 comment "data_Spiger-A1094004-lab_aa.dat_8-21-9gL-xs2.agr.ratio.agr"
+@    s25 legend  ""
+@    s26 hidden false
+@    s26 type xydy
+@    s26 symbol 5
+@    s26 symbol size 0.300000
+@    s26 symbol color 14
+@    s26 symbol pattern 1
+@    s26 symbol fill color 14
+@    s26 symbol fill pattern 1
+@    s26 symbol linewidth 1.0
+@    s26 symbol linestyle 1
+@    s26 symbol char 65
+@    s26 symbol char font 0
+@    s26 symbol skip 0
+@    s26 line type 1
+@    s26 line linestyle 4
+@    s26 line linewidth 1.0
+@    s26 line color 14
+@    s26 line pattern 1
+@    s26 baseline type 0
+@    s26 baseline off
+@    s26 dropline off
+@    s26 fill type 0
+@    s26 fill rule 0
+@    s26 fill color 1
+@    s26 fill pattern 1
+@    s26 avalue off
+@    s26 avalue type 2
+@    s26 avalue char size 1.000000
+@    s26 avalue font 0
+@    s26 avalue color 1
+@    s26 avalue rot 0
+@    s26 avalue format general
+@    s26 avalue prec 3
+@    s26 avalue prepend ""
+@    s26 avalue append ""
+@    s26 avalue offset 0.000000 , 0.000000
+@    s26 errorbar on
+@    s26 errorbar place both
+@    s26 errorbar color 14
+@    s26 errorbar pattern 1
+@    s26 errorbar size 0.100000
+@    s26 errorbar linewidth 1.0
+@    s26 errorbar linestyle 1
+@    s26 errorbar riser linewidth 1.0
+@    s26 errorbar riser linestyle 1
+@    s26 errorbar riser clip off
+@    s26 errorbar riser clip length 0.100000
+@    s26 comment "data_Spiger-A1094004-lab_aa.dat_8-21-9gL-xs2.agr.ratio.agr"
+@    s26 legend  ""
+@    s27 hidden false
+@    s27 type xy
+@    s27 symbol 0
+@    s27 symbol size 1.000000
+@    s27 symbol color 13
+@    s27 symbol pattern 1
+@    s27 symbol fill color 13
+@    s27 symbol fill pattern 0
+@    s27 symbol linewidth 1.0
+@    s27 symbol linestyle 1
+@    s27 symbol char 65
+@    s27 symbol char font 0
+@    s27 symbol skip 0
+@    s27 line type 1
+@    s27 line linestyle 1
+@    s27 line linewidth 1.0
+@    s27 line color 14
+@    s27 line pattern 1
+@    s27 baseline type 0
+@    s27 baseline off
+@    s27 dropline off
+@    s27 fill type 0
+@    s27 fill rule 0
+@    s27 fill color 1
+@    s27 fill pattern 1
+@    s27 avalue off
+@    s27 avalue type 2
+@    s27 avalue char size 1.000000
+@    s27 avalue font 0
+@    s27 avalue color 1
+@    s27 avalue rot 0
+@    s27 avalue format general
+@    s27 avalue prec 3
+@    s27 avalue prepend ""
+@    s27 avalue append ""
+@    s27 avalue offset 0.000000 , 0.000000
+@    s27 errorbar on
+@    s27 errorbar place both
+@    s27 errorbar color 13
+@    s27 errorbar pattern 1
+@    s27 errorbar size 1.000000
+@    s27 errorbar linewidth 1.0
+@    s27 errorbar linestyle 1
+@    s27 errorbar riser linewidth 1.0
+@    s27 errorbar riser linestyle 1
+@    s27 errorbar riser clip off
+@    s27 errorbar riser clip length 0.100000
+@    s27 comment "data_Spiger-A1094004-lab_aa.dat_8-21-9gL-xs2.agr.ratio.agr"
+@    s27 legend  ""
+@target G0.S0
+@type xydy
+6.14547 1.014693 0.03044955
+6.28017 1.0310325 0.030939877
+6.41477 1.044599 0.031326105
+6.54817 1.0276698 0.030820679
+6.61477 1.0265411 0.030814496
+6.68277 1.0264037 0.030802847
+6.74947 1.0333512 0.031007428
+6.81617 1.0160451 0.030469789
+6.88417 1.013658 0.030407357
+6.95077 1.0329202 0.030989284
+7.01747 1.0532854 0.031593677
+7.08547 1.0516758 0.031554702
+7.15217 1.0477482 0.031420045
+7.21877 1.0581367 0.031731621
+7.55477 1.0306541 0.03093789
+7.88947 1.0284322 0.030835168
+8.22547 1.0360645 0.031077565
+8.56007 1.0253518 0.030782014
+8.89477 1.0236068 0.030713812
+9.23077 1.0146458 0.030427987
+9.56537 0.98238758 0.029462248
+9.90007 0.97386132 0.029216883
+10.23607 0.96423924 0.028915205
+10.57067 0.97902134 0.029355655
+10.90537 0.99548857 0.02986517
+11.24007 0.95934625 0.028781415
+11.57467 0.97515266 0.029242472
+11.90937 0.96894856 0.029048014
+12.24397 0.96985637 0.029101602
+12.57867 0.97517549 0.029234205
+12.91327 0.98510204 0.029568707
+13.24797 0.98252621 0.029456529
+13.58127 1.0032195 0.030113058
+13.91597 0.99243916 0.029758211
+14.25057 1.0046377 0.030171429
+14.58527 1.030709 0.030909091
+14.91857 1.0298439 0.030863375
+&
+@target G0.S1
+@type xy
+6.14547 1
+14.91857 1
+&
+@target G0.S2
+@type xydy
+6.14075 1.2250727 0.030767926
+6.27545 1.2316015 0.030938875
+6.41005 1.2290526 0.030872193
+6.54345 1.2237947 0.030728204
+6.61005 1.2171161 0.030540011
+6.67805 1.2385657 0.031184058
+6.74475 1.190464 0.029686388
+6.81145 1.2256392 0.030738669
+6.87945 1.2293705 0.03087204
+6.94605 1.2132927 0.030366473
+7.01275 1.1944345 0.02987454
+7.08075 1.1944736 0.0298025
+7.14745 1.2196163 0.030626512
+7.21405 1.2104054 0.030286356
+7.55005 1.2342032 0.03100139
+7.88475 1.227436 0.030830722
+8.22075 1.2324067 0.03097988
+8.55535 1.2199271 0.030622625
+8.89005 1.2087045 0.030231336
+9.22605 1.1980948 0.029930142
+9.56065 1.192036 0.029723272
+9.89535 1.1767633 0.029331636
+10.23135 1.1857313 0.029540513
+10.56595 1.174151 0.029237009
+10.90065 1.194289 0.029785837
+11.23535 1.1746656 0.029228082
+11.56995 1.1841044 0.029517705
+11.90465 1.172448 0.02912513
+12.23925 1.1718133 0.029151007
+12.57395 1.1750678 0.02927969
+12.90855 1.191226 0.029772718
+13.24325 1.1998421 0.030043935
+13.57655 1.2527777 0.031539496
+13.91125 1.2253232 0.030745167
+14.24585 1.2092191 0.030286332
+14.58055 1.2057381 0.030190512
+14.91385 1.1923129 0.029733248
+&
+@target G0.S3
+@type xy
+6.14075 1.2
+14.91385 1.2
+&
+@target G0.S4
+@type xydy
+6.12254 1.4216052 0.030657977
+6.25724 1.4304752 0.030879091
+6.39184 1.4419069 0.031251716
+6.52524 1.4233041 0.030740636
+6.59184 1.2562999 0.025686465
+6.65984 1.4303881 0.030870342
+6.72654 1.4114576 0.030361515
+6.79324 1.4401524 0.03123977
+6.86124 1.433143 0.031033936
+6.92784 1.4760157 0.032349974
+6.99454 1.5007276 0.03292401
+7.06254 1.4504248 0.031455193
+7.12924 1.4027952 0.030026728
+7.19584 1.4309813 0.030989769
+7.53184 1.4291267 0.030910712
+7.86654 1.3941135 0.029819616
+8.20254 1.4342491 0.030986855
+8.53714 1.3893502 0.029627668
+8.87184 1.4188129 0.030534506
+9.20784 1.4052827 0.030177602
+9.54244 1.3826913 0.029428597
+9.87714 1.3973266 0.029869569
+10.21314 1.4007883 0.030013387
+10.54774 1.4090632 0.030288857
+10.88244 1.4122785 0.030384559
+11.21714 1.3809705 0.029476102
+11.55174 1.3983725 0.029832786
+11.88644 1.3533011 0.028514318
+12.22104 1.3980606 0.02991936
+12.55574 1.4223661 0.030691629
+12.89034 1.4327515 0.030888042
+13.22504 1.4426921 0.031147868
+13.55834 1.3908454 0.029757785
+13.89304 1.3832114 0.029391707
+14.22764 1.393366 0.029890352
+14.56234 1.4024482 0.030064235
+14.89564 1.3712432 0.029042227
+&
+@target G0.S5
+@type xy
+6.12254 1.4
+14.89564 1.4
+&
+@target G0.S6
+@type xydy
+6.11271 1.6324502 0.030990482
+6.24741 1.6298313 0.030951068
+6.38201 1.6271164 0.03078362
+6.51541 1.6051566 0.030218012
+6.58201 1.6145657 0.030371593
+6.65001 1.6071712 0.030168086
+6.71671 1.5636356 0.028881476
+6.78341 1.5272265 0.02791556
+6.91801 1.8841526 0.037220659
+6.98471 2.3754675 0.052899107
+7.05271 1.7017693 0.033007105
+7.11941 1.6308239 0.030749353
+7.18601 1.5928309 0.029861533
+7.52201 1.5677401 0.028943096
+7.85671 1.6190274 0.03059803
+8.19271 1.6203725 0.030583951
+8.52731 1.6109977 0.030399399
+8.86201 1.6196164 0.030505747
+9.19801 1.5834999 0.02942558
+9.53261 1.6390511 0.031247324
+9.86731 1.613284 0.030505177
+10.20331 1.6204547 0.030664779
+10.53791 1.6517776 0.031552945
+10.87261 1.6279602 0.030850433
+11.20731 1.5781026 0.029756009
+11.54191 1.5265777 0.028394361
+11.87661 1.5461392 0.028950694
+12.21121 1.5852901 0.029934121
+12.54591 1.5725285 0.028994837
+12.88051 1.5867097 0.029576002
+13.21521 1.5672913 0.029061085
+13.54851 1.5916051 0.029834725
+13.88321 1.5503974 0.028386916
+14.21781 1.5721797 0.029019754
+14.55251 1.5669966 0.029017018
+14.88581 1.509232 0.027126944
+&
+@target G0.S7
+@type xy
+6.11271 1.6
+14.88581 1.6
+&
+@target G0.S8
+@type xydy
+6.12106 1.8321551 0.031029082
+6.25576 1.8470741 0.031369207
+6.39036 1.8055702 0.030074619
+6.52376 1.8226218 0.030787167
+6.59036 1.7965084 0.02987815
+6.65836 1.7887196 0.029656093
+6.72506 1.8137895 0.030351089
+6.79176 1.8068799 0.030177517
+6.85976 1.8310939 0.030788905
+6.92636 1.8769843 0.032768387
+6.99306 1.9134778 0.033129828
+7.06106 1.7856268 0.029638826
+7.12776 1.7841702 0.029528951
+7.19436 1.777349 0.029346237
+7.53036 1.8052474 0.03004766
+7.86506 1.8180507 0.030547177
+8.20106 1.7855298 0.029626884
+8.53566 1.8167045 0.030564054
+8.87036 1.8243185 0.030738848
+9.20636 1.7987905 0.030090709
+9.54096 1.7907649 0.029656382
+9.87566 1.8344119 0.030907036
+10.21166 1.8607143 0.03187395
+10.54626 1.8319167 0.030974478
+10.88096 1.8399625 0.031092365
+11.21566 1.8426202 0.031903357
+11.55026 1.7016098 0.02709375
+11.88496 1.8100103 0.030184368
+12.21956 1.779978 0.02920419
+12.55426 1.7646557 0.028965246
+12.88886 1.7478317 0.02817499
+13.22356 1.7737013 0.029158985
+13.55686 1.783388 0.029611061
+13.89156 1.8041886 0.029942291
+14.22616 1.7912159 0.029543853
+14.56086 1.7928976 0.02970719
+14.89416 1.7637144 0.028724151
+&
+@target G0.S9
+@type xy
+6.12106 1.8
+14.89416 1.8
+&
+@target G0.S10
+@type xydy
+6.12052 2.0340395 0.031130385
+6.25522 2.0164231 0.030599065
+6.38982 2.0087555 0.030279629
+6.52322 2.0272756 0.030705525
+6.58982 2.0248093 0.030624212
+6.65782 2.0452563 0.031220908
+6.72452 2.0434702 0.031148669
+6.79122 2.004533 0.030279534
+6.85922 2.0478762 0.031309185
+6.92582 2.0091951 0.030120244
+6.99252 2.0052053 0.030038389
+7.06052 2.0029309 0.030152762
+7.12722 2.0067108 0.03018745
+7.19382 1.9992488 0.029926825
+7.52982 2.012494 0.030403935
+7.86452 2.0142065 0.030452904
+8.20052 1.9881334 0.029618071
+8.53512 1.9502748 0.028429447
+8.86982 1.979845 0.029442246
+9.20582 1.9995436 0.030076183
+9.54042 2.0220139 0.030699794
+9.87512 2.0108955 0.030134857
+10.21112 1.9805884 0.029244949
+10.54572 2.016508 0.03071033
+10.88042 2.0565478 0.031766269
+11.21512 2.0065206 0.030073945
+11.54972 2.0023949 0.029761841
+11.88442 1.973631 0.029186239
+12.21902 2.0109792 0.030392673
+12.55372 1.9720563 0.02893398
+12.88832 1.9609712 0.028889303
+13.22302 2.0054274 0.030301639
+13.55632 2.0091818 0.030420535
+13.89102 1.9779202 0.02954789
+14.22562 1.9808668 0.029636921
+14.56032 1.9979563 0.03015328
+14.89362 2.0118759 0.030144622
+&
+@target G0.S11
+@type xy
+6.12052 2
+14.89362 2
+&
+@target G0.S12
+@type xydy
+6.16452 2.1718918 0.029178351
+6.29922 2.1799365 0.029328488
+6.43382 2.1571876 0.028617047
+6.56722 2.192237 0.029623515
+6.63382 2.185616 0.029709732
+6.70182 2.2215947 0.030505733
+6.76852 2.1853308 0.029705532
+6.83522 2.2076828 0.030140686
+6.90322 2.1908585 0.029648607
+6.96982 2.1872065 0.029511951
+7.03652 2.2090472 0.030323553
+7.10452 2.2512149 0.031496512
+7.17122 2.2118409 0.030397098
+7.23782 2.1945648 0.029751023
+7.57382 2.2015815 0.03011861
+7.90852 2.2181466 0.030468518
+8.24452 2.2021975 0.030006423
+8.57912 2.2181453 0.030613417
+8.91382 2.1994127 0.029837745
+9.24982 2.2000383 0.030087027
+9.58442 2.1942087 0.029683089
+9.91912 2.2158513 0.030419416
+10.25512 2.1686246 0.028882019
+10.58972 2.2110189 0.030468426
+10.92442 2.2808854 0.032372776
+11.25912 2.2581426 0.031667101
+11.59372 2.251548 0.031346652
+11.92842 2.2148661 0.030253165
+12.26302 2.2237946 0.030600645
+12.59772 2.1731735 0.029377979
+12.93232 2.1879898 0.029478372
+13.26702 2.2080924 0.030432105
+13.60032 2.1995428 0.029900432
+13.93502 2.2208248 0.030745064
+14.26962 2.1950988 0.030034256
+14.60432 2.2677411 0.032154603
+14.93762 2.2315209 0.031112132
+&
+@target G0.S13
+@type xy
+6.16452 2.2
+14.93762 2.2
+&
+@target G0.S14
+@type xydy
+6.52965 2.4293444 0.030888507
+6.59625 2.3754937 0.029358036
+6.66425 2.4316328 0.031093801
+6.73095 2.3974453 0.029938882
+6.79765 2.3918165 0.029753957
+6.86565 2.4046521 0.030124929
+6.93225 2.4053702 0.030111847
+6.99895 2.3822244 0.029438511
+7.06695 2.4352082 0.031017799
+7.13365 2.4177664 0.030474975
+7.20025 2.4298847 0.030982228
+7.53625 2.4531977 0.031612319
+7.87095 2.4233965 0.030709075
+8.20695 2.4216852 0.030616548
+8.54155 2.4206862 0.030609371
+8.87625 2.3822662 0.029399352
+9.21225 2.3946276 0.029879555
+9.54685 2.3739756 0.029239756
+9.88155 2.3550459 0.028477938
+10.21755 2.3999567 0.029867908
+10.55215 2.4145853 0.030576268
+10.88685 2.4100257 0.030308791
+11.22155 2.4052089 0.030032556
+11.55615 2.4025472 0.030080162
+11.89085 2.3944478 0.029818984
+12.22545 2.3310566 0.028087585
+13.56275 2.447838 0.031235729
+13.89745 2.447431 0.031167117
+14.23205 2.420089 0.030732222
+14.56675 2.4167869 0.030344222
+14.90005 2.4346461 0.031259975
+&
+@target G0.S15
+@type xy
+6.52965 2.4
+14.90005 2.4
+&
+@target G0.S16
+@type xydy
+6.13352 2.6274315 0.030818615
+6.26822 2.5424034 0.028124674
+6.40282 2.6314089 0.03077569
+6.53622 2.6355785 0.031194536
+6.60282 2.6588585 0.031863915
+6.67082 2.6389531 0.03122654
+6.73752 2.5941616 0.029854965
+6.80422 2.6403745 0.031278283
+6.87222 2.6229563 0.030637304
+6.93882 2.6146371 0.030485425
+7.00552 2.6427895 0.031304377
+7.07352 2.628994 0.03092825
+7.14022 2.6422014 0.031227635
+7.20682 2.6705595 0.032074487
+7.54282 2.6195551 0.030568443
+7.87752 2.6484401 0.03137262
+8.21352 2.5866234 0.029693293
+8.54812 2.5931722 0.02960556
+8.88282 2.5337355 0.027941846
+9.21882 2.597949 0.029892079
+9.55342 2.5416158 0.028047558
+9.88812 2.5908373 0.029754457
+10.22412 2.5903327 0.029816785
+10.55872 2.6349596 0.030921698
+10.89342 2.6417415 0.031155809
+11.22812 2.6003947 0.030042755
+11.56272 2.6122306 0.030470782
+11.89742 2.5857708 0.029601176
+12.23202 2.588376 0.029822659
+12.56672 2.5895566 0.029827084
+12.90132 2.5960451 0.02997685
+13.23602 2.5614342 0.028900823
+13.56932 2.5378087 0.028108211
+13.90402 2.5916715 0.029617938
+14.23862 2.5957305 0.030155083
+14.57332 2.6141733 0.030654415
+14.90662 2.6790305 0.032508997
+&
+@target G0.S17
+@type xy
+6.13352 2.6
+14.90662 2.6
+&
+@target G0.S18
+@type xydy
+6.13463 2.8428364 0.031401578
+6.26933 2.8471474 0.031306953
+6.40393 2.8171285 0.030685139
+6.53733 2.8314481 0.030887372
+6.60393 2.863334 0.031967189
+6.67193 2.852021 0.031532295
+6.73863 2.7969739 0.029988771
+6.80533 2.8461987 0.031394094
+6.87333 2.8340965 0.031009355
+6.93993 2.8293041 0.030915228
+7.00663 2.8245558 0.030806037
+7.07463 2.8298917 0.03098084
+7.14133 2.8682641 0.031943205
+7.20793 2.9013262 0.032912101
+7.54393 2.8057891 0.030345009
+7.87863 2.8338808 0.031251035
+8.21463 2.8095493 0.030033278
+8.54923 2.7870317 0.029909942
+8.88393 2.7970876 0.030096387
+9.21993 2.7507188 0.028717135
+9.55453 2.7693439 0.028869079
+9.88923 2.7391537 0.028233935
+10.22523 2.7431464 0.028096023
+10.55983 2.8086854 0.030171733
+10.89453 2.8673575 0.031939206
+11.22923 2.8423462 0.031195358
+11.56383 2.8121582 0.030391587
+11.89853 2.8270261 0.030791746
+12.23313 2.7897683 0.029589949
+12.56783 2.7527178 0.028666034
+12.90243 2.7969905 0.029972691
+13.23713 2.747852 0.028706341
+13.57043 2.7816593 0.029575163
+13.90513 2.7842526 0.029297649
+14.23973 2.7575375 0.0286171
+14.57443 2.732628 0.02815699
+14.90773 2.8205839 0.030812469
+&
+@target G0.S19
+@type xy
+6.13463 2.8
+14.90773 2.8
+&
+@target G0.S20
+@type xydy
+6.13625 3.0837045 0.032342277
+6.27095 3.0579914 0.03179114
+6.40555 3.0384514 0.031298064
+6.53895 3.0706343 0.032214668
+6.60555 3.0481059 0.031460539
+6.67355 3.017886 0.030619982
+6.74025 3.019336 0.030581921
+6.80695 3.0182675 0.030590977
+6.94155 3.0090762 0.030246899
+7.00825 3.0310598 0.030972792
+7.07625 3.0290092 0.030921659
+7.14295 3.0594136 0.031684788
+7.20955 3.1061823 0.033072469
+7.54555 3.0652631 0.031450375
+7.88025 2.9496933 0.028888602
+8.21625 2.9645529 0.028509337
+8.55085 3.0369305 0.030886687
+8.88555 3.0409225 0.030731754
+9.22155 2.9467412 0.028635009
+9.55615 2.9649277 0.029037309
+9.89085 3.0496194 0.031672784
+10.22685 3.0254846 0.03081699
+10.56145 3.0286329 0.03073805
+10.89615 3.0630009 0.0319553
+11.23085 3.0527841 0.031633486
+11.56545 3.092716 0.032667078
+11.90015 3.0193603 0.030601279
+12.23475 2.9930527 0.029992338
+12.56945 2.9568938 0.028996564
+12.90405 2.9753233 0.029578672
+13.23875 2.9872378 0.02994199
+13.57205 2.9532782 0.028230994
+13.90675 2.866226 0.025890129
+14.24135 2.91831 0.027154493
+14.57605 2.9376959 0.027949137
+14.90935 2.9914096 0.029478749
+&
+@target G0.S21
+@type xy
+6.13625 3
+14.90935 3
+&
+@target G0.S22
+@type xydy
+6.13478 3.2111904 0.03051942
+6.26948 3.1944953 0.029806332
+6.40408 3.2057902 0.030147717
+6.53748 3.1856505 0.029556972
+6.60408 3.1064185 0.027131226
+6.67208 3.1605152 0.028854576
+6.73878 3.1565905 0.028709614
+6.80548 3.1182108 0.027559164
+6.87348 3.1269456 0.027817353
+6.94008 3.1510215 0.028554124
+7.00678 3.1885707 0.029584692
+7.07478 3.2212445 0.030763856
+7.14148 3.2102586 0.030157659
+7.20808 3.3188004 0.03359624
+7.54408 3.3760457 0.034497628
+7.87878 3.3201195 0.033271913
+8.21478 3.4006444 0.036942361
+8.54938 3.2405529 0.0318708
+8.88408 3.2786271 0.03198745
+9.22008 3.2075008 0.030277183
+9.55468 3.2125506 0.030186777
+9.88938 3.1907131 0.029669983
+10.22538 3.1662553 0.029206582
+10.55998 3.191531 0.029668993
+10.89468 3.2241879 0.030823567
+11.22938 3.2633432 0.031823202
+11.56398 3.3194374 0.033387342
+11.89868 3.2105327 0.030051313
+12.23328 3.2079309 0.030329709
+12.56798 3.1305536 0.027760742
+12.90258 3.2033371 0.030497073
+13.23728 3.2225317 0.029965022
+13.57058 3.1906832 0.030373206
+13.90528 3.2231727 0.030005157
+14.23988 3.2601584 0.031066121
+14.57458 3.2908001 0.034865312
+14.90788 3.2768526 0.03076641
+&
+@target G0.S23
+@type xy
+6.13478 3.2
+14.90788 3.2
+&
+@target G0.S24
+@type xydy
+6.12143 3.3966163 0.030033837
+6.25613 3.3815854 0.029589157
+6.39073 3.3806696 0.029463559
+6.52413 3.3855835 0.029463764
+6.59073 3.387877 0.029606947
+6.65873 3.3981542 0.029900677
+6.72543 3.362231 0.028923314
+6.79213 3.3570944 0.028682793
+6.86013 3.3378202 0.028122912
+6.92673 3.3375749 0.028096338
+6.99343 3.3126622 0.027394482
+7.06143 3.3605016 0.028836873
+7.12813 3.4561267 0.031866044
+7.19473 3.4931595 0.032556317
+7.53073 3.5151248 0.033945061
+7.86543 3.4406468 0.031660256
+8.20143 3.449714 0.031545514
+8.53603 3.4738639 0.032269079
+8.87073 3.3189166 0.027226775
+9.20673 3.4052988 0.030326759
+9.54133 3.3758509 0.029453635
+9.87603 3.3952565 0.029983453
+10.21203 3.3683952 0.029101886
+10.54663 3.3706021 0.02926441
+10.88133 3.4308104 0.030832801
+11.21603 3.4715585 0.032256317
+11.55063 3.4851641 0.032499322
+11.88533 3.4464234 0.031309564
+12.21993 3.4406881 0.031477188
+12.55463 3.4205147 0.030642872
+12.88923 3.4396669 0.03083188
+13.22393 3.4652636 0.032016001
+13.55723 3.4365413 0.030839277
+13.89193 3.3633298 0.028274289
+14.22653 3.4878382 0.032752548
+14.56123 3.5870354 0.034445452
+14.89453 3.6318758 0.038220106
+&
+@target G0.S25
+@type xy
+6.12143 3.4
+14.89453 3.4
+&
+@target G0.S26
+@type xydy
+6.11146 3.5952658 0.029806027
+6.24616 3.5804032 0.029453586
+6.38076 3.603794 0.030031528
+6.51416 3.6228583 0.030712364
+6.58076 3.6499403 0.031438883
+6.64876 3.6472984 0.031410714
+6.71546 3.66458 0.031920309
+6.78216 3.7028913 0.033110534
+6.85016 3.6749417 0.032230921
+6.91676 3.6642902 0.031920096
+6.98346 3.6281162 0.030866247
+7.05146 3.6792331 0.032375241
+7.11816 3.6696502 0.032130375
+7.18476 3.7733769 0.035178478
+7.52076 3.810225 0.036300586
+7.85546 3.6944591 0.032850712
+8.19146 3.5981617 0.029861454
+8.52606 3.5648013 0.028970097
+8.86076 3.6001741 0.030094608
+9.19676 3.5952628 0.029907362
+9.53136 3.5234518 0.027677771
+9.86606 3.5942801 0.029816016
+10.20206 3.5996481 0.029950132
+10.53666 3.6116502 0.030341549
+10.87136 3.6587898 0.031736018
+11.20606 3.6184277 0.030524691
+11.54066 3.6158922 0.030472119
+11.87536 3.6177873 0.030547921
+12.20996 3.6195402 0.030574713
+12.54466 3.5459429 0.028442183
+12.87926 3.574051 0.0292149
+13.21396 3.5447239 0.028399421
+13.54726 3.5196811 0.027652556
+13.88196 3.5114876 0.027366565
+14.21656 3.5080249 0.0272107
+14.55126 3.5322581 0.028025929
+14.88456 3.5592691 0.028764271
+&
+@target G0.S27
+@type xy
+6.11146 3.6
+14.88456 3.6
+&

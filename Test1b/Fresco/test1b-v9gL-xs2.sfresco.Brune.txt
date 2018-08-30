@@ -1,0 +1,21 @@
+183 parameters and 226 fitted data sets
+Spin-parity groups with no poles: [(3.5, 1), (4.5, -1), (4.5, 1)]
+     No covariance data found
+Changing boundaryCondition from -L to Brune by trans,std: True False ( Overrides= False )
+Barker convergence in J,pi=1.5- from    -4.836 to    -2.166 took   13 iterations (cm:    -2.078 to    -0.931)
+Barker convergence in J,pi=1.5- from    21.289 to    17.138 took   24 iterations (cm:     9.148 to     7.365)
+Barker convergence in J,pi=1.5- from    46.542 to    32.486 took   16 iterations (cm:    20.000 to    13.960)
+Barker convergence in J,pi=0.5- from    -4.929 to     1.351 took   38 iterations (cm:    -2.118 to     0.581)
+Barker convergence in J,pi=0.5- from    46.542 to    38.409 took    7 iterations (cm:    20.000 to    16.505)
+Barker convergence in J,pi=3.5- from   -29.140 to     6.933 took  523 iterations (cm:   -12.522 to     2.979)
+Barker convergence in J,pi=3.5- from    46.542 to    22.599 took   29 iterations (cm:    20.000 to     9.711)
+Barker convergence in J,pi=2.5- from    13.766 to    11.748 took   29 iterations (cm:     5.916 to     5.048)
+Barker convergence in J,pi=2.5- from    17.214 to    13.022 took   76 iterations (cm:     7.397 to     5.596)
+Barker convergence in J,pi=2.5- from    46.542 to    17.111 took  276 iterations (cm:    20.000 to     7.353)
+Barker convergence in J,pi=0.5+ from    46.542 to    45.983 took    5 iterations (cm:    20.000 to    19.760)
+Barker convergence in J,pi=1.5+ from    31.086 to    18.126 took  279 iterations (cm:    13.358 to     7.789)
+Barker convergence in J,pi=1.5+ from    46.542 to    25.576 took   21 iterations (cm:    20.000 to    10.990)
+Barker convergence in J,pi=2.5+ from    34.345 to    15.689 took  357 iterations (cm:    14.759 to     6.742)
+Barker convergence in J,pi=2.5+ from    46.542 to    26.093 took   28 iterations (cm:    20.000 to    11.212)
+
+Written file  test1b-v9gL-xs2.sfresco_bBrune+.xml

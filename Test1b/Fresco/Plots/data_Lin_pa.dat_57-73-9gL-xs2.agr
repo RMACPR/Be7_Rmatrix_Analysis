@@ -1,0 +1,2534 @@
+# Grace project file
+#
+@version 50125
+@page size 457, 469
+@page scroll 5%
+@page inout 5%
+@link page off
+@map font 0 to "Times-Roman", "Times-Roman"
+@map font 1 to "Times-Italic", "Times-Italic"
+@map font 2 to "Times-Bold", "Times-Bold"
+@map font 3 to "Times-BoldItalic", "Times-BoldItalic"
+@map font 4 to "Helvetica", "Helvetica"
+@map font 5 to "Helvetica-Oblique", "Helvetica-Oblique"
+@map font 6 to "Helvetica-Bold", "Helvetica-Bold"
+@map font 7 to "Helvetica-BoldOblique", "Helvetica-BoldOblique"
+@map font 8 to "Courier", "Courier"
+@map font 9 to "Courier-Oblique", "Courier-Oblique"
+@map font 10 to "Courier-Bold", "Courier-Bold"
+@map font 11 to "Courier-BoldOblique", "Courier-BoldOblique"
+@map font 12 to "Symbol", "Symbol"
+@map font 13 to "ZapfDingbats", "ZapfDingbats"
+@map color 0 to (255, 255, 255), "white"
+@map color 1 to (0, 0, 0), "black"
+@map color 2 to (255, 0, 0), "red"
+@map color 3 to (0, 255, 0), "green"
+@map color 4 to (0, 0, 255), "blue"
+@map color 5 to (255, 255, 0), "yellow"
+@map color 6 to (188, 143, 143), "brown"
+@map color 7 to (220, 220, 220), "grey"
+@map color 8 to (148, 0, 211), "violet"
+@map color 9 to (0, 255, 255), "cyan"
+@map color 10 to (255, 0, 255), "magenta"
+@map color 11 to (255, 165, 0), "orange"
+@map color 12 to (114, 33, 188), "indigo"
+@map color 13 to (103, 7, 72), "maroon"
+@map color 14 to (64, 224, 208), "turquoise"
+@map color 15 to (0, 139, 0), "green4"
+@reference date 0
+@date wrap off
+@date wrap year 1950
+@default linewidth 1.0
+@default linestyle 1
+@default color 1
+@default pattern 1
+@default font 0
+@default char size 1.000000
+@default symbol size 1.000000
+@default sformat "%.8g"
+@background color 0
+@page background fill on
+@timestamp off
+@timestamp 0.03, 0.03
+@timestamp color 1
+@timestamp rot 0
+@timestamp font 0
+@timestamp char size 1.000000
+@timestamp def "Thu Aug  9 17:25:41 2018"
+@r0 off
+@link r0 to g0
+@r0 type above
+@r0 linestyle 1
+@r0 linewidth 1.0
+@r0 color 1
+@r0 line 0, 0, 0, 0
+@r1 off
+@link r1 to g0
+@r1 type above
+@r1 linestyle 1
+@r1 linewidth 1.0
+@r1 color 1
+@r1 line 0, 0, 0, 0
+@r2 off
+@link r2 to g0
+@r2 type above
+@r2 linestyle 1
+@r2 linewidth 1.0
+@r2 color 1
+@r2 line 0, 0, 0, 0
+@r3 off
+@link r3 to g0
+@r3 type above
+@r3 linestyle 1
+@r3 linewidth 1.0
+@r3 color 1
+@r3 line 0, 0, 0, 0
+@r4 off
+@link r4 to g0
+@r4 type above
+@r4 linestyle 1
+@r4 linewidth 1.0
+@r4 color 1
+@r4 line 0, 0, 0, 0
+@g0 on
+@g0 hidden false
+@g0 type XY
+@g0 stacked false
+@g0 bar hgap 0.000000
+@g0 fixedpoint off
+@g0 fixedpoint type 0
+@g0 fixedpoint xy 0.000000, 0.000000
+@g0 fixedpoint format general general
+@g0 fixedpoint prec 6, 6
+@with g0
+@    world 0, 0, 200, 30
+@    stack world 0, 0, 0, 0
+@    znorm 1
+@    view 0.115909, 0.155738, 0.813115, 0.872319
+@    title ""
+@    title font 0
+@    title size 1.500000
+@    title color 1
+@    subtitle "Search file: test1b-v9gL-xs2.sfrescoed+.sfresco; "
+@    subtitle font 0
+@    subtitle size 0.700000
+@    subtitle color 1
+@    xaxes scale Normal
+@    yaxes scale Normal
+@    xaxes invert off
+@    yaxes invert off
+@    xaxis  on
+@    xaxis  type zero false
+@    xaxis  offset 0.000000 , 0.000000
+@    xaxis  bar on
+@    xaxis  bar color 1
+@    xaxis  bar linestyle 1
+@    xaxis  bar linewidth 1.0
+@    xaxis  label ""
+@    xaxis  label layout para
+@    xaxis  label place auto
+@    xaxis  label char size 1.000000
+@    xaxis  label font 0
+@    xaxis  label color 1
+@    xaxis  label place normal
+@    xaxis  tick on
+@    xaxis  tick major 50
+@    xaxis  tick minor ticks 1
+@    xaxis  tick default 6
+@    xaxis  tick place rounded true
+@    xaxis  tick in
+@    xaxis  tick major size 1.000000
+@    xaxis  tick major color 1
+@    xaxis  tick major linewidth 1.0
+@    xaxis  tick major linestyle 1
+@    xaxis  tick major grid off
+@    xaxis  tick minor color 1
+@    xaxis  tick minor linewidth 1.0
+@    xaxis  tick minor linestyle 1
+@    xaxis  tick minor grid off
+@    xaxis  tick minor size 0.500000
+@    xaxis  ticklabel on
+@    xaxis  ticklabel format general
+@    xaxis  ticklabel prec 5
+@    xaxis  ticklabel formula ""
+@    xaxis  ticklabel append ""
+@    xaxis  ticklabel prepend ""
+@    xaxis  ticklabel angle 0
+@    xaxis  ticklabel skip 0
+@    xaxis  ticklabel stagger 0
+@    xaxis  ticklabel place normal
+@    xaxis  ticklabel offset auto
+@    xaxis  ticklabel offset 0.000000 , 0.010000
+@    xaxis  ticklabel start type auto
+@    xaxis  ticklabel start 0.000000
+@    xaxis  ticklabel stop type auto
+@    xaxis  ticklabel stop 0.000000
+@    xaxis  ticklabel char size 1.000000
+@    xaxis  ticklabel font 0
+@    xaxis  ticklabel color 1
+@    xaxis  tick place both
+@    xaxis  tick spec type none
+@    yaxis  on
+@    yaxis  type zero false
+@    yaxis  offset 0.000000 , 0.000000
+@    yaxis  bar on
+@    yaxis  bar color 1
+@    yaxis  bar linestyle 1
+@    yaxis  bar linewidth 1.0
+@    yaxis  label ""
+@    yaxis  label layout para
+@    yaxis  label place auto
+@    yaxis  label char size 1.000000
+@    yaxis  label font 0
+@    yaxis  label color 1
+@    yaxis  label place normal
+@    yaxis  tick on
+@    yaxis  tick major 5
+@    yaxis  tick minor ticks 1
+@    yaxis  tick default 6
+@    yaxis  tick place rounded true
+@    yaxis  tick in
+@    yaxis  tick major size 1.000000
+@    yaxis  tick major color 1
+@    yaxis  tick major linewidth 1.0
+@    yaxis  tick major linestyle 1
+@    yaxis  tick major grid off
+@    yaxis  tick minor color 1
+@    yaxis  tick minor linewidth 1.0
+@    yaxis  tick minor linestyle 1
+@    yaxis  tick minor grid off
+@    yaxis  tick minor size 0.500000
+@    yaxis  ticklabel on
+@    yaxis  ticklabel format general
+@    yaxis  ticklabel prec 5
+@    yaxis  ticklabel formula ""
+@    yaxis  ticklabel append ""
+@    yaxis  ticklabel prepend ""
+@    yaxis  ticklabel angle 0
+@    yaxis  ticklabel skip 0
+@    yaxis  ticklabel stagger 0
+@    yaxis  ticklabel place normal
+@    yaxis  ticklabel offset auto
+@    yaxis  ticklabel offset 0.000000 , 0.010000
+@    yaxis  ticklabel start type auto
+@    yaxis  ticklabel start 0.000000
+@    yaxis  ticklabel stop type auto
+@    yaxis  ticklabel stop 0.000000
+@    yaxis  ticklabel char size 1.000000
+@    yaxis  ticklabel font 0
+@    yaxis  ticklabel color 1
+@    yaxis  tick place both
+@    yaxis  tick spec type none
+@    altxaxis  off
+@    altyaxis  off
+@    legend on
+@    legend loctype view
+@    legend 0.656818182, 0.821006565
+@    legend box color 1
+@    legend box pattern 1
+@    legend box linewidth 1.0
+@    legend box linestyle 1
+@    legend box fill color 0
+@    legend box fill pattern 1
+@    legend font 0
+@    legend char size 0.530000
+@    legend color 1
+@    legend length 4
+@    legend vgap 1
+@    legend hgap 1
+@    legend invert false
+@    frame type 0
+@    frame linestyle 1
+@    frame linewidth 1.0
+@    frame color 1
+@    frame pattern 1
+@    frame background color 0
+@    frame background pattern 0
+@    s0 hidden false
+@    s0 type xydy
+@    s0 symbol 2
+@    s0 symbol size 0.300000
+@    s0 symbol color 1
+@    s0 symbol pattern 1
+@    s0 symbol fill color 1
+@    s0 symbol fill pattern 1
+@    s0 symbol linewidth 1.0
+@    s0 symbol linestyle 1
+@    s0 symbol char 65
+@    s0 symbol char font 0
+@    s0 symbol skip 0
+@    s0 line type 1
+@    s0 line linestyle 0
+@    s0 line linewidth 1.0
+@    s0 line color 1
+@    s0 line pattern 1
+@    s0 baseline type 0
+@    s0 baseline off
+@    s0 dropline off
+@    s0 fill type 0
+@    s0 fill rule 0
+@    s0 fill color 1
+@    s0 fill pattern 1
+@    s0 avalue off
+@    s0 avalue type 2
+@    s0 avalue char size 1.000000
+@    s0 avalue font 0
+@    s0 avalue color 1
+@    s0 avalue rot 0
+@    s0 avalue format general
+@    s0 avalue prec 3
+@    s0 avalue prepend ""
+@    s0 avalue append ""
+@    s0 avalue offset 0.000000 , 0.000000
+@    s0 errorbar on
+@    s0 errorbar place both
+@    s0 errorbar color 1
+@    s0 errorbar pattern 1
+@    s0 errorbar size 0.100000
+@    s0 errorbar linewidth 1.0
+@    s0 errorbar linestyle 1
+@    s0 errorbar riser linewidth 1.0
+@    s0 errorbar riser linestyle 1
+@    s0 errorbar riser clip off
+@    s0 errorbar riser clip length 0.100000
+@    s0 comment "data_Lin_pa.dat_57-73-9gL-xs2.agr"
+@    s0 legend  " 57: Lin_pa@e1.0 + 20.4% @  3.3"
+@    s1 hidden false
+@    s1 type xy
+@    s1 symbol 0
+@    s1 symbol size 1.000000
+@    s1 symbol color 2
+@    s1 symbol pattern 1
+@    s1 symbol fill color 2
+@    s1 symbol fill pattern 0
+@    s1 symbol linewidth 1.0
+@    s1 symbol linestyle 1
+@    s1 symbol char 65
+@    s1 symbol char font 0
+@    s1 symbol skip 0
+@    s1 line type 1
+@    s1 line linestyle 1
+@    s1 line linewidth 1.0
+@    s1 line color 1
+@    s1 line pattern 1
+@    s1 baseline type 0
+@    s1 baseline off
+@    s1 dropline off
+@    s1 fill type 0
+@    s1 fill rule 0
+@    s1 fill color 1
+@    s1 fill pattern 1
+@    s1 avalue off
+@    s1 avalue type 2
+@    s1 avalue char size 1.000000
+@    s1 avalue font 0
+@    s1 avalue color 1
+@    s1 avalue rot 0
+@    s1 avalue format general
+@    s1 avalue prec 3
+@    s1 avalue prepend ""
+@    s1 avalue append ""
+@    s1 avalue offset 0.000000 , 0.000000
+@    s1 errorbar on
+@    s1 errorbar place both
+@    s1 errorbar color 2
+@    s1 errorbar pattern 1
+@    s1 errorbar size 1.000000
+@    s1 errorbar linewidth 1.0
+@    s1 errorbar linestyle 1
+@    s1 errorbar riser linewidth 1.0
+@    s1 errorbar riser linestyle 1
+@    s1 errorbar riser clip off
+@    s1 errorbar riser clip length 0.100000
+@    s1 comment "data_Lin_pa.dat_57-73-9gL-xs2.agr"
+@    s1 legend  ""
+@    s2 hidden false
+@    s2 type xydy
+@    s2 symbol 3
+@    s2 symbol size 0.300000
+@    s2 symbol color 2
+@    s2 symbol pattern 1
+@    s2 symbol fill color 2
+@    s2 symbol fill pattern 1
+@    s2 symbol linewidth 1.0
+@    s2 symbol linestyle 1
+@    s2 symbol char 65
+@    s2 symbol char font 0
+@    s2 symbol skip 0
+@    s2 line type 1
+@    s2 line linestyle 0
+@    s2 line linewidth 1.0
+@    s2 line color 2
+@    s2 line pattern 1
+@    s2 baseline type 0
+@    s2 baseline off
+@    s2 dropline off
+@    s2 fill type 0
+@    s2 fill rule 0
+@    s2 fill color 1
+@    s2 fill pattern 1
+@    s2 avalue off
+@    s2 avalue type 2
+@    s2 avalue char size 1.000000
+@    s2 avalue font 0
+@    s2 avalue color 1
+@    s2 avalue rot 0
+@    s2 avalue format general
+@    s2 avalue prec 3
+@    s2 avalue prepend ""
+@    s2 avalue append ""
+@    s2 avalue offset 0.000000 , 0.000000
+@    s2 errorbar on
+@    s2 errorbar place both
+@    s2 errorbar color 2
+@    s2 errorbar pattern 1
+@    s2 errorbar size 0.100000
+@    s2 errorbar linewidth 1.0
+@    s2 errorbar linestyle 1
+@    s2 errorbar riser linewidth 1.0
+@    s2 errorbar riser linestyle 1
+@    s2 errorbar riser clip off
+@    s2 errorbar riser clip length 0.100000
+@    s2 comment "data_Lin_pa.dat_57-73-9gL-xs2.agr"
+@    s2 legend  " 58: Lin_pa@e1.2 + 22.6% @  6.0"
+@    s3 hidden false
+@    s3 type xy
+@    s3 symbol 0
+@    s3 symbol size 1.000000
+@    s3 symbol color 4
+@    s3 symbol pattern 1
+@    s3 symbol fill color 4
+@    s3 symbol fill pattern 0
+@    s3 symbol linewidth 1.0
+@    s3 symbol linestyle 1
+@    s3 symbol char 65
+@    s3 symbol char font 0
+@    s3 symbol skip 0
+@    s3 line type 1
+@    s3 line linestyle 1
+@    s3 line linewidth 1.0
+@    s3 line color 2
+@    s3 line pattern 1
+@    s3 baseline type 0
+@    s3 baseline off
+@    s3 dropline off
+@    s3 fill type 0
+@    s3 fill rule 0
+@    s3 fill color 1
+@    s3 fill pattern 1
+@    s3 avalue off
+@    s3 avalue type 2
+@    s3 avalue char size 1.000000
+@    s3 avalue font 0
+@    s3 avalue color 1
+@    s3 avalue rot 0
+@    s3 avalue format general
+@    s3 avalue prec 3
+@    s3 avalue prepend ""
+@    s3 avalue append ""
+@    s3 avalue offset 0.000000 , 0.000000
+@    s3 errorbar on
+@    s3 errorbar place both
+@    s3 errorbar color 4
+@    s3 errorbar pattern 1
+@    s3 errorbar size 1.000000
+@    s3 errorbar linewidth 1.0
+@    s3 errorbar linestyle 1
+@    s3 errorbar riser linewidth 1.0
+@    s3 errorbar riser linestyle 1
+@    s3 errorbar riser clip off
+@    s3 errorbar riser clip length 0.100000
+@    s3 comment "data_Lin_pa.dat_57-73-9gL-xs2.agr"
+@    s3 legend  ""
+@    s4 hidden false
+@    s4 type xydy
+@    s4 symbol 4
+@    s4 symbol size 0.300000
+@    s4 symbol color 3
+@    s4 symbol pattern 1
+@    s4 symbol fill color 3
+@    s4 symbol fill pattern 1
+@    s4 symbol linewidth 1.0
+@    s4 symbol linestyle 1
+@    s4 symbol char 65
+@    s4 symbol char font 0
+@    s4 symbol skip 0
+@    s4 line type 1
+@    s4 line linestyle 0
+@    s4 line linewidth 1.0
+@    s4 line color 3
+@    s4 line pattern 1
+@    s4 baseline type 0
+@    s4 baseline off
+@    s4 dropline off
+@    s4 fill type 0
+@    s4 fill rule 0
+@    s4 fill color 1
+@    s4 fill pattern 1
+@    s4 avalue off
+@    s4 avalue type 2
+@    s4 avalue char size 1.000000
+@    s4 avalue font 0
+@    s4 avalue color 1
+@    s4 avalue rot 0
+@    s4 avalue format general
+@    s4 avalue prec 3
+@    s4 avalue prepend ""
+@    s4 avalue append ""
+@    s4 avalue offset 0.000000 , 0.000000
+@    s4 errorbar on
+@    s4 errorbar place both
+@    s4 errorbar color 3
+@    s4 errorbar pattern 1
+@    s4 errorbar size 0.100000
+@    s4 errorbar linewidth 1.0
+@    s4 errorbar linestyle 1
+@    s4 errorbar riser linewidth 1.0
+@    s4 errorbar riser linestyle 1
+@    s4 errorbar riser clip off
+@    s4 errorbar riser clip length 0.100000
+@    s4 comment "data_Lin_pa.dat_57-73-9gL-xs2.agr"
+@    s4 legend  " 59: Lin_pa@e1.4 + 26.4% @  7.0"
+@    s5 hidden false
+@    s5 type xy
+@    s5 symbol 0
+@    s5 symbol size 1.000000
+@    s5 symbol color 6
+@    s5 symbol pattern 1
+@    s5 symbol fill color 6
+@    s5 symbol fill pattern 0
+@    s5 symbol linewidth 1.0
+@    s5 symbol linestyle 1
+@    s5 symbol char 65
+@    s5 symbol char font 0
+@    s5 symbol skip 0
+@    s5 line type 1
+@    s5 line linestyle 1
+@    s5 line linewidth 1.0
+@    s5 line color 3
+@    s5 line pattern 1
+@    s5 baseline type 0
+@    s5 baseline off
+@    s5 dropline off
+@    s5 fill type 0
+@    s5 fill rule 0
+@    s5 fill color 1
+@    s5 fill pattern 1
+@    s5 avalue off
+@    s5 avalue type 2
+@    s5 avalue char size 1.000000
+@    s5 avalue font 0
+@    s5 avalue color 1
+@    s5 avalue rot 0
+@    s5 avalue format general
+@    s5 avalue prec 3
+@    s5 avalue prepend ""
+@    s5 avalue append ""
+@    s5 avalue offset 0.000000 , 0.000000
+@    s5 errorbar on
+@    s5 errorbar place both
+@    s5 errorbar color 6
+@    s5 errorbar pattern 1
+@    s5 errorbar size 1.000000
+@    s5 errorbar linewidth 1.0
+@    s5 errorbar linestyle 1
+@    s5 errorbar riser linewidth 1.0
+@    s5 errorbar riser linestyle 1
+@    s5 errorbar riser clip off
+@    s5 errorbar riser clip length 0.100000
+@    s5 comment "data_Lin_pa.dat_57-73-9gL-xs2.agr"
+@    s5 legend  ""
+@    s6 hidden false
+@    s6 type xydy
+@    s6 symbol 5
+@    s6 symbol size 0.300000
+@    s6 symbol color 4
+@    s6 symbol pattern 1
+@    s6 symbol fill color 4
+@    s6 symbol fill pattern 1
+@    s6 symbol linewidth 1.0
+@    s6 symbol linestyle 1
+@    s6 symbol char 65
+@    s6 symbol char font 0
+@    s6 symbol skip 0
+@    s6 line type 1
+@    s6 line linestyle 0
+@    s6 line linewidth 1.0
+@    s6 line color 4
+@    s6 line pattern 1
+@    s6 baseline type 0
+@    s6 baseline off
+@    s6 dropline off
+@    s6 fill type 0
+@    s6 fill rule 0
+@    s6 fill color 1
+@    s6 fill pattern 1
+@    s6 avalue off
+@    s6 avalue type 2
+@    s6 avalue char size 1.000000
+@    s6 avalue font 0
+@    s6 avalue color 1
+@    s6 avalue rot 0
+@    s6 avalue format general
+@    s6 avalue prec 3
+@    s6 avalue prepend ""
+@    s6 avalue append ""
+@    s6 avalue offset 0.000000 , 0.000000
+@    s6 errorbar on
+@    s6 errorbar place both
+@    s6 errorbar color 4
+@    s6 errorbar pattern 1
+@    s6 errorbar size 0.100000
+@    s6 errorbar linewidth 1.0
+@    s6 errorbar linestyle 1
+@    s6 errorbar riser linewidth 1.0
+@    s6 errorbar riser linestyle 1
+@    s6 errorbar riser clip off
+@    s6 errorbar riser clip length 0.100000
+@    s6 comment "data_Lin_pa.dat_57-73-9gL-xs2.agr"
+@    s6 legend  " 60: Lin_pa@e1.5 + 35.6% @  5.2"
+@    s7 hidden false
+@    s7 type xy
+@    s7 symbol 0
+@    s7 symbol size 1.000000
+@    s7 symbol color 8
+@    s7 symbol pattern 1
+@    s7 symbol fill color 8
+@    s7 symbol fill pattern 0
+@    s7 symbol linewidth 1.0
+@    s7 symbol linestyle 1
+@    s7 symbol char 65
+@    s7 symbol char font 0
+@    s7 symbol skip 0
+@    s7 line type 1
+@    s7 line linestyle 1
+@    s7 line linewidth 1.0
+@    s7 line color 4
+@    s7 line pattern 1
+@    s7 baseline type 0
+@    s7 baseline off
+@    s7 dropline off
+@    s7 fill type 0
+@    s7 fill rule 0
+@    s7 fill color 1
+@    s7 fill pattern 1
+@    s7 avalue off
+@    s7 avalue type 2
+@    s7 avalue char size 1.000000
+@    s7 avalue font 0
+@    s7 avalue color 1
+@    s7 avalue rot 0
+@    s7 avalue format general
+@    s7 avalue prec 3
+@    s7 avalue prepend ""
+@    s7 avalue append ""
+@    s7 avalue offset 0.000000 , 0.000000
+@    s7 errorbar on
+@    s7 errorbar place both
+@    s7 errorbar color 8
+@    s7 errorbar pattern 1
+@    s7 errorbar size 1.000000
+@    s7 errorbar linewidth 1.0
+@    s7 errorbar linestyle 1
+@    s7 errorbar riser linewidth 1.0
+@    s7 errorbar riser linestyle 1
+@    s7 errorbar riser clip off
+@    s7 errorbar riser clip length 0.100000
+@    s7 comment "data_Lin_pa.dat_57-73-9gL-xs2.agr"
+@    s7 legend  ""
+@    s8 hidden false
+@    s8 type xydy
+@    s8 symbol 6
+@    s8 symbol size 0.300000
+@    s8 symbol color 5
+@    s8 symbol pattern 1
+@    s8 symbol fill color 5
+@    s8 symbol fill pattern 1
+@    s8 symbol linewidth 1.0
+@    s8 symbol linestyle 1
+@    s8 symbol char 65
+@    s8 symbol char font 0
+@    s8 symbol skip 0
+@    s8 line type 1
+@    s8 line linestyle 0
+@    s8 line linewidth 1.0
+@    s8 line color 5
+@    s8 line pattern 1
+@    s8 baseline type 0
+@    s8 baseline off
+@    s8 dropline off
+@    s8 fill type 0
+@    s8 fill rule 0
+@    s8 fill color 1
+@    s8 fill pattern 1
+@    s8 avalue off
+@    s8 avalue type 2
+@    s8 avalue char size 1.000000
+@    s8 avalue font 0
+@    s8 avalue color 1
+@    s8 avalue rot 0
+@    s8 avalue format general
+@    s8 avalue prec 3
+@    s8 avalue prepend ""
+@    s8 avalue append ""
+@    s8 avalue offset 0.000000 , 0.000000
+@    s8 errorbar on
+@    s8 errorbar place both
+@    s8 errorbar color 5
+@    s8 errorbar pattern 1
+@    s8 errorbar size 0.100000
+@    s8 errorbar linewidth 1.0
+@    s8 errorbar linestyle 1
+@    s8 errorbar riser linewidth 1.0
+@    s8 errorbar riser linestyle 1
+@    s8 errorbar riser clip off
+@    s8 errorbar riser clip length 0.100000
+@    s8 comment "data_Lin_pa.dat_57-73-9gL-xs2.agr"
+@    s8 legend  " 61: Lin_pa@e1.6 + 37.5% @  3.3"
+@    s9 hidden false
+@    s9 type xy
+@    s9 symbol 0
+@    s9 symbol size 1.000000
+@    s9 symbol color 10
+@    s9 symbol pattern 1
+@    s9 symbol fill color 10
+@    s9 symbol fill pattern 0
+@    s9 symbol linewidth 1.0
+@    s9 symbol linestyle 1
+@    s9 symbol char 65
+@    s9 symbol char font 0
+@    s9 symbol skip 0
+@    s9 line type 1
+@    s9 line linestyle 1
+@    s9 line linewidth 1.0
+@    s9 line color 5
+@    s9 line pattern 1
+@    s9 baseline type 0
+@    s9 baseline off
+@    s9 dropline off
+@    s9 fill type 0
+@    s9 fill rule 0
+@    s9 fill color 1
+@    s9 fill pattern 1
+@    s9 avalue off
+@    s9 avalue type 2
+@    s9 avalue char size 1.000000
+@    s9 avalue font 0
+@    s9 avalue color 1
+@    s9 avalue rot 0
+@    s9 avalue format general
+@    s9 avalue prec 3
+@    s9 avalue prepend ""
+@    s9 avalue append ""
+@    s9 avalue offset 0.000000 , 0.000000
+@    s9 errorbar on
+@    s9 errorbar place both
+@    s9 errorbar color 10
+@    s9 errorbar pattern 1
+@    s9 errorbar size 1.000000
+@    s9 errorbar linewidth 1.0
+@    s9 errorbar linestyle 1
+@    s9 errorbar riser linewidth 1.0
+@    s9 errorbar riser linestyle 1
+@    s9 errorbar riser clip off
+@    s9 errorbar riser clip length 0.100000
+@    s9 comment "data_Lin_pa.dat_57-73-9gL-xs2.agr"
+@    s9 legend  ""
+@    s10 hidden false
+@    s10 type xydy
+@    s10 symbol 7
+@    s10 symbol size 0.300000
+@    s10 symbol color 6
+@    s10 symbol pattern 1
+@    s10 symbol fill color 6
+@    s10 symbol fill pattern 1
+@    s10 symbol linewidth 1.0
+@    s10 symbol linestyle 1
+@    s10 symbol char 65
+@    s10 symbol char font 0
+@    s10 symbol skip 0
+@    s10 line type 1
+@    s10 line linestyle 0
+@    s10 line linewidth 1.0
+@    s10 line color 6
+@    s10 line pattern 1
+@    s10 baseline type 0
+@    s10 baseline off
+@    s10 dropline off
+@    s10 fill type 0
+@    s10 fill rule 0
+@    s10 fill color 1
+@    s10 fill pattern 1
+@    s10 avalue off
+@    s10 avalue type 2
+@    s10 avalue char size 1.000000
+@    s10 avalue font 0
+@    s10 avalue color 1
+@    s10 avalue rot 0
+@    s10 avalue format general
+@    s10 avalue prec 3
+@    s10 avalue prepend ""
+@    s10 avalue append ""
+@    s10 avalue offset 0.000000 , 0.000000
+@    s10 errorbar on
+@    s10 errorbar place both
+@    s10 errorbar color 6
+@    s10 errorbar pattern 1
+@    s10 errorbar size 0.100000
+@    s10 errorbar linewidth 1.0
+@    s10 errorbar linestyle 1
+@    s10 errorbar riser linewidth 1.0
+@    s10 errorbar riser linestyle 1
+@    s10 errorbar riser clip off
+@    s10 errorbar riser clip length 0.100000
+@    s10 comment "data_Lin_pa.dat_57-73-9gL-xs2.agr"
+@    s10 legend  " 62: Lin_pa@e1.65 + 32.3% @  3.6"
+@    s11 hidden false
+@    s11 type xy
+@    s11 symbol 0
+@    s11 symbol size 1.000000
+@    s11 symbol color 12
+@    s11 symbol pattern 1
+@    s11 symbol fill color 12
+@    s11 symbol fill pattern 0
+@    s11 symbol linewidth 1.0
+@    s11 symbol linestyle 1
+@    s11 symbol char 65
+@    s11 symbol char font 0
+@    s11 symbol skip 0
+@    s11 line type 1
+@    s11 line linestyle 1
+@    s11 line linewidth 1.0
+@    s11 line color 6
+@    s11 line pattern 1
+@    s11 baseline type 0
+@    s11 baseline off
+@    s11 dropline off
+@    s11 fill type 0
+@    s11 fill rule 0
+@    s11 fill color 1
+@    s11 fill pattern 1
+@    s11 avalue off
+@    s11 avalue type 2
+@    s11 avalue char size 1.000000
+@    s11 avalue font 0
+@    s11 avalue color 1
+@    s11 avalue rot 0
+@    s11 avalue format general
+@    s11 avalue prec 3
+@    s11 avalue prepend ""
+@    s11 avalue append ""
+@    s11 avalue offset 0.000000 , 0.000000
+@    s11 errorbar on
+@    s11 errorbar place both
+@    s11 errorbar color 12
+@    s11 errorbar pattern 1
+@    s11 errorbar size 1.000000
+@    s11 errorbar linewidth 1.0
+@    s11 errorbar linestyle 1
+@    s11 errorbar riser linewidth 1.0
+@    s11 errorbar riser linestyle 1
+@    s11 errorbar riser clip off
+@    s11 errorbar riser clip length 0.100000
+@    s11 comment "data_Lin_pa.dat_57-73-9gL-xs2.agr"
+@    s11 legend  ""
+@    s12 hidden false
+@    s12 type xydy
+@    s12 symbol 8
+@    s12 symbol size 0.300000
+@    s12 symbol color 7
+@    s12 symbol pattern 1
+@    s12 symbol fill color 7
+@    s12 symbol fill pattern 1
+@    s12 symbol linewidth 1.0
+@    s12 symbol linestyle 1
+@    s12 symbol char 65
+@    s12 symbol char font 0
+@    s12 symbol skip 0
+@    s12 line type 1
+@    s12 line linestyle 0
+@    s12 line linewidth 1.0
+@    s12 line color 7
+@    s12 line pattern 1
+@    s12 baseline type 0
+@    s12 baseline off
+@    s12 dropline off
+@    s12 fill type 0
+@    s12 fill rule 0
+@    s12 fill color 1
+@    s12 fill pattern 1
+@    s12 avalue off
+@    s12 avalue type 2
+@    s12 avalue char size 1.000000
+@    s12 avalue font 0
+@    s12 avalue color 1
+@    s12 avalue rot 0
+@    s12 avalue format general
+@    s12 avalue prec 3
+@    s12 avalue prepend ""
+@    s12 avalue append ""
+@    s12 avalue offset 0.000000 , 0.000000
+@    s12 errorbar on
+@    s12 errorbar place both
+@    s12 errorbar color 7
+@    s12 errorbar pattern 1
+@    s12 errorbar size 0.100000
+@    s12 errorbar linewidth 1.0
+@    s12 errorbar linestyle 1
+@    s12 errorbar riser linewidth 1.0
+@    s12 errorbar riser linestyle 1
+@    s12 errorbar riser clip off
+@    s12 errorbar riser clip length 0.100000
+@    s12 comment "data_Lin_pa.dat_57-73-9gL-xs2.agr"
+@    s12 legend  " 63: Lin_pa@e1.7 + 34.7% @  1.3"
+@    s13 hidden false
+@    s13 type xy
+@    s13 symbol 0
+@    s13 symbol size 1.000000
+@    s13 symbol color 14
+@    s13 symbol pattern 1
+@    s13 symbol fill color 14
+@    s13 symbol fill pattern 0
+@    s13 symbol linewidth 1.0
+@    s13 symbol linestyle 1
+@    s13 symbol char 65
+@    s13 symbol char font 0
+@    s13 symbol skip 0
+@    s13 line type 1
+@    s13 line linestyle 1
+@    s13 line linewidth 1.0
+@    s13 line color 7
+@    s13 line pattern 1
+@    s13 baseline type 0
+@    s13 baseline off
+@    s13 dropline off
+@    s13 fill type 0
+@    s13 fill rule 0
+@    s13 fill color 1
+@    s13 fill pattern 1
+@    s13 avalue off
+@    s13 avalue type 2
+@    s13 avalue char size 1.000000
+@    s13 avalue font 0
+@    s13 avalue color 1
+@    s13 avalue rot 0
+@    s13 avalue format general
+@    s13 avalue prec 3
+@    s13 avalue prepend ""
+@    s13 avalue append ""
+@    s13 avalue offset 0.000000 , 0.000000
+@    s13 errorbar on
+@    s13 errorbar place both
+@    s13 errorbar color 14
+@    s13 errorbar pattern 1
+@    s13 errorbar size 1.000000
+@    s13 errorbar linewidth 1.0
+@    s13 errorbar linestyle 1
+@    s13 errorbar riser linewidth 1.0
+@    s13 errorbar riser linestyle 1
+@    s13 errorbar riser clip off
+@    s13 errorbar riser clip length 0.100000
+@    s13 comment "data_Lin_pa.dat_57-73-9gL-xs2.agr"
+@    s13 legend  ""
+@    s14 hidden false
+@    s14 type xydy
+@    s14 symbol 2
+@    s14 symbol size 0.300000
+@    s14 symbol color 8
+@    s14 symbol pattern 1
+@    s14 symbol fill color 8
+@    s14 symbol fill pattern 1
+@    s14 symbol linewidth 1.0
+@    s14 symbol linestyle 1
+@    s14 symbol char 65
+@    s14 symbol char font 0
+@    s14 symbol skip 0
+@    s14 line type 1
+@    s14 line linestyle 0
+@    s14 line linewidth 1.0
+@    s14 line color 8
+@    s14 line pattern 1
+@    s14 baseline type 0
+@    s14 baseline off
+@    s14 dropline off
+@    s14 fill type 0
+@    s14 fill rule 0
+@    s14 fill color 1
+@    s14 fill pattern 1
+@    s14 avalue off
+@    s14 avalue type 2
+@    s14 avalue char size 1.000000
+@    s14 avalue font 0
+@    s14 avalue color 1
+@    s14 avalue rot 0
+@    s14 avalue format general
+@    s14 avalue prec 3
+@    s14 avalue prepend ""
+@    s14 avalue append ""
+@    s14 avalue offset 0.000000 , 0.000000
+@    s14 errorbar on
+@    s14 errorbar place both
+@    s14 errorbar color 8
+@    s14 errorbar pattern 1
+@    s14 errorbar size 0.100000
+@    s14 errorbar linewidth 1.0
+@    s14 errorbar linestyle 1
+@    s14 errorbar riser linewidth 1.0
+@    s14 errorbar riser linestyle 1
+@    s14 errorbar riser clip off
+@    s14 errorbar riser clip length 0.100000
+@    s14 comment "data_Lin_pa.dat_57-73-9gL-xs2.agr"
+@    s14 legend  " 64: Lin_pa@e1.75 + 33.3% @  1.9"
+@    s15 hidden false
+@    s15 type xy
+@    s15 symbol 0
+@    s15 symbol size 1.000000
+@    s15 symbol color 1
+@    s15 symbol pattern 1
+@    s15 symbol fill color 1
+@    s15 symbol fill pattern 0
+@    s15 symbol linewidth 1.0
+@    s15 symbol linestyle 1
+@    s15 symbol char 65
+@    s15 symbol char font 0
+@    s15 symbol skip 0
+@    s15 line type 1
+@    s15 line linestyle 1
+@    s15 line linewidth 1.0
+@    s15 line color 8
+@    s15 line pattern 1
+@    s15 baseline type 0
+@    s15 baseline off
+@    s15 dropline off
+@    s15 fill type 0
+@    s15 fill rule 0
+@    s15 fill color 1
+@    s15 fill pattern 1
+@    s15 avalue off
+@    s15 avalue type 2
+@    s15 avalue char size 1.000000
+@    s15 avalue font 0
+@    s15 avalue color 1
+@    s15 avalue rot 0
+@    s15 avalue format general
+@    s15 avalue prec 3
+@    s15 avalue prepend ""
+@    s15 avalue append ""
+@    s15 avalue offset 0.000000 , 0.000000
+@    s15 errorbar on
+@    s15 errorbar place both
+@    s15 errorbar color 1
+@    s15 errorbar pattern 1
+@    s15 errorbar size 1.000000
+@    s15 errorbar linewidth 1.0
+@    s15 errorbar linestyle 1
+@    s15 errorbar riser linewidth 1.0
+@    s15 errorbar riser linestyle 1
+@    s15 errorbar riser clip off
+@    s15 errorbar riser clip length 0.100000
+@    s15 comment "data_Lin_pa.dat_57-73-9gL-xs2.agr"
+@    s15 legend  ""
+@    s16 hidden false
+@    s16 type xydy
+@    s16 symbol 3
+@    s16 symbol size 0.300000
+@    s16 symbol color 9
+@    s16 symbol pattern 1
+@    s16 symbol fill color 9
+@    s16 symbol fill pattern 1
+@    s16 symbol linewidth 1.0
+@    s16 symbol linestyle 1
+@    s16 symbol char 65
+@    s16 symbol char font 0
+@    s16 symbol skip 0
+@    s16 line type 1
+@    s16 line linestyle 0
+@    s16 line linewidth 1.0
+@    s16 line color 9
+@    s16 line pattern 1
+@    s16 baseline type 0
+@    s16 baseline off
+@    s16 dropline off
+@    s16 fill type 0
+@    s16 fill rule 0
+@    s16 fill color 1
+@    s16 fill pattern 1
+@    s16 avalue off
+@    s16 avalue type 2
+@    s16 avalue char size 1.000000
+@    s16 avalue font 0
+@    s16 avalue color 1
+@    s16 avalue rot 0
+@    s16 avalue format general
+@    s16 avalue prec 3
+@    s16 avalue prepend ""
+@    s16 avalue append ""
+@    s16 avalue offset 0.000000 , 0.000000
+@    s16 errorbar on
+@    s16 errorbar place both
+@    s16 errorbar color 9
+@    s16 errorbar pattern 1
+@    s16 errorbar size 0.100000
+@    s16 errorbar linewidth 1.0
+@    s16 errorbar linestyle 1
+@    s16 errorbar riser linewidth 1.0
+@    s16 errorbar riser linestyle 1
+@    s16 errorbar riser clip off
+@    s16 errorbar riser clip length 0.100000
+@    s16 comment "data_Lin_pa.dat_57-73-9gL-xs2.agr"
+@    s16 legend  " 65: Lin_pa@e1.8 + 31.6% @  3.0"
+@    s17 hidden false
+@    s17 type xy
+@    s17 symbol 0
+@    s17 symbol size 1.000000
+@    s17 symbol color 3
+@    s17 symbol pattern 1
+@    s17 symbol fill color 3
+@    s17 symbol fill pattern 0
+@    s17 symbol linewidth 1.0
+@    s17 symbol linestyle 1
+@    s17 symbol char 65
+@    s17 symbol char font 0
+@    s17 symbol skip 0
+@    s17 line type 1
+@    s17 line linestyle 1
+@    s17 line linewidth 1.0
+@    s17 line color 9
+@    s17 line pattern 1
+@    s17 baseline type 0
+@    s17 baseline off
+@    s17 dropline off
+@    s17 fill type 0
+@    s17 fill rule 0
+@    s17 fill color 1
+@    s17 fill pattern 1
+@    s17 avalue off
+@    s17 avalue type 2
+@    s17 avalue char size 1.000000
+@    s17 avalue font 0
+@    s17 avalue color 1
+@    s17 avalue rot 0
+@    s17 avalue format general
+@    s17 avalue prec 3
+@    s17 avalue prepend ""
+@    s17 avalue append ""
+@    s17 avalue offset 0.000000 , 0.000000
+@    s17 errorbar on
+@    s17 errorbar place both
+@    s17 errorbar color 3
+@    s17 errorbar pattern 1
+@    s17 errorbar size 1.000000
+@    s17 errorbar linewidth 1.0
+@    s17 errorbar linestyle 1
+@    s17 errorbar riser linewidth 1.0
+@    s17 errorbar riser linestyle 1
+@    s17 errorbar riser clip off
+@    s17 errorbar riser clip length 0.100000
+@    s17 comment "data_Lin_pa.dat_57-73-9gL-xs2.agr"
+@    s17 legend  ""
+@    s18 hidden false
+@    s18 type xydy
+@    s18 symbol 4
+@    s18 symbol size 0.300000
+@    s18 symbol color 10
+@    s18 symbol pattern 1
+@    s18 symbol fill color 10
+@    s18 symbol fill pattern 1
+@    s18 symbol linewidth 1.0
+@    s18 symbol linestyle 1
+@    s18 symbol char 65
+@    s18 symbol char font 0
+@    s18 symbol skip 0
+@    s18 line type 1
+@    s18 line linestyle 0
+@    s18 line linewidth 1.0
+@    s18 line color 10
+@    s18 line pattern 1
+@    s18 baseline type 0
+@    s18 baseline off
+@    s18 dropline off
+@    s18 fill type 0
+@    s18 fill rule 0
+@    s18 fill color 1
+@    s18 fill pattern 1
+@    s18 avalue off
+@    s18 avalue type 2
+@    s18 avalue char size 1.000000
+@    s18 avalue font 0
+@    s18 avalue color 1
+@    s18 avalue rot 0
+@    s18 avalue format general
+@    s18 avalue prec 3
+@    s18 avalue prepend ""
+@    s18 avalue append ""
+@    s18 avalue offset 0.000000 , 0.000000
+@    s18 errorbar on
+@    s18 errorbar place both
+@    s18 errorbar color 10
+@    s18 errorbar pattern 1
+@    s18 errorbar size 0.100000
+@    s18 errorbar linewidth 1.0
+@    s18 errorbar linestyle 1
+@    s18 errorbar riser linewidth 1.0
+@    s18 errorbar riser linestyle 1
+@    s18 errorbar riser clip off
+@    s18 errorbar riser clip length 0.100000
+@    s18 comment "data_Lin_pa.dat_57-73-9gL-xs2.agr"
+@    s18 legend  " 66: Lin_pa@e1.85 + 22.0% @  6.3"
+@    s19 hidden false
+@    s19 type xy
+@    s19 symbol 0
+@    s19 symbol size 1.000000
+@    s19 symbol color 5
+@    s19 symbol pattern 1
+@    s19 symbol fill color 5
+@    s19 symbol fill pattern 0
+@    s19 symbol linewidth 1.0
+@    s19 symbol linestyle 1
+@    s19 symbol char 65
+@    s19 symbol char font 0
+@    s19 symbol skip 0
+@    s19 line type 1
+@    s19 line linestyle 1
+@    s19 line linewidth 1.0
+@    s19 line color 10
+@    s19 line pattern 1
+@    s19 baseline type 0
+@    s19 baseline off
+@    s19 dropline off
+@    s19 fill type 0
+@    s19 fill rule 0
+@    s19 fill color 1
+@    s19 fill pattern 1
+@    s19 avalue off
+@    s19 avalue type 2
+@    s19 avalue char size 1.000000
+@    s19 avalue font 0
+@    s19 avalue color 1
+@    s19 avalue rot 0
+@    s19 avalue format general
+@    s19 avalue prec 3
+@    s19 avalue prepend ""
+@    s19 avalue append ""
+@    s19 avalue offset 0.000000 , 0.000000
+@    s19 errorbar on
+@    s19 errorbar place both
+@    s19 errorbar color 5
+@    s19 errorbar pattern 1
+@    s19 errorbar size 1.000000
+@    s19 errorbar linewidth 1.0
+@    s19 errorbar linestyle 1
+@    s19 errorbar riser linewidth 1.0
+@    s19 errorbar riser linestyle 1
+@    s19 errorbar riser clip off
+@    s19 errorbar riser clip length 0.100000
+@    s19 comment "data_Lin_pa.dat_57-73-9gL-xs2.agr"
+@    s19 legend  ""
+@    s20 hidden false
+@    s20 type xydy
+@    s20 symbol 5
+@    s20 symbol size 0.300000
+@    s20 symbol color 11
+@    s20 symbol pattern 1
+@    s20 symbol fill color 11
+@    s20 symbol fill pattern 1
+@    s20 symbol linewidth 1.0
+@    s20 symbol linestyle 1
+@    s20 symbol char 65
+@    s20 symbol char font 0
+@    s20 symbol skip 0
+@    s20 line type 1
+@    s20 line linestyle 0
+@    s20 line linewidth 1.0
+@    s20 line color 11
+@    s20 line pattern 1
+@    s20 baseline type 0
+@    s20 baseline off
+@    s20 dropline off
+@    s20 fill type 0
+@    s20 fill rule 0
+@    s20 fill color 1
+@    s20 fill pattern 1
+@    s20 avalue off
+@    s20 avalue type 2
+@    s20 avalue char size 1.000000
+@    s20 avalue font 0
+@    s20 avalue color 1
+@    s20 avalue rot 0
+@    s20 avalue format general
+@    s20 avalue prec 3
+@    s20 avalue prepend ""
+@    s20 avalue append ""
+@    s20 avalue offset 0.000000 , 0.000000
+@    s20 errorbar on
+@    s20 errorbar place both
+@    s20 errorbar color 11
+@    s20 errorbar pattern 1
+@    s20 errorbar size 0.100000
+@    s20 errorbar linewidth 1.0
+@    s20 errorbar linestyle 1
+@    s20 errorbar riser linewidth 1.0
+@    s20 errorbar riser linestyle 1
+@    s20 errorbar riser clip off
+@    s20 errorbar riser clip length 0.100000
+@    s20 comment "data_Lin_pa.dat_57-73-9gL-xs2.agr"
+@    s20 legend  " 67: Lin_pa@e1.9 + 30.3% @  1.8"
+@    s21 hidden false
+@    s21 type xy
+@    s21 symbol 0
+@    s21 symbol size 1.000000
+@    s21 symbol color 7
+@    s21 symbol pattern 1
+@    s21 symbol fill color 7
+@    s21 symbol fill pattern 0
+@    s21 symbol linewidth 1.0
+@    s21 symbol linestyle 1
+@    s21 symbol char 65
+@    s21 symbol char font 0
+@    s21 symbol skip 0
+@    s21 line type 1
+@    s21 line linestyle 1
+@    s21 line linewidth 1.0
+@    s21 line color 11
+@    s21 line pattern 1
+@    s21 baseline type 0
+@    s21 baseline off
+@    s21 dropline off
+@    s21 fill type 0
+@    s21 fill rule 0
+@    s21 fill color 1
+@    s21 fill pattern 1
+@    s21 avalue off
+@    s21 avalue type 2
+@    s21 avalue char size 1.000000
+@    s21 avalue font 0
+@    s21 avalue color 1
+@    s21 avalue rot 0
+@    s21 avalue format general
+@    s21 avalue prec 3
+@    s21 avalue prepend ""
+@    s21 avalue append ""
+@    s21 avalue offset 0.000000 , 0.000000
+@    s21 errorbar on
+@    s21 errorbar place both
+@    s21 errorbar color 7
+@    s21 errorbar pattern 1
+@    s21 errorbar size 1.000000
+@    s21 errorbar linewidth 1.0
+@    s21 errorbar linestyle 1
+@    s21 errorbar riser linewidth 1.0
+@    s21 errorbar riser linestyle 1
+@    s21 errorbar riser clip off
+@    s21 errorbar riser clip length 0.100000
+@    s21 comment "data_Lin_pa.dat_57-73-9gL-xs2.agr"
+@    s21 legend  ""
+@    s22 hidden false
+@    s22 type xydy
+@    s22 symbol 6
+@    s22 symbol size 0.300000
+@    s22 symbol color 12
+@    s22 symbol pattern 1
+@    s22 symbol fill color 12
+@    s22 symbol fill pattern 1
+@    s22 symbol linewidth 1.0
+@    s22 symbol linestyle 1
+@    s22 symbol char 65
+@    s22 symbol char font 0
+@    s22 symbol skip 0
+@    s22 line type 1
+@    s22 line linestyle 0
+@    s22 line linewidth 1.0
+@    s22 line color 12
+@    s22 line pattern 1
+@    s22 baseline type 0
+@    s22 baseline off
+@    s22 dropline off
+@    s22 fill type 0
+@    s22 fill rule 0
+@    s22 fill color 1
+@    s22 fill pattern 1
+@    s22 avalue off
+@    s22 avalue type 2
+@    s22 avalue char size 1.000000
+@    s22 avalue font 0
+@    s22 avalue color 1
+@    s22 avalue rot 0
+@    s22 avalue format general
+@    s22 avalue prec 3
+@    s22 avalue prepend ""
+@    s22 avalue append ""
+@    s22 avalue offset 0.000000 , 0.000000
+@    s22 errorbar on
+@    s22 errorbar place both
+@    s22 errorbar color 12
+@    s22 errorbar pattern 1
+@    s22 errorbar size 0.100000
+@    s22 errorbar linewidth 1.0
+@    s22 errorbar linestyle 1
+@    s22 errorbar riser linewidth 1.0
+@    s22 errorbar riser linestyle 1
+@    s22 errorbar riser clip off
+@    s22 errorbar riser clip length 0.100000
+@    s22 comment "data_Lin_pa.dat_57-73-9gL-xs2.agr"
+@    s22 legend  " 68: Lin_pa@e1.95 + 36.4% @  1.5"
+@    s23 hidden false
+@    s23 type xy
+@    s23 symbol 0
+@    s23 symbol size 1.000000
+@    s23 symbol color 9
+@    s23 symbol pattern 1
+@    s23 symbol fill color 9
+@    s23 symbol fill pattern 0
+@    s23 symbol linewidth 1.0
+@    s23 symbol linestyle 1
+@    s23 symbol char 65
+@    s23 symbol char font 0
+@    s23 symbol skip 0
+@    s23 line type 1
+@    s23 line linestyle 1
+@    s23 line linewidth 1.0
+@    s23 line color 12
+@    s23 line pattern 1
+@    s23 baseline type 0
+@    s23 baseline off
+@    s23 dropline off
+@    s23 fill type 0
+@    s23 fill rule 0
+@    s23 fill color 1
+@    s23 fill pattern 1
+@    s23 avalue off
+@    s23 avalue type 2
+@    s23 avalue char size 1.000000
+@    s23 avalue font 0
+@    s23 avalue color 1
+@    s23 avalue rot 0
+@    s23 avalue format general
+@    s23 avalue prec 3
+@    s23 avalue prepend ""
+@    s23 avalue append ""
+@    s23 avalue offset 0.000000 , 0.000000
+@    s23 errorbar on
+@    s23 errorbar place both
+@    s23 errorbar color 9
+@    s23 errorbar pattern 1
+@    s23 errorbar size 1.000000
+@    s23 errorbar linewidth 1.0
+@    s23 errorbar linestyle 1
+@    s23 errorbar riser linewidth 1.0
+@    s23 errorbar riser linestyle 1
+@    s23 errorbar riser clip off
+@    s23 errorbar riser clip length 0.100000
+@    s23 comment "data_Lin_pa.dat_57-73-9gL-xs2.agr"
+@    s23 legend  ""
+@    s24 hidden false
+@    s24 type xydy
+@    s24 symbol 7
+@    s24 symbol size 0.300000
+@    s24 symbol color 13
+@    s24 symbol pattern 1
+@    s24 symbol fill color 13
+@    s24 symbol fill pattern 1
+@    s24 symbol linewidth 1.0
+@    s24 symbol linestyle 1
+@    s24 symbol char 65
+@    s24 symbol char font 0
+@    s24 symbol skip 0
+@    s24 line type 1
+@    s24 line linestyle 0
+@    s24 line linewidth 1.0
+@    s24 line color 13
+@    s24 line pattern 1
+@    s24 baseline type 0
+@    s24 baseline off
+@    s24 dropline off
+@    s24 fill type 0
+@    s24 fill rule 0
+@    s24 fill color 1
+@    s24 fill pattern 1
+@    s24 avalue off
+@    s24 avalue type 2
+@    s24 avalue char size 1.000000
+@    s24 avalue font 0
+@    s24 avalue color 1
+@    s24 avalue rot 0
+@    s24 avalue format general
+@    s24 avalue prec 3
+@    s24 avalue prepend ""
+@    s24 avalue append ""
+@    s24 avalue offset 0.000000 , 0.000000
+@    s24 errorbar on
+@    s24 errorbar place both
+@    s24 errorbar color 13
+@    s24 errorbar pattern 1
+@    s24 errorbar size 0.100000
+@    s24 errorbar linewidth 1.0
+@    s24 errorbar linestyle 1
+@    s24 errorbar riser linewidth 1.0
+@    s24 errorbar riser linestyle 1
+@    s24 errorbar riser clip off
+@    s24 errorbar riser clip length 0.100000
+@    s24 comment "data_Lin_pa.dat_57-73-9gL-xs2.agr"
+@    s24 legend  " 69: Lin_pa@e2.0 + 21.9% @  4.1"
+@    s25 hidden false
+@    s25 type xy
+@    s25 symbol 0
+@    s25 symbol size 1.000000
+@    s25 symbol color 11
+@    s25 symbol pattern 1
+@    s25 symbol fill color 11
+@    s25 symbol fill pattern 0
+@    s25 symbol linewidth 1.0
+@    s25 symbol linestyle 1
+@    s25 symbol char 65
+@    s25 symbol char font 0
+@    s25 symbol skip 0
+@    s25 line type 1
+@    s25 line linestyle 1
+@    s25 line linewidth 1.0
+@    s25 line color 13
+@    s25 line pattern 1
+@    s25 baseline type 0
+@    s25 baseline off
+@    s25 dropline off
+@    s25 fill type 0
+@    s25 fill rule 0
+@    s25 fill color 1
+@    s25 fill pattern 1
+@    s25 avalue off
+@    s25 avalue type 2
+@    s25 avalue char size 1.000000
+@    s25 avalue font 0
+@    s25 avalue color 1
+@    s25 avalue rot 0
+@    s25 avalue format general
+@    s25 avalue prec 3
+@    s25 avalue prepend ""
+@    s25 avalue append ""
+@    s25 avalue offset 0.000000 , 0.000000
+@    s25 errorbar on
+@    s25 errorbar place both
+@    s25 errorbar color 11
+@    s25 errorbar pattern 1
+@    s25 errorbar size 1.000000
+@    s25 errorbar linewidth 1.0
+@    s25 errorbar linestyle 1
+@    s25 errorbar riser linewidth 1.0
+@    s25 errorbar riser linestyle 1
+@    s25 errorbar riser clip off
+@    s25 errorbar riser clip length 0.100000
+@    s25 comment "data_Lin_pa.dat_57-73-9gL-xs2.agr"
+@    s25 legend  ""
+@    s26 hidden false
+@    s26 type xydy
+@    s26 symbol 8
+@    s26 symbol size 0.300000
+@    s26 symbol color 14
+@    s26 symbol pattern 1
+@    s26 symbol fill color 14
+@    s26 symbol fill pattern 1
+@    s26 symbol linewidth 1.0
+@    s26 symbol linestyle 1
+@    s26 symbol char 65
+@    s26 symbol char font 0
+@    s26 symbol skip 0
+@    s26 line type 1
+@    s26 line linestyle 0
+@    s26 line linewidth 1.0
+@    s26 line color 14
+@    s26 line pattern 1
+@    s26 baseline type 0
+@    s26 baseline off
+@    s26 dropline off
+@    s26 fill type 0
+@    s26 fill rule 0
+@    s26 fill color 1
+@    s26 fill pattern 1
+@    s26 avalue off
+@    s26 avalue type 2
+@    s26 avalue char size 1.000000
+@    s26 avalue font 0
+@    s26 avalue color 1
+@    s26 avalue rot 0
+@    s26 avalue format general
+@    s26 avalue prec 3
+@    s26 avalue prepend ""
+@    s26 avalue append ""
+@    s26 avalue offset 0.000000 , 0.000000
+@    s26 errorbar on
+@    s26 errorbar place both
+@    s26 errorbar color 14
+@    s26 errorbar pattern 1
+@    s26 errorbar size 0.100000
+@    s26 errorbar linewidth 1.0
+@    s26 errorbar linestyle 1
+@    s26 errorbar riser linewidth 1.0
+@    s26 errorbar riser linestyle 1
+@    s26 errorbar riser clip off
+@    s26 errorbar riser clip length 0.100000
+@    s26 comment "data_Lin_pa.dat_57-73-9gL-xs2.agr"
+@    s26 legend  " 70: Lin_pa@e2.1 + 25.2% @  3.2"
+@    s27 hidden false
+@    s27 type xy
+@    s27 symbol 0
+@    s27 symbol size 1.000000
+@    s27 symbol color 13
+@    s27 symbol pattern 1
+@    s27 symbol fill color 13
+@    s27 symbol fill pattern 0
+@    s27 symbol linewidth 1.0
+@    s27 symbol linestyle 1
+@    s27 symbol char 65
+@    s27 symbol char font 0
+@    s27 symbol skip 0
+@    s27 line type 1
+@    s27 line linestyle 1
+@    s27 line linewidth 1.0
+@    s27 line color 14
+@    s27 line pattern 1
+@    s27 baseline type 0
+@    s27 baseline off
+@    s27 dropline off
+@    s27 fill type 0
+@    s27 fill rule 0
+@    s27 fill color 1
+@    s27 fill pattern 1
+@    s27 avalue off
+@    s27 avalue type 2
+@    s27 avalue char size 1.000000
+@    s27 avalue font 0
+@    s27 avalue color 1
+@    s27 avalue rot 0
+@    s27 avalue format general
+@    s27 avalue prec 3
+@    s27 avalue prepend ""
+@    s27 avalue append ""
+@    s27 avalue offset 0.000000 , 0.000000
+@    s27 errorbar on
+@    s27 errorbar place both
+@    s27 errorbar color 13
+@    s27 errorbar pattern 1
+@    s27 errorbar size 1.000000
+@    s27 errorbar linewidth 1.0
+@    s27 errorbar linestyle 1
+@    s27 errorbar riser linewidth 1.0
+@    s27 errorbar riser linestyle 1
+@    s27 errorbar riser clip off
+@    s27 errorbar riser clip length 0.100000
+@    s27 comment "data_Lin_pa.dat_57-73-9gL-xs2.agr"
+@    s27 legend  ""
+@    s28 hidden false
+@    s28 type xydy
+@    s28 symbol 2
+@    s28 symbol size 0.300000
+@    s28 symbol color 15
+@    s28 symbol pattern 1
+@    s28 symbol fill color 15
+@    s28 symbol fill pattern 1
+@    s28 symbol linewidth 1.0
+@    s28 symbol linestyle 1
+@    s28 symbol char 65
+@    s28 symbol char font 0
+@    s28 symbol skip 0
+@    s28 line type 1
+@    s28 line linestyle 0
+@    s28 line linewidth 1.0
+@    s28 line color 15
+@    s28 line pattern 1
+@    s28 baseline type 0
+@    s28 baseline off
+@    s28 dropline off
+@    s28 fill type 0
+@    s28 fill rule 0
+@    s28 fill color 1
+@    s28 fill pattern 1
+@    s28 avalue off
+@    s28 avalue type 2
+@    s28 avalue char size 1.000000
+@    s28 avalue font 0
+@    s28 avalue color 1
+@    s28 avalue rot 0
+@    s28 avalue format general
+@    s28 avalue prec 3
+@    s28 avalue prepend ""
+@    s28 avalue append ""
+@    s28 avalue offset 0.000000 , 0.000000
+@    s28 errorbar on
+@    s28 errorbar place both
+@    s28 errorbar color 15
+@    s28 errorbar pattern 1
+@    s28 errorbar size 0.100000
+@    s28 errorbar linewidth 1.0
+@    s28 errorbar linestyle 1
+@    s28 errorbar riser linewidth 1.0
+@    s28 errorbar riser linestyle 1
+@    s28 errorbar riser clip off
+@    s28 errorbar riser clip length 0.100000
+@    s28 comment "data_Lin_pa.dat_57-73-9gL-xs2.agr"
+@    s28 legend  " 71: Lin_pa@e2.2 + 31.3% @  4.9"
+@    s29 hidden false
+@    s29 type xy
+@    s29 symbol 0
+@    s29 symbol size 1.000000
+@    s29 symbol color 15
+@    s29 symbol pattern 1
+@    s29 symbol fill color 15
+@    s29 symbol fill pattern 0
+@    s29 symbol linewidth 1.0
+@    s29 symbol linestyle 1
+@    s29 symbol char 65
+@    s29 symbol char font 0
+@    s29 symbol skip 0
+@    s29 line type 1
+@    s29 line linestyle 1
+@    s29 line linewidth 1.0
+@    s29 line color 15
+@    s29 line pattern 1
+@    s29 baseline type 0
+@    s29 baseline off
+@    s29 dropline off
+@    s29 fill type 0
+@    s29 fill rule 0
+@    s29 fill color 1
+@    s29 fill pattern 1
+@    s29 avalue off
+@    s29 avalue type 2
+@    s29 avalue char size 1.000000
+@    s29 avalue font 0
+@    s29 avalue color 1
+@    s29 avalue rot 0
+@    s29 avalue format general
+@    s29 avalue prec 3
+@    s29 avalue prepend ""
+@    s29 avalue append ""
+@    s29 avalue offset 0.000000 , 0.000000
+@    s29 errorbar on
+@    s29 errorbar place both
+@    s29 errorbar color 15
+@    s29 errorbar pattern 1
+@    s29 errorbar size 1.000000
+@    s29 errorbar linewidth 1.0
+@    s29 errorbar linestyle 1
+@    s29 errorbar riser linewidth 1.0
+@    s29 errorbar riser linestyle 1
+@    s29 errorbar riser clip off
+@    s29 errorbar riser clip length 0.100000
+@    s29 comment "data_Lin_pa.dat_57-73-9gL-xs2.agr"
+@    s29 legend  ""
+@    s30 hidden false
+@    s30 type xydy
+@    s30 symbol 3
+@    s30 symbol size 0.300000
+@    s30 symbol color 1
+@    s30 symbol pattern 1
+@    s30 symbol fill color 1
+@    s30 symbol fill pattern 1
+@    s30 symbol linewidth 1.0
+@    s30 symbol linestyle 1
+@    s30 symbol char 65
+@    s30 symbol char font 0
+@    s30 symbol skip 0
+@    s30 line type 1
+@    s30 line linestyle 0
+@    s30 line linewidth 1.0
+@    s30 line color 1
+@    s30 line pattern 1
+@    s30 baseline type 0
+@    s30 baseline off
+@    s30 dropline off
+@    s30 fill type 0
+@    s30 fill rule 0
+@    s30 fill color 1
+@    s30 fill pattern 1
+@    s30 avalue off
+@    s30 avalue type 2
+@    s30 avalue char size 1.000000
+@    s30 avalue font 0
+@    s30 avalue color 1
+@    s30 avalue rot 0
+@    s30 avalue format general
+@    s30 avalue prec 3
+@    s30 avalue prepend ""
+@    s30 avalue append ""
+@    s30 avalue offset 0.000000 , 0.000000
+@    s30 errorbar on
+@    s30 errorbar place both
+@    s30 errorbar color 1
+@    s30 errorbar pattern 1
+@    s30 errorbar size 0.100000
+@    s30 errorbar linewidth 1.0
+@    s30 errorbar linestyle 1
+@    s30 errorbar riser linewidth 1.0
+@    s30 errorbar riser linestyle 1
+@    s30 errorbar riser clip off
+@    s30 errorbar riser clip length 0.100000
+@    s30 comment "data_Lin_pa.dat_57-73-9gL-xs2.agr"
+@    s30 legend  " 72: Lin_pa@e2.4 + 38.6% @  2.9"
+@    s31 hidden false
+@    s31 type xy
+@    s31 symbol 0
+@    s31 symbol size 1.000000
+@    s31 symbol color 1
+@    s31 symbol pattern 1
+@    s31 symbol fill color 1
+@    s31 symbol fill pattern 0
+@    s31 symbol linewidth 1.0
+@    s31 symbol linestyle 1
+@    s31 symbol char 65
+@    s31 symbol char font 0
+@    s31 symbol skip 0
+@    s31 line type 1
+@    s31 line linestyle 1
+@    s31 line linewidth 1.0
+@    s31 line color 1
+@    s31 line pattern 1
+@    s31 baseline type 0
+@    s31 baseline off
+@    s31 dropline off
+@    s31 fill type 0
+@    s31 fill rule 0
+@    s31 fill color 1
+@    s31 fill pattern 1
+@    s31 avalue off
+@    s31 avalue type 2
+@    s31 avalue char size 1.000000
+@    s31 avalue font 0
+@    s31 avalue color 1
+@    s31 avalue rot 0
+@    s31 avalue format general
+@    s31 avalue prec 3
+@    s31 avalue prepend ""
+@    s31 avalue append ""
+@    s31 avalue offset 0.000000 , 0.000000
+@    s31 errorbar on
+@    s31 errorbar place both
+@    s31 errorbar color 1
+@    s31 errorbar pattern 1
+@    s31 errorbar size 1.000000
+@    s31 errorbar linewidth 1.0
+@    s31 errorbar linestyle 1
+@    s31 errorbar riser linewidth 1.0
+@    s31 errorbar riser linestyle 1
+@    s31 errorbar riser clip off
+@    s31 errorbar riser clip length 0.100000
+@    s31 comment "data_Lin_pa.dat_57-73-9gL-xs2.agr"
+@    s31 legend  ""
+@    s32 hidden false
+@    s32 type xydy
+@    s32 symbol 4
+@    s32 symbol size 0.300000
+@    s32 symbol color 2
+@    s32 symbol pattern 1
+@    s32 symbol fill color 2
+@    s32 symbol fill pattern 1
+@    s32 symbol linewidth 1.0
+@    s32 symbol linestyle 1
+@    s32 symbol char 65
+@    s32 symbol char font 0
+@    s32 symbol skip 0
+@    s32 line type 1
+@    s32 line linestyle 0
+@    s32 line linewidth 1.0
+@    s32 line color 2
+@    s32 line pattern 1
+@    s32 baseline type 0
+@    s32 baseline off
+@    s32 dropline off
+@    s32 fill type 0
+@    s32 fill rule 0
+@    s32 fill color 1
+@    s32 fill pattern 1
+@    s32 avalue off
+@    s32 avalue type 2
+@    s32 avalue char size 1.000000
+@    s32 avalue font 0
+@    s32 avalue color 1
+@    s32 avalue rot 0
+@    s32 avalue format general
+@    s32 avalue prec 3
+@    s32 avalue prepend ""
+@    s32 avalue append ""
+@    s32 avalue offset 0.000000 , 0.000000
+@    s32 errorbar on
+@    s32 errorbar place both
+@    s32 errorbar color 2
+@    s32 errorbar pattern 1
+@    s32 errorbar size 0.100000
+@    s32 errorbar linewidth 1.0
+@    s32 errorbar linestyle 1
+@    s32 errorbar riser linewidth 1.0
+@    s32 errorbar riser linestyle 1
+@    s32 errorbar riser clip off
+@    s32 errorbar riser clip length 0.100000
+@    s32 comment "data_Lin_pa.dat_57-73-9gL-xs2.agr"
+@    s32 legend  " 73: Lin_pa@e2.6 + 39.2% @  7.8"
+@    s33 hidden false
+@    s33 type xy
+@    s33 symbol 0
+@    s33 symbol size 1.000000
+@    s33 symbol color 3
+@    s33 symbol pattern 1
+@    s33 symbol fill color 3
+@    s33 symbol fill pattern 0
+@    s33 symbol linewidth 1.0
+@    s33 symbol linestyle 1
+@    s33 symbol char 65
+@    s33 symbol char font 0
+@    s33 symbol skip 0
+@    s33 line type 1
+@    s33 line linestyle 1
+@    s33 line linewidth 1.0
+@    s33 line color 2
+@    s33 line pattern 1
+@    s33 baseline type 0
+@    s33 baseline off
+@    s33 dropline off
+@    s33 fill type 0
+@    s33 fill rule 0
+@    s33 fill color 1
+@    s33 fill pattern 1
+@    s33 avalue off
+@    s33 avalue type 2
+@    s33 avalue char size 1.000000
+@    s33 avalue font 0
+@    s33 avalue color 1
+@    s33 avalue rot 0
+@    s33 avalue format general
+@    s33 avalue prec 3
+@    s33 avalue prepend ""
+@    s33 avalue append ""
+@    s33 avalue offset 0.000000 , 0.000000
+@    s33 errorbar on
+@    s33 errorbar place both
+@    s33 errorbar color 3
+@    s33 errorbar pattern 1
+@    s33 errorbar size 1.000000
+@    s33 errorbar linewidth 1.0
+@    s33 errorbar linestyle 1
+@    s33 errorbar riser linewidth 1.0
+@    s33 errorbar riser linestyle 1
+@    s33 errorbar riser clip off
+@    s33 errorbar riser clip length 0.100000
+@    s33 comment "data_Lin_pa.dat_57-73-9gL-xs2.agr"
+@    s33 legend  ""
+@target G0.S0
+@type xydy
+19.96 5.2722 0.15889
+29.6 6.3556 0.19139
+41.17 7.5352 0.2275
+50.25 8.1612 0.24556
+60.48 8.9917 0.27083
+68.06 10.617 0.32019
+79.81 11.796 0.3563
+91.1 11.279 0.34065
+101.74 10.821 0.32621
+112.69 10.376 0.31296
+125.43 9.8945 0.29852
+138.59 8.7149 0.26241
+152.34 7.5473 0.2275
+&
+@target G0.S1
+@type xy
+19.96 5.6944
+29.6 6.4578
+41.17 7.5261
+50.25 8.4071
+60.48 9.3539
+68.06 9.9515
+79.81 10.574
+91.1 10.75
+101.74 10.57
+112.69 10.145
+125.43 9.5121
+138.59 8.8674
+152.34 8.3237
+&
+@target G0.S2
+@type xydy
+19.88 4.7685 0.14465
+29.42 5.4182 0.16426
+39.89 8.1763 0.24884
+50.67 9.3286 0.28317
+59.86 10.934 0.3322
+68.36 12.062 0.36652
+78.1 12.749 0.38736
+89.22 12.503 0.38001
+99.8 12.258 0.37265
+112.02 11.265 0.34201
+123.59 9.8189 0.29788
+135.65 8.6176 0.2611
+150.73 9.0711 0.27581
+&
+@target G0.S3
+@type xy
+19.88 5.0567
+29.42 6.3117
+39.89 7.8268
+50.67 9.3391
+59.86 10.445
+68.36 11.206
+78.1 11.686
+89.22 11.733
+99.8 11.408
+112.02 10.805
+123.59 10.186
+135.65 9.5999
+150.73 9.0277
+&
+@target G0.S4
+@type xydy
+18.93 4.966 0.14911
+29.17 6.6972 0.20092
+39.55 9.4645 0.28305
+50.24 10.741 0.32222
+60.26 13.268 0.39678
+68.75 13.647 0.40941
+78.45 15.29 0.45617
+89.64 14.911 0.44479
+98.07 14.279 0.42963
+110.15 12.636 0.39046
+121.71 11.499 0.37024
+135.12 10.703 0.32096
+149.02 11.562 0.34623
+&
+@target G0.S5
+@type xy
+18.93 5.7428
+29.17 7.5079
+39.55 9.4206
+50.24 11.268
+60.26 12.65
+68.75 13.384
+78.45 13.656
+89.64 13.367
+98.07 12.927
+110.15 12.261
+121.71 11.749
+135.12 11.332
+149.02 11.036
+&
+@target G0.S6
+@type xydy
+19.69 7.6456 0.2291
+29.05 9.7468 0.29146
+39.43 11.875 0.35517
+49.24 11.319 0.3389
+59.17 14.776 0.44328
+67.59 16.267 0.48531
+79.26 15.861 0.47311
+89.38 15.996 0.47717
+97.81 14.505 0.4338
+108.81 14.505 0.4338
+120.35 12.16 0.36466
+133.63 12.512 0.37415
+150.17 13.692 0.41075
+&
+@target G0.S7
+@type xy
+19.69 8.2667
+29.05 9.7391
+39.43 11.427
+49.24 12.97
+59.17 14.291
+67.59 15.007
+79.26 15.206
+89.38 14.795
+97.81 14.292
+108.81 13.708
+120.35 13.327
+133.63 13.125
+150.17 13.007
+&
+@target G0.S8
+@type xydy
+21.04 12.87 0.38226
+30.17 13.709 0.40701
+40.28 14.85 0.43864
+50.65 14.438 0.41664
+60.39 15.263 0.45376
+66.7 18.013 0.53489
+70.43 16.5 0.49089
+77.01 17.738 0.52527
+79.89 18.288 0.54452
+86.77 17.876 0.53077
+89.75 18.013 0.53352
+96.95 15.95 0.47439
+108.68 16.363 0.48401
+119.91 14.988 0.44414
+134.06 16.225 0.47989
+148.96 14.85 0.44276
+&
+@target G0.S9
+@type xy
+21.04 13.402
+30.17 14.087
+40.28 14.805
+50.65 15.693
+60.39 16.562
+66.7 16.965
+70.43 17.099
+77.01 17.125
+79.89 17.058
+86.77 16.755
+89.75 16.587
+96.95 16.165
+108.68 15.658
+119.91 15.497
+134.06 15.575
+148.96 15.696
+&
+@target G0.S10
+@type xydy
+20.18 16.275 0.48825
+30.13 16.275 0.48825
+40.23 16.672 0.49884
+49.73 15.878 0.47502
+59.45 16.143 0.47502
+65.74 18.127 0.54382
+69.44 16.407 0.52927
+76.96 18.26 0.54647
+79.83 18.921 0.56632
+85.73 16.937 0.50942
+88.69 19.186 0.57558
+96.89 17.863 0.53853
+107.44 18.524 0.55441
+121 16.672 0.49884
+135.13 17.995 0.53985
+150.25 16.672 0.49884
+&
+@target G0.S11
+@type xy
+20.18 16.796
+30.13 16.823
+40.23 16.745
+49.73 16.961
+59.45 17.49
+65.74 17.812
+69.44 17.933
+76.96 17.961
+79.83 17.895
+85.73 17.657
+88.69 17.504
+96.89 17.068
+107.44 16.681
+121 16.617
+135.13 16.831
+150.25 17.027
+&
+@target G0.S12
+@type xydy
+20.17 20.206 0.60752
+29.27 20.206 0.61157
+38.52 18.994 0.5725
+48.84 16.973 0.51188
+59.38 18.455 0.55768
+64.83 18.051 0.52131
+68.49 17.916 0.53882
+75.97 18.455 0.55768
+79.81 17.916 0.54017
+85.69 17.646 0.53074
+89.63 18.051 0.54556
+96.83 19.128 0.57789
+108.57 18.455 0.55499
+122.11 17.512 0.52939
+134.03 18.185 0.54825
+150.28 17.646 0.53344
+&
+@target G0.S13
+@type xy
+20.17 20.454
+29.27 19.7
+38.52 18.739
+48.84 18.116
+59.38 18.204
+64.83 18.375
+68.49 18.469
+75.97 18.516
+79.81 18.447
+85.69 18.243
+89.63 18.067
+96.83 17.742
+108.57 17.43
+122.11 17.504
+134.03 17.75
+150.28 18.001
+&
+@target G0.S14
+@type xydy
+21.01 23.197 0.6999
+30.15 20.13 0.60525
+40.24 19.331 0.58125
+49.7 18.397 0.55325
+60.28 18.797 0.56658
+65.72 18.664 0.56125
+69.35 20.397 0.61591
+75.94 19.464 0.58525
+79.77 19.331 0.58525
+85.64 19.064 0.57458
+90.67 18.264 0.55059
+96.78 18.397 0.55459
+108.53 18.264 0.58258
+120.93 16.931 0.51193
+132.81 17.597 0.52926
+149.04 17.997 0.54259
+&
+@target G0.S15
+@type xy
+21.01 23.566
+30.15 21.957
+40.24 19.995
+49.7 18.803
+60.28 18.482
+65.72 18.547
+69.35 18.601
+75.94 18.627
+79.77 18.579
+85.64 18.422
+90.67 18.24
+96.78 18.02
+108.53 17.786
+120.93 17.882
+132.81 18.125
+149.04 18.366
+&
+@target G0.S16
+@type xydy
+18.45 25.672 0.73592
+28.1 21.722 0.62402
+37.88 19.747 0.56741
+47.84 18.826 0.53976
+58.08 18.168 0.52265
+64.18 18.957 0.54503
+67.75 18.563 0.53055
+74.09 18.168 0.52001
+78.71 18.431 0.53055
+84.39 17.641 0.50553
+88.23 18.563 0.53318
+95.18 18.563 0.53186
+106.42 19.352 0.55556
+117.25 19.221 0.55293
+131 18.431 0.52791
+148.05 17.641 0.50422
+&
+@target G0.S17
+@type xy
+18.45 26.252
+28.1 24.039
+37.88 21.341
+47.84 19.231
+58.08 18.324
+64.18 18.24
+67.75 18.26
+74.09 18.302
+78.71 18.287
+84.39 18.194
+88.23 18.095
+95.18 17.89
+106.42 17.664
+117.25 17.676
+131 17.879
+148.05 18.063
+&
+@target G0.S18
+@type xydy
+18.47 25.989 0.74671
+27.25 25.501 0.72963
+37.83 21.23 0.60884
+47.8 19.156 0.54783
+57.13 19.644 0.56248
+61.55 15.618 0.44778
+66.8 17.814 0.51123
+73.15 15.618 0.44778
+78.65 17.204 0.49293
+82.37 19.156 0.55027
+87.2 16.96 0.48561
+93 19.034 0.54661
+104.23 19.888 0.57102
+116.09 17.57 0.50147
+129.79 17.692 0.50513
+146.68 16.838 0.48195
+&
+@target G0.S19
+@type xy
+18.47 27.385
+27.25 25.001
+37.83 21.559
+47.8 19.013
+57.13 17.864
+61.55 17.677
+66.8 17.627
+73.15 17.659
+78.65 17.663
+82.37 17.631
+87.2 17.546
+93 17.404
+104.23 17.151
+116.09 17.072
+129.79 17.156
+146.68 17.227
+&
+@target G0.S20
+@type xydy
+17.73 26.06 0.75313
+27.31 23.454 0.67495
+37.86 20.587 0.59547
+46.99 19.284 0.50687
+57.16 17.46 0.50426
+62.36 17.851 0.51468
+67.69 17.2 0.49514
+72.18 17.069 0.49253
+76.76 17.851 0.51599
+82.38 17.59 0.50687
+86.17 17.46 0.50556
+92.15 15.766 0.45214
+104.3 16.287 0.46908
+117.3 15.897 0.45735
+128.71 16.287 0.46908
+144.31 15.506 0.44823
+&
+@target G0.S21
+@type xy
+17.73 27.65
+27.31 24.879
+37.86 21.209
+46.99 18.645
+57.16 17.182
+62.36 16.929
+67.69 16.869
+72.18 16.884
+76.76 16.901
+82.38 16.875
+86.17 16.82
+92.15 16.686
+104.3 16.381
+117.3 16.202
+128.71 16.161
+144.31 16.111
+&
+@target G0.S22
+@type xydy
+16.97 26.589 0.75813
+27.34 23.18 0.65996
+37.08 19.771 0.55224
+47.83 17.317 0.49497
+56.28 17.863 0.51133
+61.5 15.954 0.4527
+66.76 17.181 0.48815
+71.27 16.09 0.45815
+75.83 16.363 0.46633
+81.43 16.09 0.45815
+85.22 16.499 0.46906
+91.1 15.681 0.44452
+103.2 15.681 0.44724
+113.89 15.954 0.45543
+129.9 14.863 0.42406
+143.2 14.454 0.41179
+&
+@target G0.S23
+@type xy
+16.97 27.218
+27.34 24.235
+37.08 20.822
+47.83 17.796
+56.28 16.549
+61.5 16.229
+66.76 16.127
+71.27 16.126
+75.83 16.14
+81.43 16.12
+85.22 16.069
+91.1 15.935
+103.2 15.568
+113.89 15.3
+129.9 15.067
+143.2 14.923
+&
+@target G0.S24
+@type xydy
+18.24 24.749 0.72173
+28.41 23.407 0.68272
+37.98 20.116 0.58519
+47.73 19.14 0.55715
+57.76 17.434 0.50838
+62.1 13.898 0.40354
+67.26 15.849 0.46083
+72.56 15.605 0.45474
+77.09 14.995 0.43767
+82.63 14.752 0.43036
+87.38 14.142 0.41207
+93.08 15.117 0.44011
+105.2 15.239 0.44255
+118.05 15.239 0.44377
+131.7 14.508 0.42304
+146.14 13.289 0.38647
+&
+@target G0.S25
+@type xy
+18.24 25.95
+28.41 22.99
+37.98 19.76
+47.73 17.147
+57.76 15.79
+62.1 15.567
+67.26 15.474
+72.56 15.467
+77.09 15.464
+82.63 15.414
+87.38 15.316
+93.08 15.141
+105.2 14.685
+118.05 14.276
+131.7 13.978
+146.14 13.735
+&
+@target G0.S26
+@type xydy
+17.48 23.291 0.66366
+27.63 20.912 0.59479
+37.14 19.033 0.54095
+46.87 16.153 0.45955
+57.68 15.026 0.4295
+62.83 13.398 0.38067
+67.96 16.529 0.47082
+71.52 15.151 0.43326
+76.93 14.525 0.41322
+80.59 14.901 0.42324
+86.23 14.15 0.40321
+92.01 12.647 0.36188
+103 14.025 0.3982
+114.61 12.898 0.36814
+128.09 12.259 0.34936
+144.81 11.583 0.33058
+&
+@target G0.S27
+@type xy
+17.48 23.912
+27.63 21.388
+37.14 18.572
+46.87 16.203
+57.68 14.846
+62.83 14.61
+67.96 14.52
+71.52 14.494
+76.93 14.447
+80.59 14.386
+86.23 14.225
+92.01 13.981
+103 13.399
+114.61 12.803
+128.09 12.272
+144.81 11.829
+&
+@target G0.S28
+@type xydy
+18.27 23.496 0.6655
+28.41 20.477 0.57887
+37.93 17.064 0.48436
+47.65 14.57 0.41085
+58.4 16.408 0.46598
+61.87 13.257 0.3741
+67.03 14.176 0.40166
+72.32 13.914 0.3951
+78.6 15.226 0.43054
+80.48 13.783 0.38985
+87.07 12.614 0.35703
+92.87 12.641 0.35835
+102.85 12.522 0.35441
+115.6 11.459 0.32422
+129.3 9.6609 0.27434
+144.89 10.882 0.30847
+&
+@target G0.S29
+@type xy
+18.27 21.866
+28.41 19.676
+37.93 17.292
+47.65 15.346
+58.4 14.261
+61.87 14.111
+67.03 13.987
+72.32 13.903
+78.6 13.765
+80.48 13.706
+87.07 13.418
+92.87 13.076
+102.85 12.388
+115.6 11.554
+129.3 10.886
+144.89 10.403
+&
+@target G0.S30
+@type xydy
+17.53 19.825 0.57117
+27.58 17.745 0.51017
+37.79 16.497 0.47551
+46.64 16.22 0.42838
+57.36 14.002 0.41035
+59.05 14.002 0.40619
+65.84 15.388 0.44363
+70.24 13.628 0.39233
+75.61 12.643 0.3646
+79.24 12.948 0.37292
+85.73 12.2 0.35213
+90.58 11.645 0.33549
+101.51 11.409 0.32856
+114.21 9.2884 0.26756
+130.21 8.5675 0.24677
+143.51 8.7477 0.25231
+&
+@target G0.S31
+@type xy
+17.53 19.623
+27.58 18.143
+37.79 16.297
+46.64 14.943
+57.36 13.983
+59.05 13.893
+65.84 13.618
+70.24 13.465
+75.61 13.242
+79.24 13.051
+85.73 12.61
+90.58 12.208
+101.51 11.183
+114.21 10.064
+130.21 9.0721
+143.51 8.5983
+&
+@target G0.S32
+@type xydy
+16.72 20.19 0.5695
+25.93 18.659 0.52495
+35.29 16.57 0.46507
+45.65 14.064 0.39406
+55.47 13.131 0.36899
+57.94 14.481 0.4052
+64.74 13.66 0.38431
+68.21 13.27 0.37317
+74.38 13.284 0.37317
+77.99 12.852 0.36203
+82.67 10.415 0.29241
+87.37 11.112 0.3133
+97.08 11.279 0.31747
+110.62 9.8723 0.27709
+124 9.2179 0.25899
+139.45 9.1065 0.25621
+&
+@target G0.S33
+@type xy
+16.72 18.889
+25.93 17.988
+35.29 16.695
+45.65 15.257
+55.47 14.251
+57.94 14.059
+64.74 13.609
+68.21 13.397
+74.38 12.996
+77.99 12.728
+82.67 12.335
+87.37 11.887
+97.08 10.856
+110.62 9.4429
+124 8.3741
+139.45 7.6281
+&

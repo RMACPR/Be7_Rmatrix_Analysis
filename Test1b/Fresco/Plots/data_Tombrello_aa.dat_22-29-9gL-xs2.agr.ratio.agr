@@ -1,0 +1,1512 @@
+# Grace project file
+#
+@version 50125
+@page size 457, 469
+@page scroll 5%
+@page inout 5%
+@link page off
+@map font 0 to "Times-Roman", "Times-Roman"
+@map font 1 to "Times-Italic", "Times-Italic"
+@map font 2 to "Times-Bold", "Times-Bold"
+@map font 3 to "Times-BoldItalic", "Times-BoldItalic"
+@map font 4 to "Helvetica", "Helvetica"
+@map font 5 to "Helvetica-Oblique", "Helvetica-Oblique"
+@map font 6 to "Helvetica-Bold", "Helvetica-Bold"
+@map font 7 to "Helvetica-BoldOblique", "Helvetica-BoldOblique"
+@map font 8 to "Courier", "Courier"
+@map font 9 to "Courier-Oblique", "Courier-Oblique"
+@map font 10 to "Courier-Bold", "Courier-Bold"
+@map font 11 to "Courier-BoldOblique", "Courier-BoldOblique"
+@map font 12 to "Symbol", "Symbol"
+@map font 13 to "ZapfDingbats", "ZapfDingbats"
+@map color 0 to (255, 255, 255), "white"
+@map color 1 to (0, 0, 0), "black"
+@map color 2 to (255, 0, 0), "red"
+@map color 3 to (0, 255, 0), "green"
+@map color 4 to (0, 0, 255), "blue"
+@map color 5 to (255, 255, 0), "yellow"
+@map color 6 to (188, 143, 143), "brown"
+@map color 7 to (220, 220, 220), "grey"
+@map color 8 to (148, 0, 211), "violet"
+@map color 9 to (0, 255, 255), "cyan"
+@map color 10 to (255, 0, 255), "magenta"
+@map color 11 to (255, 165, 0), "orange"
+@map color 12 to (114, 33, 188), "indigo"
+@map color 13 to (103, 7, 72), "maroon"
+@map color 14 to (64, 224, 208), "turquoise"
+@map color 15 to (0, 139, 0), "green4"
+@reference date 0
+@date wrap off
+@date wrap year 1950
+@default linewidth 1.0
+@default linestyle 1
+@default color 1
+@default pattern 1
+@default font 0
+@default char size 1.000000
+@default symbol size 1.000000
+@default sformat "%.8g"
+@background color 0
+@page background fill on
+@timestamp off
+@timestamp 0.03, 0.03
+@timestamp color 1
+@timestamp rot 0
+@timestamp font 0
+@timestamp char size 1.000000
+@timestamp def "Tue Aug 14 01:42:15 2018"
+@r0 off
+@link r0 to g0
+@r0 type above
+@r0 linestyle 1
+@r0 linewidth 1.0
+@r0 color 1
+@r0 line 0, 0, 0, 0
+@r1 off
+@link r1 to g0
+@r1 type above
+@r1 linestyle 1
+@r1 linewidth 1.0
+@r1 color 1
+@r1 line 0, 0, 0, 0
+@r2 off
+@link r2 to g0
+@r2 type above
+@r2 linestyle 1
+@r2 linewidth 1.0
+@r2 color 1
+@r2 line 0, 0, 0, 0
+@r3 off
+@link r3 to g0
+@r3 type above
+@r3 linestyle 1
+@r3 linewidth 1.0
+@r3 color 1
+@r3 line 0, 0, 0, 0
+@r4 off
+@link r4 to g0
+@r4 type above
+@r4 linestyle 1
+@r4 linewidth 1.0
+@r4 color 1
+@r4 line 0, 0, 0, 0
+@g0 on
+@g0 hidden false
+@g0 type XY
+@g0 stacked false
+@g0 bar hgap 0.000000
+@g0 fixedpoint off
+@g0 fixedpoint type 0
+@g0 fixedpoint xy 0.000000, 0.000000
+@g0 fixedpoint format general general
+@g0 fixedpoint prec 6, 6
+@with g0
+@    world 5.23388316011, 0.706886102186, 14.767886837, 2.93987077117
+@    stack world 0, 0, 0, 0
+@    znorm 1
+@    view 0.115909, 0.153939, 0.888636, 0.872319
+@    title ""
+@    title font 0
+@    title size 1.500000
+@    title color 1
+@    subtitle "data_Tombrello_aa.dat_22-29-9gL-xs2.agr (spacing 0.2)"
+@    subtitle font 0
+@    subtitle size 1.000000
+@    subtitle color 1
+@    xaxes scale Normal
+@    yaxes scale Normal
+@    xaxes invert off
+@    yaxes invert off
+@    xaxis  on
+@    xaxis  type zero false
+@    xaxis  offset 0.000000 , 0.000000
+@    xaxis  bar on
+@    xaxis  bar color 1
+@    xaxis  bar linestyle 1
+@    xaxis  bar linewidth 1.0
+@    xaxis  label ""
+@    xaxis  label layout para
+@    xaxis  label place auto
+@    xaxis  label char size 1.000000
+@    xaxis  label font 0
+@    xaxis  label color 1
+@    xaxis  label place normal
+@    xaxis  tick on
+@    xaxis  tick major 2
+@    xaxis  tick minor ticks 1
+@    xaxis  tick default 6
+@    xaxis  tick place rounded true
+@    xaxis  tick in
+@    xaxis  tick major size 1.000000
+@    xaxis  tick major color 1
+@    xaxis  tick major linewidth 1.0
+@    xaxis  tick major linestyle 1
+@    xaxis  tick major grid off
+@    xaxis  tick minor color 1
+@    xaxis  tick minor linewidth 1.0
+@    xaxis  tick minor linestyle 1
+@    xaxis  tick minor grid off
+@    xaxis  tick minor size 0.500000
+@    xaxis  ticklabel on
+@    xaxis  ticklabel format general
+@    xaxis  ticklabel prec 5
+@    xaxis  ticklabel formula ""
+@    xaxis  ticklabel append ""
+@    xaxis  ticklabel prepend ""
+@    xaxis  ticklabel angle 0
+@    xaxis  ticklabel skip 0
+@    xaxis  ticklabel stagger 0
+@    xaxis  ticklabel place normal
+@    xaxis  ticklabel offset auto
+@    xaxis  ticklabel offset 0.000000 , 0.010000
+@    xaxis  ticklabel start type auto
+@    xaxis  ticklabel start 0.000000
+@    xaxis  ticklabel stop type auto
+@    xaxis  ticklabel stop 0.000000
+@    xaxis  ticklabel char size 1.000000
+@    xaxis  ticklabel font 0
+@    xaxis  ticklabel color 1
+@    xaxis  tick place both
+@    xaxis  tick spec type none
+@    yaxis  on
+@    yaxis  type zero false
+@    yaxis  offset 0.000000 , 0.000000
+@    yaxis  bar on
+@    yaxis  bar color 1
+@    yaxis  bar linestyle 1
+@    yaxis  bar linewidth 1.0
+@    yaxis  label ""
+@    yaxis  label layout para
+@    yaxis  label place auto
+@    yaxis  label char size 1.000000
+@    yaxis  label font 0
+@    yaxis  label color 1
+@    yaxis  label place normal
+@    yaxis  tick on
+@    yaxis  tick major 0.5
+@    yaxis  tick minor ticks 1
+@    yaxis  tick default 6
+@    yaxis  tick place rounded true
+@    yaxis  tick in
+@    yaxis  tick major size 1.000000
+@    yaxis  tick major color 1
+@    yaxis  tick major linewidth 1.0
+@    yaxis  tick major linestyle 1
+@    yaxis  tick major grid off
+@    yaxis  tick minor color 1
+@    yaxis  tick minor linewidth 1.0
+@    yaxis  tick minor linestyle 1
+@    yaxis  tick minor grid off
+@    yaxis  tick minor size 0.500000
+@    yaxis  ticklabel on
+@    yaxis  ticklabel format general
+@    yaxis  ticklabel prec 5
+@    yaxis  ticklabel formula ""
+@    yaxis  ticklabel append ""
+@    yaxis  ticklabel prepend ""
+@    yaxis  ticklabel angle 0
+@    yaxis  ticklabel skip 0
+@    yaxis  ticklabel stagger 0
+@    yaxis  ticklabel place normal
+@    yaxis  ticklabel offset auto
+@    yaxis  ticklabel offset 0.000000 , 0.010000
+@    yaxis  ticklabel start type auto
+@    yaxis  ticklabel start 0.000000
+@    yaxis  ticklabel stop type auto
+@    yaxis  ticklabel stop 0.000000
+@    yaxis  ticklabel char size 1.000000
+@    yaxis  ticklabel font 0
+@    yaxis  ticklabel color 1
+@    yaxis  tick place both
+@    yaxis  tick spec type none
+@    altxaxis  off
+@    altyaxis  off
+@    legend on
+@    legend loctype view
+@    legend 0.656818181818, 0.821006564551
+@    legend box color 1
+@    legend box pattern 1
+@    legend box linewidth 1.0
+@    legend box linestyle 1
+@    legend box fill color 0
+@    legend box fill pattern 1
+@    legend font 0
+@    legend char size 1.000000
+@    legend color 1
+@    legend length 4
+@    legend vgap 1
+@    legend hgap 1
+@    legend invert false
+@    frame type 0
+@    frame linestyle 1
+@    frame linewidth 1.0
+@    frame color 1
+@    frame pattern 1
+@    frame background color 0
+@    frame background pattern 0
+@    s0 hidden false
+@    s0 type xydy
+@    s0 symbol 1
+@    s0 symbol size 0.300000
+@    s0 symbol color 1
+@    s0 symbol pattern 1
+@    s0 symbol fill color 1
+@    s0 symbol fill pattern 1
+@    s0 symbol linewidth 1.0
+@    s0 symbol linestyle 1
+@    s0 symbol char 65
+@    s0 symbol char font 0
+@    s0 symbol skip 0
+@    s0 line type 1
+@    s0 line linestyle 4
+@    s0 line linewidth 1.0
+@    s0 line color 1
+@    s0 line pattern 1
+@    s0 baseline type 0
+@    s0 baseline off
+@    s0 dropline off
+@    s0 fill type 0
+@    s0 fill rule 0
+@    s0 fill color 1
+@    s0 fill pattern 1
+@    s0 avalue off
+@    s0 avalue type 2
+@    s0 avalue char size 1.000000
+@    s0 avalue font 0
+@    s0 avalue color 1
+@    s0 avalue rot 0
+@    s0 avalue format general
+@    s0 avalue prec 3
+@    s0 avalue prepend ""
+@    s0 avalue append ""
+@    s0 avalue offset 0.000000 , 0.000000
+@    s0 errorbar on
+@    s0 errorbar place both
+@    s0 errorbar color 1
+@    s0 errorbar pattern 1
+@    s0 errorbar size 0.100000
+@    s0 errorbar linewidth 1.0
+@    s0 errorbar linestyle 1
+@    s0 errorbar riser linewidth 1.0
+@    s0 errorbar riser linestyle 1
+@    s0 errorbar riser clip off
+@    s0 errorbar riser clip length 0.100000
+@    s0 comment "data_Tombrello_aa.dat_22-29-9gL-xs2.agr.ratio.agr"
+@    s0 legend  ""
+@    s1 hidden false
+@    s1 type xy
+@    s1 symbol 0
+@    s1 symbol size 1.000000
+@    s1 symbol color 2
+@    s1 symbol pattern 1
+@    s1 symbol fill color 2
+@    s1 symbol fill pattern 0
+@    s1 symbol linewidth 1.0
+@    s1 symbol linestyle 1
+@    s1 symbol char 65
+@    s1 symbol char font 0
+@    s1 symbol skip 0
+@    s1 line type 1
+@    s1 line linestyle 1
+@    s1 line linewidth 1.0
+@    s1 line color 1
+@    s1 line pattern 1
+@    s1 baseline type 0
+@    s1 baseline off
+@    s1 dropline off
+@    s1 fill type 0
+@    s1 fill rule 0
+@    s1 fill color 1
+@    s1 fill pattern 1
+@    s1 avalue off
+@    s1 avalue type 2
+@    s1 avalue char size 1.000000
+@    s1 avalue font 0
+@    s1 avalue color 1
+@    s1 avalue rot 0
+@    s1 avalue format general
+@    s1 avalue prec 3
+@    s1 avalue prepend ""
+@    s1 avalue append ""
+@    s1 avalue offset 0.000000 , 0.000000
+@    s1 errorbar on
+@    s1 errorbar place both
+@    s1 errorbar color 2
+@    s1 errorbar pattern 1
+@    s1 errorbar size 1.000000
+@    s1 errorbar linewidth 1.0
+@    s1 errorbar linestyle 1
+@    s1 errorbar riser linewidth 1.0
+@    s1 errorbar riser linestyle 1
+@    s1 errorbar riser clip off
+@    s1 errorbar riser clip length 0.100000
+@    s1 comment "data_Tombrello_aa.dat_22-29-9gL-xs2.agr.ratio.agr"
+@    s1 legend  ""
+@    s2 hidden false
+@    s2 type xydy
+@    s2 symbol 2
+@    s2 symbol size 0.300000
+@    s2 symbol color 2
+@    s2 symbol pattern 1
+@    s2 symbol fill color 2
+@    s2 symbol fill pattern 1
+@    s2 symbol linewidth 1.0
+@    s2 symbol linestyle 1
+@    s2 symbol char 65
+@    s2 symbol char font 0
+@    s2 symbol skip 0
+@    s2 line type 1
+@    s2 line linestyle 4
+@    s2 line linewidth 1.0
+@    s2 line color 2
+@    s2 line pattern 1
+@    s2 baseline type 0
+@    s2 baseline off
+@    s2 dropline off
+@    s2 fill type 0
+@    s2 fill rule 0
+@    s2 fill color 1
+@    s2 fill pattern 1
+@    s2 avalue off
+@    s2 avalue type 2
+@    s2 avalue char size 1.000000
+@    s2 avalue font 0
+@    s2 avalue color 1
+@    s2 avalue rot 0
+@    s2 avalue format general
+@    s2 avalue prec 3
+@    s2 avalue prepend ""
+@    s2 avalue append ""
+@    s2 avalue offset 0.000000 , 0.000000
+@    s2 errorbar on
+@    s2 errorbar place both
+@    s2 errorbar color 2
+@    s2 errorbar pattern 1
+@    s2 errorbar size 0.100000
+@    s2 errorbar linewidth 1.0
+@    s2 errorbar linestyle 1
+@    s2 errorbar riser linewidth 1.0
+@    s2 errorbar riser linestyle 1
+@    s2 errorbar riser clip off
+@    s2 errorbar riser clip length 0.100000
+@    s2 comment "data_Tombrello_aa.dat_22-29-9gL-xs2.agr.ratio.agr"
+@    s2 legend  ""
+@    s3 hidden false
+@    s3 type xy
+@    s3 symbol 0
+@    s3 symbol size 1.000000
+@    s3 symbol color 4
+@    s3 symbol pattern 1
+@    s3 symbol fill color 4
+@    s3 symbol fill pattern 0
+@    s3 symbol linewidth 1.0
+@    s3 symbol linestyle 1
+@    s3 symbol char 65
+@    s3 symbol char font 0
+@    s3 symbol skip 0
+@    s3 line type 1
+@    s3 line linestyle 1
+@    s3 line linewidth 1.0
+@    s3 line color 2
+@    s3 line pattern 1
+@    s3 baseline type 0
+@    s3 baseline off
+@    s3 dropline off
+@    s3 fill type 0
+@    s3 fill rule 0
+@    s3 fill color 1
+@    s3 fill pattern 1
+@    s3 avalue off
+@    s3 avalue type 2
+@    s3 avalue char size 1.000000
+@    s3 avalue font 0
+@    s3 avalue color 1
+@    s3 avalue rot 0
+@    s3 avalue format general
+@    s3 avalue prec 3
+@    s3 avalue prepend ""
+@    s3 avalue append ""
+@    s3 avalue offset 0.000000 , 0.000000
+@    s3 errorbar on
+@    s3 errorbar place both
+@    s3 errorbar color 4
+@    s3 errorbar pattern 1
+@    s3 errorbar size 1.000000
+@    s3 errorbar linewidth 1.0
+@    s3 errorbar linestyle 1
+@    s3 errorbar riser linewidth 1.0
+@    s3 errorbar riser linestyle 1
+@    s3 errorbar riser clip off
+@    s3 errorbar riser clip length 0.100000
+@    s3 comment "data_Tombrello_aa.dat_22-29-9gL-xs2.agr.ratio.agr"
+@    s3 legend  ""
+@    s4 hidden false
+@    s4 type xydy
+@    s4 symbol 3
+@    s4 symbol size 0.300000
+@    s4 symbol color 3
+@    s4 symbol pattern 1
+@    s4 symbol fill color 3
+@    s4 symbol fill pattern 1
+@    s4 symbol linewidth 1.0
+@    s4 symbol linestyle 1
+@    s4 symbol char 65
+@    s4 symbol char font 0
+@    s4 symbol skip 0
+@    s4 line type 1
+@    s4 line linestyle 4
+@    s4 line linewidth 1.0
+@    s4 line color 3
+@    s4 line pattern 1
+@    s4 baseline type 0
+@    s4 baseline off
+@    s4 dropline off
+@    s4 fill type 0
+@    s4 fill rule 0
+@    s4 fill color 1
+@    s4 fill pattern 1
+@    s4 avalue off
+@    s4 avalue type 2
+@    s4 avalue char size 1.000000
+@    s4 avalue font 0
+@    s4 avalue color 1
+@    s4 avalue rot 0
+@    s4 avalue format general
+@    s4 avalue prec 3
+@    s4 avalue prepend ""
+@    s4 avalue append ""
+@    s4 avalue offset 0.000000 , 0.000000
+@    s4 errorbar on
+@    s4 errorbar place both
+@    s4 errorbar color 3
+@    s4 errorbar pattern 1
+@    s4 errorbar size 0.100000
+@    s4 errorbar linewidth 1.0
+@    s4 errorbar linestyle 1
+@    s4 errorbar riser linewidth 1.0
+@    s4 errorbar riser linestyle 1
+@    s4 errorbar riser clip off
+@    s4 errorbar riser clip length 0.100000
+@    s4 comment "data_Tombrello_aa.dat_22-29-9gL-xs2.agr.ratio.agr"
+@    s4 legend  ""
+@    s5 hidden false
+@    s5 type xy
+@    s5 symbol 0
+@    s5 symbol size 1.000000
+@    s5 symbol color 6
+@    s5 symbol pattern 1
+@    s5 symbol fill color 6
+@    s5 symbol fill pattern 0
+@    s5 symbol linewidth 1.0
+@    s5 symbol linestyle 1
+@    s5 symbol char 65
+@    s5 symbol char font 0
+@    s5 symbol skip 0
+@    s5 line type 1
+@    s5 line linestyle 1
+@    s5 line linewidth 1.0
+@    s5 line color 3
+@    s5 line pattern 1
+@    s5 baseline type 0
+@    s5 baseline off
+@    s5 dropline off
+@    s5 fill type 0
+@    s5 fill rule 0
+@    s5 fill color 1
+@    s5 fill pattern 1
+@    s5 avalue off
+@    s5 avalue type 2
+@    s5 avalue char size 1.000000
+@    s5 avalue font 0
+@    s5 avalue color 1
+@    s5 avalue rot 0
+@    s5 avalue format general
+@    s5 avalue prec 3
+@    s5 avalue prepend ""
+@    s5 avalue append ""
+@    s5 avalue offset 0.000000 , 0.000000
+@    s5 errorbar on
+@    s5 errorbar place both
+@    s5 errorbar color 6
+@    s5 errorbar pattern 1
+@    s5 errorbar size 1.000000
+@    s5 errorbar linewidth 1.0
+@    s5 errorbar linestyle 1
+@    s5 errorbar riser linewidth 1.0
+@    s5 errorbar riser linestyle 1
+@    s5 errorbar riser clip off
+@    s5 errorbar riser clip length 0.100000
+@    s5 comment "data_Tombrello_aa.dat_22-29-9gL-xs2.agr.ratio.agr"
+@    s5 legend  ""
+@    s6 hidden false
+@    s6 type xydy
+@    s6 symbol 4
+@    s6 symbol size 0.300000
+@    s6 symbol color 4
+@    s6 symbol pattern 1
+@    s6 symbol fill color 4
+@    s6 symbol fill pattern 1
+@    s6 symbol linewidth 1.0
+@    s6 symbol linestyle 1
+@    s6 symbol char 65
+@    s6 symbol char font 0
+@    s6 symbol skip 0
+@    s6 line type 1
+@    s6 line linestyle 4
+@    s6 line linewidth 1.0
+@    s6 line color 4
+@    s6 line pattern 1
+@    s6 baseline type 0
+@    s6 baseline off
+@    s6 dropline off
+@    s6 fill type 0
+@    s6 fill rule 0
+@    s6 fill color 1
+@    s6 fill pattern 1
+@    s6 avalue off
+@    s6 avalue type 2
+@    s6 avalue char size 1.000000
+@    s6 avalue font 0
+@    s6 avalue color 1
+@    s6 avalue rot 0
+@    s6 avalue format general
+@    s6 avalue prec 3
+@    s6 avalue prepend ""
+@    s6 avalue append ""
+@    s6 avalue offset 0.000000 , 0.000000
+@    s6 errorbar on
+@    s6 errorbar place both
+@    s6 errorbar color 4
+@    s6 errorbar pattern 1
+@    s6 errorbar size 0.100000
+@    s6 errorbar linewidth 1.0
+@    s6 errorbar linestyle 1
+@    s6 errorbar riser linewidth 1.0
+@    s6 errorbar riser linestyle 1
+@    s6 errorbar riser clip off
+@    s6 errorbar riser clip length 0.100000
+@    s6 comment "data_Tombrello_aa.dat_22-29-9gL-xs2.agr.ratio.agr"
+@    s6 legend  ""
+@    s7 hidden false
+@    s7 type xy
+@    s7 symbol 0
+@    s7 symbol size 1.000000
+@    s7 symbol color 8
+@    s7 symbol pattern 1
+@    s7 symbol fill color 8
+@    s7 symbol fill pattern 0
+@    s7 symbol linewidth 1.0
+@    s7 symbol linestyle 1
+@    s7 symbol char 65
+@    s7 symbol char font 0
+@    s7 symbol skip 0
+@    s7 line type 1
+@    s7 line linestyle 1
+@    s7 line linewidth 1.0
+@    s7 line color 4
+@    s7 line pattern 1
+@    s7 baseline type 0
+@    s7 baseline off
+@    s7 dropline off
+@    s7 fill type 0
+@    s7 fill rule 0
+@    s7 fill color 1
+@    s7 fill pattern 1
+@    s7 avalue off
+@    s7 avalue type 2
+@    s7 avalue char size 1.000000
+@    s7 avalue font 0
+@    s7 avalue color 1
+@    s7 avalue rot 0
+@    s7 avalue format general
+@    s7 avalue prec 3
+@    s7 avalue prepend ""
+@    s7 avalue append ""
+@    s7 avalue offset 0.000000 , 0.000000
+@    s7 errorbar on
+@    s7 errorbar place both
+@    s7 errorbar color 8
+@    s7 errorbar pattern 1
+@    s7 errorbar size 1.000000
+@    s7 errorbar linewidth 1.0
+@    s7 errorbar linestyle 1
+@    s7 errorbar riser linewidth 1.0
+@    s7 errorbar riser linestyle 1
+@    s7 errorbar riser clip off
+@    s7 errorbar riser clip length 0.100000
+@    s7 comment "data_Tombrello_aa.dat_22-29-9gL-xs2.agr.ratio.agr"
+@    s7 legend  ""
+@    s8 hidden false
+@    s8 type xydy
+@    s8 symbol 5
+@    s8 symbol size 0.300000
+@    s8 symbol color 5
+@    s8 symbol pattern 1
+@    s8 symbol fill color 5
+@    s8 symbol fill pattern 1
+@    s8 symbol linewidth 1.0
+@    s8 symbol linestyle 1
+@    s8 symbol char 65
+@    s8 symbol char font 0
+@    s8 symbol skip 0
+@    s8 line type 1
+@    s8 line linestyle 4
+@    s8 line linewidth 1.0
+@    s8 line color 5
+@    s8 line pattern 1
+@    s8 baseline type 0
+@    s8 baseline off
+@    s8 dropline off
+@    s8 fill type 0
+@    s8 fill rule 0
+@    s8 fill color 1
+@    s8 fill pattern 1
+@    s8 avalue off
+@    s8 avalue type 2
+@    s8 avalue char size 1.000000
+@    s8 avalue font 0
+@    s8 avalue color 1
+@    s8 avalue rot 0
+@    s8 avalue format general
+@    s8 avalue prec 3
+@    s8 avalue prepend ""
+@    s8 avalue append ""
+@    s8 avalue offset 0.000000 , 0.000000
+@    s8 errorbar on
+@    s8 errorbar place both
+@    s8 errorbar color 5
+@    s8 errorbar pattern 1
+@    s8 errorbar size 0.100000
+@    s8 errorbar linewidth 1.0
+@    s8 errorbar linestyle 1
+@    s8 errorbar riser linewidth 1.0
+@    s8 errorbar riser linestyle 1
+@    s8 errorbar riser clip off
+@    s8 errorbar riser clip length 0.100000
+@    s8 comment "data_Tombrello_aa.dat_22-29-9gL-xs2.agr.ratio.agr"
+@    s8 legend  ""
+@    s9 hidden false
+@    s9 type xy
+@    s9 symbol 0
+@    s9 symbol size 1.000000
+@    s9 symbol color 10
+@    s9 symbol pattern 1
+@    s9 symbol fill color 10
+@    s9 symbol fill pattern 0
+@    s9 symbol linewidth 1.0
+@    s9 symbol linestyle 1
+@    s9 symbol char 65
+@    s9 symbol char font 0
+@    s9 symbol skip 0
+@    s9 line type 1
+@    s9 line linestyle 1
+@    s9 line linewidth 1.0
+@    s9 line color 5
+@    s9 line pattern 1
+@    s9 baseline type 0
+@    s9 baseline off
+@    s9 dropline off
+@    s9 fill type 0
+@    s9 fill rule 0
+@    s9 fill color 1
+@    s9 fill pattern 1
+@    s9 avalue off
+@    s9 avalue type 2
+@    s9 avalue char size 1.000000
+@    s9 avalue font 0
+@    s9 avalue color 1
+@    s9 avalue rot 0
+@    s9 avalue format general
+@    s9 avalue prec 3
+@    s9 avalue prepend ""
+@    s9 avalue append ""
+@    s9 avalue offset 0.000000 , 0.000000
+@    s9 errorbar on
+@    s9 errorbar place both
+@    s9 errorbar color 10
+@    s9 errorbar pattern 1
+@    s9 errorbar size 1.000000
+@    s9 errorbar linewidth 1.0
+@    s9 errorbar linestyle 1
+@    s9 errorbar riser linewidth 1.0
+@    s9 errorbar riser linestyle 1
+@    s9 errorbar riser clip off
+@    s9 errorbar riser clip length 0.100000
+@    s9 comment "data_Tombrello_aa.dat_22-29-9gL-xs2.agr.ratio.agr"
+@    s9 legend  ""
+@    s10 hidden false
+@    s10 type xydy
+@    s10 symbol 6
+@    s10 symbol size 0.300000
+@    s10 symbol color 6
+@    s10 symbol pattern 1
+@    s10 symbol fill color 6
+@    s10 symbol fill pattern 1
+@    s10 symbol linewidth 1.0
+@    s10 symbol linestyle 1
+@    s10 symbol char 65
+@    s10 symbol char font 0
+@    s10 symbol skip 0
+@    s10 line type 1
+@    s10 line linestyle 4
+@    s10 line linewidth 1.0
+@    s10 line color 6
+@    s10 line pattern 1
+@    s10 baseline type 0
+@    s10 baseline off
+@    s10 dropline off
+@    s10 fill type 0
+@    s10 fill rule 0
+@    s10 fill color 1
+@    s10 fill pattern 1
+@    s10 avalue off
+@    s10 avalue type 2
+@    s10 avalue char size 1.000000
+@    s10 avalue font 0
+@    s10 avalue color 1
+@    s10 avalue rot 0
+@    s10 avalue format general
+@    s10 avalue prec 3
+@    s10 avalue prepend ""
+@    s10 avalue append ""
+@    s10 avalue offset 0.000000 , 0.000000
+@    s10 errorbar on
+@    s10 errorbar place both
+@    s10 errorbar color 6
+@    s10 errorbar pattern 1
+@    s10 errorbar size 0.100000
+@    s10 errorbar linewidth 1.0
+@    s10 errorbar linestyle 1
+@    s10 errorbar riser linewidth 1.0
+@    s10 errorbar riser linestyle 1
+@    s10 errorbar riser clip off
+@    s10 errorbar riser clip length 0.100000
+@    s10 comment "data_Tombrello_aa.dat_22-29-9gL-xs2.agr.ratio.agr"
+@    s10 legend  ""
+@    s11 hidden false
+@    s11 type xy
+@    s11 symbol 0
+@    s11 symbol size 1.000000
+@    s11 symbol color 12
+@    s11 symbol pattern 1
+@    s11 symbol fill color 12
+@    s11 symbol fill pattern 0
+@    s11 symbol linewidth 1.0
+@    s11 symbol linestyle 1
+@    s11 symbol char 65
+@    s11 symbol char font 0
+@    s11 symbol skip 0
+@    s11 line type 1
+@    s11 line linestyle 1
+@    s11 line linewidth 1.0
+@    s11 line color 6
+@    s11 line pattern 1
+@    s11 baseline type 0
+@    s11 baseline off
+@    s11 dropline off
+@    s11 fill type 0
+@    s11 fill rule 0
+@    s11 fill color 1
+@    s11 fill pattern 1
+@    s11 avalue off
+@    s11 avalue type 2
+@    s11 avalue char size 1.000000
+@    s11 avalue font 0
+@    s11 avalue color 1
+@    s11 avalue rot 0
+@    s11 avalue format general
+@    s11 avalue prec 3
+@    s11 avalue prepend ""
+@    s11 avalue append ""
+@    s11 avalue offset 0.000000 , 0.000000
+@    s11 errorbar on
+@    s11 errorbar place both
+@    s11 errorbar color 12
+@    s11 errorbar pattern 1
+@    s11 errorbar size 1.000000
+@    s11 errorbar linewidth 1.0
+@    s11 errorbar linestyle 1
+@    s11 errorbar riser linewidth 1.0
+@    s11 errorbar riser linestyle 1
+@    s11 errorbar riser clip off
+@    s11 errorbar riser clip length 0.100000
+@    s11 comment "data_Tombrello_aa.dat_22-29-9gL-xs2.agr.ratio.agr"
+@    s11 legend  ""
+@    s12 hidden false
+@    s12 type xydy
+@    s12 symbol 7
+@    s12 symbol size 0.300000
+@    s12 symbol color 7
+@    s12 symbol pattern 1
+@    s12 symbol fill color 7
+@    s12 symbol fill pattern 1
+@    s12 symbol linewidth 1.0
+@    s12 symbol linestyle 1
+@    s12 symbol char 65
+@    s12 symbol char font 0
+@    s12 symbol skip 0
+@    s12 line type 1
+@    s12 line linestyle 4
+@    s12 line linewidth 1.0
+@    s12 line color 7
+@    s12 line pattern 1
+@    s12 baseline type 0
+@    s12 baseline off
+@    s12 dropline off
+@    s12 fill type 0
+@    s12 fill rule 0
+@    s12 fill color 1
+@    s12 fill pattern 1
+@    s12 avalue off
+@    s12 avalue type 2
+@    s12 avalue char size 1.000000
+@    s12 avalue font 0
+@    s12 avalue color 1
+@    s12 avalue rot 0
+@    s12 avalue format general
+@    s12 avalue prec 3
+@    s12 avalue prepend ""
+@    s12 avalue append ""
+@    s12 avalue offset 0.000000 , 0.000000
+@    s12 errorbar on
+@    s12 errorbar place both
+@    s12 errorbar color 7
+@    s12 errorbar pattern 1
+@    s12 errorbar size 0.100000
+@    s12 errorbar linewidth 1.0
+@    s12 errorbar linestyle 1
+@    s12 errorbar riser linewidth 1.0
+@    s12 errorbar riser linestyle 1
+@    s12 errorbar riser clip off
+@    s12 errorbar riser clip length 0.100000
+@    s12 comment "data_Tombrello_aa.dat_22-29-9gL-xs2.agr.ratio.agr"
+@    s12 legend  ""
+@    s13 hidden false
+@    s13 type xy
+@    s13 symbol 0
+@    s13 symbol size 1.000000
+@    s13 symbol color 14
+@    s13 symbol pattern 1
+@    s13 symbol fill color 14
+@    s13 symbol fill pattern 0
+@    s13 symbol linewidth 1.0
+@    s13 symbol linestyle 1
+@    s13 symbol char 65
+@    s13 symbol char font 0
+@    s13 symbol skip 0
+@    s13 line type 1
+@    s13 line linestyle 1
+@    s13 line linewidth 1.0
+@    s13 line color 7
+@    s13 line pattern 1
+@    s13 baseline type 0
+@    s13 baseline off
+@    s13 dropline off
+@    s13 fill type 0
+@    s13 fill rule 0
+@    s13 fill color 1
+@    s13 fill pattern 1
+@    s13 avalue off
+@    s13 avalue type 2
+@    s13 avalue char size 1.000000
+@    s13 avalue font 0
+@    s13 avalue color 1
+@    s13 avalue rot 0
+@    s13 avalue format general
+@    s13 avalue prec 3
+@    s13 avalue prepend ""
+@    s13 avalue append ""
+@    s13 avalue offset 0.000000 , 0.000000
+@    s13 errorbar on
+@    s13 errorbar place both
+@    s13 errorbar color 14
+@    s13 errorbar pattern 1
+@    s13 errorbar size 1.000000
+@    s13 errorbar linewidth 1.0
+@    s13 errorbar linestyle 1
+@    s13 errorbar riser linewidth 1.0
+@    s13 errorbar riser linestyle 1
+@    s13 errorbar riser clip off
+@    s13 errorbar riser clip length 0.100000
+@    s13 comment "data_Tombrello_aa.dat_22-29-9gL-xs2.agr.ratio.agr"
+@    s13 legend  ""
+@    s14 hidden false
+@    s14 type xydy
+@    s14 symbol 8
+@    s14 symbol size 0.300000
+@    s14 symbol color 8
+@    s14 symbol pattern 1
+@    s14 symbol fill color 8
+@    s14 symbol fill pattern 1
+@    s14 symbol linewidth 1.0
+@    s14 symbol linestyle 1
+@    s14 symbol char 65
+@    s14 symbol char font 0
+@    s14 symbol skip 0
+@    s14 line type 1
+@    s14 line linestyle 4
+@    s14 line linewidth 1.0
+@    s14 line color 8
+@    s14 line pattern 1
+@    s14 baseline type 0
+@    s14 baseline off
+@    s14 dropline off
+@    s14 fill type 0
+@    s14 fill rule 0
+@    s14 fill color 1
+@    s14 fill pattern 1
+@    s14 avalue off
+@    s14 avalue type 2
+@    s14 avalue char size 1.000000
+@    s14 avalue font 0
+@    s14 avalue color 1
+@    s14 avalue rot 0
+@    s14 avalue format general
+@    s14 avalue prec 3
+@    s14 avalue prepend ""
+@    s14 avalue append ""
+@    s14 avalue offset 0.000000 , 0.000000
+@    s14 errorbar on
+@    s14 errorbar place both
+@    s14 errorbar color 8
+@    s14 errorbar pattern 1
+@    s14 errorbar size 0.100000
+@    s14 errorbar linewidth 1.0
+@    s14 errorbar linestyle 1
+@    s14 errorbar riser linewidth 1.0
+@    s14 errorbar riser linestyle 1
+@    s14 errorbar riser clip off
+@    s14 errorbar riser clip length 0.100000
+@    s14 comment "data_Tombrello_aa.dat_22-29-9gL-xs2.agr.ratio.agr"
+@    s14 legend  ""
+@    s15 hidden false
+@    s15 type xy
+@    s15 symbol 0
+@    s15 symbol size 1.000000
+@    s15 symbol color 1
+@    s15 symbol pattern 1
+@    s15 symbol fill color 1
+@    s15 symbol fill pattern 0
+@    s15 symbol linewidth 1.0
+@    s15 symbol linestyle 1
+@    s15 symbol char 65
+@    s15 symbol char font 0
+@    s15 symbol skip 0
+@    s15 line type 1
+@    s15 line linestyle 1
+@    s15 line linewidth 1.0
+@    s15 line color 8
+@    s15 line pattern 1
+@    s15 baseline type 0
+@    s15 baseline off
+@    s15 dropline off
+@    s15 fill type 0
+@    s15 fill rule 0
+@    s15 fill color 1
+@    s15 fill pattern 1
+@    s15 avalue off
+@    s15 avalue type 2
+@    s15 avalue char size 1.000000
+@    s15 avalue font 0
+@    s15 avalue color 1
+@    s15 avalue rot 0
+@    s15 avalue format general
+@    s15 avalue prec 3
+@    s15 avalue prepend ""
+@    s15 avalue append ""
+@    s15 avalue offset 0.000000 , 0.000000
+@    s15 errorbar on
+@    s15 errorbar place both
+@    s15 errorbar color 1
+@    s15 errorbar pattern 1
+@    s15 errorbar size 1.000000
+@    s15 errorbar linewidth 1.0
+@    s15 errorbar linestyle 1
+@    s15 errorbar riser linewidth 1.0
+@    s15 errorbar riser linestyle 1
+@    s15 errorbar riser clip off
+@    s15 errorbar riser clip length 0.100000
+@    s15 comment "data_Tombrello_aa.dat_22-29-9gL-xs2.agr.ratio.agr"
+@    s15 legend  ""
+@target G0.S0
+@type xydy
+6.35397 1.0400583 0.015826657
+6.53487 1.0110785 0.015335669
+6.61067 0.99664694 0.015226824
+6.61327 1.0248987 0.015575536
+6.65977 0.99797636 0.015273347
+6.75687 1.070173 0.016403837
+7.15707 0.96140758 0.015283086
+7.19017 1.0126981 0.015903061
+7.25017 1.0294145 0.016004442
+7.33647 1.0185705 0.015690631
+7.44937 1.0418478 0.015972231
+7.61157 1.0073436 0.015513748
+7.72077 1.0132494 0.015592433
+7.88297 1.0063642 0.015454954
+8.04377 0.99771167 0.015331808
+8.23127 1.0001639 0.01529197
+8.39207 0.99610776 0.015316889
+8.63267 0.99762639 0.015300953
+8.84537 0.99190902 0.015204602
+8.97857 0.98461927 0.015073835
+9.16587 0.98242786 0.015162838
+9.40397 0.97190477 0.014985371
+9.61777 0.98800617 0.015268029
+9.91027 1.0088178 0.015573971
+10.22677 1.0089527 0.015669511
+10.48877 1.0062271 0.015748585
+10.69617 0.99022644 0.015679234
+10.98197 0.9599636 0.01562396
+11.05897 0.89881384 0.014904195
+11.37407 0.91957981 0.015873076
+11.71987 0.95873135 0.017104395
+12.01497 0.98629993 0.017592151
+12.17717 1.0255028 0.017974875
+12.33937 1.0311032 0.017899212
+12.44707 1.0578983 0.018129564
+12.74357 1.041328 0.017647944
+12.87927 1.0481372 0.017655234
+13.20227 1.0621694 0.017723698
+13.39237 1.0596111 0.017619738
+13.63157 1.0230539 0.017002454
+13.95067 1.0240064 0.016908626
+14.16337 0.98694227 0.016303756
+14.46907 0.9773405 0.016099976
+14.73507 1.016818 0.016585762
+&
+@target G0.S1
+@type xy
+6.35397 1
+14.73507 1
+&
+@target G0.S2
+@type xydy
+5.30199 1.2682807 0.032201183
+5.58379 1.2374715 0.031378221
+5.83119 1.2127176 0.030662101
+6.10089 1.1901874 0.029864624
+6.18999 1.1877494 0.029849008
+6.32429 1.1979525 0.030147048
+6.49329 1.2068762 0.030446649
+6.64339 1.2732239 0.03250013
+6.73779 1.2301279 0.031567319
+6.82159 1.0075745 0.026591474
+6.90399 1.9100639 0.094380853
+6.93979 14.858602 1.3978806
+6.96119 5.9632385 0.43643576
+7.03029 1.3390579 0.043020608
+7.06079 1.0776089 0.031182925
+7.09689 1.1900314 0.031999551
+7.15279 1.2205095 0.031806989
+7.24049 1.2709002 0.032871232
+7.35869 1.1998292 0.030423924
+7.45429 1.190709 0.030139963
+7.65909 1.2233977 0.031127478
+7.84669 1.2189686 0.030966946
+8.06869 1.205204 0.030525444
+8.26929 1.2000903 0.030435647
+8.46869 1.2150782 0.030747887
+8.67099 1.1861235 0.030046008
+8.87159 1.185138 0.029883227
+9.16549 1.1216307 0.028207006
+9.44329 1.1653071 0.029389473
+9.71189 1.2040242 0.030758275
+9.96969 1.2404959 0.031834791
+10.24249 1.2600267 0.032694077
+10.49359 1.2575205 0.033168937
+10.65319 1.2641995 0.033956216
+10.77959 1.2700056 0.034823457
+10.91499 1.2955067 0.036738767
+11.04139 1.2911718 0.038506577
+11.17839 1.2282219 0.040040455
+11.30199 1.2827366 0.045263458
+11.43769 1.2620604 0.049694372
+11.55979 1.155552 0.051053092
+11.70479 1.1635568 0.051386183
+11.84839 1.145309 0.047458015
+11.96939 1.1534192 0.043654042
+12.11159 1.138633 0.039257433
+12.23119 1.1617991 0.037160461
+12.37219 1.2183232 0.036419864
+12.51579 1.1834813 0.034262209
+12.65799 1.1758246 0.033251566
+12.89999 1.162133 0.032166658
+13.04219 1.1879914 0.032637278
+13.16319 1.2065812 0.032966005
+13.30419 1.1884623 0.032216758
+13.41059 1.2286341 0.033185825
+13.56999 1.1647713 0.031143304
+13.70309 1.2111627 0.032321585
+13.83599 1.1707973 0.031051781
+13.98209 1.16125 0.030663281
+14.12849 1.1884665 0.031338114
+14.38099 1.1827436 0.031014999
+14.51409 1.147743 0.029969597
+14.79309 1.1475403 0.029897165
+&
+@target G0.S3
+@type xy
+5.30199 1.2
+14.79309 1.2
+&
+@target G0.S4
+@type xydy
+7.75716 1.3297203 0.037686902
+8.06156 1.278711 0.035589965
+8.34726 1.2982452 0.036589616
+8.56276 1.2955497 0.036347211
+8.86046 1.3432158 0.038408599
+9.38166 1.3776154 0.039922614
+9.65166 1.3933089 0.040660401
+9.90946 1.3920936 0.040615095
+10.17666 1.3634561 0.039988939
+10.44516 1.4312915 0.043337765
+10.60226 1.4551446 0.045062842
+10.73516 1.419002 0.044682244
+10.85876 1.4846631 0.048474576
+11.00226 1.4491836 0.049515219
+11.13796 1.4413918 0.052272315
+11.27226 1.4333625 0.05539691
+11.39726 1.389699 0.056445843
+11.54476 1.3900025 0.056940172
+11.66046 1.430303 0.056595935
+11.80936 1.3743214 0.051890214
+11.93686 1.4008905 0.049927501
+12.06466 1.427552 0.048583746
+12.19216 1.4221258 0.046750542
+12.32926 1.3551576 0.043130548
+12.45816 1.4152073 0.044461496
+12.60846 1.4411904 0.044820231
+12.73456 1.4088986 0.043369294
+12.84906 1.4053273 0.043077424
+12.99776 1.3625086 0.041285829
+13.12416 1.3979412 0.042476074
+13.26126 1.3864727 0.041847657
+13.38086 1.3823248 0.041537222
+13.51376 1.4206543 0.042866476
+13.64656 1.3714871 0.040891456
+13.75296 1.405723 0.042123235
+13.92586 1.383105 0.041132661
+14.04546 1.3822518 0.041029853
+14.19186 1.4091718 0.042028545
+14.35126 1.3387737 0.03929378
+14.47106 1.3503261 0.039694954
+14.75016 1.390463 0.041190394
+&
+@target G0.S5
+@type xy
+7.75716 1.4
+14.75016 1.4
+&
+@target G0.S6
+@type xydy
+6.13296 1.6095396 0.040993849
+6.24606 1.5984032 0.04031739
+6.35916 1.5936742 0.040160927
+6.49606 1.5356774 0.038167796
+6.63706 1.5857251 0.040081485
+6.73526 1.5016376 0.037237465
+6.88956 1.5070078 0.039273698
+7.01986 1.4418373 0.035178369
+7.15016 1.423899 0.033754211
+7.30566 1.467619 0.035257143
+7.42946 1.5165938 0.037202831
+7.72056 1.5041659 0.03670259
+7.83616 1.4907409 0.036339305
+8.09686 1.4952517 0.036475421
+8.38656 1.4953974 0.036656834
+8.64856 1.5110274 0.037247743
+8.90786 1.5051163 0.037107764
+9.19496 1.4818136 0.036060873
+9.42636 1.4982764 0.036933347
+9.97136 1.5306735 0.038644873
+10.31576 1.6060651 0.042197114
+10.51776 1.694795 0.046154063
+10.65876 1.6778575 0.046076913
+10.91656 1.7662402 0.050818795
+11.05766 1.6975148 0.049210594
+11.16906 1.5839184 0.045940085
+11.31546 1.6605266 0.04930341
+11.42976 1.5611106 0.046136655
+11.58006 1.6897633 0.050175101
+11.69436 1.5790899 0.045851142
+11.84186 1.543237 0.043620557
+11.96146 1.6019829 0.044961136
+12.10926 1.547357 0.042279023
+12.25936 1.6204762 0.044290669
+12.40686 1.5808723 0.042382555
+12.49596 1.6029555 0.043049038
+12.64496 1.6169551 0.043323075
+12.78716 1.5303833 0.040040951
+12.90816 1.6064574 0.0428042
+13.08356 1.582331 0.041770193
+13.08496 1.631874 0.043657011
+13.34816 1.5949709 0.042026822
+13.46776 1.6089286 0.042440989
+13.58746 1.5664048 0.040788254
+13.73376 1.6254979 0.04295103
+13.87996 1.6090533 0.042254563
+14.02626 1.6404794 0.043447728
+14.14596 1.6440417 0.043526683
+14.29206 1.6487294 0.043726563
+14.39846 1.5490664 0.039913052
+14.54476 1.6348467 0.043169479
+14.81076 1.6097889 0.042278311
+&
+@target G0.S7
+@type xy
+6.13296 1.6
+14.81076 1.6
+&
+@target G0.S8
+@type xydy
+6.05152 1.812054 0.032642237
+6.18462 1.7894979 0.031999712
+6.45172 1.7607817 0.030818775
+6.60862 1.754512 0.030041587
+6.72562 1.8345671 0.031745116
+6.83732 1.916006 0.03369214
+6.89432 1.830878 0.03118597
+6.97162 1.8078862 0.030448636
+7.04612 1.8563061 0.031966123
+7.09662 1.8167652 0.030980216
+7.16032 1.8225519 0.031280438
+7.24552 1.8211365 0.031487198
+7.35442 1.8616835 0.032952504
+7.45282 1.8623254 0.033185188
+7.62972 1.8268704 0.032455596
+7.81562 1.7491188 0.030505713
+8.05912 1.7136956 0.029767301
+8.34762 1.6803837 0.029032508
+8.60292 1.6687282 0.028762618
+8.89122 1.7039213 0.029739406
+9.15722 1.7108377 0.029903436
+9.43652 1.768473 0.031402904
+9.69182 1.7374303 0.03039437
+9.96962 1.7415116 0.030326716
+10.22612 1.783206 0.031300477
+10.48272 1.8108537 0.031876307
+10.61562 1.810756 0.031763521
+10.77132 1.7847631 0.030901487
+10.89492 1.7933507 0.031035744
+11.02782 1.7278386 0.029075911
+11.17412 1.8627901 0.032932303
+11.29492 1.8181741 0.031602062
+11.57302 1.8251521 0.031771656
+11.70732 1.8579089 0.032764829
+11.85092 1.8421842 0.032353946
+11.98372 1.8271799 0.031991929
+12.10472 1.820167 0.031872858
+12.24832 1.8327574 0.03233462
+12.37052 1.8503283 0.032987457
+12.49152 1.8082405 0.031924303
+12.64582 1.8101838 0.032222714
+12.76682 1.7720328 0.031349195
+12.89972 1.7692894 0.031442002
+13.03262 1.8364537 0.033424468
+13.16572 1.7647356 0.031521376
+13.30392 1.7765241 0.031992347
+13.43682 1.798148 0.032681765
+13.55642 1.8204612 0.03343185
+13.70282 1.7471864 0.031613965
+13.83562 1.7738941 0.032462562
+13.96852 1.8512821 0.034766631
+14.08842 1.7468382 0.032108266
+14.23452 1.8301719 0.034609836
+14.36742 1.8389266 0.03504882
+14.50052 1.8252034 0.034916656
+14.77952 1.8925728 0.03721427
+&
+@target G0.S9
+@type xy
+6.05152 1.8
+14.77952 1.8
+&
+@target G0.S10
+@type xydy
+7.81573 1.9963415 0.034162602
+8.10433 1.9443926 0.033313482
+8.36493 1.8900015 0.032043245
+8.62953 1.9677835 0.033935424
+8.89273 1.9480645 0.033123052
+9.15733 1.9405075 0.032509203
+9.42193 1.9404229 0.031965676
+9.42453 1.9794206 0.033000551
+9.69053 1.9828867 0.03251914
+9.95623 1.9793714 0.031946151
+10.22623 1.9928562 0.031843202
+10.49613 2.0010152 0.031612929
+10.64643 2.0182911 0.031944709
+10.79653 2.0266972 0.032033425
+10.91363 1.9838693 0.030683667
+11.03583 2.0263019 0.031828889
+11.18753 2.0607021 0.032789351
+11.33363 2.048489 0.032392063
+11.45323 2.0856148 0.03345564
+11.56773 2.0724734 0.03309007
+11.70993 2.0409667 0.032198566
+11.82423 2.0343579 0.032075096
+11.96783 2.0534676 0.03272075
+12.11023 2.0449542 0.032625591
+12.24963 2.033133 0.032488139
+12.39203 2.0433741 0.033023355
+12.50233 1.9854358 0.031599324
+12.61543 1.9792073 0.031726376
+12.78813 2.0119486 0.033060223
+12.89983 1.959628 0.031867134
+13.16043 1.9756345 0.032756644
+13.30003 1.942624 0.032044021
+13.41963 1.9865279 0.033436343
+13.56583 2.0133209 0.034519782
+13.67213 1.9118982 0.032154746
+13.83183 1.9722503 0.034098136
+13.96473 1.9636966 0.034318747
+14.11103 1.9564943 0.034550757
+14.25723 2.0330449 0.037015245
+14.40353 2.0400275 0.037643109
+14.52323 2.0384135 0.038012478
+14.77573 2.0278203 0.038710325
+&
+@target G0.S11
+@type xy
+7.81573 2
+14.77573 2
+&
+@target G0.S12
+@type xydy
+6.03166 2.191254 0.041984848
+6.16616 2.2642836 0.044313805
+6.32836 2.2309544 0.04254223
+6.48916 2.2493815 0.04266988
+6.59686 2.2473036 0.042275302
+6.78566 2.0695946 0.034997787
+6.94646 2.2619916 0.042581845
+7.00086 2.1564287 0.038437837
+7.16196 2.2907386 0.044551559
+7.24286 2.0908299 0.038077823
+7.40366 2.2160376 0.046113769
+7.53796 2.2390855 0.049678598
+7.61916 2.2267859 0.050472203
+7.72696 2.1393993 0.048808499
+7.77996 2.2646327 0.053210346
+8.07646 2.1863976 0.051092014
+8.34506 2.1511776 0.049114273
+8.61356 2.1887989 0.049089539
+8.88346 2.1531089 0.046492852
+9.15206 2.2211097 0.047259611
+9.42056 2.1800773 0.044599399
+9.68916 2.2216143 0.044880593
+9.98566 2.1921743 0.042812704
+10.22766 2.2631989 0.044832253
+10.46966 2.2812922 0.045003024
+10.65836 2.2423492 0.043199816
+10.79266 2.2725189 0.044216216
+10.90046 2.2978586 0.045256474
+11.03466 2.2711669 0.04385902
+11.19546 2.3331688 0.04620812
+11.32976 2.2900911 0.044458424
+11.41076 2.3225011 0.045723333
+11.57176 2.2802392 0.044450054
+11.70746 2.3160292 0.045886457
+11.86826 2.2945877 0.04502036
+11.97596 2.2582632 0.043733921
+12.11026 2.239136 0.043185836
+12.21776 2.268234 0.044546892
+12.37886 2.2530898 0.044421304
+12.51426 2.2618751 0.045218512
+12.64856 2.2306625 0.04464308
+12.78286 2.200756 0.044159359
+12.89056 2.1929752 0.044303504
+13.05136 2.2242018 0.046028363
+13.18566 2.2365897 0.046891652
+13.34276 2.143168 0.044251149
+13.42226 2.2522503 0.048387097
+13.59516 2.2440526 0.048882664
+13.72806 2.1253746 0.045720335
+13.86116 2.1807067 0.048437392
+13.96756 2.128042 0.047495149
+14.12696 2.1941994 0.050828296
+14.23326 2.2398808 0.053174901
+14.36636 2.2406217 0.054311551
+14.52586 2.1848778 0.054050327
+14.80506 2.1534712 0.055584612
+&
+@target G0.S13
+@type xy
+6.03166 2.2
+14.80506 2.2
+&
+@target G0.S14
+@type xydy
+5.22471 2.5313562 0.059511786
+5.38551 2.501019 0.057875
+5.57171 2.5605481 0.060435626
+5.73391 2.4934898 0.056970397
+5.84021 2.5385779 0.058894148
+5.99981 2.4760637 0.055525972
+6.29241 2.3899002 0.050526439
+6.39591 2.4050042 0.051149291
+6.49571 2.4912499 0.05506699
+6.54481 2.5239616 0.056424856
+6.64721 2.3722456 0.048803721
+6.66841 2.4316199 0.051798095
+6.74171 2.354357 0.047920336
+6.75751 2.4898589 0.054599226
+6.77621 2.5595854 0.058120395
+6.85461 2.4139682 0.050814189
+6.89181 2.2928001 0.044721537
+6.99031 2.4033879 0.05032144
+7.03011 2.3693115 0.048799577
+7.12061 2.8806032 0.074992004
+7.15781 2.5467158 0.059588705
+7.16321 2.1837665 0.042645628
+7.27211 2.7346922 0.075991296
+7.32791 2.7489442 0.083836758
+7.46481 2.8473867 0.11033915
+7.60041 2.6304322 0.11546487
+7.73471 2.5931148 0.111554
+8.00321 2.2377223 0.08530128
+8.27181 2.4607251 0.079263666
+8.56711 2.2619353 0.064070701
+8.80771 2.4723967 0.067107672
+9.07631 2.3708075 0.059382005
+9.42441 2.3805328 0.056450636
+9.90591 2.4128247 0.055034528
+10.17441 2.2544037 0.046660228
+10.43901 2.4502358 0.0550569
+10.59841 2.5089905 0.057572964
+10.73271 2.4581753 0.054902389
+10.83911 2.5194556 0.057786574
+10.97331 2.4896915 0.056250989
+11.16091 2.5652897 0.060031177
+11.24191 2.5473487 0.059111528
+11.37621 2.5487054 0.05912595
+11.51181 2.5227509 0.057986533
+11.64751 2.5127377 0.057746996
+11.78291 2.4631777 0.05562833
+11.86561 2.4357827 0.054604212
+11.97451 2.3982167 0.053298381
+12.16461 2.3924793 0.054316871
+12.30031 2.3291441 0.052738265
+12.46251 2.4107264 0.058642227
+12.62471 2.3810534 0.060686087
+12.70561 2.3437729 0.061124543
+12.84131 2.3291718 0.063925486
+13.08331 2.3319865 0.069396873
+13.26811 2.2598981 0.071776257
+13.42751 2.4641964 0.082948817
+13.54741 2.2228571 0.080466096
+13.65371 2.2941785 0.087208145
+13.76001 2.6381026 0.1020378
+13.94621 2.2305482 0.1022849
+14.23851 2.4649836 0.12862032
+14.31831 2.1334782 0.12955737
+14.47801 2.2425507 0.14598393
+14.73051 2.4326839 0.17474138
+&
+@target G0.S15
+@type xy
+5.22471 2.4
+14.73051 2.4
+&

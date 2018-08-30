@@ -1,0 +1,456 @@
+ '=' 'test1b-v9gL-xs2.sfrescoed+.sfresco.frout' 
+ 183 226 
+
+R-matrix calculation test1b-v9gL-xs2.sfrescoed+.sfresco
+NAMELIST 
+&FRESCO 
+ hcm=0.100000 rmatch=4.241510 rintp=0.500000 
+ jtmin=0.0 jtmax=4.5 absend=-1.0 
+ thmin=30 thmax=-180 thinc=50  smats=0 weak=0 
+ iter = 0 nrbases=1 nparameters=0 btype="L"  boldplot=F grace=T
+ pel=1 exl=1 elab(1:2) = 1.000000e+00 1.200000e+01 nlab(1)=1 /
+ 
+ &PARTITION namep='He4' massp=4.002603 zp=2 nex=1 namet='He3' masst=3.01603 zt=2 qval=0.000000 prmax=4.24151 /
+ &STATES  cpot =1 jp=0.0 ptyp=1 ep=0.000000  jt=0.5 ptyt=1 et=0.000000 /
+ &PARTITION namep='H1' massp=1.007825 zp=1 nex=1 namet='Li6' masst=6.0151 zt=3 qval=-4.019800 prmax=3.94396 /
+ &STATES  cpot =2 jp=0.5 ptyp=1 ep=0.000000  jt=1.0 ptyt=1 et=0.000000 /
+ &PARTITION /
+
+ &pot kp=1  type=0 p(1:3) = 0 0 1.0 /
+ &pot kp=2  type=0 p(1:3) = 0 0 1.0 /
+ &pot /
+
+ &overlap /
+
+ &coupling /
+
+EOF
+
+
+&Variable kind=4 name='w1,BS:1.5-' term=1 icch=1 iach=1 lch=1 sch=0.5 width=3.30132 rwa=F step=3.3e-02 ivar=1/
+&Variable kind=4 name='w2,BS:1.5-' term=1 icch=2 iach=1 lch=1 sch=0.5 width=-0.000522027 rwa=F step=5.2e-06 ivar=2/
+&Variable kind=4 name='w2,BS:1.5-' term=1 icch=2 iach=1 lch=1 sch=1.5 width=-7.5831 rwa=F step=7.6e-02 ivar=3/
+&Variable kind=4 name='w2,BS:1.5-' term=1 icch=2 iach=1 lch=3 sch=1.5 width=-1.11863 rwa=F step=1.1e-02 ivar=4/
+&Variable kind=3 name='BS:1.5-'    term=1 jtot=1.5 par=-1 energy=-5.44408 damp=0.0 step=0 ivar=5/ ! from MeV
+
+&Variable kind=4 name='w1,1.5-:E13.731' term=2 icch=1 iach=1 lch=1 sch=0.5 width=0.233761 rwa=F step=2.3e-03 ivar=6/
+&Variable kind=4 name='w2,1.5-:E13.731' term=2 icch=2 iach=1 lch=1 sch=0.5 width=-7.79245 rwa=F step=7.8e-02 ivar=7/
+&Variable kind=4 name='w2,1.5-:E13.731' term=2 icch=2 iach=1 lch=1 sch=1.5 width=-20.6627 rwa=F step=2.1e-01 ivar=8/
+&Variable kind=4 name='w2,1.5-:E13.731' term=2 icch=2 iach=1 lch=3 sch=1.5 width=1.09678 rwa=F step=1.1e-02 ivar=9/
+&Variable kind=3 name='J1.5-:E13.731'    term=2 jtot=1.5 par=-1 energy=13.7316 damp=0.0 step=0.1 ivar=10/ ! from MeV
+
+&Variable kind=4 name='w1,BG:1.5-' term=3 icch=1 iach=1 lch=1 sch=0.5 width=-26.6859 rwa=F step=2.7e-01 ivar=11/
+&Variable kind=4 name='w2,BG:1.5-' term=3 icch=2 iach=1 lch=1 sch=0.5 width=2.72108 rwa=F step=2.7e-02 ivar=12/
+&Variable kind=4 name='w2,BG:1.5-' term=3 icch=2 iach=1 lch=1 sch=1.5 width=0.20256 rwa=F step=2.0e-03 ivar=13/
+&Variable kind=4 name='w2,BG:1.5-' term=3 icch=2 iach=1 lch=3 sch=1.5 width=-1.51377 rwa=F step=1.5e-02 ivar=14/
+&Variable kind=3 name='BG:1.5-'    term=3 jtot=1.5 par=-1 energy=20.0 damp=0.0 step=0 ivar=15/ ! from MeV
+
+&Variable kind=4 name='w1,BS:0.5-' term=4 icch=1 iach=1 lch=1 sch=0.5 width=14.4287 rwa=F step=1.4e-01 ivar=16/
+&Variable kind=4 name='w2,BS:0.5-' term=4 icch=2 iach=1 lch=1 sch=0.5 width=65.251 rwa=F step=6.5e-01 ivar=17/
+&Variable kind=4 name='w2,BS:0.5-' term=4 icch=2 iach=1 lch=1 sch=1.5 width=3.37888 rwa=F step=3.4e-02 ivar=18/
+&Variable kind=3 name='BS:0.5-'    term=4 jtot=0.5 par=-1 energy=-16.4121 damp=0.0 step=0 ivar=19/ ! from MeV
+
+&Variable kind=4 name='w1,BG:0.5-' term=5 icch=1 iach=1 lch=1 sch=0.5 width=-17.1706 rwa=F step=1.7e-01 ivar=20/
+&Variable kind=4 name='w2,BG:0.5-' term=5 icch=2 iach=1 lch=1 sch=0.5 width=0.00242946 rwa=F step=2.4e-05 ivar=21/
+&Variable kind=4 name='w2,BG:0.5-' term=5 icch=2 iach=1 lch=1 sch=1.5 width=-9.44715 rwa=F step=9.4e-02 ivar=22/
+&Variable kind=3 name='BG:0.5-'    term=5 jtot=0.5 par=-1 energy=20.0 damp=0.0 step=0 ivar=23/ ! from MeV
+
+&Variable kind=4 name='w1,BS:3.5-' term=6 icch=1 iach=1 lch=3 sch=0.5 width=61.1257 rwa=F step=6.1e-01 ivar=24/
+&Variable kind=4 name='w2,BS:3.5-' term=6 icch=2 iach=1 lch=3 sch=0.5 width=3.02018 rwa=F step=3.0e-02 ivar=25/
+&Variable kind=4 name='w2,BS:3.5-' term=6 icch=2 iach=1 lch=3 sch=1.5 width=253.73 rwa=F step=2.5e+00 ivar=26/
+&Variable kind=4 name='w2,BS:3.5-' term=6 icch=2 iach=1 lch=5 sch=1.5 width=2.60986 rwa=F step=2.6e-02 ivar=27/
+&Variable kind=3 name='BS:3.5-'    term=6 jtot=3.5 par=-1 energy=-12.4986 damp=0.0 step=0 ivar=28/ ! from MeV
+
+&Variable kind=4 name='w1,BG:3.5-' term=7 icch=1 iach=1 lch=3 sch=0.5 width=65.5334 rwa=F step=6.6e-01 ivar=29/
+&Variable kind=4 name='w2,BG:3.5-' term=7 icch=2 iach=1 lch=3 sch=0.5 width=2.00387 rwa=F step=2.0e-02 ivar=30/
+&Variable kind=4 name='w2,BG:3.5-' term=7 icch=2 iach=1 lch=3 sch=1.5 width=36.429 rwa=F step=3.6e-01 ivar=31/
+&Variable kind=4 name='w2,BG:3.5-' term=7 icch=2 iach=1 lch=5 sch=1.5 width=0.00618979 rwa=F step=6.2e-05 ivar=32/
+&Variable kind=3 name='BG:3.5-'    term=7 jtot=3.5 par=-1 energy=20.0 damp=0.0 step=0 ivar=33/ ! from MeV
+
+&Variable kind=4 name='w1,2.5-:E6.2358' term=8 icch=1 iach=1 lch=3 sch=0.5 width=0.441916 rwa=F step=4.4e-03 ivar=34/
+&Variable kind=4 name='w2,2.5-:E6.2358' term=8 icch=2 iach=1 lch=1 sch=1.5 width=0.753322 rwa=F step=7.5e-03 ivar=35/
+&Variable kind=4 name='w2,2.5-:E6.2358' term=8 icch=2 iach=1 lch=3 sch=0.5 width=-0.00451754 rwa=F step=4.5e-05 ivar=36/
+&Variable kind=4 name='w2,2.5-:E6.2358' term=8 icch=2 iach=1 lch=3 sch=1.5 width=0.0160553 rwa=F step=1.6e-04 ivar=37/
+&Variable kind=3 name='J2.5-:E6.2358'    term=8 jtot=2.5 par=-1 energy=6.2358 damp=0.0 step=0.1 ivar=38/ ! from MeV
+
+&Variable kind=4 name='w1,2.5-:E7.0584' term=9 icch=1 iach=1 lch=3 sch=0.5 width=-0.828026 rwa=F step=8.3e-03 ivar=39/
+&Variable kind=4 name='w2,2.5-:E7.0584' term=9 icch=2 iach=1 lch=1 sch=1.5 width=1.75431 rwa=F step=1.8e-02 ivar=40/
+&Variable kind=4 name='w2,2.5-:E7.0584' term=9 icch=2 iach=1 lch=3 sch=0.5 width=-0.0318254 rwa=F step=3.2e-04 ivar=41/
+&Variable kind=4 name='w2,2.5-:E7.0584' term=9 icch=2 iach=1 lch=3 sch=1.5 width=0.135746 rwa=F step=1.4e-03 ivar=42/
+&Variable kind=3 name='J2.5-:E7.0584'    term=9 jtot=2.5 par=-1 energy=7.05841 damp=0.0 step=0.1 ivar=43/ ! from MeV
+
+&Variable kind=4 name='w1,BG:2.5-' term=10 icch=1 iach=1 lch=3 sch=0.5 width=-43.2775 rwa=F step=4.3e-01 ivar=44/
+&Variable kind=4 name='w2,BG:2.5-' term=10 icch=2 iach=1 lch=1 sch=1.5 width=-0.0178575 rwa=F step=1.8e-04 ivar=45/
+&Variable kind=4 name='w2,BG:2.5-' term=10 icch=2 iach=1 lch=3 sch=0.5 width=19.5892 rwa=F step=2.0e-01 ivar=46/
+&Variable kind=4 name='w2,BG:2.5-' term=10 icch=2 iach=1 lch=3 sch=1.5 width=-5.92651 rwa=F step=5.9e-02 ivar=47/
+&Variable kind=3 name='BG:2.5-'    term=10 jtot=2.5 par=-1 energy=20.0 damp=0.0 step=0 ivar=48/ ! from MeV
+
+&Variable kind=4 name='w1,BG:0.5+' term=11 icch=1 iach=1 lch=0 sch=0.5 width=-97.3634 rwa=F step=9.7e-01 ivar=49/
+&Variable kind=4 name='w2,BG:0.5+' term=11 icch=2 iach=1 lch=0 sch=0.5 width=-53.4161 rwa=F step=5.3e-01 ivar=50/
+&Variable kind=4 name='w2,BG:0.5+' term=11 icch=2 iach=1 lch=2 sch=1.5 width=8.10327 rwa=F step=8.1e-02 ivar=51/
+&Variable kind=3 name='BG:0.5+'    term=11 jtot=0.5 par=1 energy=20.0 damp=0.0 step=0 ivar=52/ ! from MeV
+
+&Variable kind=4 name='w1,1.5+:E12.737' term=12 icch=1 iach=1 lch=2 sch=0.5 width=-0.00609939 rwa=F step=6.1e-05 ivar=53/
+&Variable kind=4 name='w2,1.5+:E12.737' term=12 icch=2 iach=1 lch=0 sch=1.5 width=17.9244 rwa=F step=1.8e-01 ivar=54/
+&Variable kind=4 name='w2,1.5+:E12.737' term=12 icch=2 iach=1 lch=2 sch=0.5 width=-0.498367 rwa=F step=5.0e-03 ivar=55/
+&Variable kind=4 name='w2,1.5+:E12.737' term=12 icch=2 iach=1 lch=2 sch=1.5 width=-16.7087 rwa=F step=1.7e-01 ivar=56/
+&Variable kind=3 name='J1.5+:E12.737'    term=12 jtot=1.5 par=1 energy=12.7372 damp=0.0 step=0.1 ivar=57/ ! from MeV
+
+&Variable kind=4 name='w1,BG:1.5+' term=13 icch=1 iach=1 lch=2 sch=0.5 width=-29.9255 rwa=F step=3.0e-01 ivar=58/
+&Variable kind=4 name='w2,BG:1.5+' term=13 icch=2 iach=1 lch=0 sch=1.5 width=-1.05141 rwa=F step=1.1e-02 ivar=59/
+&Variable kind=4 name='w2,BG:1.5+' term=13 icch=2 iach=1 lch=2 sch=0.5 width=-11.3519 rwa=F step=1.1e-01 ivar=60/
+&Variable kind=4 name='w2,BG:1.5+' term=13 icch=2 iach=1 lch=2 sch=1.5 width=3.36208 rwa=F step=3.4e-02 ivar=61/
+&Variable kind=3 name='BG:1.5+'    term=13 jtot=1.5 par=1 energy=20.0 damp=0.0 step=0 ivar=62/ ! from MeV
+
+&Variable kind=4 name='w1,BG:2.5+' term=14 icch=1 iach=1 lch=2 sch=0.5 width=1.1178 rwa=F step=1.1e-02 ivar=63/
+&Variable kind=4 name='w2,BG:2.5+' term=14 icch=2 iach=1 lch=2 sch=0.5 width=-5.33973 rwa=F step=5.3e-02 ivar=64/
+&Variable kind=4 name='w2,BG:2.5+' term=14 icch=2 iach=1 lch=2 sch=1.5 width=-0.0130938 rwa=F step=1.3e-04 ivar=65/
+&Variable kind=4 name='w2,BG:2.5+' term=14 icch=2 iach=1 lch=4 sch=1.5 width=-14.8307 rwa=F step=1.5e-01 ivar=66/
+&Variable kind=3 name='BG:2.5+'    term=14 jtot=2.5 par=1 energy=15.5022 damp=0.0 step=0 ivar=67/ ! from MeV
+
+&Variable kind=4 name='w1,BG:2.5+' term=15 icch=1 iach=1 lch=2 sch=0.5 width=27.0578 rwa=F step=2.7e-01 ivar=68/
+&Variable kind=4 name='w2,BG:2.5+' term=15 icch=2 iach=1 lch=2 sch=0.5 width=6.44831 rwa=F step=6.4e-02 ivar=69/
+&Variable kind=4 name='w2,BG:2.5+' term=15 icch=2 iach=1 lch=2 sch=1.5 width=-0.0495612 rwa=F step=5.0e-04 ivar=70/
+&Variable kind=4 name='w2,BG:2.5+' term=15 icch=2 iach=1 lch=4 sch=1.5 width=0.0155764 rwa=F step=1.6e-04 ivar=71/
+&Variable kind=3 name='BG:2.5+'    term=15 jtot=2.5 par=1 energy=20.0 damp=0.0 step=0 ivar=72/ ! from MeV
+
+
+
+&variable name='r:Barnard_aa ' kind=5 dataset=0, 0 reffile='Expt5/Barnard_aa@a*', datanorm=0.989713 step=0.01 ivar=73 /
+&variable name='n:Spiger-A10940' kind=5 dataset=0, 0 reffile='Expt5/Spiger-A1094004-lab_aa@a16.735.data', datanorm=0.901776 step=0.01 ivar=74 /
+&variable name='n:Spiger-A10940' kind=5 dataset=0, 0 reffile='Expt5/Spiger-A1094004-lab_aa@a20.002.data', datanorm=0.942569 step=0.01 ivar=75 /
+&variable name='n:Spiger-A10940' kind=5 dataset=0, 0 reffile='Expt5/Spiger-A1094004-lab_aa@a23.192.data', datanorm=0.925612 step=0.01 ivar=76 /
+&variable name='n:Spiger-A10940' kind=5 dataset=0, 0 reffile='Expt5/Spiger-A1094004-lab_aa@a26.738.data', datanorm=0.947708 step=0.01 ivar=77 /
+&variable name='n:Spiger-A10940' kind=5 dataset=0, 0 reffile='Expt5/Spiger-A1094004-lab_aa@a29.418.data', datanorm=0.960259 step=0.01 ivar=78 /
+&variable name='n:Spiger-A10940' kind=5 dataset=0, 0 reffile='Expt5/Spiger-A1094004-lab_aa@a32.12.data', datanorm=0.951875 step=0.01 ivar=79 /
+&variable name='n:Spiger-A10940' kind=5 dataset=0, 0 reffile='Expt5/Spiger-A1094004-lab_aa@a33.273.data', datanorm=0.93427 step=0.01 ivar=80 /
+&variable name='n:Spiger-A10940' kind=5 dataset=0, 0 reffile='Expt5/Spiger-A1094004-lab_aa@a35.257.data', datanorm=0.944728 step=0.01 ivar=81 /
+&variable name='n:Spiger-A10940' kind=5 dataset=0, 0 reffile='Expt5/Spiger-A1094004-lab_aa@a36.999.data', datanorm=0.941734 step=0.01 ivar=82 /
+&variable name='n:Spiger-A10940' kind=5 dataset=0, 0 reffile='Expt5/Spiger-A1094004-lab_aa@a39.951.data', datanorm=0.943513 step=0.01 ivar=83 /
+&variable name='n:Spiger-A10940' kind=5 dataset=0, 0 reffile='Expt5/Spiger-A1094004-lab_aa@a42.558.data', datanorm=0.931945 step=0.01 ivar=84 /
+&variable name='n:Spiger-A10940' kind=5 dataset=0, 0 reffile='Expt5/Spiger-A1094004-lab_aa@a45.53.data', datanorm=0.872729 step=0.01 ivar=85 /
+&variable name='n:Spiger-A10940' kind=5 dataset=0, 0 reffile='Expt5/Spiger-A1094004-lab_aa@a47.428.data', datanorm=0.876772 step=0.01 ivar=86 /
+&variable name='n:Spiger-A10940' kind=5 dataset=0, 0 reffile='Expt5/Spiger-A1094004-lab_aa@a48.755.data', datanorm=0.931465 step=0.01 ivar=87 /
+&variable name='r:Tombrello_aa ' kind=5 dataset=0, 0 reffile='Expt5/Tombrello_aa@a*', datanorm=1.07975 step=0.01 ivar=88 /
+&variable name='n:Mohr_aa@e1.59' kind=5 dataset=0, 0 reffile='Expt5/Mohr_aa@e1.59539.data', datanorm=1.03093 step=0.01 ivar=89 /
+&variable name='n:Mohr_aa@e2.26' kind=5 dataset=0, 0 reffile='Expt5/Mohr_aa@e2.26013.data', datanorm=0.89709 step=0.01 ivar=90 /
+&variable name='n:Mohr_aa@e2.65' kind=5 dataset=0, 0 reffile='Expt5/Mohr_aa@e2.65898.data', datanorm=0.913741 step=0.01 ivar=91 /
+&variable name='n:Mohr_aa@e3.05' kind=5 dataset=0, 0 reffile='Expt5/Mohr_aa@e3.05783.data', datanorm=0.989485 step=0.01 ivar=92 /
+&variable name='n:Mohr_aa@e3.32' kind=5 dataset=0, 0 reffile='Expt5/Mohr_aa@e3.32372.data', datanorm=0.86433 step=0.01 ivar=93 /
+&variable name='n:Mohr_aa@e3.45' kind=5 dataset=0, 0 reffile='Expt5/Mohr_aa@e3.45667.data', datanorm=0.995068 step=0.01 ivar=94 /
+&variable name='n:Mohr_aa@e3.58' kind=5 dataset=0, 0 reffile='Expt5/Mohr_aa@e3.58962.data', datanorm=0.941866 step=0.01 ivar=95 /
+&variable name='n:Mohr_aa@e3.72' kind=5 dataset=0, 0 reffile='Expt5/Mohr_aa@e3.72257.data', datanorm=0.969654 step=0.01 ivar=96 /
+&variable name='n:Mohr_aa@e3.85' kind=5 dataset=0, 0 reffile='Expt5/Mohr_aa@e3.85552.data', datanorm=0.956829 step=0.01 ivar=97 /
+&variable name='n:Mohr_aa@e3.98' kind=5 dataset=0, 0 reffile='Expt5/Mohr_aa@e3.98847.data', datanorm=1.00405 step=0.01 ivar=98 /
+&variable name='n:Fasoli_pp@a81' kind=5 dataset=0, 0 reffile='Expt5/Fasoli_pp@a81.0.data', datanorm=0.830887 step=0.01 ivar=99 /
+&variable name='n:Fasoli_pp@a10' kind=5 dataset=0, 0 reffile='Expt5/Fasoli_pp@a100.0.data', datanorm=0.946956 step=0.01 ivar=100 /
+&variable name='n:Fasoli_pp@a11' kind=5 dataset=0, 0 reffile='Expt5/Fasoli_pp@a117.0.data', datanorm=0.988929 step=0.01 ivar=101 /
+&variable name='n:Fasoli_pp@a14' kind=5 dataset=0, 0 reffile='Expt5/Fasoli_pp@a141.0.data', datanorm=1.07545 step=0.01 ivar=102 /
+&variable name='n:Fasoli_pp@a14' kind=5 dataset=0, 0 reffile='Expt5/Fasoli_pp@a144.0.data', datanorm=1.06265 step=0.01 ivar=103 /
+&variable name='n:Fasoli_pp@a16' kind=5 dataset=0, 0 reffile='Expt5/Fasoli_pp@a166.0.data', datanorm=1.07408 step=0.01 ivar=104 /
+&variable name='n:McCray_pp@a61' kind=5 dataset=0, 0 reffile='Expt5/McCray_pp@a61.6.data', datanorm=1.14986 step=0.01 ivar=105 /
+&variable name='n:McCray_pp@a80' kind=5 dataset=0, 0 reffile='Expt5/McCray_pp@a80.5.data', datanorm=1.10502 step=0.01 ivar=106 /
+&variable name='n:McCray_pp@a81' kind=5 dataset=0, 0 reffile='Expt5/McCray_pp@a81.0.data', datanorm=1.06325 step=0.01 ivar=107 /
+&variable name='n:McCray_pp@a10' kind=5 dataset=0, 0 reffile='Expt5/McCray_pp@a100.6.data', datanorm=1.08255 step=0.01 ivar=108 /
+&variable name='n:McCray_pp@a11' kind=5 dataset=0, 0 reffile='Expt5/McCray_pp@a116.4.data', datanorm=1.09956 step=0.01 ivar=109 /
+&variable name='n:McCray_pp@a11' kind=5 dataset=0, 0 reffile='Expt5/McCray_pp@a118.1.data', datanorm=1.10984 step=0.01 ivar=110 /
+&variable name='n:McCray_pp@a13' kind=5 dataset=0, 0 reffile='Expt5/McCray_pp@a133.0.data', datanorm=1.13055 step=0.01 ivar=111 /
+&variable name='n:McCray_pp@a15' kind=5 dataset=0, 0 reffile='Expt5/McCray_pp@a155.8.data', datanorm=1.19543 step=0.01 ivar=112 /
+&variable name='n:McCray_pp@a15' kind=5 dataset=0, 0 reffile='Expt5/McCray_pp@a156.1.data', datanorm=1.16117 step=0.01 ivar=113 /
+&variable name='r:Harrison_pp0 ' kind=5 dataset=0, 0 reffile='Expt5/Harrison_pp0@e*', datanorm=1.15592 step=0.01 ivar=114 /
+&variable name='n:Lin_pa@e1.0 ' kind=5 dataset=0, 0 reffile='Expt5/Lin_pa@e1.0.data', datanorm=1.20371 step=0.01 ivar=115 /
+&variable name='n:Lin_pa@e1.2 ' kind=5 dataset=0, 0 reffile='Expt5/Lin_pa@e1.2.data', datanorm=1.22583 step=0.01 ivar=116 /
+&variable name='n:Lin_pa@e1.4 ' kind=5 dataset=0, 0 reffile='Expt5/Lin_pa@e1.4.data', datanorm=1.26362 step=0.01 ivar=117 /
+&variable name='n:Lin_pa@e1.5 ' kind=5 dataset=0, 0 reffile='Expt5/Lin_pa@e1.5.data', datanorm=1.35561 step=0.01 ivar=118 /
+&variable name='n:Lin_pa@e1.6 ' kind=5 dataset=0, 0 reffile='Expt5/Lin_pa@e1.6.data', datanorm=1.37504 step=0.01 ivar=119 /
+&variable name='n:Lin_pa@e1.65 ' kind=5 dataset=0, 0 reffile='Expt5/Lin_pa@e1.65.data', datanorm=1.32317 step=0.01 ivar=120 /
+&variable name='n:Lin_pa@e1.7 ' kind=5 dataset=0, 0 reffile='Expt5/Lin_pa@e1.7.data', datanorm=1.34706 step=0.01 ivar=121 /
+&variable name='n:Lin_pa@e1.75 ' kind=5 dataset=0, 0 reffile='Expt5/Lin_pa@e1.75.data', datanorm=1.33314 step=0.01 ivar=122 /
+&variable name='n:Lin_pa@e1.8 ' kind=5 dataset=0, 0 reffile='Expt5/Lin_pa@e1.8.data', datanorm=1.31649 step=0.01 ivar=123 /
+&variable name='n:Lin_pa@e1.85 ' kind=5 dataset=0, 0 reffile='Expt5/Lin_pa@e1.85.data', datanorm=1.22012 step=0.01 ivar=124 /
+&variable name='n:Lin_pa@e1.9 ' kind=5 dataset=0, 0 reffile='Expt5/Lin_pa@e1.9.data', datanorm=1.303 step=0.01 ivar=125 /
+&variable name='n:Lin_pa@e1.95 ' kind=5 dataset=0, 0 reffile='Expt5/Lin_pa@e1.95.data', datanorm=1.36355 step=0.01 ivar=126 /
+&variable name='n:Lin_pa@e2.0 ' kind=5 dataset=0, 0 reffile='Expt5/Lin_pa@e2.0.data', datanorm=1.21914 step=0.01 ivar=127 /
+&variable name='n:Lin_pa@e2.1 ' kind=5 dataset=0, 0 reffile='Expt5/Lin_pa@e2.1.data', datanorm=1.25219 step=0.01 ivar=128 /
+&variable name='n:Lin_pa@e2.2 ' kind=5 dataset=0, 0 reffile='Expt5/Lin_pa@e2.2.data', datanorm=1.31262 step=0.01 ivar=129 /
+&variable name='n:Lin_pa@e2.4 ' kind=5 dataset=0, 0 reffile='Expt5/Lin_pa@e2.4.data', datanorm=1.38633 step=0.01 ivar=130 /
+&variable name='n:Lin_pa@e2.6 ' kind=5 dataset=0, 0 reffile='Expt5/Lin_pa@e2.6.data', datanorm=1.39243 step=0.01 ivar=131 /
+&variable name='r:Elwyn_pa ' kind=5 dataset=0, 0 reffile='Expt5/Elwyn_pa@e*', datanorm=1.13304 step=0.01 ivar=132 /
+&variable name='n:Spiger-cm_ap0' kind=5 dataset=0, 0 reffile='Expt5/Spiger-cm_ap0@e10.3581.data', datanorm=1.00531 step=0.01 ivar=133 /
+&variable name='n:Spiger-cm_ap0' kind=5 dataset=0, 0 reffile='Expt5/Spiger-cm_ap0@e10.8438.data', datanorm=1.0002 step=0.01 ivar=134 /
+&variable name='n:Spiger-cm_ap0' kind=5 dataset=0, 0 reffile='Expt5/Spiger-cm_ap0@e11.0296.data', datanorm=0.992379 step=0.01 ivar=135 /
+&variable name='n:Spiger-cm_ap0' kind=5 dataset=0, 0 reffile='Expt5/Spiger-cm_ap0@e11.1769.data', datanorm=1.01394 step=0.01 ivar=136 /
+&variable name='n:Spiger-cm_ap0' kind=5 dataset=0, 0 reffile='Expt5/Spiger-cm_ap0@e11.3109.data', datanorm=1.00222 step=0.01 ivar=137 /
+&variable name='n:Spiger-cm_ap0' kind=5 dataset=0, 0 reffile='Expt5/Spiger-cm_ap0@e11.445.data', datanorm=1.00606 step=0.01 ivar=138 /
+&variable name='n:Spiger-cm_ap0' kind=5 dataset=0, 0 reffile='Expt5/Spiger-cm_ap0@e11.579.data', datanorm=1.00786 step=0.01 ivar=139 /
+&variable name='n:Spiger-cm_ap0' kind=5 dataset=0, 0 reffile='Expt5/Spiger-cm_ap0@e11.7011.data', datanorm=0.994457 step=0.01 ivar=140 /
+&variable name='n:Spiger-cm_ap0' kind=5 dataset=0, 0 reffile='Expt5/Spiger-cm_ap0@e11.7117.data', datanorm=1.00135 step=0.01 ivar=141 /
+&variable name='n:Spiger-cm_ap0' kind=5 dataset=0, 0 reffile='Expt5/Spiger-cm_ap0@e11.8458.data', datanorm=1.01445 step=0.01 ivar=142 /
+&variable name='n:Spiger-cm_ap0' kind=5 dataset=0, 0 reffile='Expt5/Spiger-cm_ap0@e11.9798.data', datanorm=1.00581 step=0.01 ivar=143 /
+&variable name='n:Spiger-cm_ap0' kind=5 dataset=0, 0 reffile='Expt5/Spiger-cm_ap0@e12.1125.data', datanorm=1.00759 step=0.01 ivar=144 /
+&variable name='n:Spiger-cm_ap0' kind=5 dataset=0, 0 reffile='Expt5/Spiger-cm_ap0@e12.2466.data', datanorm=1.00288 step=0.01 ivar=145 /
+&variable name='n:Spiger-cm_ap0' kind=5 dataset=0, 0 reffile='Expt5/Spiger-cm_ap0@e12.3726.data', datanorm=0.998676 step=0.01 ivar=146 /
+&variable name='n:Spiger-cm_ap0' kind=5 dataset=0, 0 reffile='Expt5/Spiger-cm_ap0@e12.3793.data', datanorm=1.0005 step=0.01 ivar=147 /
+&variable name='n:Spiger-cm_ap0' kind=5 dataset=0, 0 reffile='Expt5/Spiger-cm_ap0@e12.5133.data', datanorm=1.00178 step=0.01 ivar=148 /
+&variable name='n:Spiger-cm_ap0' kind=5 dataset=0, 0 reffile='Expt5/Spiger-cm_ap0@e12.6473.data', datanorm=0.999269 step=0.01 ivar=149 /
+&variable name='n:Spiger-cm_ap0' kind=5 dataset=0, 0 reffile='Expt5/Spiger-cm_ap0@e12.7801.data', datanorm=0.999559 step=0.01 ivar=150 /
+&variable name='n:Spiger-cm_ap0' kind=5 dataset=0, 0 reffile='Expt5/Spiger-cm_ap0@e12.9141.data', datanorm=1.00484 step=0.01 ivar=151 /
+&variable name='n:Spiger-cm_ap0' kind=5 dataset=0, 0 reffile='Expt5/Spiger-cm_ap0@e13.0442.data', datanorm=0.996304 step=0.01 ivar=152 /
+&variable name='n:Spiger-cm_ap0' kind=5 dataset=0, 0 reffile='Expt5/Spiger-cm_ap0@e13.0481.data', datanorm=1.00898 step=0.01 ivar=153 /
+&variable name='n:Spiger-cm_ap0' kind=5 dataset=0, 0 reffile='Expt5/Spiger-cm_ap0@e13.1808.data', datanorm=1.03216 step=0.01 ivar=154 /
+&variable name='n:Spiger-cm_ap0' kind=5 dataset=0, 0 reffile='Expt5/Spiger-cm_ap0@e13.3149.data', datanorm=1.01045 step=0.01 ivar=155 /
+&variable name='n:Spiger-cm_ap0' kind=5 dataset=0, 0 reffile='Expt5/Spiger-cm_ap0@e13.4476.data', datanorm=1.00349 step=0.01 ivar=156 /
+&variable name='n:Spiger-cm_ap0' kind=5 dataset=0, 0 reffile='Expt5/Spiger-cm_ap0@e13.5816.data', datanorm=1.00406 step=0.01 ivar=157 /
+&variable name='n:Spiger-cm_ap0' kind=5 dataset=0, 0 reffile='Expt5/Spiger-cm_ap0@e13.7157.data', datanorm=1.00769 step=0.01 ivar=158 /
+&variable name='n:Spiger-cm_ap0' kind=5 dataset=0, 0 reffile='Expt5/Spiger-cm_ap0@e13.8484.data', datanorm=0.998546 step=0.01 ivar=159 /
+&variable name='n:Spiger-cm_ap0' kind=5 dataset=0, 0 reffile='Expt5/Spiger-cm_ap0@e14.1815.data', datanorm=0.997982 step=0.01 ivar=160 /
+&variable name='n:Spiger-cm_ap0' kind=5 dataset=0, 0 reffile='Expt5/Spiger-cm_ap0@e14.3859.data', datanorm=0.992903 step=0.01 ivar=161 /
+&variable name='s:Spiger-A10940' kind=6 dataset=0, 0 reffile='Expt5/Spiger-A1094004-lab_aa@a16.735.data', dataeshift=-0.0330323 step=0.02 ivar=162 /
+&variable name='s:Spiger-A10940' kind=6 dataset=0, 0 reffile='Expt5/Spiger-A1094004-lab_aa@a20.002.data', dataeshift=-0.0377506 step=0.02 ivar=163 /
+&variable name='s:Spiger-A10940' kind=6 dataset=0, 0 reffile='Expt5/Spiger-A1094004-lab_aa@a23.192.data', dataeshift=-0.0559601 step=0.02 ivar=164 /
+&variable name='s:Spiger-A10940' kind=6 dataset=0, 0 reffile='Expt5/Spiger-A1094004-lab_aa@a26.738.data', dataeshift=-0.0657937 step=0.02 ivar=165 /
+&variable name='s:Spiger-A10940' kind=6 dataset=0, 0 reffile='Expt5/Spiger-A1094004-lab_aa@a29.418.data', dataeshift=-0.0574384 step=0.02 ivar=166 /
+&variable name='s:Spiger-A10940' kind=6 dataset=0, 0 reffile='Expt5/Spiger-A1094004-lab_aa@a32.12.data', dataeshift=-0.0579777 step=0.02 ivar=167 /
+&variable name='s:Spiger-A10940' kind=6 dataset=0, 0 reffile='Expt5/Spiger-A1094004-lab_aa@a33.273.data', dataeshift=-0.0139759 step=0.02 ivar=168 /
+&variable name='s:Spiger-A10940' kind=6 dataset=0, 0 reffile='Expt5/Spiger-A1094004-lab_aa@a35.257.data', dataeshift=-0.0515545 step=0.02 ivar=169 /
+&variable name='s:Spiger-A10940' kind=6 dataset=0, 0 reffile='Expt5/Spiger-A1094004-lab_aa@a36.999.data', dataeshift=-0.0449823 step=0.02 ivar=170 /
+&variable name='s:Spiger-A10940' kind=6 dataset=0, 0 reffile='Expt5/Spiger-A1094004-lab_aa@a39.951.data', dataeshift=-0.0438745 step=0.02 ivar=171 /
+&variable name='s:Spiger-A10940' kind=6 dataset=0, 0 reffile='Expt5/Spiger-A1094004-lab_aa@a42.558.data', dataeshift=-0.0422461 step=0.02 ivar=172 /
+&variable name='s:Spiger-A10940' kind=6 dataset=0, 0 reffile='Expt5/Spiger-A1094004-lab_aa@a45.53.data', dataeshift=-0.043724 step=0.02 ivar=173 /
+&variable name='s:Spiger-A10940' kind=6 dataset=0, 0 reffile='Expt5/Spiger-A1094004-lab_aa@a47.428.data', dataeshift=-0.0570658 step=0.02 ivar=174 /
+&variable name='s:Spiger-A10940' kind=6 dataset=0, 0 reffile='Expt5/Spiger-A1094004-lab_aa@a48.755.data', dataeshift=-0.0670364 step=0.02 ivar=175 /
+&variable name='s:Tombrello_aa@' kind=6 dataset=0, 0 reffile='Expt5/Tombrello_aa@a23.192.data', dataeshift=-0.0355266 step=0.02 ivar=176 /
+&variable name='s:Tombrello_aa@' kind=6 dataset=0, 0 reffile='Expt5/Tombrello_aa@a26.738.data', dataeshift=-0.0173101 step=0.02 ivar=177 /
+&variable name='s:Tombrello_aa@' kind=6 dataset=0, 0 reffile='Expt5/Tombrello_aa@a29.418.data', dataeshift=-0.0470369 step=0.02 ivar=178 /
+&variable name='s:Tombrello_aa@' kind=6 dataset=0, 0 reffile='Expt5/Tombrello_aa@a30.836.data', dataeshift=-0.0131416 step=0.02 ivar=179 /
+&variable name='s:Tombrello_aa@' kind=6 dataset=0, 0 reffile='Expt5/Tombrello_aa@a36.999.data', dataeshift=-0.0308787 step=0.02 ivar=180 /
+&variable name='s:Tombrello_aa@' kind=6 dataset=0, 0 reffile='Expt5/Tombrello_aa@a39.951.data', dataeshift=-0.0214673 step=0.02 ivar=181 /
+&variable name='s:Tombrello_aa@' kind=6 dataset=0, 0 reffile='Expt5/Tombrello_aa@a42.62.data', dataeshift=-0.0586373 step=0.02 ivar=182 /
+&variable name='s:Tombrello_aa@' kind=6 dataset=0, 0 reffile='Expt5/Tombrello_aa@a45.53.data', dataeshift=-0.0666857 step=0.02 ivar=183 /
+
+&data type=2 data_file='Expt5/Barnard_aa@a23.22.data', lab=T angle=23.22 idat=1 idir=0 iscale=1 abserr=T ic=1 ia=1 pel=1 /
+&data type=2 data_file='Expt5/Barnard_aa@a26.76.data', lab=T angle=26.76 idat=2 idir=0 iscale=1 abserr=T ic=1 ia=1 pel=1 /
+&data type=2 data_file='Expt5/Barnard_aa@a30.93.data', lab=T angle=30.93 idat=3 idir=0 iscale=1 abserr=T ic=1 ia=1 pel=1 /
+&data type=2 data_file='Expt5/Barnard_aa@a37.01.data', lab=T angle=37.01 idat=4 idir=0 iscale=1 abserr=T ic=1 ia=1 pel=1 /
+&data type=2 data_file='Expt5/Barnard_aa@a41.99.data', lab=T angle=41.99 idat=5 idir=0 iscale=1 abserr=T ic=1 ia=1 pel=1 /
+&data type=2 data_file='Expt5/Barnard_aa@a45.48.data', lab=T angle=45.48 idat=6 idir=0 iscale=1 abserr=T ic=1 ia=1 pel=1 /
+&data type=2 data_file='Expt5/Barnard_aa@a47.45.data', lab=T angle=47.45 idat=7 idir=0 iscale=1 abserr=T ic=1 ia=1 pel=1 /
+&data type=2 data_file='Expt5/Spiger-A1094004-lab_aa@a16.735.data', lab=T angle=16.735 idat=8 idir=0 iscale=1 abserr=T ic=1 ia=1 pel=1 /
+&data type=2 data_file='Expt5/Spiger-A1094004-lab_aa@a20.002.data', lab=T angle=20.002 idat=9 idir=0 iscale=1 abserr=T ic=1 ia=1 pel=1 /
+&data type=2 data_file='Expt5/Spiger-A1094004-lab_aa@a23.192.data', lab=T angle=23.192 idat=10 idir=0 iscale=1 abserr=T ic=1 ia=1 pel=1 /
+&data type=2 data_file='Expt5/Spiger-A1094004-lab_aa@a26.738.data', lab=T angle=26.738 idat=11 idir=0 iscale=1 abserr=T ic=1 ia=1 pel=1 /
+&data type=2 data_file='Expt5/Spiger-A1094004-lab_aa@a29.418.data', lab=T angle=29.418 idat=12 idir=0 iscale=1 abserr=T ic=1 ia=1 pel=1 /
+&data type=2 data_file='Expt5/Spiger-A1094004-lab_aa@a32.12.data', lab=T angle=32.12 idat=13 idir=0 iscale=1 abserr=T ic=1 ia=1 pel=1 /
+&data type=2 data_file='Expt5/Spiger-A1094004-lab_aa@a33.273.data', lab=T angle=33.273 idat=14 idir=0 iscale=1 abserr=T ic=1 ia=1 pel=1 /
+&data type=2 data_file='Expt5/Spiger-A1094004-lab_aa@a35.257.data', lab=T angle=35.257 idat=15 idir=0 iscale=1 abserr=T ic=1 ia=1 pel=1 /
+&data type=2 data_file='Expt5/Spiger-A1094004-lab_aa@a36.999.data', lab=T angle=36.999 idat=16 idir=0 iscale=1 abserr=T ic=1 ia=1 pel=1 /
+&data type=2 data_file='Expt5/Spiger-A1094004-lab_aa@a39.951.data', lab=T angle=39.951 idat=17 idir=0 iscale=1 abserr=T ic=1 ia=1 pel=1 /
+&data type=2 data_file='Expt5/Spiger-A1094004-lab_aa@a42.558.data', lab=T angle=42.558 idat=18 idir=0 iscale=1 abserr=T ic=1 ia=1 pel=1 /
+&data type=2 data_file='Expt5/Spiger-A1094004-lab_aa@a45.53.data', lab=T angle=45.53 idat=19 idir=0 iscale=1 abserr=T ic=1 ia=1 pel=1 /
+&data type=2 data_file='Expt5/Spiger-A1094004-lab_aa@a47.428.data', lab=T angle=47.428 idat=20 idir=0 iscale=1 abserr=T ic=1 ia=1 pel=1 /
+&data type=2 data_file='Expt5/Spiger-A1094004-lab_aa@a48.755.data', lab=T angle=48.755 idat=21 idir=0 iscale=1 abserr=T ic=1 ia=1 pel=1 /
+&data type=2 data_file='Expt5/Tombrello_aa@a23.192.data', lab=T angle=23.192 idat=22 idir=0 iscale=1 abserr=T ic=1 ia=1 pel=1 /
+&data type=2 data_file='Expt5/Tombrello_aa@a26.738.data', lab=T angle=26.738 idat=23 idir=0 iscale=1 abserr=T ic=1 ia=1 pel=1 /
+&data type=2 data_file='Expt5/Tombrello_aa@a29.418.data', lab=T angle=29.418 idat=24 idir=0 iscale=1 abserr=T ic=1 ia=1 pel=1 /
+&data type=2 data_file='Expt5/Tombrello_aa@a30.836.data', lab=T angle=30.836 idat=25 idir=0 iscale=1 abserr=T ic=1 ia=1 pel=1 /
+&data type=2 data_file='Expt5/Tombrello_aa@a36.999.data', lab=T angle=36.999 idat=26 idir=0 iscale=1 abserr=T ic=1 ia=1 pel=1 /
+&data type=2 data_file='Expt5/Tombrello_aa@a39.951.data', lab=T angle=39.951 idat=27 idir=0 iscale=1 abserr=T ic=1 ia=1 pel=1 /
+&data type=2 data_file='Expt5/Tombrello_aa@a42.62.data', lab=T angle=42.62 idat=28 idir=0 iscale=1 abserr=T ic=1 ia=1 pel=1 /
+&data type=2 data_file='Expt5/Tombrello_aa@a45.53.data', lab=T angle=45.53 idat=29 idir=0 iscale=1 abserr=T ic=1 ia=1 pel=1 /
+&data type=0 data_file='Expt5/Mohr_aa@e1.59539.data', lab=T energy=1.59539 idat=30 idir=0 iscale=1 abserr=T ic=1 ia=1 pel=1 /
+&data type=0 data_file='Expt5/Mohr_aa@e2.26013.data', lab=T energy=2.26013 idat=31 idir=0 iscale=1 abserr=T ic=1 ia=1 pel=1 /
+&data type=0 data_file='Expt5/Mohr_aa@e2.65898.data', lab=T energy=2.65898 idat=32 idir=0 iscale=1 abserr=T ic=1 ia=1 pel=1 /
+&data type=0 data_file='Expt5/Mohr_aa@e3.05783.data', lab=T energy=3.05783 idat=33 idir=0 iscale=1 abserr=T ic=1 ia=1 pel=1 /
+&data type=0 data_file='Expt5/Mohr_aa@e3.32372.data', lab=T energy=3.32372 idat=34 idir=0 iscale=1 abserr=T ic=1 ia=1 pel=1 /
+&data type=0 data_file='Expt5/Mohr_aa@e3.45667.data', lab=T energy=3.45667 idat=35 idir=0 iscale=1 abserr=T ic=1 ia=1 pel=1 /
+&data type=0 data_file='Expt5/Mohr_aa@e3.58962.data', lab=T energy=3.58962 idat=36 idir=0 iscale=1 abserr=T ic=1 ia=1 pel=1 /
+&data type=0 data_file='Expt5/Mohr_aa@e3.72257.data', lab=T energy=3.72257 idat=37 idir=0 iscale=1 abserr=T ic=1 ia=1 pel=1 /
+&data type=0 data_file='Expt5/Mohr_aa@e3.85552.data', lab=T energy=3.85552 idat=38 idir=0 iscale=1 abserr=T ic=1 ia=1 pel=1 /
+&data type=0 data_file='Expt5/Mohr_aa@e3.98847.data', lab=T energy=3.98847 idat=39 idir=0 iscale=1 abserr=T ic=1 ia=1 pel=1 /
+&data type=2 data_file='Expt5/Fasoli_pp@a81.0.data', lab=T angle=81.0 idat=40 idir=0 iscale=1 abserr=T ic=2 ia=1 pel=2 /
+&data type=2 data_file='Expt5/Fasoli_pp@a100.0.data', lab=T angle=100.0 idat=41 idir=0 iscale=1 abserr=T ic=2 ia=1 pel=2 /
+&data type=2 data_file='Expt5/Fasoli_pp@a117.0.data', lab=T angle=117.0 idat=42 idir=0 iscale=1 abserr=T ic=2 ia=1 pel=2 /
+&data type=2 data_file='Expt5/Fasoli_pp@a141.0.data', lab=T angle=141.0 idat=43 idir=0 iscale=1 abserr=T ic=2 ia=1 pel=2 /
+&data type=2 data_file='Expt5/Fasoli_pp@a144.0.data', lab=T angle=144.0 idat=44 idir=0 iscale=1 abserr=T ic=2 ia=1 pel=2 /
+&data type=2 data_file='Expt5/Fasoli_pp@a166.0.data', lab=T angle=166.0 idat=45 idir=0 iscale=1 abserr=T ic=2 ia=1 pel=2 /
+&data type=2 data_file='Expt5/McCray_pp@a61.6.data', lab=T angle=61.6 idat=46 idir=0 iscale=1 abserr=T ic=2 ia=1 pel=2 /
+&data type=2 data_file='Expt5/McCray_pp@a80.5.data', lab=T angle=80.5 idat=47 idir=0 iscale=1 abserr=T ic=2 ia=1 pel=2 /
+&data type=2 data_file='Expt5/McCray_pp@a81.0.data', lab=T angle=81.0 idat=48 idir=0 iscale=1 abserr=T ic=2 ia=1 pel=2 /
+&data type=2 data_file='Expt5/McCray_pp@a100.6.data', lab=T angle=100.6 idat=49 idir=0 iscale=1 abserr=T ic=2 ia=1 pel=2 /
+&data type=2 data_file='Expt5/McCray_pp@a116.4.data', lab=T angle=116.4 idat=50 idir=0 iscale=1 abserr=T ic=2 ia=1 pel=2 /
+&data type=2 data_file='Expt5/McCray_pp@a118.1.data', lab=T angle=118.1 idat=51 idir=0 iscale=1 abserr=T ic=2 ia=1 pel=2 /
+&data type=2 data_file='Expt5/McCray_pp@a133.0.data', lab=T angle=133.0 idat=52 idir=0 iscale=1 abserr=T ic=2 ia=1 pel=2 /
+&data type=2 data_file='Expt5/McCray_pp@a155.8.data', lab=T angle=155.8 idat=53 idir=0 iscale=1 abserr=T ic=2 ia=1 pel=2 /
+&data type=2 data_file='Expt5/McCray_pp@a156.1.data', lab=T angle=156.1 idat=54 idir=0 iscale=1 abserr=T ic=2 ia=1 pel=2 /
+&data type=0 data_file='Expt5/Harrison_pp0@e2.4.data', lab=T energy=2.4 idat=55 idir=0 iscale=1 abserr=T ic=2 ia=1 pel=2 /
+&data type=0 data_file='Expt5/Harrison_pp0@e2.6.data', lab=T energy=2.6 idat=56 idir=0 iscale=1 abserr=T ic=2 ia=1 pel=2 /
+&data type=0 data_file='Expt5/Lin_pa@e1.0.data', lab=T energy=1.0 idat=57 idir=0 iscale=1 abserr=T ic=1 ia=1 pel=2 /
+&data type=0 data_file='Expt5/Lin_pa@e1.2.data', lab=T energy=1.2 idat=58 idir=0 iscale=1 abserr=T ic=1 ia=1 pel=2 /
+&data type=0 data_file='Expt5/Lin_pa@e1.4.data', lab=T energy=1.4 idat=59 idir=0 iscale=1 abserr=T ic=1 ia=1 pel=2 /
+&data type=0 data_file='Expt5/Lin_pa@e1.5.data', lab=T energy=1.5 idat=60 idir=0 iscale=1 abserr=T ic=1 ia=1 pel=2 /
+&data type=0 data_file='Expt5/Lin_pa@e1.6.data', lab=T energy=1.6 idat=61 idir=0 iscale=1 abserr=T ic=1 ia=1 pel=2 /
+&data type=0 data_file='Expt5/Lin_pa@e1.65.data', lab=T energy=1.65 idat=62 idir=0 iscale=1 abserr=T ic=1 ia=1 pel=2 /
+&data type=0 data_file='Expt5/Lin_pa@e1.7.data', lab=T energy=1.7 idat=63 idir=0 iscale=1 abserr=T ic=1 ia=1 pel=2 /
+&data type=0 data_file='Expt5/Lin_pa@e1.75.data', lab=T energy=1.75 idat=64 idir=0 iscale=1 abserr=T ic=1 ia=1 pel=2 /
+&data type=0 data_file='Expt5/Lin_pa@e1.8.data', lab=T energy=1.8 idat=65 idir=0 iscale=1 abserr=T ic=1 ia=1 pel=2 /
+&data type=0 data_file='Expt5/Lin_pa@e1.85.data', lab=T energy=1.85 idat=66 idir=0 iscale=1 abserr=T ic=1 ia=1 pel=2 /
+&data type=0 data_file='Expt5/Lin_pa@e1.9.data', lab=T energy=1.9 idat=67 idir=0 iscale=1 abserr=T ic=1 ia=1 pel=2 /
+&data type=0 data_file='Expt5/Lin_pa@e1.95.data', lab=T energy=1.95 idat=68 idir=0 iscale=1 abserr=T ic=1 ia=1 pel=2 /
+&data type=0 data_file='Expt5/Lin_pa@e2.0.data', lab=T energy=2.0 idat=69 idir=0 iscale=1 abserr=T ic=1 ia=1 pel=2 /
+&data type=0 data_file='Expt5/Lin_pa@e2.1.data', lab=T energy=2.1 idat=70 idir=0 iscale=1 abserr=T ic=1 ia=1 pel=2 /
+&data type=0 data_file='Expt5/Lin_pa@e2.2.data', lab=T energy=2.2 idat=71 idir=0 iscale=1 abserr=T ic=1 ia=1 pel=2 /
+&data type=0 data_file='Expt5/Lin_pa@e2.4.data', lab=T energy=2.4 idat=72 idir=0 iscale=1 abserr=T ic=1 ia=1 pel=2 /
+&data type=0 data_file='Expt5/Lin_pa@e2.6.data', lab=T energy=2.6 idat=73 idir=0 iscale=1 abserr=T ic=1 ia=1 pel=2 /
+&data type=0 data_file='Expt5/Elwyn_pa@e0.136.data', lab=T energy=0.136 idat=74 idir=0 iscale=1 abserr=T ic=1 ia=1 pel=2 /
+&data type=0 data_file='Expt5/Elwyn_pa@e0.186.data', lab=T energy=0.186 idat=75 idir=0 iscale=1 abserr=T ic=1 ia=1 pel=2 /
+&data type=0 data_file='Expt5/Elwyn_pa@e0.252.data', lab=T energy=0.252 idat=76 idir=0 iscale=1 abserr=T ic=1 ia=1 pel=2 /
+&data type=0 data_file='Expt5/Elwyn_pa@e0.324.data', lab=T energy=0.324 idat=77 idir=0 iscale=1 abserr=T ic=1 ia=1 pel=2 /
+&data type=0 data_file='Expt5/Elwyn_pa@e0.49.data', lab=T energy=0.49 idat=78 idir=0 iscale=1 abserr=T ic=1 ia=1 pel=2 /
+&data type=0 data_file='Expt5/Elwyn_pa@e0.589.data', lab=T energy=0.589 idat=79 idir=0 iscale=1 abserr=T ic=1 ia=1 pel=2 /
+&data type=0 data_file='Expt5/Elwyn_pa@e0.688.data', lab=T energy=0.688 idat=80 idir=0 iscale=1 abserr=T ic=1 ia=1 pel=2 /
+&data type=0 data_file='Expt5/Elwyn_pa@e0.787.data', lab=T energy=0.787 idat=81 idir=0 iscale=1 abserr=T ic=1 ia=1 pel=2 /
+&data type=0 data_file='Expt5/Elwyn_pa@e0.887.data', lab=T energy=0.887 idat=82 idir=0 iscale=1 abserr=T ic=1 ia=1 pel=2 /
+&data type=0 data_file='Expt5/Elwyn_pa@e0.984.data', lab=T energy=0.984 idat=83 idir=0 iscale=1 abserr=T ic=1 ia=1 pel=2 /
+&data type=0 data_file='Expt5/Elwyn_pa@e1.082.data', lab=T energy=1.082 idat=84 idir=0 iscale=1 abserr=T ic=1 ia=1 pel=2 /
+&data type=0 data_file='Expt5/Elwyn_pa@e1.182.data', lab=T energy=1.182 idat=85 idir=0 iscale=1 abserr=T ic=1 ia=1 pel=2 /
+&data type=0 data_file='Expt5/Elwyn_pa@e1.282.data', lab=T energy=1.282 idat=86 idir=0 iscale=1 abserr=T ic=1 ia=1 pel=2 /
+&data type=0 data_file='Expt5/Elwyn_pa@e1.382.data', lab=T energy=1.382 idat=87 idir=0 iscale=1 abserr=T ic=1 ia=1 pel=2 /
+&data type=0 data_file='Expt5/Elwyn_pa@e1.481.data', lab=T energy=1.481 idat=88 idir=0 iscale=1 abserr=T ic=1 ia=1 pel=2 /
+&data type=0 data_file='Expt5/Elwyn_pa@e1.581.data', lab=T energy=1.581 idat=89 idir=0 iscale=1 abserr=T ic=1 ia=1 pel=2 /
+&data type=0 data_file='Expt5/Elwyn_pa@e1.681.data', lab=T energy=1.681 idat=90 idir=0 iscale=1 abserr=T ic=1 ia=1 pel=2 /
+&data type=0 data_file='Expt5/Elwyn_pa@e1.78.data', lab=T energy=1.78 idat=91 idir=0 iscale=1 abserr=T ic=1 ia=1 pel=2 /
+&data type=0 data_file='Expt5/Elwyn_pa@e1.88.data', lab=T energy=1.88 idat=92 idir=0 iscale=1 abserr=T ic=1 ia=1 pel=2 /
+&data type=0 data_file='Expt5/Elwyn_pa@e1.989.data', lab=T energy=1.989 idat=93 idir=0 iscale=1 abserr=T ic=1 ia=1 pel=2 /
+&data type=0 data_file='Expt5/Elwyn_pa@e2.078.data', lab=T energy=2.078 idat=94 idir=0 iscale=1 abserr=T ic=1 ia=1 pel=2 /
+&data type=0 data_file='Expt5/Elwyn_pa@e2.177.data', lab=T energy=2.177 idat=95 idir=0 iscale=1 abserr=T ic=1 ia=1 pel=2 /
+&data type=0 data_file='Expt5/Elwyn_pa@e2.277.data', lab=T energy=2.277 idat=96 idir=0 iscale=1 abserr=T ic=1 ia=1 pel=2 /
+&data type=0 data_file='Expt5/Elwyn_pa@e2.377.data', lab=T energy=2.377 idat=97 idir=0 iscale=1 abserr=T ic=1 ia=1 pel=2 /
+&data type=0 data_file='Expt5/Elwyn_pa@e2.476.data', lab=T energy=2.476 idat=98 idir=0 iscale=1 abserr=T ic=1 ia=1 pel=2 /
+&data type=0 data_file='Expt5/Elwyn_pa@e2.575.data', lab=T energy=2.575 idat=99 idir=0 iscale=1 abserr=T ic=1 ia=1 pel=2 /
+&data type=0 data_file='Expt5/Elwyn_pa@e2.674.data', lab=T energy=2.674 idat=100 idir=0 iscale=1 abserr=T ic=1 ia=1 pel=2 /
+&data type=0 data_file='Expt5/Elwyn_pa@e2.775.data', lab=T energy=2.775 idat=101 idir=0 iscale=1 abserr=T ic=1 ia=1 pel=2 /
+&data type=0 data_file='Expt5/Spiger-cm_ap0@e10.3581.data', lab=F energy=10.3581 idat=102 idir=0 iscale=2 abserr=T ic=2 ia=1 pel=1 /
+&data type=0 data_file='Expt5/Spiger-cm_ap0@e10.8438.data', lab=F energy=10.8438 idat=103 idir=0 iscale=2 abserr=T ic=2 ia=1 pel=1 /
+&data type=0 data_file='Expt5/Spiger-cm_ap0@e11.0296.data', lab=F energy=11.0296 idat=104 idir=0 iscale=2 abserr=T ic=2 ia=1 pel=1 /
+&data type=0 data_file='Expt5/Spiger-cm_ap0@e11.1769.data', lab=F energy=11.1769 idat=105 idir=0 iscale=2 abserr=T ic=2 ia=1 pel=1 /
+&data type=0 data_file='Expt5/Spiger-cm_ap0@e11.3109.data', lab=F energy=11.3109 idat=106 idir=0 iscale=2 abserr=T ic=2 ia=1 pel=1 /
+&data type=0 data_file='Expt5/Spiger-cm_ap0@e11.445.data', lab=F energy=11.445 idat=107 idir=0 iscale=2 abserr=T ic=2 ia=1 pel=1 /
+&data type=0 data_file='Expt5/Spiger-cm_ap0@e11.579.data', lab=F energy=11.579 idat=108 idir=0 iscale=2 abserr=T ic=2 ia=1 pel=1 /
+&data type=0 data_file='Expt5/Spiger-cm_ap0@e11.7011.data', lab=F energy=11.7011 idat=109 idir=0 iscale=2 abserr=T ic=2 ia=1 pel=1 /
+&data type=0 data_file='Expt5/Spiger-cm_ap0@e11.7117.data', lab=F energy=11.7117 idat=110 idir=0 iscale=2 abserr=T ic=2 ia=1 pel=1 /
+&data type=0 data_file='Expt5/Spiger-cm_ap0@e11.8458.data', lab=F energy=11.8458 idat=111 idir=0 iscale=2 abserr=T ic=2 ia=1 pel=1 /
+&data type=0 data_file='Expt5/Spiger-cm_ap0@e11.9798.data', lab=F energy=11.9798 idat=112 idir=0 iscale=2 abserr=T ic=2 ia=1 pel=1 /
+&data type=0 data_file='Expt5/Spiger-cm_ap0@e12.1125.data', lab=F energy=12.1125 idat=113 idir=0 iscale=2 abserr=T ic=2 ia=1 pel=1 /
+&data type=0 data_file='Expt5/Spiger-cm_ap0@e12.2466.data', lab=F energy=12.2466 idat=114 idir=0 iscale=2 abserr=T ic=2 ia=1 pel=1 /
+&data type=0 data_file='Expt5/Spiger-cm_ap0@e12.3726.data', lab=F energy=12.3726 idat=115 idir=0 iscale=2 abserr=T ic=2 ia=1 pel=1 /
+&data type=0 data_file='Expt5/Spiger-cm_ap0@e12.3793.data', lab=F energy=12.3793 idat=116 idir=0 iscale=2 abserr=T ic=2 ia=1 pel=1 /
+&data type=0 data_file='Expt5/Spiger-cm_ap0@e12.5133.data', lab=F energy=12.5133 idat=117 idir=0 iscale=2 abserr=T ic=2 ia=1 pel=1 /
+&data type=0 data_file='Expt5/Spiger-cm_ap0@e12.6473.data', lab=F energy=12.6473 idat=118 idir=0 iscale=2 abserr=T ic=2 ia=1 pel=1 /
+&data type=0 data_file='Expt5/Spiger-cm_ap0@e12.7801.data', lab=F energy=12.7801 idat=119 idir=0 iscale=2 abserr=T ic=2 ia=1 pel=1 /
+&data type=0 data_file='Expt5/Spiger-cm_ap0@e12.9141.data', lab=F energy=12.9141 idat=120 idir=0 iscale=2 abserr=T ic=2 ia=1 pel=1 /
+&data type=0 data_file='Expt5/Spiger-cm_ap0@e13.0442.data', lab=F energy=13.0442 idat=121 idir=0 iscale=2 abserr=T ic=2 ia=1 pel=1 /
+&data type=0 data_file='Expt5/Spiger-cm_ap0@e13.0481.data', lab=F energy=13.0481 idat=122 idir=0 iscale=2 abserr=T ic=2 ia=1 pel=1 /
+&data type=0 data_file='Expt5/Spiger-cm_ap0@e13.1808.data', lab=F energy=13.1808 idat=123 idir=0 iscale=2 abserr=T ic=2 ia=1 pel=1 /
+&data type=0 data_file='Expt5/Spiger-cm_ap0@e13.3149.data', lab=F energy=13.3149 idat=124 idir=0 iscale=2 abserr=T ic=2 ia=1 pel=1 /
+&data type=0 data_file='Expt5/Spiger-cm_ap0@e13.4476.data', lab=F energy=13.4476 idat=125 idir=0 iscale=2 abserr=T ic=2 ia=1 pel=1 /
+&data type=0 data_file='Expt5/Spiger-cm_ap0@e13.5816.data', lab=F energy=13.5816 idat=126 idir=0 iscale=2 abserr=T ic=2 ia=1 pel=1 /
+&data type=0 data_file='Expt5/Spiger-cm_ap0@e13.7157.data', lab=F energy=13.7157 idat=127 idir=0 iscale=2 abserr=T ic=2 ia=1 pel=1 /
+&data type=0 data_file='Expt5/Spiger-cm_ap0@e13.8484.data', lab=F energy=13.8484 idat=128 idir=0 iscale=2 abserr=T ic=2 ia=1 pel=1 /
+&data type=0 data_file='Expt5/Spiger-cm_ap0@e14.1815.data', lab=F energy=14.1815 idat=129 idir=0 iscale=2 abserr=T ic=2 ia=1 pel=1 /
+&data type=0 data_file='Expt5/Spiger-cm_ap0@e14.3859.data', lab=F energy=14.3859 idat=130 idir=0 iscale=2 abserr=T ic=2 ia=1 pel=1 /
+&data type=6 reffile='Expt5/Barnard_aa@a*', value=1.0 error=0.05 abserr=T idat=131 kind=5 /
+&data type=6 reffile='Expt5/Spiger-A1094004-lab_aa@a16.735.data', value=1.0 error=0.015 abserr=T idat=132 kind=5 /
+&data type=6 reffile='Expt5/Spiger-A1094004-lab_aa@a20.002.data', value=1.0 error=0.015 abserr=T idat=133 kind=5 /
+&data type=6 reffile='Expt5/Spiger-A1094004-lab_aa@a23.192.data', value=1.0 error=0.015 abserr=T idat=134 kind=5 /
+&data type=6 reffile='Expt5/Spiger-A1094004-lab_aa@a26.738.data', value=1.0 error=0.015 abserr=T idat=135 kind=5 /
+&data type=6 reffile='Expt5/Spiger-A1094004-lab_aa@a29.418.data', value=1.0 error=0.015 abserr=T idat=136 kind=5 /
+&data type=6 reffile='Expt5/Spiger-A1094004-lab_aa@a32.12.data', value=1.0 error=0.015 abserr=T idat=137 kind=5 /
+&data type=6 reffile='Expt5/Spiger-A1094004-lab_aa@a33.273.data', value=1.0 error=0.015 abserr=T idat=138 kind=5 /
+&data type=6 reffile='Expt5/Spiger-A1094004-lab_aa@a35.257.data', value=1.0 error=0.015 abserr=T idat=139 kind=5 /
+&data type=6 reffile='Expt5/Spiger-A1094004-lab_aa@a36.999.data', value=1.0 error=0.015 abserr=T idat=140 kind=5 /
+&data type=6 reffile='Expt5/Spiger-A1094004-lab_aa@a39.951.data', value=1.0 error=0.015 abserr=T idat=141 kind=5 /
+&data type=6 reffile='Expt5/Spiger-A1094004-lab_aa@a42.558.data', value=1.0 error=0.015 abserr=T idat=142 kind=5 /
+&data type=6 reffile='Expt5/Spiger-A1094004-lab_aa@a45.53.data', value=1.0 error=0.015 abserr=T idat=143 kind=5 /
+&data type=6 reffile='Expt5/Spiger-A1094004-lab_aa@a47.428.data', value=1.0 error=0.015 abserr=T idat=144 kind=5 /
+&data type=6 reffile='Expt5/Spiger-A1094004-lab_aa@a48.755.data', value=1.0 error=0.015 abserr=T idat=145 kind=5 /
+&data type=6 reffile='Expt5/Tombrello_aa@a*', value=1.0 error=0.05 abserr=T idat=146 kind=5 /
+&data type=6 reffile='Expt5/McCray_pp@a61.6.data', value=1.0 error=0.05 abserr=T idat=147 kind=5 /
+&data type=6 reffile='Expt5/McCray_pp@a80.5.data', value=1.0 error=0.05 abserr=T idat=148 kind=5 /
+&data type=6 reffile='Expt5/McCray_pp@a81.0.data', value=1.0 error=0.05 abserr=T idat=149 kind=5 /
+&data type=6 reffile='Expt5/McCray_pp@a100.6.data', value=1.0 error=0.05 abserr=T idat=150 kind=5 /
+&data type=6 reffile='Expt5/McCray_pp@a116.4.data', value=1.0 error=0.05 abserr=T idat=151 kind=5 /
+&data type=6 reffile='Expt5/McCray_pp@a118.1.data', value=1.0 error=0.05 abserr=T idat=152 kind=5 /
+&data type=6 reffile='Expt5/McCray_pp@a133.0.data', value=1.0 error=0.05 abserr=T idat=153 kind=5 /
+&data type=6 reffile='Expt5/McCray_pp@a155.8.data', value=1.0 error=0.05 abserr=T idat=154 kind=5 /
+&data type=6 reffile='Expt5/McCray_pp@a156.1.data', value=1.0 error=0.05 abserr=T idat=155 kind=5 /
+&data type=6 reffile='Expt5/Lin_pa@e1.0.data', value=1.0 error=0.1 abserr=T idat=156 kind=5 /
+&data type=6 reffile='Expt5/Lin_pa@e1.2.data', value=1.0 error=0.1 abserr=T idat=157 kind=5 /
+&data type=6 reffile='Expt5/Lin_pa@e1.4.data', value=1.0 error=0.1 abserr=T idat=158 kind=5 /
+&data type=6 reffile='Expt5/Lin_pa@e1.5.data', value=1.0 error=0.1 abserr=T idat=159 kind=5 /
+&data type=6 reffile='Expt5/Lin_pa@e1.6.data', value=1.0 error=0.1 abserr=T idat=160 kind=5 /
+&data type=6 reffile='Expt5/Lin_pa@e1.65.data', value=1.0 error=0.1 abserr=T idat=161 kind=5 /
+&data type=6 reffile='Expt5/Lin_pa@e1.7.data', value=1.0 error=0.1 abserr=T idat=162 kind=5 /
+&data type=6 reffile='Expt5/Lin_pa@e1.75.data', value=1.0 error=0.1 abserr=T idat=163 kind=5 /
+&data type=6 reffile='Expt5/Lin_pa@e1.8.data', value=1.0 error=0.1 abserr=T idat=164 kind=5 /
+&data type=6 reffile='Expt5/Lin_pa@e1.85.data', value=1.0 error=0.1 abserr=T idat=165 kind=5 /
+&data type=6 reffile='Expt5/Lin_pa@e1.9.data', value=1.0 error=0.1 abserr=T idat=166 kind=5 /
+&data type=6 reffile='Expt5/Lin_pa@e1.95.data', value=1.0 error=0.1 abserr=T idat=167 kind=5 /
+&data type=6 reffile='Expt5/Lin_pa@e2.0.data', value=1.0 error=0.1 abserr=T idat=168 kind=5 /
+&data type=6 reffile='Expt5/Lin_pa@e2.1.data', value=1.0 error=0.1 abserr=T idat=169 kind=5 /
+&data type=6 reffile='Expt5/Lin_pa@e2.2.data', value=1.0 error=0.1 abserr=T idat=170 kind=5 /
+&data type=6 reffile='Expt5/Lin_pa@e2.4.data', value=1.0 error=0.1 abserr=T idat=171 kind=5 /
+&data type=6 reffile='Expt5/Lin_pa@e2.6.data', value=1.0 error=0.1 abserr=T idat=172 kind=5 /
+&data type=6 reffile='Expt5/Elwyn_pa@e*', value=1.0 error=0.09 abserr=T idat=173 kind=5 /
+&data type=6 reffile='Expt5/Spiger-cm_ap0@e10.3581.data', value=1.0 error=0.015 abserr=T idat=174 kind=5 /
+&data type=6 reffile='Expt5/Spiger-cm_ap0@e10.8438.data', value=1.0 error=0.015 abserr=T idat=175 kind=5 /
+&data type=6 reffile='Expt5/Spiger-cm_ap0@e11.0296.data', value=1.0 error=0.015 abserr=T idat=176 kind=5 /
+&data type=6 reffile='Expt5/Spiger-cm_ap0@e11.1769.data', value=1.0 error=0.015 abserr=T idat=177 kind=5 /
+&data type=6 reffile='Expt5/Spiger-cm_ap0@e11.3109.data', value=1.0 error=0.015 abserr=T idat=178 kind=5 /
+&data type=6 reffile='Expt5/Spiger-cm_ap0@e11.445.data', value=1.0 error=0.015 abserr=T idat=179 kind=5 /
+&data type=6 reffile='Expt5/Spiger-cm_ap0@e11.579.data', value=1.0 error=0.015 abserr=T idat=180 kind=5 /
+&data type=6 reffile='Expt5/Spiger-cm_ap0@e11.7011.data', value=1.0 error=0.015 abserr=T idat=181 kind=5 /
+&data type=6 reffile='Expt5/Spiger-cm_ap0@e11.7117.data', value=1.0 error=0.015 abserr=T idat=182 kind=5 /
+&data type=6 reffile='Expt5/Spiger-cm_ap0@e11.8458.data', value=1.0 error=0.015 abserr=T idat=183 kind=5 /
+&data type=6 reffile='Expt5/Spiger-cm_ap0@e11.9798.data', value=1.0 error=0.015 abserr=T idat=184 kind=5 /
+&data type=6 reffile='Expt5/Spiger-cm_ap0@e12.1125.data', value=1.0 error=0.015 abserr=T idat=185 kind=5 /
+&data type=6 reffile='Expt5/Spiger-cm_ap0@e12.2466.data', value=1.0 error=0.015 abserr=T idat=186 kind=5 /
+&data type=6 reffile='Expt5/Spiger-cm_ap0@e12.3726.data', value=1.0 error=0.015 abserr=T idat=187 kind=5 /
+&data type=6 reffile='Expt5/Spiger-cm_ap0@e12.3793.data', value=1.0 error=0.015 abserr=T idat=188 kind=5 /
+&data type=6 reffile='Expt5/Spiger-cm_ap0@e12.5133.data', value=1.0 error=0.015 abserr=T idat=189 kind=5 /
+&data type=6 reffile='Expt5/Spiger-cm_ap0@e12.6473.data', value=1.0 error=0.015 abserr=T idat=190 kind=5 /
+&data type=6 reffile='Expt5/Spiger-cm_ap0@e12.7801.data', value=1.0 error=0.015 abserr=T idat=191 kind=5 /
+&data type=6 reffile='Expt5/Spiger-cm_ap0@e12.9141.data', value=1.0 error=0.015 abserr=T idat=192 kind=5 /
+&data type=6 reffile='Expt5/Spiger-cm_ap0@e13.0442.data', value=1.0 error=0.015 abserr=T idat=193 kind=5 /
+&data type=6 reffile='Expt5/Spiger-cm_ap0@e13.0481.data', value=1.0 error=0.015 abserr=T idat=194 kind=5 /
+&data type=6 reffile='Expt5/Spiger-cm_ap0@e13.1808.data', value=1.0 error=0.015 abserr=T idat=195 kind=5 /
+&data type=6 reffile='Expt5/Spiger-cm_ap0@e13.3149.data', value=1.0 error=0.015 abserr=T idat=196 kind=5 /
+&data type=6 reffile='Expt5/Spiger-cm_ap0@e13.4476.data', value=1.0 error=0.015 abserr=T idat=197 kind=5 /
+&data type=6 reffile='Expt5/Spiger-cm_ap0@e13.5816.data', value=1.0 error=0.015 abserr=T idat=198 kind=5 /
+&data type=6 reffile='Expt5/Spiger-cm_ap0@e13.7157.data', value=1.0 error=0.015 abserr=T idat=199 kind=5 /
+&data type=6 reffile='Expt5/Spiger-cm_ap0@e13.8484.data', value=1.0 error=0.015 abserr=T idat=200 kind=5 /
+&data type=6 reffile='Expt5/Spiger-cm_ap0@e14.1815.data', value=1.0 error=0.015 abserr=T idat=201 kind=5 /
+&data type=6 reffile='Expt5/Spiger-cm_ap0@e14.3859.data', value=1.0 error=0.015 abserr=T idat=202 kind=5 /
+&data type=6 reffile='Expt5/Spiger-A1094004-lab_aa@a16.735.data', value=0.0 error=0.02 abserr=T idat=203 kind=6 /
+&data type=6 reffile='Expt5/Spiger-A1094004-lab_aa@a20.002.data', value=0.0 error=0.02 abserr=T idat=204 kind=6 /
+&data type=6 reffile='Expt5/Spiger-A1094004-lab_aa@a23.192.data', value=0.0 error=0.02 abserr=T idat=205 kind=6 /
+&data type=6 reffile='Expt5/Spiger-A1094004-lab_aa@a26.738.data', value=0.0 error=0.02 abserr=T idat=206 kind=6 /
+&data type=6 reffile='Expt5/Spiger-A1094004-lab_aa@a29.418.data', value=0.0 error=0.02 abserr=T idat=207 kind=6 /
+&data type=6 reffile='Expt5/Spiger-A1094004-lab_aa@a32.12.data', value=0.0 error=0.02 abserr=T idat=208 kind=6 /
+&data type=6 reffile='Expt5/Spiger-A1094004-lab_aa@a33.273.data', value=0.0 error=0.02 abserr=T idat=209 kind=6 /
+&data type=6 reffile='Expt5/Spiger-A1094004-lab_aa@a35.257.data', value=0.0 error=0.02 abserr=T idat=210 kind=6 /
+&data type=6 reffile='Expt5/Spiger-A1094004-lab_aa@a36.999.data', value=0.0 error=0.02 abserr=T idat=211 kind=6 /
+&data type=6 reffile='Expt5/Spiger-A1094004-lab_aa@a39.951.data', value=0.0 error=0.02 abserr=T idat=212 kind=6 /
+&data type=6 reffile='Expt5/Spiger-A1094004-lab_aa@a42.558.data', value=0.0 error=0.02 abserr=T idat=213 kind=6 /
+&data type=6 reffile='Expt5/Spiger-A1094004-lab_aa@a45.53.data', value=0.0 error=0.02 abserr=T idat=214 kind=6 /
+&data type=6 reffile='Expt5/Spiger-A1094004-lab_aa@a47.428.data', value=0.0 error=0.02 abserr=T idat=215 kind=6 /
+&data type=6 reffile='Expt5/Spiger-A1094004-lab_aa@a48.755.data', value=0.0 error=0.02 abserr=T idat=216 kind=6 /
+&data type=6 reffile='Expt5/Tombrello_aa@a23.192.data', value=0.0 error=0.02 abserr=T idat=217 kind=6 /
+&data type=6 reffile='Expt5/Tombrello_aa@a26.738.data', value=0.0 error=0.02 abserr=T idat=218 kind=6 /
+&data type=6 reffile='Expt5/Tombrello_aa@a29.418.data', value=0.0 error=0.02 abserr=T idat=219 kind=6 /
+&data type=6 reffile='Expt5/Tombrello_aa@a30.836.data', value=0.0 error=0.02 abserr=T idat=220 kind=6 /
+&data type=6 reffile='Expt5/Tombrello_aa@a36.999.data', value=0.0 error=0.02 abserr=T idat=221 kind=6 /
+&data type=6 reffile='Expt5/Tombrello_aa@a39.951.data', value=0.0 error=0.02 abserr=T idat=222 kind=6 /
+&data type=6 reffile='Expt5/Tombrello_aa@a42.62.data', value=0.0 error=0.02 abserr=T idat=223 kind=6 /
+&data type=6 reffile='Expt5/Tombrello_aa@a45.53.data', value=0.0 error=0.02 abserr=T idat=224 kind=6 /
+&data type=7 term=1 value=-1.587 error=0.02 abserr=T idat=225 /
+&data type=7 term=4 value=-1.157 error=0.02 abserr=T idat=226 /

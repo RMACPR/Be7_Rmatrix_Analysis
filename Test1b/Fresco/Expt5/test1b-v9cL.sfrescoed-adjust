@@ -1,0 +1,520 @@
+ &DATASETNORM
+ REFFILE = 'Expt5/Barnard_aa@a*                                                             ',
+ DATANORM        =  0.983618775538151     ,
+ DATASET = 2*0
+ /
+ &DATASETNORM
+ REFFILE = 'Expt5/Spiger-A1094004-lab_aa@a16.735.data                                       ',
+ DATANORM        =  0.910111849574553     ,
+ DATASET = 2*0
+ /
+ &DATASETNORM
+ REFFILE = 'Expt5/Spiger-A1094004-lab_aa@a20.002.data                                       ',
+ DATANORM        =  0.947902936811375     ,
+ DATASET = 2*0
+ /
+ &DATASETNORM
+ REFFILE = 'Expt5/Spiger-A1094004-lab_aa@a23.192.data                                       ',
+ DATANORM        =  0.922606412115759     ,
+ DATASET = 2*0
+ /
+ &DATASETNORM
+ REFFILE = 'Expt5/Spiger-A1094004-lab_aa@a26.738.data                                       ',
+ DATANORM        =  0.936775431850666     ,
+ DATASET = 2*0
+ /
+ &DATASETNORM
+ REFFILE = 'Expt5/Spiger-A1094004-lab_aa@a29.418.data                                       ',
+ DATANORM        =  0.951454106613316     ,
+ DATASET = 2*0
+ /
+ &DATASETNORM
+ REFFILE = 'Expt5/Spiger-A1094004-lab_aa@a32.12.data                                        ',
+ DATANORM        =  0.945618928860189     ,
+ DATASET = 2*0
+ /
+ &DATASETNORM
+ REFFILE = 'Expt5/Spiger-A1094004-lab_aa@a33.273.data                                       ',
+ DATANORM        =  0.928642930193965     ,
+ DATASET = 2*0
+ /
+ &DATASETNORM
+ REFFILE = 'Expt5/Spiger-A1094004-lab_aa@a35.257.data                                       ',
+ DATANORM        =  0.941249851031620     ,
+ DATASET = 2*0
+ /
+ &DATASETNORM
+ REFFILE = 'Expt5/Spiger-A1094004-lab_aa@a36.999.data                                       ',
+ DATANORM        =  0.941100257286021     ,
+ DATASET = 2*0
+ /
+ &DATASETNORM
+ REFFILE = 'Expt5/Spiger-A1094004-lab_aa@a39.951.data                                       ',
+ DATANORM        =  0.944570230051054     ,
+ DATASET = 2*0
+ /
+ &DATASETNORM
+ REFFILE = 'Expt5/Spiger-A1094004-lab_aa@a42.558.data                                       ',
+ DATANORM        =  0.931442331875242     ,
+ DATASET = 2*0
+ /
+ &DATASETNORM
+ REFFILE = 'Expt5/Spiger-A1094004-lab_aa@a45.53.data                                        ',
+ DATANORM        =  0.854707385730219     ,
+ DATASET = 2*0
+ /
+ &DATASETNORM
+ REFFILE = 'Expt5/Spiger-A1094004-lab_aa@a47.428.data                                       ',
+ DATANORM        =  0.844830358583475     ,
+ DATASET = 2*0
+ /
+ &DATASETNORM
+ REFFILE = 'Expt5/Spiger-A1094004-lab_aa@a48.755.data                                       ',
+ DATANORM        =  0.896885749217179     ,
+ DATASET = 2*0
+ /
+ &DATASETNORM
+ REFFILE = 'Expt5/Tombrello_aa@a*                                                           ',
+ DATANORM        =   1.07408046068688     ,
+ DATASET = 2*0
+ /
+ &DATASETNORM
+ REFFILE = 'Expt5/Mohr_aa@e1.59539.data                                                     ',
+ DATANORM        =   1.04862996307750     ,
+ DATASET = 2*0
+ /
+ &DATASETNORM
+ REFFILE = 'Expt5/Mohr_aa@e2.26013.data                                                     ',
+ DATANORM        =  0.898881795282390     ,
+ DATASET = 2*0
+ /
+ &DATASETNORM
+ REFFILE = 'Expt5/Mohr_aa@e2.65898.data                                                     ',
+ DATANORM        =  0.912762700563173     ,
+ DATASET = 2*0
+ /
+ &DATASETNORM
+ REFFILE = 'Expt5/Mohr_aa@e3.05783.data                                                     ',
+ DATANORM        =  0.987758321543781     ,
+ DATASET = 2*0
+ /
+ &DATASETNORM
+ REFFILE = 'Expt5/Mohr_aa@e3.32372.data                                                     ',
+ DATANORM        =  0.861043966909556     ,
+ DATASET = 2*0
+ /
+ &DATASETNORM
+ REFFILE = 'Expt5/Mohr_aa@e3.45667.data                                                     ',
+ DATANORM        =  0.983206607103503     ,
+ DATASET = 2*0
+ /
+ &DATASETNORM
+ REFFILE = 'Expt5/Mohr_aa@e3.58962.data                                                     ',
+ DATANORM        =  0.935250437624731     ,
+ DATASET = 2*0
+ /
+ &DATASETNORM
+ REFFILE = 'Expt5/Mohr_aa@e3.72257.data                                                     ',
+ DATANORM        =  0.961399988781506     ,
+ DATASET = 2*0
+ /
+ &DATASETNORM
+ REFFILE = 'Expt5/Mohr_aa@e3.85552.data                                                     ',
+ DATANORM        =  0.949697337561213     ,
+ DATASET = 2*0
+ /
+ &DATASETNORM
+ REFFILE = 'Expt5/Mohr_aa@e3.98847.data                                                     ',
+ DATANORM        =  0.995877320684969     ,
+ DATASET = 2*0
+ /
+ &DATASETNORM
+ REFFILE = 'Expt5/Fasoli_pp@a81.0.data                                                      ',
+ DATANORM        =  0.823886503189206     ,
+ DATASET = 2*0
+ /
+ &DATASETNORM
+ REFFILE = 'Expt5/Fasoli_pp@a100.0.data                                                     ',
+ DATANORM        =  0.941960956153452     ,
+ DATASET = 2*0
+ /
+ &DATASETNORM
+ REFFILE = 'Expt5/Fasoli_pp@a117.0.data                                                     ',
+ DATANORM        =  0.985699665975389     ,
+ DATASET = 2*0
+ /
+ &DATASETNORM
+ REFFILE = 'Expt5/Fasoli_pp@a141.0.data                                                     ',
+ DATANORM        =   1.07340041936795     ,
+ DATASET = 2*0
+ /
+ &DATASETNORM
+ REFFILE = 'Expt5/Fasoli_pp@a144.0.data                                                     ',
+ DATANORM        =   1.06140157320424     ,
+ DATASET = 2*0
+ /
+ &DATASETNORM
+ REFFILE = 'Expt5/Fasoli_pp@a166.0.data                                                     ',
+ DATANORM        =   1.07340998672000     ,
+ DATASET = 2*0
+ /
+ &DATASETNORM
+ REFFILE = 'Expt5/McCray_pp@a61.6.data                                                      ',
+ DATANORM        =   1.13375726808264     ,
+ DATASET = 2*0
+ /
+ &DATASETNORM
+ REFFILE = 'Expt5/McCray_pp@a80.5.data                                                      ',
+ DATANORM        =   1.09523592248058     ,
+ DATASET = 2*0
+ /
+ &DATASETNORM
+ REFFILE = 'Expt5/McCray_pp@a81.0.data                                                      ',
+ DATANORM        =   1.05253783712970     ,
+ DATASET = 2*0
+ /
+ &DATASETNORM
+ REFFILE = 'Expt5/McCray_pp@a100.6.data                                                     ',
+ DATANORM        =   1.07689175248640     ,
+ DATASET = 2*0
+ /
+ &DATASETNORM
+ REFFILE = 'Expt5/McCray_pp@a116.4.data                                                     ',
+ DATANORM        =   1.09706589362732     ,
+ DATASET = 2*0
+ /
+ &DATASETNORM
+ REFFILE = 'Expt5/McCray_pp@a118.1.data                                                     ',
+ DATANORM        =   1.10615330863442     ,
+ DATASET = 2*0
+ /
+ &DATASETNORM
+ REFFILE = 'Expt5/McCray_pp@a133.0.data                                                     ',
+ DATANORM        =   1.13017314521856     ,
+ DATASET = 2*0
+ /
+ &DATASETNORM
+ REFFILE = 'Expt5/McCray_pp@a155.8.data                                                     ',
+ DATANORM        =   1.19727037823968     ,
+ DATASET = 2*0
+ /
+ &DATASETNORM
+ REFFILE = 'Expt5/McCray_pp@a156.1.data                                                     ',
+ DATANORM        =   1.16138285505974     ,
+ DATASET = 2*0
+ /
+ &DATASETNORM
+ REFFILE = 'Expt5/Harrison_pp0@e*                                                           ',
+ DATANORM        =   1.13566971938144     ,
+ DATASET = 2*0
+ /
+ &DATASETNORM
+ REFFILE = 'Expt5/Lin_pa@e1.0.data                                                          ',
+ DATANORM        =   1.27564138035269     ,
+ DATASET = 2*0
+ /
+ &DATASETNORM
+ REFFILE = 'Expt5/Lin_pa@e1.2.data                                                          ',
+ DATANORM        =   1.28263704620701     ,
+ DATASET = 2*0
+ /
+ &DATASETNORM
+ REFFILE = 'Expt5/Lin_pa@e1.4.data                                                          ',
+ DATANORM        =   1.31933706711427     ,
+ DATASET = 2*0
+ /
+ &DATASETNORM
+ REFFILE = 'Expt5/Lin_pa@e1.5.data                                                          ',
+ DATANORM        =   1.42243610100887     ,
+ DATASET = 2*0
+ /
+ &DATASETNORM
+ REFFILE = 'Expt5/Lin_pa@e1.6.data                                                          ',
+ DATANORM        =   1.45542663654328     ,
+ DATASET = 2*0
+ /
+ &DATASETNORM
+ REFFILE = 'Expt5/Lin_pa@e1.65.data                                                         ',
+ DATANORM        =   1.40421487259607     ,
+ DATASET = 2*0
+ /
+ &DATASETNORM
+ REFFILE = 'Expt5/Lin_pa@e1.7.data                                                          ',
+ DATANORM        =   1.43252231651838     ,
+ DATASET = 2*0
+ /
+ &DATASETNORM
+ REFFILE = 'Expt5/Lin_pa@e1.75.data                                                         ',
+ DATANORM        =   1.41844016500560     ,
+ DATASET = 2*0
+ /
+ &DATASETNORM
+ REFFILE = 'Expt5/Lin_pa@e1.8.data                                                          ',
+ DATANORM        =   1.39782733692713     ,
+ DATASET = 2*0
+ /
+ &DATASETNORM
+ REFFILE = 'Expt5/Lin_pa@e1.85.data                                                         ',
+ DATANORM        =   1.29157166494107     ,
+ DATASET = 2*0
+ /
+ &DATASETNORM
+ REFFILE = 'Expt5/Lin_pa@e1.9.data                                                          ',
+ DATANORM        =   1.37403610499356     ,
+ DATASET = 2*0
+ /
+ &DATASETNORM
+ REFFILE = 'Expt5/Lin_pa@e1.95.data                                                         ',
+ DATANORM        =   1.43124553144032     ,
+ DATASET = 2*0
+ /
+ &DATASETNORM
+ REFFILE = 'Expt5/Lin_pa@e2.0.data                                                          ',
+ DATANORM        =   1.27457730222033     ,
+ DATASET = 2*0
+ /
+ &DATASETNORM
+ REFFILE = 'Expt5/Lin_pa@e2.1.data                                                          ',
+ DATANORM        =   1.29761359510323     ,
+ DATASET = 2*0
+ /
+ &DATASETNORM
+ REFFILE = 'Expt5/Lin_pa@e2.2.data                                                          ',
+ DATANORM        =   1.35102055837759     ,
+ DATASET = 2*0
+ /
+ &DATASETNORM
+ REFFILE = 'Expt5/Lin_pa@e2.4.data                                                          ',
+ DATANORM        =   1.42339695175528     ,
+ DATASET = 2*0
+ /
+ &DATASETNORM
+ REFFILE = 'Expt5/Lin_pa@e2.6.data                                                          ',
+ DATANORM        =   1.45117410859188     ,
+ DATASET = 2*0
+ /
+ &DATASETNORM
+ REFFILE = 'Expt5/Elwyn_pa@e*                                                               ',
+ DATANORM        =   1.19485368239946     ,
+ DATASET = 2*0
+ /
+ &DATASETNORM
+ REFFILE = 'Expt5/Spiger-cm_ap0@e10.3581.data                                               ',
+ DATANORM        =   1.01076984530615     ,
+ DATASET = 2*0
+ /
+ &DATASETNORM
+ REFFILE = 'Expt5/Spiger-cm_ap0@e10.8438.data                                               ',
+ DATANORM        =   1.00979478050489     ,
+ DATASET = 2*0
+ /
+ &DATASETNORM
+ REFFILE = 'Expt5/Spiger-cm_ap0@e11.0296.data                                               ',
+ DATANORM        =   1.00142631343888     ,
+ DATASET = 2*0
+ /
+ &DATASETNORM
+ REFFILE = 'Expt5/Spiger-cm_ap0@e11.1769.data                                               ',
+ DATANORM        =   1.02957114646946     ,
+ DATASET = 2*0
+ /
+ &DATASETNORM
+ REFFILE = 'Expt5/Spiger-cm_ap0@e11.3109.data                                               ',
+ DATANORM        =   1.01197824715799     ,
+ DATASET = 2*0
+ /
+ &DATASETNORM
+ REFFILE = 'Expt5/Spiger-cm_ap0@e11.445.data                                                ',
+ DATANORM        =   1.01685570950888     ,
+ DATASET = 2*0
+ /
+ &DATASETNORM
+ REFFILE = 'Expt5/Spiger-cm_ap0@e11.579.data                                                ',
+ DATANORM        =   1.01859534841553     ,
+ DATASET = 2*0
+ /
+ &DATASETNORM
+ REFFILE = 'Expt5/Spiger-cm_ap0@e11.7011.data                                               ',
+ DATANORM        =   1.00147569238903     ,
+ DATASET = 2*0
+ /
+ &DATASETNORM
+ REFFILE = 'Expt5/Spiger-cm_ap0@e11.7117.data                                               ',
+ DATANORM        =   1.00942663527228     ,
+ DATASET = 2*0
+ /
+ &DATASETNORM
+ REFFILE = 'Expt5/Spiger-cm_ap0@e11.8458.data                                               ',
+ DATANORM        =   1.02473465236510     ,
+ DATASET = 2*0
+ /
+ &DATASETNORM
+ REFFILE = 'Expt5/Spiger-cm_ap0@e11.9798.data                                               ',
+ DATANORM        =   1.01500117134733     ,
+ DATASET = 2*0
+ /
+ &DATASETNORM
+ REFFILE = 'Expt5/Spiger-cm_ap0@e12.1125.data                                               ',
+ DATANORM        =   1.01674383374963     ,
+ DATASET = 2*0
+ /
+ &DATASETNORM
+ REFFILE = 'Expt5/Spiger-cm_ap0@e12.2466.data                                               ',
+ DATANORM        =   1.01151097881695     ,
+ DATASET = 2*0
+ /
+ &DATASETNORM
+ REFFILE = 'Expt5/Spiger-cm_ap0@e12.3726.data                                               ',
+ DATANORM        =   1.01184133322450     ,
+ DATASET = 2*0
+ /
+ &DATASETNORM
+ REFFILE = 'Expt5/Spiger-cm_ap0@e12.3793.data                                               ',
+ DATANORM        =   1.00895816978161     ,
+ DATASET = 2*0
+ /
+ &DATASETNORM
+ REFFILE = 'Expt5/Spiger-cm_ap0@e12.5133.data                                               ',
+ DATANORM        =   1.01077518996974     ,
+ DATASET = 2*0
+ /
+ &DATASETNORM
+ REFFILE = 'Expt5/Spiger-cm_ap0@e12.6473.data                                               ',
+ DATANORM        =   1.00843847841812     ,
+ DATASET = 2*0
+ /
+ &DATASETNORM
+ REFFILE = 'Expt5/Spiger-cm_ap0@e12.7801.data                                               ',
+ DATANORM        =   1.01215070171103     ,
+ DATASET = 2*0
+ /
+ &DATASETNORM
+ REFFILE = 'Expt5/Spiger-cm_ap0@e12.9141.data                                               ',
+ DATANORM        =   1.03133029996602     ,
+ DATASET = 2*0
+ /
+ &DATASETNORM
+ REFFILE = 'Expt5/Spiger-cm_ap0@e13.0442.data                                               ',
+ DATANORM        =   1.00993887805775     ,
+ DATASET = 2*0
+ /
+ &DATASETNORM
+ REFFILE = 'Expt5/Spiger-cm_ap0@e13.0481.data                                               ',
+ DATANORM        =   1.02133592472255     ,
+ DATASET = 2*0
+ /
+ &DATASETNORM
+ REFFILE = 'Expt5/Spiger-cm_ap0@e13.1808.data                                               ',
+ DATANORM        =   1.04733552203397     ,
+ DATASET = 2*0
+ /
+ &DATASETNORM
+ REFFILE = 'Expt5/Spiger-cm_ap0@e13.3149.data                                               ',
+ DATANORM        =   1.02404885263678     ,
+ DATASET = 2*0
+ /
+ &DATASETNORM
+ REFFILE = 'Expt5/Spiger-cm_ap0@e13.4476.data                                               ',
+ DATANORM        =   1.01644100189459     ,
+ DATASET = 2*0
+ /
+ &DATASETNORM
+ REFFILE = 'Expt5/Spiger-cm_ap0@e13.5816.data                                               ',
+ DATANORM        =   1.01705717907266     ,
+ DATASET = 2*0
+ /
+ &DATASETNORM
+ REFFILE = 'Expt5/Spiger-cm_ap0@e13.7157.data                                               ',
+ DATANORM        =   1.02409647169058     ,
+ DATASET = 2*0
+ /
+ &DATASETNORM
+ REFFILE = 'Expt5/Spiger-cm_ap0@e13.8484.data                                               ',
+ DATANORM        =   1.01657793457794     ,
+ DATASET = 2*0
+ /
+ &DATASETNORM
+ REFFILE = 'Expt5/Spiger-cm_ap0@e14.1815.data                                               ',
+ DATANORM        =   1.00839614910942     ,
+ DATASET = 2*0
+ /
+ &DATASETNORM
+ REFFILE = 'Expt5/Spiger-cm_ap0@e14.3859.data                                               ',
+ DATANORM        =  0.996303330750751     ,
+ DATASET = 2*0
+ /
+ &DATASETSHIFT
+ REFFILE = 'Expt5/Spiger-A1094004-lab_aa@a16.735.data                                       ',
+ DATAESHIFT      = -3.972560808171374E-002,
+ DATASET = 2*0
+ /
+ &DATASETSHIFT
+ REFFILE = 'Expt5/Spiger-A1094004-lab_aa@a20.002.data                                       ',
+ DATAESHIFT      = -3.681201968643524E-002,
+ DATASET = 2*0
+ /
+ &DATASETSHIFT
+ REFFILE = 'Expt5/Spiger-A1094004-lab_aa@a23.192.data                                       ',
+ DATAESHIFT      = -4.567881753011605E-002,
+ DATASET = 2*0
+ /
+ &DATASETSHIFT
+ REFFILE = 'Expt5/Spiger-A1094004-lab_aa@a26.738.data                                       ',
+ DATAESHIFT      = -5.625501460965234E-002,
+ DATASET = 2*0
+ /
+ &DATASETSHIFT
+ REFFILE = 'Expt5/Spiger-A1094004-lab_aa@a29.418.data                                       ',
+ DATAESHIFT      = -4.941869301897951E-002,
+ DATASET = 2*0
+ /
+ &DATASETSHIFT
+ REFFILE = 'Expt5/Spiger-A1094004-lab_aa@a32.12.data                                        ',
+ DATAESHIFT      = -6.798289955445100E-002,
+ DATASET = 2*0
+ /
+ &DATASETSHIFT
+ REFFILE = 'Expt5/Spiger-A1094004-lab_aa@a33.273.data                                       ',
+ DATAESHIFT      = -1.711480633931934E-002,
+ DATASET = 2*0
+ /
+ &DATASETSHIFT
+ REFFILE = 'Expt5/Spiger-A1094004-lab_aa@a35.257.data                                       ',
+ DATAESHIFT      = -4.748293679199671E-002,
+ DATASET = 2*0
+ /
+ &DATASETSHIFT
+ REFFILE = 'Expt5/Spiger-A1094004-lab_aa@a36.999.data                                       ',
+ DATAESHIFT      = -3.661695167642195E-002,
+ DATASET = 2*0
+ /
+ &DATASETSHIFT
+ REFFILE = 'Expt5/Spiger-A1094004-lab_aa@a39.951.data                                       ',
+ DATAESHIFT      = -3.626141631633269E-002,
+ DATASET = 2*0
+ /
+ &DATASETSHIFT
+ REFFILE = 'Expt5/Spiger-A1094004-lab_aa@a42.558.data                                       ',
+ DATAESHIFT      = -3.395188229502424E-002,
+ DATASET = 2*0
+ /
+ &DATASETSHIFT
+ REFFILE = 'Expt5/Spiger-A1094004-lab_aa@a45.53.data                                        ',
+ DATAESHIFT      = -3.631438034831454E-002,
+ DATASET = 2*0
+ /
+ &DATASETSHIFT
+ REFFILE = 'Expt5/Spiger-A1094004-lab_aa@a47.428.data                                       ',
+ DATAESHIFT      = -4.383141068499360E-002,
+ DATASET = 2*0
+ /
+ &DATASETSHIFT
+ REFFILE = 'Expt5/Spiger-A1094004-lab_aa@a48.755.data                                       ',
+ DATAESHIFT      = -5.807296845057163E-002,
+ DATASET = 2*0
+ /
+ &DATASETSHIFT
+ REFFILE = 'Expt5/Tombrello_aa@a*                                                           ',
+ DATAESHIFT      = -1.629782103587862E-002,
+ DATASET = 2*0
+ /
