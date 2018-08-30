@@ -1,0 +1,12 @@
+### Elastic channel set from projectile He4 + He3
+Changing boundaryCondition from -L to Brune by trans,std: True False ( Overrides= False )
+Barker convergence in J,pi=0.5- from    42.851 to    23.132 took   30 iterations (cm:    18.414 to     9.940)
+Barker convergence in J,pi=0.5+ from    42.851 to    17.272 took  353 iterations (cm:    18.414 to     7.422)
+Barker convergence in J,pi=1.5- from    -3.691 to     0.789 took   34 iterations (cm:    -1.586 to     0.339)
+Barker convergence in J,pi=1.5- from    42.851 to    38.152 took    5 iterations (cm:    18.414 to    16.395)
+Barker convergence in J,pi=1.5+ from    42.851 to    21.796 took  255 iterations (cm:    18.414 to     9.366)
+Barker convergence in J,pi=2.5- from    13.665 to    11.629 took   40 iterations (cm:     5.872 to     4.997)
+Barker convergence in J,pi=2.5- from    18.199 to    13.014 took   15 iterations (cm:     7.821 to     5.593)
+Barker convergence in J,pi=2.5+ from    42.851 to    33.420 took    7 iterations (cm:    18.414 to    14.361)
+Barker convergence in J,pi=3.5- from     8.062 to     6.941 took   17 iterations (cm:     3.464 to     2.983)
+Barker convergence in J,pi=3.5- from    42.851 to    26.470 took   12 iterations (cm:    18.414 to    11.375)

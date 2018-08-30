@@ -1,0 +1,1476 @@
+#   Var     1=w2,BG:0.5-      value   0.0000E+00, step  1.0E-02, error  0.0     rwa =T
+#   Var     2=w2,BG:0.5-      value     3.434890, step   0.0340, error   0.0000 rwa =T
+#   Var     3=w1,BG:0.5-      value   0.0000E+00, step  1.0E-02, error  0.0     rwa =T
+#   Var     4=BG:0.5-         value    18.413903, step   0.0000, error   0.0000 rwa =F
+#   Var     5=w2,BG:0.5+      value     2.532850, step   0.0250, error   0.0000 rwa =T
+#   Var     6=w2,BG:0.5+      value    -4.468850, step   0.0450, error   0.0000 rwa =T
+#   Var     7=w1,BG:0.5+      value    -3.189820, step   0.0320, error   0.0000 rwa =T
+#   Var     8=BG:0.5+         value    18.413903, step   0.0000, error   0.0000 rwa =F
+#   Var     9=w2,BS:1.5-      value     1.257720, step   0.0130, error   0.0000 rwa =T
+#   Var    10=w2,BS:1.5-      value   0.0000E+00, step  1.0E-02, error  0.0     rwa =T
+#   Var    11=w2,BS:1.5-      value  -0.0000E+00, step  1.0E-02, error  0.0     rwa =T
+#   Var    12=w1,BS:1.5-      value    -0.690160, step   0.0069, error   0.0000 rwa =T
+#   Var    13=BS:1.5-         value    -1.586097, step   0.0000, error   0.0000 rwa =F
+#   Var    14=w2,BG:1.5-      value   0.0000E+00, step  1.0E-02, error  0.0     rwa =T
+#   Var    15=w2,BG:1.5-      value   0.0000E+00, step  1.0E-02, error  0.0     rwa =T
+#   Var    16=w2,BG:1.5-      value  -0.0000E+00, step  1.0E-02, error  0.0     rwa =T
+#   Var    17=w1,BG:1.5-      value     1.486620, step   0.0150, error   0.0000 rwa =T
+#   Var    18=BG:1.5-         value    18.413903, step   0.0000, error   0.0000 rwa =F
+#   Var    19=w2,BG:1.5+      value     1.907210, step   0.0190, error   0.0000 rwa =T
+#   Var    20=w2,BG:1.5+      value     2.492310, step   0.0250, error   0.0000 rwa =T
+#   Var    21=w2,BG:1.5+      value  -0.0000E+00, step  1.0E-02, error  0.0     rwa =T
+#   Var    22=w1,BG:1.5+      value    -1.426940, step   0.0140, error   0.0000 rwa =T
+#   Var    23=BG:1.5+         value    18.413903, step   0.0000, error   0.0000 rwa =F
+#   Var    24=w2,2.5-:E5.8721 value     1.033130, step   0.0100, error   0.0000 rwa =T
+#   Var    25=w2,2.5-:E5.8721 value  -0.0000E+00, step  1.0E-02, error  0.0     rwa =T
+#   Var    26=w2,2.5-:E5.8721 value  -0.0000E+00, step  1.0E-02, error  0.0     rwa =T
+#   Var    27=w1,2.5-:E5.8721 value    -0.040530, step   0.0004, error   0.0000 rwa =T
+#   Var    28=J2.5-:E5.8721   value     5.872167, step   0.1000, error   0.0000 rwa =F
+#   Var    29=w2,2.5-:E7.8206 value   0.0000E+00, step  1.0E-02, error  0.0     rwa =T
+#   Var    30=w2,2.5-:E7.8206 value  -0.0000E+00, step  1.0E-02, error  0.0     rwa =T
+#   Var    31=w2,2.5-:E7.8206 value  -0.0000E+00, step  1.0E-02, error  0.0     rwa =T
+#   Var    32=w1,2.5-:E7.8206 value    -1.445430, step   0.0140, error   0.0000 rwa =T
+#   Var    33=J2.5-:E7.8206   value     7.820616, step   0.1000, error   0.0000 rwa =F
+#   Var    34=w1,BG:2.5+      value     1.501170, step   0.0150, error   0.0000 rwa =T
+#   Var    35=BG:2.5+         value    18.413903, step   0.0000, error   0.0000 rwa =F
+#   Var    36=w2,3.5-:E3.4642 value  -0.0000E+00, step  1.0E-02, error  0.0     rwa =T
+#   Var    37=w2,3.5-:E3.4642 value  -0.0000E+00, step  1.0E-02, error  0.0     rwa =T
+#   Var    38=w2,3.5-:E3.4642 value   0.0000E+00, step  1.0E-02, error  0.0     rwa =T
+#   Var    39=w1,3.5-:E3.4642 value    -0.786340, step   0.0079, error   0.0000 rwa =T
+#   Var    40=J3.5-:E3.4642   value     3.464214, step   0.1000, error   0.0000 rwa =F
+#   Var    41=w2,BG:3.5-      value  -0.0000E+00, step  1.0E-02, error  0.0     rwa =T
+#   Var    42=w2,BG:3.5-      value  -0.0000E+00, step  1.0E-02, error  0.0     rwa =T
+#   Var    43=w2,BG:3.5-      value   0.0000E+00, step  1.0E-02, error  0.0     rwa =T
+#   Var    44=w1,BG:3.5-      value    -1.880720, step   0.0190, error   0.0000 rwa =T
+#   Var    45=BG:3.5-         value    18.413903, step   0.0000, error   0.0000 rwa =F
+#   Var    46=n:Barnard_aa@a2 value     1.001914, step   0.0100, error   0.0000 rwa =F
+#   Var    47=n:Barnard_aa@a2 value     1.001914, step   0.0100, error   0.0000 rwa =F
+#   Var    48=n:Barnard_aa@a3 value     1.001914, step   0.0100, error   0.0000 rwa =F
+#   Var    49=n:Barnard_aa@a3 value     1.001914, step   0.0100, error   0.0000 rwa =F
+#   Var    50=n:Barnard_aa@a4 value     1.001914, step   0.0100, error   0.0000 rwa =F
+#   Var    51=n:Barnard_aa@a4 value     1.001914, step   0.0100, error   0.0000 rwa =F
+#   Var    52=n:Barnard_aa@a4 value     1.001914, step   0.0100, error   0.0000 rwa =F
+#   Var    53=n:Mohr_aa@e1.59 value     1.033880, step   0.0100, error   0.0000 rwa =F
+#   Var    54=n:Mohr_aa@e2.26 value     0.898174, step   0.0100, error   0.0000 rwa =F
+#   Var    55=n:Mohr_aa@e2.65 value     0.936514, step   0.0100, error   0.0000 rwa =F
+#   Var    56=n:Mohr_aa@e3.05 value     1.018901, step   0.0100, error   0.0000 rwa =F
+#   Var    57=n:Mohr_aa@e3.32 value     0.871148, step   0.0100, error   0.0000 rwa =F
+#   Var    58=n:Mohr_aa@e3.45 value     1.005035, step   0.0100, error   0.0000 rwa =F
+#   Var    59=n:Mohr_aa@e3.58 value     0.947086, step   0.0100, error   0.0000 rwa =F
+#   Var    60=n:Mohr_aa@e3.72 value     0.986115, step   0.0100, error   0.0000 rwa =F
+#   Var    61=n:Mohr_aa@e3.85 value     0.965381, step   0.0100, error   0.0000 rwa =F
+#   Var    62=n:Mohr_aa@e3.98 value     1.017232, step   0.0100, error   0.0000 rwa =F
+#   Var    63=n:Tombrello_aa@ value     1.081268, step   0.0100, error   0.0000 rwa =F
+#   Var    64=n:Tombrello_aa@ value     1.081268, step   0.0100, error   0.0000 rwa =F
+#   Var    65=n:Tombrello_aa@ value     1.081268, step   0.0100, error   0.0000 rwa =F
+#   Var    66=n:Tombrello_aa@ value     1.081268, step   0.0100, error   0.0000 rwa =F
+#   Var    67=n:Tombrello_aa@ value     1.081268, step   0.0100, error   0.0000 rwa =F
+#   Var    68=n:Tombrello_aa@ value     1.081268, step   0.0100, error   0.0000 rwa =F
+#   Var    69=n:Tombrello_aa@ value     1.081268, step   0.0100, error   0.0000 rwa =F
+#   Var    70=n:Tombrello_aa@ value     1.081268, step   0.0100, error   0.0000 rwa =F
+#   Var    71=n:Spiger-A10940 value     0.972299, step   0.0100, error   0.0000 rwa =F
+#   Var    72=n:Spiger-A10940 value     0.976677, step   0.0100, error   0.0000 rwa =F
+#   Var    73=n:Spiger-A10940 value     0.901128, step   0.0100, error   0.0000 rwa =F
+#   Var    74=n:Spiger-A10940 value     0.909289, step   0.0100, error   0.0000 rwa =F
+#   Var    75=n:Spiger-A10940 value     0.917103, step   0.0100, error   0.0000 rwa =F
+#   Var    76=n:Spiger-A10940 value     0.949938, step   0.0100, error   0.0000 rwa =F
+#   Var    77=n:Spiger-A10940 value     0.940893, step   0.0100, error   0.0000 rwa =F
+#   Var    78=n:Spiger-A10940 value     0.965065, step   0.0100, error   0.0000 rwa =F
+#   Var    79=n:Spiger-A10940 value     0.961298, step   0.0100, error   0.0000 rwa =F
+#   Var    80=n:Spiger-A10940 value     0.946154, step   0.0100, error   0.0000 rwa =F
+#   Var    81=n:Spiger-A10940 value     0.899240, step   0.0100, error   0.0000 rwa =F
+#   Var    82=n:Spiger-A10940 value     0.809802, step   0.0100, error   0.0000 rwa =F
+#   Var    83=n:Spiger-A10940 value     0.844794, step   0.0100, error   0.0000 rwa =F
+#   Var    84=n:Spiger-A10940 value     0.894254, step   0.0100, error   0.0000 rwa =F
+#   Var    85=n:Spiger-cm_ap0 value     1.225370, step   0.0100, error   0.0000 rwa =F
+#   Var    86=n:Spiger-cm_ap0 value     1.322856, step   0.0100, error   0.0000 rwa =F
+#   Var    87=n:Spiger-cm_ap0 value     1.407915, step   0.0100, error   0.0000 rwa =F
+#   Var    88=n:Spiger-cm_ap0 value     1.529075, step   0.0100, error   0.0000 rwa =F
+#   Var    89=n:Spiger-cm_ap0 value     1.588083, step   0.0100, error   0.0000 rwa =F
+#   Var    90=n:Spiger-cm_ap0 value     1.499475, step   0.0100, error   0.0000 rwa =F
+#   Var    91=n:Spiger-cm_ap0 value     1.471107, step   0.0100, error   0.0000 rwa =F
+#   Var    92=n:Spiger-cm_ap0 value     1.387097, step   0.0100, error   0.0000 rwa =F
+#   Var    93=n:Spiger-cm_ap0 value     1.371987, step   0.0100, error   0.0000 rwa =F
+#   Var    94=n:Spiger-cm_ap0 value     1.261925, step   0.0100, error   0.0000 rwa =F
+#   Var    95=n:Spiger-cm_ap0 value     1.163616, step   0.0100, error   0.0000 rwa =F
+#   Var    96=n:Spiger-cm_ap0 value     1.080462, step   0.0100, error   0.0000 rwa =F
+#   Var    97=n:Spiger-cm_ap0 value     0.973738, step   0.0100, error   0.0000 rwa =F
+#   Var    98=n:Spiger-cm_ap0 value     0.886250, step   0.0100, error   0.0000 rwa =F
+#   Var    99=n:Spiger-cm_ap0 value     0.885316, step   0.0100, error   0.0000 rwa =F
+#   Var   100=n:Spiger-cm_ap0 value     0.906462, step   0.0100, error   0.0000 rwa =F
+#   Var   101=n:Spiger-cm_ap0 value     1.021117, step   0.0100, error   0.0000 rwa =F
+#   Var   102=n:Spiger-cm_ap0 value     1.012853, step   0.0100, error   0.0000 rwa =F
+#   Var   103=n:Spiger-cm_ap0 value     1.043362, step   0.0100, error   0.0000 rwa =F
+#   Var   104=n:Spiger-cm_ap0 value     1.137281, step   0.0100, error   0.0000 rwa =F
+#   Var   105=n:Spiger-cm_ap0 value     1.182956, step   0.0100, error   0.0000 rwa =F
+#   Var   106=n:Spiger-cm_ap0 value     1.235117, step   0.0100, error   0.0000 rwa =F
+#   Var   107=n:Spiger-cm_ap0 value     1.326278, step   0.0100, error   0.0000 rwa =F
+#   Var   108=n:Spiger-cm_ap0 value     1.099638, step   0.0100, error   0.0000 rwa =F
+#   Var   109=n:Spiger-cm_ap0 value     1.219735, step   0.0100, error   0.0000 rwa =F
+#   Var   110=n:Spiger-cm_ap0 value     1.131823, step   0.0100, error   0.0000 rwa =F
+#   Var   111=n:Spiger-cm_ap0 value     0.868357, step   0.0100, error   0.0000 rwa =F
+#   Var   112=n:Spiger-cm_ap0 value     1.419124, step   0.0100, error   0.0000 rwa =F
+#   Var   113=n:McCray_pp@a81 value     1.187691, step   0.0100, error   0.0000 rwa =F
+#   Var   114=n:McCray_pp@a11 value     1.155655, step   0.0100, error   0.0000 rwa =F
+#   Var   115=n:McCray_pp@a15 value     1.244540, step   0.0100, error   0.0000 rwa =F
+#   Var   116=n:Fasoli_pp@a81 value     0.950462, step   0.0100, error   0.0000 rwa =F
+#   Var   117=n:Fasoli_pp@a10 value     0.990570, step   0.0100, error   0.0000 rwa =F
+#   Var   118=n:Fasoli_pp@a11 value     1.004621, step   0.0100, error   0.0000 rwa =F
+#   Var   119=n:Fasoli_pp@a14 value     1.072260, step   0.0100, error   0.0000 rwa =F
+#   Var   120=n:Fasoli_pp@a14 value     1.061042, step   0.0100, error   0.0000 rwa =F
+#   Var   121=n:Fasoli_pp@a16 value     1.057518, step   0.0100, error   0.0000 rwa =F
+#   Var   122=n:Harrison_pp0@ value     1.333476, step   0.0100, error   0.0000 rwa =F
+#   Var   123=n:Harrison_pp0@ value     1.333476, step   0.0100, error   0.0000 rwa =F
+#   Var   124=n:Elwyn_pa@e0.1 value     1.264942, step   0.0100, error   0.0000 rwa =F
+#   Var   125=n:Elwyn_pa@e0.1 value     1.264942, step   0.0100, error   0.0000 rwa =F
+#   Var   126=n:Elwyn_pa@e0.2 value     1.264942, step   0.0100, error   0.0000 rwa =F
+#   Var   127=n:Elwyn_pa@e0.3 value     1.264942, step   0.0100, error   0.0000 rwa =F
+#   Var   128=n:Elwyn_pa@e0.4 value     1.264942, step   0.0100, error   0.0000 rwa =F
+#   Var   129=n:Elwyn_pa@e0.5 value     1.264942, step   0.0100, error   0.0000 rwa =F
+#   Var   130=n:Elwyn_pa@e0.6 value     1.264942, step   0.0100, error   0.0000 rwa =F
+#   Var   131=n:Elwyn_pa@e0.7 value     1.264942, step   0.0100, error   0.0000 rwa =F
+#   Var   132=n:Elwyn_pa@e0.8 value     1.264942, step   0.0100, error   0.0000 rwa =F
+#   Var   133=n:Elwyn_pa@e0.9 value     1.264942, step   0.0100, error   0.0000 rwa =F
+#   Var   134=n:Elwyn_pa@e1.0 value     1.264942, step   0.0100, error   0.0000 rwa =F
+#   Var   135=n:Elwyn_pa@e1.1 value     1.264942, step   0.0100, error   0.0000 rwa =F
+#   Var   136=n:Elwyn_pa@e1.2 value     1.264942, step   0.0100, error   0.0000 rwa =F
+#   Var   137=n:Elwyn_pa@e1.3 value     1.264942, step   0.0100, error   0.0000 rwa =F
+#   Var   138=n:Elwyn_pa@e1.4 value     1.264942, step   0.0100, error   0.0000 rwa =F
+#   Var   139=n:Elwyn_pa@e1.5 value     1.264942, step   0.0100, error   0.0000 rwa =F
+#   Var   140=n:Elwyn_pa@e1.6 value     1.264942, step   0.0100, error   0.0000 rwa =F
+#   Var   141=n:Elwyn_pa@e1.7 value     1.264942, step   0.0100, error   0.0000 rwa =F
+#   Var   142=n:Elwyn_pa@e1.8 value     1.264942, step   0.0100, error   0.0000 rwa =F
+#   Var   143=n:Elwyn_pa@e1.9 value     1.264942, step   0.0100, error   0.0000 rwa =F
+#   Var   144=n:Elwyn_pa@e2.0 value     1.264942, step   0.0100, error   0.0000 rwa =F
+#   Var   145=n:Elwyn_pa@e2.1 value     1.264942, step   0.0100, error   0.0000 rwa =F
+#   Var   146=n:Elwyn_pa@e2.2 value     1.264942, step   0.0100, error   0.0000 rwa =F
+#   Var   147=n:Elwyn_pa@e2.3 value     1.264942, step   0.0100, error   0.0000 rwa =F
+#   Var   148=n:Elwyn_pa@e2.4 value     1.264942, step   0.0100, error   0.0000 rwa =F
+#   Var   149=n:Elwyn_pa@e2.5 value     1.264942, step   0.0100, error   0.0000 rwa =F
+#   Var   150=n:Elwyn_pa@e2.6 value     1.264942, step   0.0100, error   0.0000 rwa =F
+#   Var   151=n:Elwyn_pa@e2.7 value     1.264942, step   0.0100, error   0.0000 rwa =F
+#   Var   152=n:Lin_pa@e1.0a  value     1.665473, step   0.0100, error   0.0000 rwa =F
+#   Var   153=n:Lin_pa@e1.2a  value     1.711684, step   0.0100, error   0.0000 rwa =F
+#   Var   154=n:Lin_pa@e1.4a  value     1.582103, step   0.0100, error   0.0000 rwa =F
+#   Var   155=n:Lin_pa@e1.5a  value     1.493652, step   0.0100, error   0.0000 rwa =F
+#   Var   156=n:Lin_pa@e1.6a  value     1.278364, step   0.0100, error   0.0000 rwa =F
+#   Var   157=n:Lin_pa@e1.65a value     1.154508, step   0.0100, error   0.0000 rwa =F
+#   Var   158=n:Lin_pa@e1.7a  value     1.129510, step   0.0100, error   0.0000 rwa =F
+#   Var   159=n:Lin_pa@e1.75a value     1.101941, step   0.0100, error   0.0000 rwa =F
+#   Var   160=n:Lin_pa@e1.8a  value     1.095506, step   0.0100, error   0.0000 rwa =F
+#   Var   161=n:Lin_pa@e1.85a value     1.044223, step   0.0100, error   0.0000 rwa =F
+#   Var   162=n:Lin_pa@e1.9a  value     1.175047, step   0.0100, error   0.0000 rwa =F
+#   Var   163=n:Lin_pa@e1.95a value     1.295270, step   0.0100, error   0.0000 rwa =F
+#   Var   164=n:Lin_pa@e2.0a  value     1.209848, step   0.0100, error   0.0000 rwa =F
+#   Var   165=n:Lin_pa@e2.1a  value     1.365337, step   0.0100, error   0.0000 rwa =F
+#   Var   166=n:Lin_pa@e2.2a  value     1.535344, step   0.0100, error   0.0000 rwa =F
+#   Var   167=n:Lin_pa@e2.4a  value     1.795461, step   0.0100, error   0.0000 rwa =F
+#   Var   168=n:Lin_pa@e2.6a  value     1.885903, step   0.0100, error   0.0000 rwa =F
+
+# ChiSq/N =     21.908 from      2.664     1.267     2.164     1.595     0.709     4.646
+#                                4.052    11.418     7.589    13.756    80.903    32.092
+#                                8.671     4.530     3.302     5.635    13.249    25.695
+#                               91.055    16.364     7.968    15.339    12.826     7.728
+#                                6.477     6.205     7.428    10.396    14.598     2.646
+#                                4.778     1.869     2.523     5.288     2.479     5.148
+#                                2.195     4.675     3.279     4.250     5.667    10.778
+#                               15.379    31.787    21.277   159.748    77.874     7.397
+#                               33.842    32.799     4.844    44.625    15.489    54.147
+#                               15.666    14.493    71.241   100.463    78.128    22.916
+#                               12.499     8.439     9.150     6.537     3.572    10.464
+#                                2.115     3.961     7.858     5.609     6.225     4.146
+#                                4.595     2.469     0.122    25.738    15.868    34.019
+#                               74.255   122.626    83.179   126.460    88.860   339.395
+#                              210.445   187.652   132.460    14.852    81.294   163.971
+#                              130.475    67.768    46.690     5.466     2.162     8.900
+#                               33.426    26.322    50.695   135.105    98.095     5.579
+#                                0.086     1.370     1.169     1.168     0.568     1.733
+#                                2.154     0.835     5.317     6.034     5.403     6.400
+#                                1.160     5.709     3.879     3.114     2.928     0.364
+#                                0.182     0.844    13.507     3.576     0.447     1.065
+#                                1.098     0.996     3.384     0.259
+
+# ChiSq/N =     83.838 part      2.469     0.122    25.738    15.868    34.019    74.255
+#                              122.626    83.179   126.460    88.860   339.395   210.445
+#                              187.652   132.460    14.852    81.294   163.971   130.475
+#                               67.768    46.690     5.466     2.162     8.900    33.426
+#                               26.322    50.695   135.105    98.095
+
+#  Graph for single-energy points
+#
+@subtitle "Search file: test1b-amur_eHe4+He3-a+.sfresco; "
+@subtitle size 0.7
+@legend ON
+@legend char size 0.7
+@type xydy
+   22.28000  1.3155     0.32762                
+   35.19000  1.2902     0.32130                
+   48.12000  1.2561     0.31371                
+   64.50000  1.2143     0.30232                
+   79.61000  1.1675     0.28967                
+   86.40000  1.1460     0.28461                
+  105.44000  1.0879     0.27070                
+  123.16000  1.0373     0.25805                
+  137.62000  1.0069     0.25046                
+  154.14000 0.98160     0.24540                
+@subtitle size 0.7
+@legend ON
+@             s0 legend         " 74: Elwyn_pa@e0.136 + 26.5% @  2.5"
+@ s0 linestyle 0
+@ s0 errorbar length 0.10
+@ s0 symbol  2
+@ s0 color  1
+@ s0 symbol fill 1
+@ s0 symbol size 0.3
+@ s0 symbol fill color 1
+@ s0 symbol color 1
+@ s0 errorbar color  1
+&
+@type xy
+#     CM Dataset  74
+@ s1 color  1
+@ s1 linewidth  1
+   22.28000 0.77251    
+   35.19000 0.75956    
+   48.12000 0.74293    
+   64.50000 0.71950    
+   79.61000 0.69829    
+   86.40000 0.68947    
+  105.44000 0.66817    
+  123.16000 0.65341    
+  137.62000 0.64483    
+  154.14000 0.63841    
+ &
+@type xydy
+   24.70000  1.3408     0.89305                
+   37.39000  1.2649     0.87281                
+   48.64000  1.4167     0.85131                
+   61.65000  1.6824     0.82221                
+   81.74000  1.9860     0.77288                
+   95.49000  1.9733     0.73873                
+  109.46000  1.5685     0.70710                
+  129.25000  1.4800     0.67042                
+  138.31000  1.4420     0.65650                
+  158.85000  1.3914     0.63500                
+@subtitle size 0.7
+@legend ON
+@             s2 legend         " 75: Elwyn_pa@e0.186 + 26.5% @  0.1"
+@ s2 linestyle 0
+@ s2 errorbar length 0.10
+@ s2 symbol  3
+@ s2 color  2
+@ s2 symbol fill 1
+@ s2 symbol size 0.3
+@ s2 symbol fill color 2
+@ s2 symbol color 2
+@ s2 errorbar color  2
+&
+@type xy
+#     CM Dataset  75
+@ s3 color  2
+@ s3 linewidth  1
+   24.70000  1.7666    
+   37.39000  1.7357    
+   48.64000  1.7022    
+   61.65000  1.6601    
+   81.74000  1.5976    
+   95.49000  1.5613    
+  109.46000  1.5315    
+  129.25000  1.5014    
+  138.31000  1.4918    
+  158.85000  1.4777    
+ &
+@type xydy
+   20.74000  3.7316     0.16950                
+   34.08000  3.5924     0.16571                
+   46.01000  3.6683     0.16065                
+   64.39000  4.2502     0.15179                
+   80.02000  3.7822     0.14420                
+   88.07000  4.0099     0.13914                
+  102.75000  3.7822     0.54266                
+  123.04000  3.8328     0.12346                
+  136.80000  3.1750     0.65524                
+  152.82000  3.5165     0.11511                
+@subtitle size 0.7
+@legend ON
+@             s4 legend         " 76: Elwyn_pa@e0.252 + 26.5% @ 25.7"
+@ s4 linestyle 0
+@ s4 errorbar length 0.10
+@ s4 symbol  4
+@ s4 color  3
+@ s4 symbol fill 1
+@ s4 symbol size 0.3
+@ s4 symbol fill color 3
+@ s4 symbol color 3
+@ s4 errorbar color  3
+&
+@type xy
+#     CM Dataset  76
+@ s5 color  3
+@ s5 linewidth  1
+   20.74000  3.3387    
+   34.08000  3.2835    
+   46.01000  3.2191    
+   64.39000  3.1085    
+   80.02000  3.0197    
+   88.07000  2.9797    
+  102.75000  2.9193    
+  123.04000  2.8620    
+  136.80000  2.8371    
+  152.82000  2.8187    
+ &
+@type xydy
+   21.48000  4.1996     0.20492                
+   34.78000  5.3001     0.19986                
+   46.60000  4.8321     0.19227                
+   63.35000  4.9586     0.18215                
+   77.43000  5.5151     0.17203                
+   90.27000  5.5910     0.16318                
+  101.87000  6.0844     0.78047                
+  125.58000  5.3381     0.14167                
+  136.09000  5.1483     0.52242                
+  153.91000  4.5664     0.13155                
+@subtitle size 0.7
+@legend ON
+@             s6 legend         " 77: Elwyn_pa@e0.324 + 26.5% @ 15.9"
+@ s6 linestyle 0
+@ s6 errorbar length 0.10
+@ s6 symbol  5
+@ s6 color  4
+@ s6 symbol fill 1
+@ s6 symbol size 0.3
+@ s6 symbol fill color 4
+@ s6 symbol color 4
+@ s6 errorbar color  4
+&
+@type xy
+#     CM Dataset  77
+@ s7 color  4
+@ s7 linewidth  1
+   21.48000  5.0342    
+   34.78000  4.9498    
+   46.60000  4.8521    
+   63.35000  4.6990    
+   77.43000  4.5777    
+   90.27000  4.4854    
+  101.87000  4.4205    
+  125.58000  4.3369    
+  136.09000  4.3153    
+  153.91000  4.2923    
+ &
+@type xydy
+   18.47000  5.9199     0.19607                
+   26.93000  5.8693     0.19227                
+   34.31000  7.1343     0.18848                
+   43.02000  6.6536     0.18342                
+   54.98000  7.9185     0.92214                
+   64.01000  7.1343      1.1068                
+   75.00000  8.3992     0.15938                
+   89.38000  8.5510     0.14800                
+   99.33000  7.7288     0.14041                
+  111.01000  7.9818     0.70078                
+  124.88000  7.4885     0.49459                
+  133.77000  7.2228     0.63753                
+  142.87000  7.1469     0.11739                
+  152.11000  7.1216     0.11460                
+@subtitle size 0.7
+@legend ON
+@             s8 legend         " 78: Elwyn_pa@e0.49 + 26.5% @ 34.0"
+@ s8 linestyle 0
+@ s8 errorbar length 0.10
+@ s8 symbol  6
+@ s8 color  5
+@ s8 symbol fill 1
+@ s8 symbol size 0.3
+@ s8 symbol fill color 5
+@ s8 symbol color 5
+@ s8 errorbar color  5
+&
+@type xy
+#     CM Dataset  78
+@ s9 color  5
+@ s9 linewidth  1
+   18.47000  8.2518    
+   26.93000  8.1865    
+   34.31000  8.1094    
+   43.02000  7.9972    
+   54.98000  7.8176    
+   64.01000  7.6765    
+   75.00000  7.5164    
+   89.38000  7.3501    
+   99.33000  7.2701    
+  111.01000  7.2095    
+  124.88000  7.1717    
+  133.77000  7.1593    
+  142.87000  7.1519    
+  152.11000  7.1474    
+ &
+@type xydy
+   19.58000  6.6915     0.16697                
+   26.65000  6.5524     0.16444                
+   35.28000  7.2987     0.16065                
+   42.49000  7.5517     0.15559                
+   54.35000  8.0197      1.0967                
+   63.41000  8.4751     0.83486                
+   74.26000  8.9684     0.13408                
+   90.32000  9.6136     0.12232                
+  100.18000  9.2594     0.86143                
+  110.33000  8.9178     0.81336                
+  122.60000  8.8546     0.61350                
+  133.59000  9.4618     0.87913                
+  144.26000  7.8426     0.42629                
+  153.75000  8.2727     0.55151                
+@subtitle size 0.7
+@legend ON
+@             s10 legend         " 79: Elwyn_pa@e0.589 + 26.5% @ 74.3"
+@ s10 linestyle 0
+@ s10 errorbar length 0.10
+@ s10 symbol  7
+@ s10 color  6
+@ s10 symbol fill 1
+@ s10 symbol size 0.3
+@ s10 symbol fill color 6
+@ s10 symbol color 6
+@ s10 errorbar color  6
+&
+@type xy
+#     CM Dataset  79
+@ s11 color  6
+@ s11 linewidth  1
+   19.58000  9.6172    
+   26.65000  9.5663    
+   35.28000  9.4755    
+   42.49000  9.3755    
+   54.35000  9.1741    
+   63.41000  9.0068    
+   74.26000  8.8176    
+   90.32000  8.6058    
+  100.18000  8.5269    
+  110.33000  8.4816    
+  122.60000  8.4612    
+  133.59000  8.4604    
+  144.26000  8.4653    
+  153.75000  8.4701    
+ &
+@type xydy
+   21.38000  6.6915     0.17836                
+   29.79000  6.5145     0.17456                
+   36.98000  7.5770     0.16950                
+   44.15000  7.3367     0.16444                
+   55.97000  8.2727     0.68433                
+   68.10000  8.7787      1.0790                
+   74.37000  9.4871     0.14041                
+   90.40000  10.094     0.12776                
+   98.65000  9.9551     0.89811                
+  109.03000  10.727      1.0157                
+  124.53000  8.7787     0.62615                
+  133.92000  9.6389     0.75391                
+  144.94000  9.0823     0.57681                
+  152.45000  8.7408     0.42123                
+@subtitle size 0.7
+@legend ON
+@             s12 legend         " 80: Elwyn_pa@e0.688 + 26.5% @122.6"
+@ s12 linestyle 0
+@ s12 errorbar length 0.10
+@ s12 symbol  8
+@ s12 color  7
+@ s12 symbol fill 1
+@ s12 symbol size 0.3
+@ s12 symbol fill color 7
+@ s12 symbol color 7
+@ s12 errorbar color  7
+&
+@type xy
+#     CM Dataset  80
+@ s13 color  7
+@ s13 linewidth  1
+   21.38000  10.621    
+   29.79000  10.579    
+   36.98000  10.514    
+   44.15000  10.420    
+   55.97000  10.210    
+   68.10000  9.9675    
+   74.37000  9.8501    
+   90.40000  9.6257    
+   98.65000  9.5621    
+  109.03000  9.5270    
+  124.53000  9.5357    
+  133.92000  9.5568    
+  144.94000  9.5826    
+  152.45000  9.5973    
+ &
+@type xydy
+   21.80000  6.8686     0.21757                
+   27.39000  7.8679     0.21378                
+   35.89000  7.8679     0.20745                
+   44.50000  8.5890     0.19986                
+   56.25000  9.0317     0.98665                
+   66.84000  10.082     0.92847                
+   76.17000  10.373     0.16697                
+   92.34000  11.094     0.15179                
+  100.62000  10.701     0.94365                
+  111.19000  11.802     0.88166                
+  126.96000  10.170     0.48700                
+  134.45000  10.448     0.78553                
+  145.81000  10.448     0.59832                
+  157.14000  9.5250     0.43767                
+@subtitle size 0.7
+@legend ON
+@             s14 legend         " 81: Elwyn_pa@e0.787 + 26.5% @ 83.2"
+@ s14 linestyle 0
+@ s14 errorbar length 0.10
+@ s14 symbol  2
+@ s14 color  8
+@ s14 symbol fill 1
+@ s14 symbol size 0.3
+@ s14 symbol fill color 8
+@ s14 symbol color 8
+@ s14 errorbar color  8
+&
+@type xy
+#     CM Dataset  81
+@ s15 color  8
+@ s15 linewidth  1
+   21.80000  11.311    
+   27.39000  11.325    
+   35.89000  11.311    
+   44.50000  11.239    
+   56.25000  11.054    
+   66.84000  10.841    
+   76.17000  10.662    
+   92.34000  10.456    
+  100.62000  10.416    
+  111.19000  10.418    
+  126.96000  10.485    
+  134.45000  10.524    
+  145.81000  10.579    
+  157.14000  10.619    
+ &
+@type xydy
+   20.35000  6.4765     0.18848                
+   30.18000  7.3240     0.18342                
+   37.18000  8.1462      1.0461                
+   44.44000  8.8672     0.17203                
+   57.48000  9.1582     0.94238                
+   66.57000  10.195      1.1094                
+   74.31000  10.524     0.14420                
+   91.96000  11.005     0.12776                
+   98.70000  11.422      1.0841                
+  109.13000  12.017     0.84372                
+  124.92000  10.486     0.61350                
+  134.03000  9.7401     0.88925                
+  145.47000  9.7148     0.56416                
+  155.21000  9.6895     0.41111                
+@subtitle size 0.7
+@legend ON
+@             s16 legend         " 82: Elwyn_pa@e0.887 + 26.5% @126.5"
+@ s16 linestyle 0
+@ s16 errorbar length 0.10
+@ s16 symbol  3
+@ s16 color  9
+@ s16 symbol fill 1
+@ s16 symbol size 0.3
+@ s16 symbol fill color 9
+@ s16 symbol color 9
+@ s16 errorbar color  9
+&
+@type xy
+#     CM Dataset  82
+@ s17 color  9
+@ s17 linewidth  1
+   20.35000  11.693    
+   30.18000  11.822    
+   37.18000  11.873    
+   44.44000  11.869    
+   57.48000  11.721    
+   66.57000  11.552    
+   74.31000  11.407    
+   91.96000  11.195    
+   98.70000  11.177    
+  109.13000  11.208    
+  124.92000  11.335    
+  134.03000  11.418    
+  145.47000  11.509    
+  155.21000  11.567    
+ &
+@type xydy
+   25.03000  6.5524     0.67421                
+   29.46000  6.8939     0.16950                
+   33.91000  6.7801     0.65145                
+   39.52000  8.3233     0.63500                
+   50.93000  9.4365     0.15306                
+   55.58000  9.5756     0.58187                
+   60.28000  10.246     0.56543                
+   64.96000  11.410     0.73114                
+   71.06000  10.954     0.52622                
+   80.96000  11.384     0.65398                
+   91.23000  11.207     0.15053                
+   96.49000  11.397     0.73493                
+  103.22000  11.321     0.28082                
+  108.77000  10.512     0.54140                
+  114.33000  11.207     0.39213                
+  125.91000  10.626     0.48953                
+  127.39000  10.663     0.24413                
+  133.38000  10.233     0.70837                
+  141.02000  9.7907     0.22769                
+  147.24000  9.4491     0.33394                
+  151.94000  9.5377     0.33015                
+  156.70000  9.4112     0.32509                
+@subtitle size 0.7
+@legend ON
+@             s18 legend         " 83: Elwyn_pa@e0.984 + 26.5% @ 88.9"
+@ s18 linestyle 0
+@ s18 errorbar length 0.10
+@ s18 symbol  4
+@ s18 color 10
+@ s18 symbol fill 1
+@ s18 symbol size 0.3
+@ s18 symbol fill color 10
+@ s18 symbol color 10
+@ s18 errorbar color  10
+&
+@type xy
+#     CM Dataset  83
+@ s19 color 10
+@ s19 linewidth  1
+   25.03000  11.953    
+   29.46000  12.075    
+   33.91000  12.180    
+   39.52000  12.277    
+   50.93000  12.325    
+   55.58000  12.290    
+   60.28000  12.231    
+   64.96000  12.158    
+   71.06000  12.054    
+   80.96000  11.908    
+   91.23000  11.833    
+   96.49000  11.831    
+  103.22000  11.863    
+  108.77000  11.912    
+  114.33000  11.977    
+  125.91000  12.133    
+  127.39000  12.154    
+  133.38000  12.234    
+  141.02000  12.326    
+  147.24000  12.389    
+  151.94000  12.429    
+  156.70000  12.463    
+ &
+@type xydy
+   24.28000  4.6423     0.18595                
+   29.78000  5.3001     0.18215                
+   39.79000  6.9698     0.17456                
+   48.86000  8.8925     0.67548                
+   60.47000  9.9551     0.41743                
+   71.21000  10.613     0.77667                
+   81.10000  11.524     0.72355                
+   91.39000  10.866     0.67168                
+  103.42000  10.752     0.46170                
+  114.55000  11.131     0.57302                
+  126.25000  9.7274     0.26690                
+  138.35000  9.2847     0.37822                
+  146.13000  9.1329     0.48700                
+@subtitle size 0.7
+@legend ON
+@             s20 legend         " 84: Elwyn_pa@e1.082 + 26.5% @339.4"
+@ s20 linestyle 0
+@ s20 errorbar length 0.10
+@ s20 symbol  5
+@ s20 color 11
+@ s20 symbol fill 1
+@ s20 symbol size 0.3
+@ s20 symbol fill color 11
+@ s20 symbol color 11
+@ s20 errorbar color  11
+&
+@type xy
+#     CM Dataset  84
+@ s21 color 11
+@ s21 linewidth  1
+   24.28000  11.929    
+   29.78000  12.182    
+   39.79000  12.553    
+   48.86000  12.721    
+   60.47000  12.709    
+   71.21000  12.574    
+   81.10000  12.458    
+   91.39000  12.421    
+  103.42000  12.510    
+  114.55000  12.687    
+  126.25000  12.907    
+  138.35000  13.117    
+  146.13000  13.226    
+ &
+@type xydy
+   24.81000  6.0717     0.16065                
+   29.18000  6.6662     0.15812                
+   40.25000  8.5637     0.44399                
+   49.19000  10.474     0.63247                
+   59.59000  12.156     0.39466                
+   70.35000  12.181     0.36557                
+   81.47000  12.396     0.67168                
+   90.43000  12.776     0.31371                
+  101.09000  11.865     0.57934                
+  113.60000  11.675     0.39846                
+  125.25000  11.359     0.49459                
+  138.96000  10.588     0.46044                
+  145.21000  10.663     0.44905                
+@subtitle size 0.7
+@legend ON
+@             s22 legend         " 85: Elwyn_pa@e1.182 + 26.5% @210.4"
+@ s22 linestyle 0
+@ s22 errorbar length 0.10
+@ s22 symbol  6
+@ s22 color 12
+@ s22 symbol fill 1
+@ s22 symbol size 0.3
+@ s22 symbol fill color 12
+@ s22 symbol color 12
+@ s22 errorbar color  12
+&
+@type xy
+#     CM Dataset  85
+@ s23 color 12
+@ s23 linewidth  1
+   24.81000  11.813    
+   29.18000  12.111    
+   40.25000  12.746    
+   49.19000  13.042    
+   59.59000  13.136    
+   70.35000  13.064    
+   81.47000  12.978    
+   90.43000  12.982    
+  101.09000  13.104    
+  113.60000  13.366    
+  125.25000  13.651    
+  138.96000  13.950    
+  145.21000  14.058    
+ &
+@type xydy
+   24.75000  5.8820     0.16444                
+   30.19000  7.1722     0.16065                
+   40.11000  9.0823     0.44652                
+   50.23000  11.511     0.41996                
+   60.63000  13.282     0.39213                
+   70.13000  13.155     0.54772                
+   79.93000  14.420     0.50851                
+   90.16000  13.282     0.46929                
+  100.79000  13.282     0.43261                
+  113.33000  12.510     0.52622                
+  125.03000  11.853     0.36683                
+  138.75000  11.815     0.34153                
+  145.06000  11.612     0.33141                
+@subtitle size 0.7
+@legend ON
+@             s24 legend         " 86: Elwyn_pa@e1.282 + 26.5% @187.7"
+@ s24 linestyle 0
+@ s24 errorbar length 0.10
+@ s24 symbol  7
+@ s24 color 13
+@ s24 symbol fill 1
+@ s24 symbol size 0.3
+@ s24 symbol fill color 13
+@ s24 symbol color 13
+@ s24 errorbar color  13
+&
+@type xy
+#     CM Dataset  86
+@ s25 color 13
+@ s25 linewidth  1
+   24.75000  11.556    
+   30.19000  12.056    
+   40.11000  12.840    
+   50.23000  13.333    
+   60.63000  13.515    
+   70.13000  13.510    
+   79.93000  13.478    
+   90.16000  13.529    
+  100.79000  13.711    
+  113.33000  14.053    
+  125.03000  14.407    
+  138.75000  14.765    
+  145.06000  14.894    
+ &
+@type xydy
+   25.95000  6.8560     0.15812                
+   30.29000  8.5637     0.15559                
+   40.16000  10.335     0.43514                
+   50.24000  12.194     0.40984                
+   60.51000  13.661     0.38075                
+   79.85000  13.914     0.65524                
+   81.12000  13.408     0.48700                
+  100.68000  13.408     0.41617                
+  111.79000  13.661     0.51104                
+  124.94000  12.902     0.35039                
+  138.75000  12.548     0.32509                
+  145.10000  12.207     0.31624                
+@subtitle size 0.7
+@legend ON
+@             s26 legend         " 87: Elwyn_pa@e1.382 + 26.5% @132.5"
+@ s26 linestyle 0
+@ s26 errorbar length 0.10
+@ s26 symbol  8
+@ s26 color 14
+@ s26 symbol fill 1
+@ s26 symbol size 0.3
+@ s26 symbol fill color 14
+@ s26 symbol color 14
+@ s26 errorbar color  14
+&
+@type xy
+#     CM Dataset  87
+@ s27 color 14
+@ s27 linewidth  1
+   25.95000  11.386    
+   30.29000  11.891    
+   40.16000  12.896    
+   50.24000  13.564    
+   60.51000  13.866    
+   79.85000  13.965    
+   81.12000  13.973    
+  100.68000  14.334    
+  111.79000  14.707    
+  124.94000  15.179    
+  138.75000  15.593    
+  145.10000  15.739    
+ &
+@type xydy
+   19.32000  8.9305     0.18089                
+   29.97000  10.600     0.17330                
+   39.80000  13.282     0.16571                
+   48.62000  14.800     0.40352                
+   60.06000  15.685     0.37063                
+   68.29000  15.432     0.69572                
+   78.02000  15.053     0.48194                
+   80.49000  15.179     0.47309                
+   90.75000  14.041     0.43388                
+   98.55000  16.191     0.40605                
+  111.00000  15.432     0.36936                
+  122.62000  14.926     0.45411                
+  136.36000  14.420     0.41870                
+  150.74000  14.294     0.39466                
+@subtitle size 0.7
+@legend ON
+@             s28 legend         " 88: Elwyn_pa@e1.481 + 26.5% @ 14.9"
+@ s28 linestyle 0
+@ s28 errorbar length 0.10
+@ s28 symbol  2
+@ s28 color 15
+@ s28 symbol fill 1
+@ s28 symbol size 0.3
+@ s28 symbol fill color 15
+@ s28 symbol color 15
+@ s28 errorbar color  15
+&
+@type xy
+#     CM Dataset  88
+@ s29 color 15
+@ s29 linewidth  1
+   19.32000  10.304    
+   29.97000  11.742    
+   39.80000  12.939    
+   48.62000  13.694    
+   60.06000  14.197    
+   68.29000  14.337    
+   78.02000  14.435    
+   80.49000  14.465    
+   90.75000  14.661    
+   98.55000  14.896    
+  111.00000  15.380    
+  122.62000  15.853    
+  136.36000  16.321    
+  150.74000  16.648    
+ &
+@type xydy
+   19.47000  14.547     0.18848                
+   30.17000  15.559     0.46929                
+   39.96000  16.318     0.44399                
+   49.96000  17.077     0.20998                
+   60.15000  18.089     0.57934                
+   68.41000  17.330     0.72355                
+   78.06000  18.468     0.33394                
+   80.52000  19.101     0.48953                
+   98.63000  18.595     0.41996                
+  109.64000  18.342     0.51357                
+  122.70000  17.836     0.35039                
+  136.45000  17.709     0.53760                
+  150.92000  17.330     0.40225                
+@subtitle size 0.7
+@legend ON
+@             s30 legend         " 89: Elwyn_pa@e1.581 + 26.5% @ 81.3"
+@ s30 linestyle 0
+@ s30 errorbar length 0.10
+@ s30 symbol  3
+@ s30 color  1
+@ s30 symbol fill 1
+@ s30 symbol size 0.3
+@ s30 symbol fill color 1
+@ s30 symbol color 1
+@ s30 errorbar color  1
+&
+@type xy
+#     CM Dataset  89
+@ s31 color  1
+@ s31 linewidth  1
+   19.47000  10.627    
+   30.17000  12.085    
+   39.96000  13.286    
+   49.96000  14.133    
+   60.15000  14.591    
+   68.41000  14.771    
+   78.06000  14.924    
+   80.52000  14.969    
+   98.63000  15.495    
+  109.64000  15.946    
+  122.70000  16.476    
+  136.45000  16.915    
+  150.92000  17.201    
+ &
+@type xydy
+   19.63000  22.642     0.73240                
+   29.30000  21.378     0.23528                
+   40.12000  20.872     0.44526                
+   50.09000  19.986     0.41490                
+   60.35000  19.607     0.76782                
+   66.20000  18.342     0.54898                
+   75.75000  19.986     0.50598                
+   80.68000  19.733     0.48447                
+   89.61000  18.595     0.44905                
+   98.73000  20.113     0.55278                
+  109.73000  19.986     0.50598                
+  122.77000  20.113     0.34406                
+  136.58000  19.860     0.42123                
+  149.40000  20.113     0.39846                
+@subtitle size 0.7
+@legend ON
+@             s32 legend         " 90: Elwyn_pa@e1.681 + 26.5% @164.0"
+@ s32 linestyle 0
+@ s32 errorbar length 0.10
+@ s32 symbol  4
+@ s32 color  2
+@ s32 symbol fill 1
+@ s32 symbol size 0.3
+@ s32 symbol fill color 2
+@ s32 symbol color 2
+@ s32 errorbar color  2
+&
+@type xy
+#     CM Dataset  90
+@ s33 color  2
+@ s33 linewidth  1
+   19.63000  12.621    
+   29.30000  13.491    
+   40.12000  14.346    
+   50.09000  14.859    
+   60.35000  15.126    
+   66.20000  15.209    
+   75.75000  15.326    
+   80.68000  15.402    
+   89.61000  15.592    
+   98.73000  15.848    
+  109.73000  16.189    
+  122.77000  16.545    
+  136.58000  16.792    
+  149.40000  16.902    
+ &
+@type xydy
+   19.80000  28.714     0.75391                
+   30.49000  26.311     0.71975                
+   40.30000  23.275     0.45538                
+   50.24000  21.125     0.42629                
+   60.48000  19.986     0.39340                
+   75.94000  19.227     0.34406                
+   80.86000  19.227     0.49459                
+   97.56000  19.986     0.42629                
+  108.50000  20.113     0.51863                
+  121.51000  19.986     0.46929                
+  135.23000  20.239     0.43008                
+  151.39000  20.113     0.49839                
+@subtitle size 0.7
+@legend ON
+@             s34 legend         " 91: Elwyn_pa@e1.78 + 26.5% @130.5"
+@ s34 linestyle 0
+@ s34 errorbar length 0.10
+@ s34 symbol  5
+@ s34 color  3
+@ s34 symbol fill 1
+@ s34 symbol size 0.3
+@ s34 symbol fill color 3
+@ s34 symbol color 3
+@ s34 errorbar color  3
+&
+@type xy
+#     CM Dataset  91
+@ s35 color  3
+@ s35 linewidth  1
+   19.80000  16.692    
+   30.49000  16.522    
+   40.30000  16.295    
+   50.24000  16.035    
+   60.48000  15.800    
+   75.94000  15.619    
+   80.86000  15.609    
+   97.56000  15.668    
+  108.50000  15.701    
+  121.51000  15.665    
+  135.23000  15.531    
+  151.39000  15.317    
+ &
+@type xydy
+   18.51000  31.497      1.1245                
+   29.31000  26.437     0.80703                
+   37.89000  23.148     0.51357                
+   47.83000  20.239     0.24034                
+   57.87000  18.974     0.66789                
+   64.45000  18.215     0.42123                
+   72.37000  17.962     0.58946                
+   77.81000  17.836     0.56163                
+   87.61000  18.215     0.51230                
+   93.41000  18.215     0.32383                
+  107.09000  17.709     0.28714                
+  118.31000  17.836     0.39466                
+  131.90000  17.583     0.47941                
+  148.05000  17.836     0.33015                
+@subtitle size 0.7
+@legend ON
+@             s36 legend         " 92: Elwyn_pa@e1.88 + 26.5% @ 67.8"
+@ s36 linestyle 0
+@ s36 errorbar length 0.10
+@ s36 symbol  6
+@ s36 color  4
+@ s36 symbol fill 1
+@ s36 symbol size 0.3
+@ s36 symbol fill color 4
+@ s36 symbol color 4
+@ s36 errorbar color  4
+&
+@type xy
+#     CM Dataset  92
+@ s37 color  4
+@ s37 linewidth  1
+   18.51000  21.104    
+   29.31000  19.760    
+   37.89000  18.628    
+   47.83000  17.474    
+   57.87000  16.606    
+   64.45000  16.206    
+   72.37000  15.864    
+   77.81000  15.691    
+   87.61000  15.439    
+   93.41000  15.294    
+  107.09000  14.891    
+  118.31000  14.482    
+  131.90000  13.937    
+  148.05000  13.341    
+ &
+@type xydy
+   18.59000  30.865      1.4041                
+   29.35000  26.311      1.0739                
+   39.07000  22.642      1.0157                
+   50.20000  19.607     0.70457                
+   59.05000  18.595     0.87660                
+   64.21000  18.089     0.62741                
+   73.58000  16.950     0.11144                
+   74.90000  17.962     0.57049                
+   79.03000  17.456     0.54898                
+   88.96000  16.571     0.83486                
+   94.80000  17.077     0.31624                
+  105.50000  16.318     0.28714                
+  120.08000  15.812     0.38328                
+  132.09000  15.685     0.47056                
+  133.88000  15.432     0.35039                
+  146.53000  16.065     0.21883                
+@subtitle size 0.7
+@legend ON
+@             s38 legend         " 93: Elwyn_pa@e1.989 + 26.5% @ 46.7"
+@ s38 linestyle 0
+@ s38 errorbar length 0.10
+@ s38 symbol  7
+@ s38 color  5
+@ s38 symbol fill 1
+@ s38 symbol size 0.3
+@ s38 symbol fill color 5
+@ s38 symbol color 5
+@ s38 errorbar color  5
+&
+@type xy
+#     CM Dataset  93
+@ s39 color  5
+@ s39 linewidth  1
+   18.59000  23.864    
+   29.35000  21.815    
+   39.07000  19.903    
+   50.20000  18.082    
+   59.05000  17.040    
+   64.21000  16.586    
+   73.58000  15.972    
+   74.90000  15.901    
+   79.03000  15.691    
+   88.96000  15.222    
+   94.80000  14.937    
+  105.50000  14.358    
+  120.08000  13.472    
+  132.09000  12.740    
+  133.88000  12.637    
+  146.53000  11.980    
+ &
+@type xydy
+   18.22000  28.461     0.86522                
+   27.72000  24.666     0.55657                
+   38.62000  21.631     0.52242                
+   48.51000  18.468     0.48953                
+   59.85000  16.697     0.66789                
+   63.75000  16.318     0.43135                
+   71.73000  15.559     0.40099                
+   77.15000  15.432     0.57049                
+   88.45000  14.167     0.85384                
+   92.73000  15.432     0.49206                
+  104.90000  14.420     0.44020                
+  117.75000  14.294     0.39593                
+  131.51000  13.282     0.35798                
+  145.96000  13.661     0.44273                
+@subtitle size 0.7
+@legend ON
+@             s40 legend         " 94: Elwyn_pa@e2.078 + 26.5% @  5.5"
+@ s40 linestyle 0
+@ s40 errorbar length 0.10
+@ s40 symbol  8
+@ s40 color  6
+@ s40 symbol fill 1
+@ s40 symbol size 0.3
+@ s40 symbol fill color 6
+@ s40 symbol color 6
+@ s40 errorbar color  6
+&
+@type xy
+#     CM Dataset  94
+@ s41 color  6
+@ s41 linewidth  1
+   18.22000  24.910    
+   27.72000  22.936    
+   38.62000  20.557    
+   48.51000  18.728    
+   59.85000  17.229    
+   63.75000  16.850    
+   71.73000  16.230    
+   77.15000  15.888    
+   88.45000  15.239    
+   92.73000  14.988    
+  104.90000  14.209    
+  117.75000  13.301    
+  131.51000  12.342    
+  145.96000  11.487    
+ &
+@type xydy
+   23.76000  25.931     0.82348                
+   29.65000  24.413     0.80324                
+   39.32000  21.125     0.75644                
+   49.21000  18.468     0.93985                
+   59.31000  15.938     0.43261                
+   63.11000  16.697     0.62741                
+   72.39000  16.065     0.57555                
+   79.22000  15.812     0.54013                
+   89.18000  14.420     0.65271                
+   93.55000  14.800     0.46929                
+  105.80000  13.535     0.41996                
+  117.11000  13.155     0.38201                
+  132.63000  12.611     0.34153                
+  139.88000  12.308     0.54393                
+@subtitle size 0.7
+@legend ON
+@             s42 legend         " 95: Elwyn_pa@e2.177 + 26.5% @  2.2"
+@ s42 linestyle 0
+@ s42 errorbar length 0.10
+@ s42 symbol  2
+@ s42 color  7
+@ s42 symbol fill 1
+@ s42 symbol size 0.3
+@ s42 symbol fill color 7
+@ s42 symbol color 7
+@ s42 errorbar color  7
+&
+@type xy
+#     CM Dataset  95
+@ s43 color  7
+@ s43 linewidth  1
+   23.76000  24.228    
+   29.65000  22.892    
+   39.32000  20.734    
+   49.21000  18.885    
+   59.31000  17.514    
+   63.11000  17.122    
+   72.39000  16.363    
+   79.22000  15.909    
+   89.18000  15.282    
+   93.55000  14.996    
+  105.80000  14.121    
+  117.11000  13.248    
+  132.63000  12.088    
+  139.88000  11.612    
+ &
+@type xydy
+   23.36000  24.413     0.59705                
+   38.95000  19.733     0.27196                
+   48.72000  17.583     0.50977                
+   57.47000  16.318     0.71216                
+   62.65000  15.179     0.45285                
+   71.84000  15.432     0.83107                
+   78.63000  15.179     0.58187                
+   87.14000  13.408     0.53634                
+   92.94000  13.661     0.50724                
+  101.99000  13.155     0.46550                
+  116.45000  12.055     0.40984                
+  137.35000  11.473     0.47182                
+@subtitle size 0.7
+@legend ON
+@             s44 legend         " 96: Elwyn_pa@e2.277 + 26.5% @  8.9"
+@ s44 linestyle 0
+@ s44 errorbar length 0.10
+@ s44 symbol  3
+@ s44 color  8
+@ s44 symbol fill 1
+@ s44 symbol size 0.3
+@ s44 symbol fill color 8
+@ s44 symbol color 8
+@ s44 errorbar color  8
+&
+@type xy
+#     CM Dataset  96
+@ s45 color  8
+@ s45 linewidth  1
+   23.36000  24.533    
+   38.95000  21.002    
+   48.72000  19.153    
+   57.47000  17.916    
+   62.65000  17.356    
+   71.84000  16.586    
+   78.63000  16.118    
+   87.14000  15.559    
+   92.94000  15.161    
+  101.99000  14.489    
+  116.45000  13.319    
+  137.35000  11.719    
+ &
+@type xydy
+   24.41000  21.504     0.83233                
+   30.28000  20.366     0.80703                
+   39.82000  18.215     0.76150                
+   49.58000  16.697     0.70837                
+   59.65000  15.306     0.21631                
+   63.53000  15.559     0.62615                
+   71.43000  15.053     0.38707                
+   78.23000  14.420     0.54266                
+   88.12000  13.535     0.49206                
+   93.98000  13.282     0.30865                
+  104.69000  12.396     0.55784                
+  117.75000  10.815     0.24919                
+  129.87000  10.107     0.34153                
+  138.95000  9.7654     0.32256                
+@subtitle size 0.7
+@legend ON
+@             s46 legend         " 97: Elwyn_pa@e2.377 + 26.5% @ 33.4"
+@ s46 linestyle 0
+@ s46 errorbar length 0.10
+@ s46 symbol  4
+@ s46 color  9
+@ s46 symbol fill 1
+@ s46 symbol size 0.3
+@ s46 symbol fill color 9
+@ s46 symbol color 9
+@ s46 errorbar color  9
+&
+@type xy
+#     CM Dataset  97
+@ s47 color  9
+@ s47 linewidth  1
+   24.41000  24.456    
+   30.28000  23.095    
+   39.82000  20.959    
+   49.58000  19.162    
+   59.65000  17.832    
+   63.53000  17.443    
+   71.43000  16.794    
+   78.23000  16.322    
+   88.12000  15.654    
+   93.98000  15.232    
+  104.69000  14.384    
+  117.75000  13.271    
+  129.87000  12.270    
+  138.95000  11.605    
+ &
+@type xydy
+   24.42000  26.943     0.83613                
+   30.27000  20.113     0.81083                
+   38.64000  17.836     0.77161                
+   49.53000  17.203     0.70963                
+   59.58000  16.571     0.43388                
+   64.78000  14.420     0.61856                
+   71.34000  15.432     0.38707                
+   80.93000  14.041     0.52622                
+   89.49000  13.029     0.64512                
+   92.40000  13.408     0.46929                
+  104.62000  11.928     0.41743                
+  117.70000  10.373     0.37189                
+  131.64000  9.4618     0.33521                
+  140.79000  9.3732     0.31624                
+@subtitle size 0.7
+@legend ON
+@             s48 legend         " 98: Elwyn_pa@e2.476 + 26.5% @ 26.3"
+@ s48 linestyle 0
+@ s48 errorbar length 0.10
+@ s48 symbol  5
+@ s48 color 10
+@ s48 symbol fill 1
+@ s48 symbol size 0.3
+@ s48 symbol fill color 10
+@ s48 symbol color 10
+@ s48 errorbar color  10
+&
+@type xy
+#     CM Dataset  98
+@ s49 color 10
+@ s49 linewidth  1
+   24.42000  24.603    
+   30.27000  23.229    
+   38.64000  21.325    
+   49.53000  19.291    
+   59.58000  17.982    
+   64.78000  17.483    
+   71.34000  16.965    
+   80.93000  16.310    
+   89.49000  15.716    
+   92.40000  15.500    
+  104.62000  14.504    
+  117.70000  13.339    
+  131.64000  12.150    
+  140.79000  11.475    
+ &
+@type xydy
+   25.47000  21.631     0.55404                
+   28.98000  20.239     0.54645                
+   39.68000  18.342     0.76529                
+   48.22000  16.950     0.24034                
+   59.42000  15.685     0.43388                
+   71.16000  14.673     0.58061                
+   79.31000  13.788     0.71216                
+   93.59000  13.535     0.30738                
+  104.38000  11.372     0.55278                
+  119.15000  9.7401     0.36304                
+  131.43000  8.9937     0.33141                
+  138.74000  8.8040     0.31750                
+@subtitle size 0.7
+@legend ON
+@             s50 legend         " 99: Elwyn_pa@e2.575 + 26.5% @ 50.7"
+@ s50 linestyle 0
+@ s50 errorbar length 0.10
+@ s50 symbol  6
+@ s50 color 11
+@ s50 symbol fill 1
+@ s50 symbol size 0.3
+@ s50 symbol fill color 11
+@ s50 symbol color 11
+@ s50 errorbar color  11
+&
+@type xy
+#     CM Dataset  99
+@ s51 color 11
+@ s51 linewidth  1
+   25.47000  24.514    
+   28.98000  23.670    
+   39.68000  21.206    
+   48.22000  19.600    
+   59.42000  18.119    
+   71.16000  17.127    
+   79.31000  16.576    
+   93.59000  15.551    
+  104.38000  14.632    
+  119.15000  13.261    
+  131.43000  12.174    
+  138.74000  11.602    
+ &
+@type xydy
+   24.21000  19.480     0.52369                
+   30.11000  18.974     0.50724                
+   39.57000  16.444     0.47815                
+   49.27000  15.432     0.44526                
+   59.27000  14.673     0.40605                
+   70.96000  13.661     0.54393                
+   79.12000  12.574     0.66536                
+   93.36000  12.295     0.28588                
+  104.09000  11.068     0.25805                
+  117.25000  8.9052     0.22895                
+  131.23000  8.0956     0.30865                
+  136.72000  7.9185     0.29853                
+@subtitle size 0.7
+@legend ON
+@             s52 legend         "100: Elwyn_pa@e2.674 + 26.5% @135.1"
+@ s52 linestyle 0
+@ s52 errorbar length 0.10
+@ s52 symbol  7
+@ s52 color 12
+@ s52 symbol fill 1
+@ s52 symbol size 0.3
+@ s52 symbol fill color 12
+@ s52 symbol color 12
+@ s52 errorbar color  12
+&
+@type xy
+#     CM Dataset 100
+@ s53 color 12
+@ s53 linewidth  1
+   24.21000  24.982    
+   30.11000  23.528    
+   39.57000  21.316    
+   49.27000  19.510    
+   59.27000  18.232    
+   70.96000  17.270    
+   79.12000  16.729    
+   93.36000  15.697    
+  104.09000  14.753    
+  117.25000  13.480    
+  131.23000  12.181    
+  136.72000  11.726    
+ &
+@type xydy
+   24.46000  20.113     0.56416                
+   30.35000  18.974     0.82095                
+   41.02000  16.444      1.0183                
+   49.48000  15.812     0.47688                
+   59.47000  14.420     0.86902                
+   71.12000  14.420     0.58061                
+   79.23000  13.914     0.53381                
+   92.08000  12.649     0.46550                
+  104.32000  11.081     0.41237                
+  117.46000  9.3353     0.24287                
+  129.73000  8.2601     0.33141                
+  138.95000  7.6782     0.20745                
+@subtitle size 0.7
+@legend ON
+@             s54 legend         "101: Elwyn_pa@e2.775 + 26.5% @ 98.1"
+@ s54 linestyle 0
+@ s54 errorbar length 0.10
+@ s54 symbol  8
+@ s54 color 13
+@ s54 symbol fill 1
+@ s54 symbol size 0.3
+@ s54 symbol fill color 13
+@ s54 symbol color 13
+@ s54 errorbar color  13
+&
+@type xy
+#     CM Dataset 101
+@ s55 color 13
+@ s55 linewidth  1
+   24.46000  25.099    
+   30.35000  23.596    
+   41.02000  21.079    
+   49.48000  19.534    
+   59.47000  18.287    
+   71.12000  17.368    
+   79.23000  16.846    
+   92.08000  15.917    
+  104.32000  14.811    
+  117.46000  13.485    
+  129.73000  12.288    
+  138.95000  11.500    
+ &

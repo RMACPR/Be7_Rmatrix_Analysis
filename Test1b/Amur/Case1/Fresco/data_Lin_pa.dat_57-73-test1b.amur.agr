@@ -1,0 +1,1045 @@
+#   Var     1=w2,BG:0.5-      value   0.0000E+00, step  1.0E-02, error  0.0     rwa =T
+#   Var     2=w2,BG:0.5-      value     3.434890, step   0.0340, error   0.0000 rwa =T
+#   Var     3=w1,BG:0.5-      value   0.0000E+00, step  1.0E-02, error  0.0     rwa =T
+#   Var     4=BG:0.5-         value    18.413903, step   0.0000, error   0.0000 rwa =F
+#   Var     5=w2,BG:0.5+      value     2.532850, step   0.0250, error   0.0000 rwa =T
+#   Var     6=w2,BG:0.5+      value    -4.468850, step   0.0450, error   0.0000 rwa =T
+#   Var     7=w1,BG:0.5+      value    -3.189820, step   0.0320, error   0.0000 rwa =T
+#   Var     8=BG:0.5+         value    18.413903, step   0.0000, error   0.0000 rwa =F
+#   Var     9=w2,BS:1.5-      value     1.257720, step   0.0130, error   0.0000 rwa =T
+#   Var    10=w2,BS:1.5-      value   0.0000E+00, step  1.0E-02, error  0.0     rwa =T
+#   Var    11=w2,BS:1.5-      value  -0.0000E+00, step  1.0E-02, error  0.0     rwa =T
+#   Var    12=w1,BS:1.5-      value    -0.690160, step   0.0069, error   0.0000 rwa =T
+#   Var    13=BS:1.5-         value    -1.586097, step   0.0000, error   0.0000 rwa =F
+#   Var    14=w2,BG:1.5-      value   0.0000E+00, step  1.0E-02, error  0.0     rwa =T
+#   Var    15=w2,BG:1.5-      value   0.0000E+00, step  1.0E-02, error  0.0     rwa =T
+#   Var    16=w2,BG:1.5-      value  -0.0000E+00, step  1.0E-02, error  0.0     rwa =T
+#   Var    17=w1,BG:1.5-      value     1.486620, step   0.0150, error   0.0000 rwa =T
+#   Var    18=BG:1.5-         value    18.413903, step   0.0000, error   0.0000 rwa =F
+#   Var    19=w2,BG:1.5+      value     1.907210, step   0.0190, error   0.0000 rwa =T
+#   Var    20=w2,BG:1.5+      value     2.492310, step   0.0250, error   0.0000 rwa =T
+#   Var    21=w2,BG:1.5+      value  -0.0000E+00, step  1.0E-02, error  0.0     rwa =T
+#   Var    22=w1,BG:1.5+      value    -1.426940, step   0.0140, error   0.0000 rwa =T
+#   Var    23=BG:1.5+         value    18.413903, step   0.0000, error   0.0000 rwa =F
+#   Var    24=w2,2.5-:E5.8721 value     1.033130, step   0.0100, error   0.0000 rwa =T
+#   Var    25=w2,2.5-:E5.8721 value  -0.0000E+00, step  1.0E-02, error  0.0     rwa =T
+#   Var    26=w2,2.5-:E5.8721 value  -0.0000E+00, step  1.0E-02, error  0.0     rwa =T
+#   Var    27=w1,2.5-:E5.8721 value    -0.040530, step   0.0004, error   0.0000 rwa =T
+#   Var    28=J2.5-:E5.8721   value     5.872167, step   0.1000, error   0.0000 rwa =F
+#   Var    29=w2,2.5-:E7.8206 value   0.0000E+00, step  1.0E-02, error  0.0     rwa =T
+#   Var    30=w2,2.5-:E7.8206 value  -0.0000E+00, step  1.0E-02, error  0.0     rwa =T
+#   Var    31=w2,2.5-:E7.8206 value  -0.0000E+00, step  1.0E-02, error  0.0     rwa =T
+#   Var    32=w1,2.5-:E7.8206 value    -1.445430, step   0.0140, error   0.0000 rwa =T
+#   Var    33=J2.5-:E7.8206   value     7.820616, step   0.1000, error   0.0000 rwa =F
+#   Var    34=w1,BG:2.5+      value     1.501170, step   0.0150, error   0.0000 rwa =T
+#   Var    35=BG:2.5+         value    18.413903, step   0.0000, error   0.0000 rwa =F
+#   Var    36=w2,3.5-:E3.4642 value  -0.0000E+00, step  1.0E-02, error  0.0     rwa =T
+#   Var    37=w2,3.5-:E3.4642 value  -0.0000E+00, step  1.0E-02, error  0.0     rwa =T
+#   Var    38=w2,3.5-:E3.4642 value   0.0000E+00, step  1.0E-02, error  0.0     rwa =T
+#   Var    39=w1,3.5-:E3.4642 value    -0.786340, step   0.0079, error   0.0000 rwa =T
+#   Var    40=J3.5-:E3.4642   value     3.464214, step   0.1000, error   0.0000 rwa =F
+#   Var    41=w2,BG:3.5-      value  -0.0000E+00, step  1.0E-02, error  0.0     rwa =T
+#   Var    42=w2,BG:3.5-      value  -0.0000E+00, step  1.0E-02, error  0.0     rwa =T
+#   Var    43=w2,BG:3.5-      value   0.0000E+00, step  1.0E-02, error  0.0     rwa =T
+#   Var    44=w1,BG:3.5-      value    -1.880720, step   0.0190, error   0.0000 rwa =T
+#   Var    45=BG:3.5-         value    18.413903, step   0.0000, error   0.0000 rwa =F
+#   Var    46=n:Barnard_aa@a2 value     1.001914, step   0.0100, error   0.0000 rwa =F
+#   Var    47=n:Barnard_aa@a2 value     1.001914, step   0.0100, error   0.0000 rwa =F
+#   Var    48=n:Barnard_aa@a3 value     1.001914, step   0.0100, error   0.0000 rwa =F
+#   Var    49=n:Barnard_aa@a3 value     1.001914, step   0.0100, error   0.0000 rwa =F
+#   Var    50=n:Barnard_aa@a4 value     1.001914, step   0.0100, error   0.0000 rwa =F
+#   Var    51=n:Barnard_aa@a4 value     1.001914, step   0.0100, error   0.0000 rwa =F
+#   Var    52=n:Barnard_aa@a4 value     1.001914, step   0.0100, error   0.0000 rwa =F
+#   Var    53=n:Mohr_aa@e1.59 value     1.033880, step   0.0100, error   0.0000 rwa =F
+#   Var    54=n:Mohr_aa@e2.26 value     0.898174, step   0.0100, error   0.0000 rwa =F
+#   Var    55=n:Mohr_aa@e2.65 value     0.936514, step   0.0100, error   0.0000 rwa =F
+#   Var    56=n:Mohr_aa@e3.05 value     1.018901, step   0.0100, error   0.0000 rwa =F
+#   Var    57=n:Mohr_aa@e3.32 value     0.871148, step   0.0100, error   0.0000 rwa =F
+#   Var    58=n:Mohr_aa@e3.45 value     1.005035, step   0.0100, error   0.0000 rwa =F
+#   Var    59=n:Mohr_aa@e3.58 value     0.947086, step   0.0100, error   0.0000 rwa =F
+#   Var    60=n:Mohr_aa@e3.72 value     0.986115, step   0.0100, error   0.0000 rwa =F
+#   Var    61=n:Mohr_aa@e3.85 value     0.965381, step   0.0100, error   0.0000 rwa =F
+#   Var    62=n:Mohr_aa@e3.98 value     1.017232, step   0.0100, error   0.0000 rwa =F
+#   Var    63=n:Tombrello_aa@ value     1.081268, step   0.0100, error   0.0000 rwa =F
+#   Var    64=n:Tombrello_aa@ value     1.081268, step   0.0100, error   0.0000 rwa =F
+#   Var    65=n:Tombrello_aa@ value     1.081268, step   0.0100, error   0.0000 rwa =F
+#   Var    66=n:Tombrello_aa@ value     1.081268, step   0.0100, error   0.0000 rwa =F
+#   Var    67=n:Tombrello_aa@ value     1.081268, step   0.0100, error   0.0000 rwa =F
+#   Var    68=n:Tombrello_aa@ value     1.081268, step   0.0100, error   0.0000 rwa =F
+#   Var    69=n:Tombrello_aa@ value     1.081268, step   0.0100, error   0.0000 rwa =F
+#   Var    70=n:Tombrello_aa@ value     1.081268, step   0.0100, error   0.0000 rwa =F
+#   Var    71=n:Spiger-A10940 value     0.972299, step   0.0100, error   0.0000 rwa =F
+#   Var    72=n:Spiger-A10940 value     0.976677, step   0.0100, error   0.0000 rwa =F
+#   Var    73=n:Spiger-A10940 value     0.901128, step   0.0100, error   0.0000 rwa =F
+#   Var    74=n:Spiger-A10940 value     0.909289, step   0.0100, error   0.0000 rwa =F
+#   Var    75=n:Spiger-A10940 value     0.917103, step   0.0100, error   0.0000 rwa =F
+#   Var    76=n:Spiger-A10940 value     0.949938, step   0.0100, error   0.0000 rwa =F
+#   Var    77=n:Spiger-A10940 value     0.940893, step   0.0100, error   0.0000 rwa =F
+#   Var    78=n:Spiger-A10940 value     0.965065, step   0.0100, error   0.0000 rwa =F
+#   Var    79=n:Spiger-A10940 value     0.961298, step   0.0100, error   0.0000 rwa =F
+#   Var    80=n:Spiger-A10940 value     0.946154, step   0.0100, error   0.0000 rwa =F
+#   Var    81=n:Spiger-A10940 value     0.899240, step   0.0100, error   0.0000 rwa =F
+#   Var    82=n:Spiger-A10940 value     0.809802, step   0.0100, error   0.0000 rwa =F
+#   Var    83=n:Spiger-A10940 value     0.844794, step   0.0100, error   0.0000 rwa =F
+#   Var    84=n:Spiger-A10940 value     0.894254, step   0.0100, error   0.0000 rwa =F
+#   Var    85=n:Spiger-cm_ap0 value     1.225370, step   0.0100, error   0.0000 rwa =F
+#   Var    86=n:Spiger-cm_ap0 value     1.322856, step   0.0100, error   0.0000 rwa =F
+#   Var    87=n:Spiger-cm_ap0 value     1.407915, step   0.0100, error   0.0000 rwa =F
+#   Var    88=n:Spiger-cm_ap0 value     1.529075, step   0.0100, error   0.0000 rwa =F
+#   Var    89=n:Spiger-cm_ap0 value     1.588083, step   0.0100, error   0.0000 rwa =F
+#   Var    90=n:Spiger-cm_ap0 value     1.499475, step   0.0100, error   0.0000 rwa =F
+#   Var    91=n:Spiger-cm_ap0 value     1.471107, step   0.0100, error   0.0000 rwa =F
+#   Var    92=n:Spiger-cm_ap0 value     1.387097, step   0.0100, error   0.0000 rwa =F
+#   Var    93=n:Spiger-cm_ap0 value     1.371987, step   0.0100, error   0.0000 rwa =F
+#   Var    94=n:Spiger-cm_ap0 value     1.261925, step   0.0100, error   0.0000 rwa =F
+#   Var    95=n:Spiger-cm_ap0 value     1.163616, step   0.0100, error   0.0000 rwa =F
+#   Var    96=n:Spiger-cm_ap0 value     1.080462, step   0.0100, error   0.0000 rwa =F
+#   Var    97=n:Spiger-cm_ap0 value     0.973738, step   0.0100, error   0.0000 rwa =F
+#   Var    98=n:Spiger-cm_ap0 value     0.886250, step   0.0100, error   0.0000 rwa =F
+#   Var    99=n:Spiger-cm_ap0 value     0.885316, step   0.0100, error   0.0000 rwa =F
+#   Var   100=n:Spiger-cm_ap0 value     0.906462, step   0.0100, error   0.0000 rwa =F
+#   Var   101=n:Spiger-cm_ap0 value     1.021117, step   0.0100, error   0.0000 rwa =F
+#   Var   102=n:Spiger-cm_ap0 value     1.012853, step   0.0100, error   0.0000 rwa =F
+#   Var   103=n:Spiger-cm_ap0 value     1.043362, step   0.0100, error   0.0000 rwa =F
+#   Var   104=n:Spiger-cm_ap0 value     1.137281, step   0.0100, error   0.0000 rwa =F
+#   Var   105=n:Spiger-cm_ap0 value     1.182956, step   0.0100, error   0.0000 rwa =F
+#   Var   106=n:Spiger-cm_ap0 value     1.235117, step   0.0100, error   0.0000 rwa =F
+#   Var   107=n:Spiger-cm_ap0 value     1.326278, step   0.0100, error   0.0000 rwa =F
+#   Var   108=n:Spiger-cm_ap0 value     1.099638, step   0.0100, error   0.0000 rwa =F
+#   Var   109=n:Spiger-cm_ap0 value     1.219735, step   0.0100, error   0.0000 rwa =F
+#   Var   110=n:Spiger-cm_ap0 value     1.131823, step   0.0100, error   0.0000 rwa =F
+#   Var   111=n:Spiger-cm_ap0 value     0.868357, step   0.0100, error   0.0000 rwa =F
+#   Var   112=n:Spiger-cm_ap0 value     1.419124, step   0.0100, error   0.0000 rwa =F
+#   Var   113=n:McCray_pp@a81 value     1.187691, step   0.0100, error   0.0000 rwa =F
+#   Var   114=n:McCray_pp@a11 value     1.155655, step   0.0100, error   0.0000 rwa =F
+#   Var   115=n:McCray_pp@a15 value     1.244540, step   0.0100, error   0.0000 rwa =F
+#   Var   116=n:Fasoli_pp@a81 value     0.950462, step   0.0100, error   0.0000 rwa =F
+#   Var   117=n:Fasoli_pp@a10 value     0.990570, step   0.0100, error   0.0000 rwa =F
+#   Var   118=n:Fasoli_pp@a11 value     1.004621, step   0.0100, error   0.0000 rwa =F
+#   Var   119=n:Fasoli_pp@a14 value     1.072260, step   0.0100, error   0.0000 rwa =F
+#   Var   120=n:Fasoli_pp@a14 value     1.061042, step   0.0100, error   0.0000 rwa =F
+#   Var   121=n:Fasoli_pp@a16 value     1.057518, step   0.0100, error   0.0000 rwa =F
+#   Var   122=n:Harrison_pp0@ value     1.333476, step   0.0100, error   0.0000 rwa =F
+#   Var   123=n:Harrison_pp0@ value     1.333476, step   0.0100, error   0.0000 rwa =F
+#   Var   124=n:Elwyn_pa@e0.1 value     1.264942, step   0.0100, error   0.0000 rwa =F
+#   Var   125=n:Elwyn_pa@e0.1 value     1.264942, step   0.0100, error   0.0000 rwa =F
+#   Var   126=n:Elwyn_pa@e0.2 value     1.264942, step   0.0100, error   0.0000 rwa =F
+#   Var   127=n:Elwyn_pa@e0.3 value     1.264942, step   0.0100, error   0.0000 rwa =F
+#   Var   128=n:Elwyn_pa@e0.4 value     1.264942, step   0.0100, error   0.0000 rwa =F
+#   Var   129=n:Elwyn_pa@e0.5 value     1.264942, step   0.0100, error   0.0000 rwa =F
+#   Var   130=n:Elwyn_pa@e0.6 value     1.264942, step   0.0100, error   0.0000 rwa =F
+#   Var   131=n:Elwyn_pa@e0.7 value     1.264942, step   0.0100, error   0.0000 rwa =F
+#   Var   132=n:Elwyn_pa@e0.8 value     1.264942, step   0.0100, error   0.0000 rwa =F
+#   Var   133=n:Elwyn_pa@e0.9 value     1.264942, step   0.0100, error   0.0000 rwa =F
+#   Var   134=n:Elwyn_pa@e1.0 value     1.264942, step   0.0100, error   0.0000 rwa =F
+#   Var   135=n:Elwyn_pa@e1.1 value     1.264942, step   0.0100, error   0.0000 rwa =F
+#   Var   136=n:Elwyn_pa@e1.2 value     1.264942, step   0.0100, error   0.0000 rwa =F
+#   Var   137=n:Elwyn_pa@e1.3 value     1.264942, step   0.0100, error   0.0000 rwa =F
+#   Var   138=n:Elwyn_pa@e1.4 value     1.264942, step   0.0100, error   0.0000 rwa =F
+#   Var   139=n:Elwyn_pa@e1.5 value     1.264942, step   0.0100, error   0.0000 rwa =F
+#   Var   140=n:Elwyn_pa@e1.6 value     1.264942, step   0.0100, error   0.0000 rwa =F
+#   Var   141=n:Elwyn_pa@e1.7 value     1.264942, step   0.0100, error   0.0000 rwa =F
+#   Var   142=n:Elwyn_pa@e1.8 value     1.264942, step   0.0100, error   0.0000 rwa =F
+#   Var   143=n:Elwyn_pa@e1.9 value     1.264942, step   0.0100, error   0.0000 rwa =F
+#   Var   144=n:Elwyn_pa@e2.0 value     1.264942, step   0.0100, error   0.0000 rwa =F
+#   Var   145=n:Elwyn_pa@e2.1 value     1.264942, step   0.0100, error   0.0000 rwa =F
+#   Var   146=n:Elwyn_pa@e2.2 value     1.264942, step   0.0100, error   0.0000 rwa =F
+#   Var   147=n:Elwyn_pa@e2.3 value     1.264942, step   0.0100, error   0.0000 rwa =F
+#   Var   148=n:Elwyn_pa@e2.4 value     1.264942, step   0.0100, error   0.0000 rwa =F
+#   Var   149=n:Elwyn_pa@e2.5 value     1.264942, step   0.0100, error   0.0000 rwa =F
+#   Var   150=n:Elwyn_pa@e2.6 value     1.264942, step   0.0100, error   0.0000 rwa =F
+#   Var   151=n:Elwyn_pa@e2.7 value     1.264942, step   0.0100, error   0.0000 rwa =F
+#   Var   152=n:Lin_pa@e1.0a  value     1.665473, step   0.0100, error   0.0000 rwa =F
+#   Var   153=n:Lin_pa@e1.2a  value     1.711684, step   0.0100, error   0.0000 rwa =F
+#   Var   154=n:Lin_pa@e1.4a  value     1.582103, step   0.0100, error   0.0000 rwa =F
+#   Var   155=n:Lin_pa@e1.5a  value     1.493652, step   0.0100, error   0.0000 rwa =F
+#   Var   156=n:Lin_pa@e1.6a  value     1.278364, step   0.0100, error   0.0000 rwa =F
+#   Var   157=n:Lin_pa@e1.65a value     1.154508, step   0.0100, error   0.0000 rwa =F
+#   Var   158=n:Lin_pa@e1.7a  value     1.129510, step   0.0100, error   0.0000 rwa =F
+#   Var   159=n:Lin_pa@e1.75a value     1.101941, step   0.0100, error   0.0000 rwa =F
+#   Var   160=n:Lin_pa@e1.8a  value     1.095506, step   0.0100, error   0.0000 rwa =F
+#   Var   161=n:Lin_pa@e1.85a value     1.044223, step   0.0100, error   0.0000 rwa =F
+#   Var   162=n:Lin_pa@e1.9a  value     1.175047, step   0.0100, error   0.0000 rwa =F
+#   Var   163=n:Lin_pa@e1.95a value     1.295270, step   0.0100, error   0.0000 rwa =F
+#   Var   164=n:Lin_pa@e2.0a  value     1.209848, step   0.0100, error   0.0000 rwa =F
+#   Var   165=n:Lin_pa@e2.1a  value     1.365337, step   0.0100, error   0.0000 rwa =F
+#   Var   166=n:Lin_pa@e2.2a  value     1.535344, step   0.0100, error   0.0000 rwa =F
+#   Var   167=n:Lin_pa@e2.4a  value     1.795461, step   0.0100, error   0.0000 rwa =F
+#   Var   168=n:Lin_pa@e2.6a  value     1.885903, step   0.0100, error   0.0000 rwa =F
+
+# ChiSq/N =     21.908 from      2.664     1.267     2.164     1.595     0.709     4.646
+#                                4.052    11.418     7.589    13.756    80.903    32.092
+#                                8.671     4.530     3.302     5.635    13.249    25.695
+#                               91.055    16.364     7.968    15.339    12.826     7.728
+#                                6.477     6.205     7.428    10.396    14.598     2.646
+#                                4.778     1.869     2.523     5.288     2.479     5.148
+#                                2.195     4.675     3.279     4.250     5.667    10.778
+#                               15.379    31.787    21.277   159.748    77.874     7.397
+#                               33.842    32.799     4.844    44.625    15.489    54.147
+#                               15.666    14.493    71.241   100.463    78.128    22.916
+#                               12.499     8.439     9.150     6.537     3.572    10.464
+#                                2.115     3.961     7.858     5.609     6.225     4.146
+#                                4.595     2.469     0.122    25.738    15.868    34.019
+#                               74.255   122.626    83.179   126.460    88.860   339.395
+#                              210.445   187.652   132.460    14.852    81.294   163.971
+#                              130.475    67.768    46.690     5.466     2.162     8.900
+#                               33.426    26.322    50.695   135.105    98.095     5.579
+#                                0.086     1.370     1.169     1.168     0.568     1.733
+#                                2.154     0.835     5.317     6.034     5.403     6.400
+#                                1.160     5.709     3.879     3.114     2.928     0.364
+#                                0.182     0.844    13.507     3.576     0.447     1.065
+#                                1.098     0.996     3.384     0.259
+
+# ChiSq/N =     18.879 part     71.241   100.463    78.128    22.916    12.499     8.439
+#                                9.150     6.537     3.572    10.464     2.115     3.961
+#                                7.858     5.609     6.225     4.146     4.595
+
+#  Graph for single-energy points
+#
+@subtitle "Search file: test1b-amur_eHe4+He3-a+.sfresco; "
+@subtitle size 0.7
+@legend ON
+@legend char size 0.7
+@type xydy
+   19.96000  7.2948     0.21984                
+   29.60000  8.7937     0.26481                
+   41.17000  10.426     0.31477                
+   50.25000  11.292     0.33976                
+   60.48000  12.441     0.37473                
+   68.06000  14.689     0.44302                
+   79.81000  16.322     0.49298                
+   91.10000  15.605     0.47133                
+  101.74000  14.973     0.45134                
+  112.69000  14.356     0.43302                
+  125.43000  13.690     0.41304                
+  138.59000  12.058     0.36307                
+  152.34000  10.443     0.31477                
+@subtitle size 0.7
+@legend ON
+@             s0 legend         " 57: Lin_pa@e1.0 + 66.5% @ 71.2"
+@ s0 linestyle 0
+@ s0 errorbar length 0.10
+@ s0 symbol  2
+@ s0 color  1
+@ s0 symbol fill 1
+@ s0 symbol size 0.3
+@ s0 symbol fill color 1
+@ s0 symbol color 1
+@ s0 errorbar color  1
+&
+@type xy
+#     CM Dataset  57
+@ s1 color  1
+@ s1 linewidth  1
+   19.96000  11.807    
+   29.60000  12.104    
+   41.17000  12.352    
+   50.25000  12.400    
+   60.48000  12.312    
+   68.06000  12.193    
+   79.81000  12.015    
+   91.10000  11.932    
+  101.74000  11.959    
+  112.69000  12.072    
+  125.43000  12.253    
+  138.59000  12.434    
+  152.34000  12.575    
+ &
+@type xydy
+   19.88000  6.6585     0.20198                
+   29.42000  7.5656     0.22937                
+   39.89000  11.417     0.34747                
+   50.67000  13.026     0.39540                
+   59.86000  15.268     0.46387                
+   68.36000  16.843     0.51179                
+   78.10000  17.802     0.54089                
+   89.22000  17.459     0.53062                
+   99.80000  17.117     0.52035                
+  112.02000  15.730     0.47756                
+  123.59000  13.711     0.41594                
+  135.65000  12.033     0.36459                
+  150.73000  12.666     0.38513                
+@subtitle size 0.7
+@legend ON
+@             s2 legend         " 58: Lin_pa@e1.2 + 71.2% @100.5"
+@ s2 linestyle 0
+@ s2 errorbar length 0.10
+@ s2 symbol  3
+@ s2 color  2
+@ s2 symbol fill 1
+@ s2 symbol size 0.3
+@ s2 symbol fill color 2
+@ s2 symbol color 2
+@ s2 errorbar color  2
+&
+@type xy
+#     CM Dataset  58
+@ s3 color  2
+@ s3 linewidth  1
+   19.88000  11.420    
+   29.42000  12.108    
+   39.89000  12.752    
+   50.67000  13.124    
+   59.86000  13.206    
+   68.36000  13.163    
+   78.10000  13.085    
+   89.22000  13.075    
+   99.80000  13.192    
+  112.02000  13.452    
+  123.59000  13.746    
+  135.65000  14.030    
+  150.73000  14.290    
+ &
+@type xydy
+   18.93000  6.2177     0.18669                
+   29.17000  8.3851     0.25155                
+   39.55000  11.850     0.35439                
+   50.24000  13.448     0.40344                
+   60.26000  16.612     0.49678                
+   68.75000  17.087     0.51260                
+   78.45000  19.143     0.57114                
+   89.64000  18.669     0.55690                
+   98.07000  17.878     0.53792                
+  110.15000  15.821     0.48887                
+  121.71000  14.397     0.46356                
+  135.12000  13.400     0.40185                
+  149.02000  14.476     0.43350                
+@subtitle size 0.7
+@legend ON
+@             s4 legend         " 59: Lin_pa@e1.4 + 58.2% @ 78.1"
+@ s4 linestyle 0
+@ s4 errorbar length 0.10
+@ s4 symbol  4
+@ s4 color  3
+@ s4 symbol fill 1
+@ s4 symbol size 0.3
+@ s4 symbol fill color 3
+@ s4 symbol color 3
+@ s4 errorbar color  3
+&
+@type xy
+#     CM Dataset  59
+@ s5 color  3
+@ s5 linewidth  1
+   18.93000  10.506    
+   29.17000  11.728    
+   39.55000  12.849    
+   50.24000  13.604    
+   60.26000  13.923    
+   68.75000  14.006    
+   78.45000  14.045    
+   89.64000  14.173    
+   98.07000  14.371    
+  110.15000  14.775    
+  121.71000  15.204    
+  135.12000  15.643    
+  149.02000  15.966    
+ &
+@type xydy
+   19.69000  8.4242     0.25243                
+   29.05000  10.739     0.32114                
+   39.43000  13.084     0.39134                
+   49.24000  12.472     0.37341                
+   59.17000  16.281     0.48842                
+   67.59000  17.924     0.53473                
+   79.26000  17.476     0.52128                
+   89.38000  17.625     0.52577                
+   97.81000  15.982     0.47797                
+  108.81000  15.982     0.47797                
+  120.35000  13.398     0.40179                
+  133.63000  13.786     0.41225                
+  150.17000  15.086     0.45258                
+@subtitle size 0.7
+@legend ON
+@             s6 legend         " 60: Lin_pa@e1.5 + 49.4% @ 22.9"
+@ s6 linestyle 0
+@ s6 errorbar length 0.10
+@ s6 symbol  5
+@ s6 color  4
+@ s6 symbol fill 1
+@ s6 symbol size 0.3
+@ s6 symbol fill color 4
+@ s6 symbol color 4
+@ s6 errorbar color  4
+&
+@type xy
+#     CM Dataset  60
+@ s7 color  4
+@ s7 linewidth  1
+   19.69000  10.336    
+   29.05000  11.624    
+   39.43000  12.931    
+   49.24000  13.785    
+   59.17000  14.240    
+   67.59000  14.408    
+   79.26000  14.544    
+   89.38000  14.736    
+   97.81000  14.990    
+  108.81000  15.419    
+  120.35000  15.899    
+  133.63000  16.378    
+  150.17000  16.775    
+ &
+@type xydy
+   21.04000  11.965     0.35539                
+   30.17000  12.745     0.37840                
+   40.28000  13.806     0.40780                
+   50.65000  13.423     0.38734                
+   60.39000  14.190     0.42186                
+   66.70000  16.747     0.49728                
+   70.43000  15.340     0.45638                
+   77.01000  16.491     0.48833                
+   79.89000  17.002     0.50623                
+   86.77000  16.619     0.49345                
+   89.75000  16.747     0.49601                
+   96.95000  14.829     0.44104                
+  108.68000  15.213     0.44998                
+  119.91000  13.934     0.41291                
+  134.06000  15.085     0.44615                
+  148.96000  13.806     0.41163                
+@subtitle size 0.7
+@legend ON
+@             s8 legend         " 61: Lin_pa@e1.6 + 27.8% @ 12.5"
+@ s8 linestyle 0
+@ s8 errorbar length 0.10
+@ s8 symbol  6
+@ s8 color  5
+@ s8 symbol fill 1
+@ s8 symbol size 0.3
+@ s8 symbol fill color 5
+@ s8 symbol color 5
+@ s8 errorbar color  5
+&
+@type xy
+#     CM Dataset  61
+@ s9 color  5
+@ s9 linewidth  1
+   21.04000  11.036    
+   30.17000  12.250    
+   40.28000  13.446    
+   50.65000  14.275    
+   60.39000  14.685    
+   66.70000  14.827    
+   70.43000  14.890    
+   77.01000  14.996    
+   79.89000  15.049    
+   86.77000  15.205    
+   89.75000  15.288    
+   96.95000  15.528    
+  108.68000  15.995    
+  119.91000  16.446    
+  134.06000  16.906    
+  148.96000  17.207    
+ &
+@type xydy
+   20.18000  14.200     0.42601                
+   30.13000  14.200     0.42601                
+   40.23000  14.547     0.43525                
+   49.73000  13.854     0.41447                
+   59.45000  14.085     0.41447                
+   65.74000  15.817     0.47450                
+   69.44000  14.316     0.46180                
+   76.96000  15.932     0.47681                
+   79.83000  16.509     0.49413                
+   85.73000  14.778     0.44449                
+   88.69000  16.740     0.50221                
+   96.89000  15.586     0.46988                
+  107.44000  16.163     0.48374                
+  121.00000  14.547     0.43525                
+  135.13000  15.701     0.47104                
+  150.25000  14.547     0.43525                
+@subtitle size 0.7
+@legend ON
+@             s10 legend         " 62: Lin_pa@e1.65 + 15.5% @  8.4"
+@ s10 linestyle 0
+@ s10 errorbar length 0.10
+@ s10 symbol  7
+@ s10 color  6
+@ s10 symbol fill 1
+@ s10 symbol size 0.3
+@ s10 symbol fill color 6
+@ s10 symbol color 6
+@ s10 errorbar color  6
+&
+@type xy
+#     CM Dataset  62
+@ s11 color  6
+@ s11 linewidth  1
+   20.18000  11.821    
+   30.13000  12.930    
+   40.23000  13.926    
+   49.73000  14.564    
+   59.45000  14.921    
+   65.74000  15.048    
+   69.44000  15.105    
+   76.96000  15.219    
+   79.83000  15.270    
+   85.73000  15.397    
+   88.69000  15.473    
+   96.89000  15.724    
+  107.44000  16.100    
+  121.00000  16.565    
+  135.13000  16.922    
+  150.25000  17.129    
+ &
+@type xydy
+   20.17000  16.943     0.50941                
+   29.27000  16.943     0.51280                
+   38.52000  15.926     0.48004                
+   48.84000  14.232     0.42921                
+   59.38000  15.474     0.46762                
+   64.83000  15.135     0.43712                
+   68.49000  15.022     0.45180                
+   75.97000  15.474     0.46762                
+   79.81000  15.022     0.45293                
+   85.69000  14.797     0.44503                
+   89.63000  15.135     0.45745                
+   96.83000  16.039     0.48456                
+  108.57000  15.474     0.46536                
+  122.11000  14.684     0.44390                
+  134.03000  15.248     0.45971                
+  150.28000  14.797     0.44729                
+@subtitle size 0.7
+@legend ON
+@             s12 legend         " 63: Lin_pa@e1.7 + 13.0% @  9.1"
+@ s12 linestyle 0
+@ s12 errorbar length 0.10
+@ s12 symbol  8
+@ s12 color  7
+@ s12 symbol fill 1
+@ s12 symbol size 0.3
+@ s12 symbol fill color 7
+@ s12 symbol color 7
+@ s12 errorbar color  7
+&
+@type xy
+#     CM Dataset  63
+@ s13 color  7
+@ s13 linewidth  1
+   20.17000  13.302    
+   29.27000  13.973    
+   38.52000  14.574    
+   48.84000  15.019    
+   59.38000  15.236    
+   64.83000  15.293    
+   68.49000  15.325    
+   75.97000  15.399    
+   79.81000  15.450    
+   85.69000  15.550    
+   89.63000  15.632    
+   96.83000  15.809    
+  108.57000  16.124    
+  122.11000  16.437    
+  134.03000  16.611    
+  150.28000  16.701    
+ &
+@type xydy
+   21.01000  19.174     0.57852                
+   30.15000  16.639     0.50028                
+   40.24000  15.978     0.48045                
+   49.70000  15.207     0.45731                
+   60.28000  15.537     0.46832                
+   65.72000  15.427     0.46392                
+   69.35000  16.860     0.50910                
+   75.94000  16.088     0.48375                
+   79.77000  15.978     0.48375                
+   85.64000  15.758     0.47494                
+   90.67000  15.097     0.45510                
+   96.78000  15.207     0.45841                
+  108.53000  15.097     0.48155                
+  120.93000  13.995     0.42315                
+  132.81000  14.546     0.43747                
+  149.04000  14.876     0.44849                
+@subtitle size 0.7
+@legend ON
+@             s14 legend         " 64: Lin_pa@e1.75 + 10.2% @  6.5"
+@ s14 linestyle 0
+@ s14 errorbar length 0.10
+@ s14 symbol  2
+@ s14 color  8
+@ s14 symbol fill 1
+@ s14 symbol size 0.3
+@ s14 symbol fill color 8
+@ s14 symbol color 8
+@ s14 errorbar color  8
+&
+@type xy
+#     CM Dataset  64
+@ s15 color  8
+@ s15 linewidth  1
+   21.01000  15.340    
+   30.15000  15.525    
+   40.24000  15.643    
+   49.70000  15.650    
+   60.28000  15.591    
+   65.72000  15.561    
+   69.35000  15.549    
+   75.94000  15.551    
+   79.77000  15.569    
+   85.64000  15.617    
+   90.67000  15.674    
+   96.78000  15.756    
+  108.53000  15.911    
+  120.93000  16.011    
+  132.81000  16.021    
+  149.04000  15.933    
+ &
+@type xydy
+   18.45000  21.362     0.61239                
+   28.10000  18.076     0.51927                
+   37.88000  16.433     0.47216                
+   47.84000  15.666     0.44916                
+   58.08000  15.118     0.43492                
+   64.18000  15.775     0.45354                
+   67.75000  15.447     0.44149                
+   74.09000  15.118     0.43272                
+   78.71000  15.337     0.44149                
+   84.39000  14.680     0.42067                
+   88.23000  15.447     0.44368                
+   95.18000  15.447     0.44258                
+  106.42000  16.104     0.46230                
+  117.25000  15.994     0.46011                
+  131.00000  15.337     0.43930                
+  148.05000  14.680     0.41958                
+@subtitle size 0.7
+@legend ON
+@             s16 legend         " 65: Lin_pa@e1.8 +  9.6% @  3.6"
+@ s16 linestyle 0
+@ s16 errorbar length 0.10
+@ s16 symbol  3
+@ s16 color  9
+@ s16 symbol fill 1
+@ s16 symbol size 0.3
+@ s16 symbol fill color 9
+@ s16 symbol color 9
+@ s16 errorbar color  9
+&
+@type xy
+#     CM Dataset  65
+@ s17 color  9
+@ s17 linewidth  1
+   18.45000  17.669    
+   28.10000  17.299    
+   37.88000  16.849    
+   47.84000  16.395    
+   58.08000  16.010    
+   64.18000  15.842    
+   67.75000  15.767    
+   74.09000  15.674    
+   78.71000  15.632    
+   84.39000  15.605    
+   88.23000  15.596    
+   95.18000  15.586    
+  106.42000  15.551    
+  117.25000  15.459    
+  131.00000  15.257    
+  148.05000  14.946    
+ &
+@type xydy
+   18.47000  22.242     0.63906                
+   27.25000  21.824     0.62445                
+   37.83000  18.169     0.52107                
+   47.80000  16.394     0.46886                
+   57.13000  16.812     0.48139                
+   61.55000  13.366     0.38323                
+   66.80000  15.246     0.43753                
+   73.15000  13.366     0.38323                
+   78.65000  14.724     0.42187                
+   82.37000  16.394     0.47094                
+   87.20000  14.515     0.41560                
+   93.00000  16.290     0.46781                
+  104.23000  17.021     0.48870                
+  116.09000  15.037     0.42918                
+  129.79000  15.141     0.43231                
+  146.68000  14.410     0.41247                
+@subtitle size 0.7
+@legend ON
+@             s18 legend         " 66: Lin_pa@e1.85 +  4.4% @ 10.5"
+@ s18 linestyle 0
+@ s18 errorbar length 0.10
+@ s18 symbol  4
+@ s18 color 10
+@ s18 symbol fill 1
+@ s18 symbol size 0.3
+@ s18 symbol fill color 10
+@ s18 symbol color 10
+@ s18 errorbar color  10
+&
+@type xy
+#     CM Dataset  66
+@ s19 color 10
+@ s19 linewidth  1
+   18.47000  19.935    
+   27.25000  19.111    
+   37.83000  18.023    
+   47.80000  17.104    
+   57.13000  16.445    
+   61.55000  16.208    
+   66.80000  15.986    
+   73.15000  15.787    
+   78.65000  15.661    
+   82.37000  15.590    
+   87.20000  15.509    
+   93.00000  15.413    
+  104.23000  15.198    
+  116.09000  14.895    
+  129.79000  14.470    
+  146.68000  13.947    
+ &
+@type xydy
+   17.73000  23.501     0.67918                
+   27.31000  21.151     0.60867                
+   37.86000  18.566     0.53700                
+   46.99000  17.391     0.45709                
+   57.16000  15.746     0.45474                
+   62.36000  16.098     0.46414                
+   67.69000  15.511     0.44652                
+   72.18000  15.393     0.44417                
+   76.76000  16.098     0.46532                
+   82.38000  15.863     0.45709                
+   86.17000  15.746     0.45592                
+   92.15000  14.218     0.40774                
+  104.30000  14.688     0.42302                
+  117.30000  14.336     0.41244                
+  128.71000  14.688     0.42302                
+  144.31000  13.983     0.40422                
+@subtitle size 0.7
+@legend ON
+@             s20 legend         " 67: Lin_pa@e1.9 + 17.5% @  2.1"
+@ s20 linestyle 0
+@ s20 errorbar length 0.10
+@ s20 symbol  5
+@ s20 color 11
+@ s20 symbol fill 1
+@ s20 symbol size 0.3
+@ s20 symbol fill color 11
+@ s20 symbol color 11
+@ s20 errorbar color  11
+&
+@type xy
+#     CM Dataset  67
+@ s21 color 11
+@ s21 linewidth  1
+   17.73000  21.881    
+   27.31000  20.561    
+   37.86000  18.991    
+   46.99000  17.793    
+   57.16000  16.786    
+   62.36000  16.411    
+   67.69000  16.109    
+   72.18000  15.906    
+   76.76000  15.735    
+   82.38000  15.555    
+   86.17000  15.442    
+   92.15000  15.263    
+  104.30000  14.851    
+  117.30000  14.315    
+  128.71000  13.799    
+  144.31000  13.138    
+ &
+@type xydy
+   16.97000  25.258     0.72017                
+   27.34000  22.020     0.62691                
+   37.08000  18.781     0.52458                
+   47.83000  16.450     0.47018                
+   56.28000  16.968     0.48573                
+   61.50000  15.155     0.43003                
+   66.76000  16.320     0.46371                
+   71.27000  15.284     0.43521                
+   75.83000  15.543     0.44298                
+   81.43000  15.284     0.43521                
+   85.22000  15.673     0.44557                
+   91.10000  14.896     0.42226                
+  103.20000  14.896     0.42485                
+  113.89000  15.155     0.43262                
+  129.90000  14.118     0.40283                
+  143.20000  13.730     0.39117                
+@subtitle size 0.7
+@legend ON
+@             s22 legend         " 68: Lin_pa@e1.95 + 29.5% @  4.0"
+@ s22 linestyle 0
+@ s22 errorbar length 0.10
+@ s22 symbol  6
+@ s22 color 12
+@ s22 symbol fill 1
+@ s22 symbol size 0.3
+@ s22 symbol fill color 12
+@ s22 symbol color 12
+@ s22 errorbar color  12
+&
+@type xy
+#     CM Dataset  68
+@ s23 color 12
+@ s23 linewidth  1
+   16.97000  23.367    
+   27.34000  21.626    
+   37.08000  19.853    
+   47.83000  18.153    
+   56.28000  17.148    
+   61.50000  16.676    
+   66.76000  16.298    
+   71.27000  16.036    
+   75.83000  15.812    
+   81.43000  15.571    
+   85.22000  15.417    
+   91.10000  15.178    
+  103.20000  14.633    
+  113.89000  14.076    
+  129.90000  13.187    
+  143.20000  12.516    
+ &
+@type xydy
+   18.24000  24.560     0.71623                
+   28.41000  23.229     0.67751                
+   37.98000  19.962     0.58073                
+   47.73000  18.995     0.55290                
+   57.76000  17.301     0.50451                
+   62.10000  13.792     0.40046                
+   67.26000  15.728     0.45732                
+   72.56000  15.486     0.45127                
+   77.09000  14.881     0.43434                
+   82.63000  14.639     0.42708                
+   87.38000  14.034     0.40893                
+   93.08000  15.002     0.43676                
+  105.20000  15.123     0.43917                
+  118.05000  15.123     0.44038                
+  131.70000  14.397     0.41982                
+  146.14000  13.187     0.38352                
+@subtitle size 0.7
+@legend ON
+@             s24 legend         " 69: Lin_pa@e2.0 + 21.0% @  7.9"
+@ s24 linestyle 0
+@ s24 errorbar length 0.10
+@ s24 symbol  7
+@ s24 color 13
+@ s24 symbol fill 1
+@ s24 symbol size 0.3
+@ s24 symbol fill color 13
+@ s24 symbol color 13
+@ s24 errorbar color  13
+&
+@type xy
+#     CM Dataset  69
+@ s25 color 13
+@ s25 linewidth  1
+   18.24000  24.092    
+   28.41000  22.136    
+   37.98000  20.203    
+   47.73000  18.503    
+   57.76000  17.212    
+   62.10000  16.793    
+   67.26000  16.387    
+   72.56000  16.047    
+   77.09000  15.798    
+   82.63000  15.521    
+   87.38000  15.291    
+   93.08000  15.008    
+  105.20000  14.340    
+  118.05000  13.542    
+  131.70000  12.688    
+  146.14000  11.909    
+ &
+@type xydy
+   17.48000  25.395     0.72363                
+   27.63000  22.801     0.64853                
+   37.14000  20.753     0.58983                
+   46.87000  17.613     0.50108                
+   57.68000  16.384     0.46831                
+   62.83000  14.609     0.41506                
+   67.96000  18.022     0.51337                
+   71.52000  16.521     0.47241                
+   76.93000  15.838     0.45056                
+   80.59000  16.248     0.46148                
+   86.23000  15.428     0.43964                
+   92.01000  13.790     0.39458                
+  103.00000  15.292     0.43418                
+  114.61000  14.063     0.40141                
+  128.09000  13.367     0.38093                
+  144.81000  12.629     0.36045                
+@subtitle size 0.7
+@legend ON
+@             s26 legend         " 70: Lin_pa@e2.1 + 36.5% @  5.6"
+@ s26 linestyle 0
+@ s26 errorbar length 0.10
+@ s26 symbol  8
+@ s26 color 14
+@ s26 symbol fill 1
+@ s26 symbol size 0.3
+@ s26 symbol fill color 14
+@ s26 symbol color 14
+@ s26 errorbar color  14
+&
+@type xy
+#     CM Dataset  70
+@ s27 color 14
+@ s27 linewidth  1
+   17.48000  25.189    
+   27.63000  23.074    
+   37.14000  20.961    
+   46.87000  19.074    
+   57.68000  17.525    
+   62.83000  16.985    
+   67.96000  16.545    
+   71.52000  16.284    
+   76.93000  15.933    
+   80.59000  15.713    
+   86.23000  15.383    
+   92.01000  15.038    
+  103.00000  14.324    
+  114.61000  13.493    
+  128.09000  12.517    
+  144.81000  11.475    
+ &
+@type xydy
+   18.27000  27.483     0.77842                
+   28.41000  23.951     0.67709                
+   37.93000  19.959     0.56654                
+   47.65000  17.042     0.48056                
+   58.40000  19.192     0.54505                
+   61.87000  15.507     0.43757                
+   67.03000  16.582     0.46982                
+   72.32000  16.275     0.46214                
+   78.60000  17.810     0.50359                
+   80.48000  16.121     0.45600                
+   87.07000  14.755     0.41761                
+   92.87000  14.785     0.41915                
+  102.85000  14.647     0.41454                
+  115.60000  13.404     0.37923                
+  129.30000  11.300     0.32089                
+  144.89000  12.728     0.36081                
+@subtitle size 0.7
+@legend ON
+@             s28 legend         " 71: Lin_pa@e2.2 + 53.5% @  6.2"
+@ s28 linestyle 0
+@ s28 errorbar length 0.10
+@ s28 symbol  2
+@ s28 color 15
+@ s28 symbol fill 1
+@ s28 symbol size 0.3
+@ s28 symbol fill color 15
+@ s28 symbol color 15
+@ s28 errorbar color  15
+&
+@type xy
+#     CM Dataset  71
+@ s29 color 15
+@ s29 linewidth  1
+   18.27000  25.434    
+   28.41000  23.235    
+   37.93000  21.081    
+   47.65000  19.192    
+   58.40000  17.664    
+   61.87000  17.289    
+   67.03000  16.817    
+   72.32000  16.410    
+   78.60000  15.987    
+   80.48000  15.866    
+   87.07000  15.448    
+   92.87000  15.066    
+  102.85000  14.354    
+  115.60000  13.364    
+  129.30000  12.310    
+  144.89000  11.294    
+ &
+@type xydy
+   17.53000  25.675     0.73973                
+   27.58000  22.982     0.66073                
+   37.79000  21.366     0.61584                
+   46.64000  21.007     0.55480                
+   57.36000  18.134     0.53146                
+   59.05000  18.134     0.52607                
+   65.84000  19.930     0.57455                
+   70.24000  17.649     0.50812                
+   75.61000  16.375     0.47221                
+   79.24000  16.770     0.48298                
+   85.73000  15.800     0.45605                
+   90.58000  15.082     0.43450                
+  101.51000  14.777     0.42552                
+  114.21000  12.030     0.34652                
+  130.21000  11.096     0.31959                
+  143.51000  11.329     0.32677                
+@subtitle size 0.7
+@legend ON
+@             s30 legend         " 72: Lin_pa@e2.4 + 79.5% @  4.1"
+@ s30 linestyle 0
+@ s30 errorbar length 0.10
+@ s30 symbol  3
+@ s30 color  1
+@ s30 symbol fill 1
+@ s30 symbol size 0.3
+@ s30 symbol fill color 1
+@ s30 symbol color 1
+@ s30 errorbar color  1
+&
+@type xy
+#     CM Dataset  72
+@ s31 color  1
+@ s31 linewidth  1
+   17.53000  25.954    
+   27.58000  23.758    
+   37.79000  21.419    
+   46.64000  19.680    
+   57.36000  18.125    
+   59.05000  17.932    
+   65.84000  17.274    
+   70.24000  16.922    
+   75.61000  16.539    
+   79.24000  16.294    
+   85.73000  15.858    
+   90.58000  15.517    
+  101.51000  14.674    
+  114.21000  13.593    
+  130.21000  12.248    
+  143.51000  11.308    
+ &
+@type xydy
+   16.72000  27.346     0.77133                
+   25.93000  25.271     0.71099                
+   35.29000  22.442     0.62989                
+   45.65000  19.048     0.53371                
+   55.47000  17.784     0.49976                
+   57.94000  19.613     0.54880                
+   64.74000  18.501     0.52051                
+   68.21000  17.973     0.50542                
+   74.38000  17.992     0.50542                
+   77.99000  17.407     0.49033                
+   82.67000  14.107     0.39604                
+   87.37000  15.050     0.42433                
+   97.08000  15.276     0.42999                
+  110.62000  13.371     0.37529                
+  124.00000  12.485     0.35078                
+  139.45000  12.334     0.34701                
+@subtitle size 0.7
+@legend ON
+@             s32 legend         " 73: Lin_pa@e2.6 + 88.6% @  4.6"
+@ s32 linestyle 0
+@ s32 errorbar length 0.10
+@ s32 symbol  4
+@ s32 color  2
+@ s32 symbol fill 1
+@ s32 symbol size 0.3
+@ s32 symbol fill color 2
+@ s32 symbol color 2
+@ s32 errorbar color  2
+&
+@type xy
+#     CM Dataset  73
+@ s33 color  2
+@ s33 linewidth  1
+   16.72000  26.503    
+   25.93000  24.443    
+   35.29000  22.202    
+   45.65000  20.061    
+   55.47000  18.591    
+   57.94000  18.304    
+   64.74000  17.651    
+   68.21000  17.375    
+   74.38000  16.941    
+   77.99000  16.701    
+   82.67000  16.387    
+   87.37000  16.058    
+   97.08000  15.298    
+  110.62000  14.077    
+  124.00000  12.823    
+  139.45000  11.544    
+ &

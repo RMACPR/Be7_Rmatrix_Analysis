@@ -1,0 +1,681 @@
+#   Var     1=w2,BG:0.5-      value   0.0000E+00, step  1.0E-02, error  0.0     rwa =T
+#   Var     2=w2,BG:0.5-      value     3.434890, step   0.0340, error   0.0000 rwa =T
+#   Var     3=w1,BG:0.5-      value   0.0000E+00, step  1.0E-02, error  0.0     rwa =T
+#   Var     4=BG:0.5-         value    18.413903, step   0.0000, error   0.0000 rwa =F
+#   Var     5=w2,BG:0.5+      value     2.532850, step   0.0250, error   0.0000 rwa =T
+#   Var     6=w2,BG:0.5+      value    -4.468850, step   0.0450, error   0.0000 rwa =T
+#   Var     7=w1,BG:0.5+      value    -3.189820, step   0.0320, error   0.0000 rwa =T
+#   Var     8=BG:0.5+         value    18.413903, step   0.0000, error   0.0000 rwa =F
+#   Var     9=w2,BS:1.5-      value     1.257720, step   0.0130, error   0.0000 rwa =T
+#   Var    10=w2,BS:1.5-      value   0.0000E+00, step  1.0E-02, error  0.0     rwa =T
+#   Var    11=w2,BS:1.5-      value  -0.0000E+00, step  1.0E-02, error  0.0     rwa =T
+#   Var    12=w1,BS:1.5-      value    -0.690160, step   0.0069, error   0.0000 rwa =T
+#   Var    13=BS:1.5-         value    -1.586097, step   0.0000, error   0.0000 rwa =F
+#   Var    14=w2,BG:1.5-      value   0.0000E+00, step  1.0E-02, error  0.0     rwa =T
+#   Var    15=w2,BG:1.5-      value   0.0000E+00, step  1.0E-02, error  0.0     rwa =T
+#   Var    16=w2,BG:1.5-      value  -0.0000E+00, step  1.0E-02, error  0.0     rwa =T
+#   Var    17=w1,BG:1.5-      value     1.486620, step   0.0150, error   0.0000 rwa =T
+#   Var    18=BG:1.5-         value    18.413903, step   0.0000, error   0.0000 rwa =F
+#   Var    19=w2,BG:1.5+      value     1.907210, step   0.0190, error   0.0000 rwa =T
+#   Var    20=w2,BG:1.5+      value     2.492310, step   0.0250, error   0.0000 rwa =T
+#   Var    21=w2,BG:1.5+      value  -0.0000E+00, step  1.0E-02, error  0.0     rwa =T
+#   Var    22=w1,BG:1.5+      value    -1.426940, step   0.0140, error   0.0000 rwa =T
+#   Var    23=BG:1.5+         value    18.413903, step   0.0000, error   0.0000 rwa =F
+#   Var    24=w2,2.5-:E5.8721 value     1.033130, step   0.0100, error   0.0000 rwa =T
+#   Var    25=w2,2.5-:E5.8721 value  -0.0000E+00, step  1.0E-02, error  0.0     rwa =T
+#   Var    26=w2,2.5-:E5.8721 value  -0.0000E+00, step  1.0E-02, error  0.0     rwa =T
+#   Var    27=w1,2.5-:E5.8721 value    -0.040530, step   0.0004, error   0.0000 rwa =T
+#   Var    28=J2.5-:E5.8721   value     5.872167, step   0.1000, error   0.0000 rwa =F
+#   Var    29=w2,2.5-:E7.8206 value   0.0000E+00, step  1.0E-02, error  0.0     rwa =T
+#   Var    30=w2,2.5-:E7.8206 value  -0.0000E+00, step  1.0E-02, error  0.0     rwa =T
+#   Var    31=w2,2.5-:E7.8206 value  -0.0000E+00, step  1.0E-02, error  0.0     rwa =T
+#   Var    32=w1,2.5-:E7.8206 value    -1.445430, step   0.0140, error   0.0000 rwa =T
+#   Var    33=J2.5-:E7.8206   value     7.820616, step   0.1000, error   0.0000 rwa =F
+#   Var    34=w1,BG:2.5+      value     1.501170, step   0.0150, error   0.0000 rwa =T
+#   Var    35=BG:2.5+         value    18.413903, step   0.0000, error   0.0000 rwa =F
+#   Var    36=w2,3.5-:E3.4642 value  -0.0000E+00, step  1.0E-02, error  0.0     rwa =T
+#   Var    37=w2,3.5-:E3.4642 value  -0.0000E+00, step  1.0E-02, error  0.0     rwa =T
+#   Var    38=w2,3.5-:E3.4642 value   0.0000E+00, step  1.0E-02, error  0.0     rwa =T
+#   Var    39=w1,3.5-:E3.4642 value    -0.786340, step   0.0079, error   0.0000 rwa =T
+#   Var    40=J3.5-:E3.4642   value     3.464214, step   0.1000, error   0.0000 rwa =F
+#   Var    41=w2,BG:3.5-      value  -0.0000E+00, step  1.0E-02, error  0.0     rwa =T
+#   Var    42=w2,BG:3.5-      value  -0.0000E+00, step  1.0E-02, error  0.0     rwa =T
+#   Var    43=w2,BG:3.5-      value   0.0000E+00, step  1.0E-02, error  0.0     rwa =T
+#   Var    44=w1,BG:3.5-      value    -1.880720, step   0.0190, error   0.0000 rwa =T
+#   Var    45=BG:3.5-         value    18.413903, step   0.0000, error   0.0000 rwa =F
+#   Var    46=n:Barnard_aa@a2 value     1.001914, step   0.0100, error   0.0000 rwa =F
+#   Var    47=n:Barnard_aa@a2 value     1.001914, step   0.0100, error   0.0000 rwa =F
+#   Var    48=n:Barnard_aa@a3 value     1.001914, step   0.0100, error   0.0000 rwa =F
+#   Var    49=n:Barnard_aa@a3 value     1.001914, step   0.0100, error   0.0000 rwa =F
+#   Var    50=n:Barnard_aa@a4 value     1.001914, step   0.0100, error   0.0000 rwa =F
+#   Var    51=n:Barnard_aa@a4 value     1.001914, step   0.0100, error   0.0000 rwa =F
+#   Var    52=n:Barnard_aa@a4 value     1.001914, step   0.0100, error   0.0000 rwa =F
+#   Var    53=n:Mohr_aa@e1.59 value     1.033880, step   0.0100, error   0.0000 rwa =F
+#   Var    54=n:Mohr_aa@e2.26 value     0.898174, step   0.0100, error   0.0000 rwa =F
+#   Var    55=n:Mohr_aa@e2.65 value     0.936514, step   0.0100, error   0.0000 rwa =F
+#   Var    56=n:Mohr_aa@e3.05 value     1.018901, step   0.0100, error   0.0000 rwa =F
+#   Var    57=n:Mohr_aa@e3.32 value     0.871148, step   0.0100, error   0.0000 rwa =F
+#   Var    58=n:Mohr_aa@e3.45 value     1.005035, step   0.0100, error   0.0000 rwa =F
+#   Var    59=n:Mohr_aa@e3.58 value     0.947086, step   0.0100, error   0.0000 rwa =F
+#   Var    60=n:Mohr_aa@e3.72 value     0.986115, step   0.0100, error   0.0000 rwa =F
+#   Var    61=n:Mohr_aa@e3.85 value     0.965381, step   0.0100, error   0.0000 rwa =F
+#   Var    62=n:Mohr_aa@e3.98 value     1.017232, step   0.0100, error   0.0000 rwa =F
+#   Var    63=n:Tombrello_aa@ value     1.081268, step   0.0100, error   0.0000 rwa =F
+#   Var    64=n:Tombrello_aa@ value     1.081268, step   0.0100, error   0.0000 rwa =F
+#   Var    65=n:Tombrello_aa@ value     1.081268, step   0.0100, error   0.0000 rwa =F
+#   Var    66=n:Tombrello_aa@ value     1.081268, step   0.0100, error   0.0000 rwa =F
+#   Var    67=n:Tombrello_aa@ value     1.081268, step   0.0100, error   0.0000 rwa =F
+#   Var    68=n:Tombrello_aa@ value     1.081268, step   0.0100, error   0.0000 rwa =F
+#   Var    69=n:Tombrello_aa@ value     1.081268, step   0.0100, error   0.0000 rwa =F
+#   Var    70=n:Tombrello_aa@ value     1.081268, step   0.0100, error   0.0000 rwa =F
+#   Var    71=n:Spiger-A10940 value     0.972299, step   0.0100, error   0.0000 rwa =F
+#   Var    72=n:Spiger-A10940 value     0.976677, step   0.0100, error   0.0000 rwa =F
+#   Var    73=n:Spiger-A10940 value     0.901128, step   0.0100, error   0.0000 rwa =F
+#   Var    74=n:Spiger-A10940 value     0.909289, step   0.0100, error   0.0000 rwa =F
+#   Var    75=n:Spiger-A10940 value     0.917103, step   0.0100, error   0.0000 rwa =F
+#   Var    76=n:Spiger-A10940 value     0.949938, step   0.0100, error   0.0000 rwa =F
+#   Var    77=n:Spiger-A10940 value     0.940893, step   0.0100, error   0.0000 rwa =F
+#   Var    78=n:Spiger-A10940 value     0.965065, step   0.0100, error   0.0000 rwa =F
+#   Var    79=n:Spiger-A10940 value     0.961298, step   0.0100, error   0.0000 rwa =F
+#   Var    80=n:Spiger-A10940 value     0.946154, step   0.0100, error   0.0000 rwa =F
+#   Var    81=n:Spiger-A10940 value     0.899240, step   0.0100, error   0.0000 rwa =F
+#   Var    82=n:Spiger-A10940 value     0.809802, step   0.0100, error   0.0000 rwa =F
+#   Var    83=n:Spiger-A10940 value     0.844794, step   0.0100, error   0.0000 rwa =F
+#   Var    84=n:Spiger-A10940 value     0.894254, step   0.0100, error   0.0000 rwa =F
+#   Var    85=n:Spiger-cm_ap0 value     1.225370, step   0.0100, error   0.0000 rwa =F
+#   Var    86=n:Spiger-cm_ap0 value     1.322856, step   0.0100, error   0.0000 rwa =F
+#   Var    87=n:Spiger-cm_ap0 value     1.407915, step   0.0100, error   0.0000 rwa =F
+#   Var    88=n:Spiger-cm_ap0 value     1.529075, step   0.0100, error   0.0000 rwa =F
+#   Var    89=n:Spiger-cm_ap0 value     1.588083, step   0.0100, error   0.0000 rwa =F
+#   Var    90=n:Spiger-cm_ap0 value     1.499475, step   0.0100, error   0.0000 rwa =F
+#   Var    91=n:Spiger-cm_ap0 value     1.471107, step   0.0100, error   0.0000 rwa =F
+#   Var    92=n:Spiger-cm_ap0 value     1.387097, step   0.0100, error   0.0000 rwa =F
+#   Var    93=n:Spiger-cm_ap0 value     1.371987, step   0.0100, error   0.0000 rwa =F
+#   Var    94=n:Spiger-cm_ap0 value     1.261925, step   0.0100, error   0.0000 rwa =F
+#   Var    95=n:Spiger-cm_ap0 value     1.163616, step   0.0100, error   0.0000 rwa =F
+#   Var    96=n:Spiger-cm_ap0 value     1.080462, step   0.0100, error   0.0000 rwa =F
+#   Var    97=n:Spiger-cm_ap0 value     0.973738, step   0.0100, error   0.0000 rwa =F
+#   Var    98=n:Spiger-cm_ap0 value     0.886250, step   0.0100, error   0.0000 rwa =F
+#   Var    99=n:Spiger-cm_ap0 value     0.885316, step   0.0100, error   0.0000 rwa =F
+#   Var   100=n:Spiger-cm_ap0 value     0.906462, step   0.0100, error   0.0000 rwa =F
+#   Var   101=n:Spiger-cm_ap0 value     1.021117, step   0.0100, error   0.0000 rwa =F
+#   Var   102=n:Spiger-cm_ap0 value     1.012853, step   0.0100, error   0.0000 rwa =F
+#   Var   103=n:Spiger-cm_ap0 value     1.043362, step   0.0100, error   0.0000 rwa =F
+#   Var   104=n:Spiger-cm_ap0 value     1.137281, step   0.0100, error   0.0000 rwa =F
+#   Var   105=n:Spiger-cm_ap0 value     1.182956, step   0.0100, error   0.0000 rwa =F
+#   Var   106=n:Spiger-cm_ap0 value     1.235117, step   0.0100, error   0.0000 rwa =F
+#   Var   107=n:Spiger-cm_ap0 value     1.326278, step   0.0100, error   0.0000 rwa =F
+#   Var   108=n:Spiger-cm_ap0 value     1.099638, step   0.0100, error   0.0000 rwa =F
+#   Var   109=n:Spiger-cm_ap0 value     1.219735, step   0.0100, error   0.0000 rwa =F
+#   Var   110=n:Spiger-cm_ap0 value     1.131823, step   0.0100, error   0.0000 rwa =F
+#   Var   111=n:Spiger-cm_ap0 value     0.868357, step   0.0100, error   0.0000 rwa =F
+#   Var   112=n:Spiger-cm_ap0 value     1.419124, step   0.0100, error   0.0000 rwa =F
+#   Var   113=n:McCray_pp@a81 value     1.187691, step   0.0100, error   0.0000 rwa =F
+#   Var   114=n:McCray_pp@a11 value     1.155655, step   0.0100, error   0.0000 rwa =F
+#   Var   115=n:McCray_pp@a15 value     1.244540, step   0.0100, error   0.0000 rwa =F
+#   Var   116=n:Fasoli_pp@a81 value     0.950462, step   0.0100, error   0.0000 rwa =F
+#   Var   117=n:Fasoli_pp@a10 value     0.990570, step   0.0100, error   0.0000 rwa =F
+#   Var   118=n:Fasoli_pp@a11 value     1.004621, step   0.0100, error   0.0000 rwa =F
+#   Var   119=n:Fasoli_pp@a14 value     1.072260, step   0.0100, error   0.0000 rwa =F
+#   Var   120=n:Fasoli_pp@a14 value     1.061042, step   0.0100, error   0.0000 rwa =F
+#   Var   121=n:Fasoli_pp@a16 value     1.057518, step   0.0100, error   0.0000 rwa =F
+#   Var   122=n:Harrison_pp0@ value     1.333476, step   0.0100, error   0.0000 rwa =F
+#   Var   123=n:Harrison_pp0@ value     1.333476, step   0.0100, error   0.0000 rwa =F
+#   Var   124=n:Elwyn_pa@e0.1 value     1.264942, step   0.0100, error   0.0000 rwa =F
+#   Var   125=n:Elwyn_pa@e0.1 value     1.264942, step   0.0100, error   0.0000 rwa =F
+#   Var   126=n:Elwyn_pa@e0.2 value     1.264942, step   0.0100, error   0.0000 rwa =F
+#   Var   127=n:Elwyn_pa@e0.3 value     1.264942, step   0.0100, error   0.0000 rwa =F
+#   Var   128=n:Elwyn_pa@e0.4 value     1.264942, step   0.0100, error   0.0000 rwa =F
+#   Var   129=n:Elwyn_pa@e0.5 value     1.264942, step   0.0100, error   0.0000 rwa =F
+#   Var   130=n:Elwyn_pa@e0.6 value     1.264942, step   0.0100, error   0.0000 rwa =F
+#   Var   131=n:Elwyn_pa@e0.7 value     1.264942, step   0.0100, error   0.0000 rwa =F
+#   Var   132=n:Elwyn_pa@e0.8 value     1.264942, step   0.0100, error   0.0000 rwa =F
+#   Var   133=n:Elwyn_pa@e0.9 value     1.264942, step   0.0100, error   0.0000 rwa =F
+#   Var   134=n:Elwyn_pa@e1.0 value     1.264942, step   0.0100, error   0.0000 rwa =F
+#   Var   135=n:Elwyn_pa@e1.1 value     1.264942, step   0.0100, error   0.0000 rwa =F
+#   Var   136=n:Elwyn_pa@e1.2 value     1.264942, step   0.0100, error   0.0000 rwa =F
+#   Var   137=n:Elwyn_pa@e1.3 value     1.264942, step   0.0100, error   0.0000 rwa =F
+#   Var   138=n:Elwyn_pa@e1.4 value     1.264942, step   0.0100, error   0.0000 rwa =F
+#   Var   139=n:Elwyn_pa@e1.5 value     1.264942, step   0.0100, error   0.0000 rwa =F
+#   Var   140=n:Elwyn_pa@e1.6 value     1.264942, step   0.0100, error   0.0000 rwa =F
+#   Var   141=n:Elwyn_pa@e1.7 value     1.264942, step   0.0100, error   0.0000 rwa =F
+#   Var   142=n:Elwyn_pa@e1.8 value     1.264942, step   0.0100, error   0.0000 rwa =F
+#   Var   143=n:Elwyn_pa@e1.9 value     1.264942, step   0.0100, error   0.0000 rwa =F
+#   Var   144=n:Elwyn_pa@e2.0 value     1.264942, step   0.0100, error   0.0000 rwa =F
+#   Var   145=n:Elwyn_pa@e2.1 value     1.264942, step   0.0100, error   0.0000 rwa =F
+#   Var   146=n:Elwyn_pa@e2.2 value     1.264942, step   0.0100, error   0.0000 rwa =F
+#   Var   147=n:Elwyn_pa@e2.3 value     1.264942, step   0.0100, error   0.0000 rwa =F
+#   Var   148=n:Elwyn_pa@e2.4 value     1.264942, step   0.0100, error   0.0000 rwa =F
+#   Var   149=n:Elwyn_pa@e2.5 value     1.264942, step   0.0100, error   0.0000 rwa =F
+#   Var   150=n:Elwyn_pa@e2.6 value     1.264942, step   0.0100, error   0.0000 rwa =F
+#   Var   151=n:Elwyn_pa@e2.7 value     1.264942, step   0.0100, error   0.0000 rwa =F
+#   Var   152=n:Lin_pa@e1.0a  value     1.665473, step   0.0100, error   0.0000 rwa =F
+#   Var   153=n:Lin_pa@e1.2a  value     1.711684, step   0.0100, error   0.0000 rwa =F
+#   Var   154=n:Lin_pa@e1.4a  value     1.582103, step   0.0100, error   0.0000 rwa =F
+#   Var   155=n:Lin_pa@e1.5a  value     1.493652, step   0.0100, error   0.0000 rwa =F
+#   Var   156=n:Lin_pa@e1.6a  value     1.278364, step   0.0100, error   0.0000 rwa =F
+#   Var   157=n:Lin_pa@e1.65a value     1.154508, step   0.0100, error   0.0000 rwa =F
+#   Var   158=n:Lin_pa@e1.7a  value     1.129510, step   0.0100, error   0.0000 rwa =F
+#   Var   159=n:Lin_pa@e1.75a value     1.101941, step   0.0100, error   0.0000 rwa =F
+#   Var   160=n:Lin_pa@e1.8a  value     1.095506, step   0.0100, error   0.0000 rwa =F
+#   Var   161=n:Lin_pa@e1.85a value     1.044223, step   0.0100, error   0.0000 rwa =F
+#   Var   162=n:Lin_pa@e1.9a  value     1.175047, step   0.0100, error   0.0000 rwa =F
+#   Var   163=n:Lin_pa@e1.95a value     1.295270, step   0.0100, error   0.0000 rwa =F
+#   Var   164=n:Lin_pa@e2.0a  value     1.209848, step   0.0100, error   0.0000 rwa =F
+#   Var   165=n:Lin_pa@e2.1a  value     1.365337, step   0.0100, error   0.0000 rwa =F
+#   Var   166=n:Lin_pa@e2.2a  value     1.535344, step   0.0100, error   0.0000 rwa =F
+#   Var   167=n:Lin_pa@e2.4a  value     1.795461, step   0.0100, error   0.0000 rwa =F
+#   Var   168=n:Lin_pa@e2.6a  value     1.885903, step   0.0100, error   0.0000 rwa =F
+
+# ChiSq/N =     21.908 from      2.664     1.267     2.164     1.595     0.709     4.646
+#                                4.052    11.418     7.589    13.756    80.903    32.092
+#                                8.671     4.530     3.302     5.635    13.249    25.695
+#                               91.055    16.364     7.968    15.339    12.826     7.728
+#                                6.477     6.205     7.428    10.396    14.598     2.646
+#                                4.778     1.869     2.523     5.288     2.479     5.148
+#                                2.195     4.675     3.279     4.250     5.667    10.778
+#                               15.379    31.787    21.277   159.748    77.874     7.397
+#                               33.842    32.799     4.844    44.625    15.489    54.147
+#                               15.666    14.493    71.241   100.463    78.128    22.916
+#                               12.499     8.439     9.150     6.537     3.572    10.464
+#                                2.115     3.961     7.858     5.609     6.225     4.146
+#                                4.595     2.469     0.122    25.738    15.868    34.019
+#                               74.255   122.626    83.179   126.460    88.860   339.395
+#                              210.445   187.652   132.460    14.852    81.294   163.971
+#                              130.475    67.768    46.690     5.466     2.162     8.900
+#                               33.426    26.322    50.695   135.105    98.095     5.579
+#                                0.086     1.370     1.169     1.168     0.568     1.733
+#                                2.154     0.835     5.317     6.034     5.403     6.400
+#                                1.160     5.709     3.879     3.114     2.928     0.364
+#                                0.182     0.844    13.507     3.576     0.447     1.065
+#                                1.098     0.996     3.384     0.259
+
+# ChiSq/N =     15.469 part      4.250     5.667    10.778    15.379    31.787    21.277
+
+
+#  Graph for single-energy points
+#
+@subtitle "Search file: test1b-amur_eHe4+He3-a+.sfresco; "
+@subtitle size 0.7
+@legend ON
+@legend char size 0.7
+@type xydy
+    1.65170  141.62      2.1243    
+    1.67800  146.37      2.1956    
+    1.70690  146.37      2.1956    
+    1.72700  157.78      2.3762    
+    1.76270  162.53      2.4427    
+    1.80300  167.28      2.5092    
+    1.83050  164.43      2.4712    
+    1.85390  163.48      2.4522    
+    1.89530  160.63      2.4094    
+    1.94820  151.12      2.2716    
+    2.00640  143.52      2.1528    
+    2.06390  134.02      2.0102    
+    2.11810  127.36      1.9104    
+    2.18040  117.86      1.7774    
+    2.24110  115.01      1.7298    
+    2.29950  107.40      1.6158    
+    2.35870  101.70      1.5302    
+    2.41460  98.848      1.4827    
+    2.48050  96.947      1.4542    
+    2.56070  94.571      1.4186    
+    2.65500  92.100      1.3815    
+    2.74930  89.534      1.3430    
+@subtitle size 0.7
+@legend ON
+@             s0 legend         " 40: Fasoli_pp@a81.0 -  5.0% @  4.2"
+@ s0 linestyle 0
+@ s0 errorbar length 0.10
+@ s0 symbol  2
+@ s0 color  1
+@ s0 symbol fill 1
+@ s0 symbol size 0.3
+@ s0 symbol fill color 1
+@ s0 symbol color 1
+@ s0 errorbar color  1
+&
+@type xy
+#        Dataset  40
+@ s1 color  1
+@ s1 linewidth  1
+    1.65170  134.81    
+    1.67800  142.15    
+    1.70690  150.05    
+    1.72700  155.13    
+    1.76270  162.61    
+    1.80300  167.74    
+    1.83050  168.95    
+    1.85390  168.56    
+    1.89530  165.24    
+    1.94820  157.73    
+    2.00640  147.74    
+    2.06390  137.92    
+    2.11810  129.50    
+    2.18040  121.08    
+    2.24110  114.13    
+    2.29950  108.45    
+    2.35870  103.52    
+    2.41460  99.507    
+    2.48050  95.415    
+    2.56070  91.175    
+    2.65500  86.982    
+    2.74930  83.430    
+ &
+@    world xmin      1.652
+@    world xmax      2.749
+@    world ymin     89.534
+@    world ymax    167.281
+@    xaxis  tick major      0.274
+@    xaxis  tick minor      0.091
+@    yaxis  tick major     19.437
+@    yaxis  tick minor      6.479
+@type xydy
+    1.37170  69.340      1.0401    
+    1.43820  77.363      1.1605    
+    1.49540  85.783      1.2877    
+    1.52840  93.807      1.4071    
+    1.58150  104.01      1.5601    
+    1.64570  106.98      1.6146    
+    1.67780  113.92      1.7087    
+    1.69970  118.87      1.7830    
+    1.71640  122.83      1.8425    
+    1.75930  122.83      1.8425    
+    1.79530  118.87      1.7830    
+    1.82720  115.90      1.7384    
+    1.84890  111.93      1.6790    
+    1.89040  108.96      1.6344    
+    1.94640  97.769      1.4665    
+    2.00470  90.835      1.3670    
+    2.06210  82.019      1.2303    
+    2.12520  74.986      1.1292    
+    2.18090  72.113      1.0817    
+    2.23940  65.279     0.97967    
+    2.30000  62.505     0.93807    
+    2.36100  60.425     0.90637    
+    2.42600  56.958     0.85437    
+    2.48210  54.580     0.81920    
+    2.55340  53.788     0.80731    
+    2.65770  52.302     0.78552    
+    2.76340  53.293     0.79939    
+@subtitle size 0.7
+@legend ON
+@             s2 legend         " 41: Fasoli_pp@a100.0 -  0.9% @  5.7"
+@ s2 linestyle 0
+@ s2 errorbar length 0.10
+@ s2 symbol  3
+@ s2 color  2
+@ s2 symbol fill 1
+@ s2 symbol size 0.3
+@ s2 symbol fill color 2
+@ s2 symbol color 2
+@ s2 errorbar color  2
+&
+@type xy
+#        Dataset  41
+@ s3 color  2
+@ s3 linewidth  1
+    1.37170  72.104    
+    1.43820  76.703    
+    1.49540  82.540    
+    1.52840  86.796    
+    1.58150  94.964    
+    1.64570  106.16    
+    1.67780  111.54    
+    1.69970  114.76    
+    1.71640  116.85    
+    1.75930  120.24    
+    1.79530  120.48    
+    1.82720  118.70    
+    1.84890  116.57    
+    1.89040  111.01    
+    1.94640  102.00    
+    2.00470  92.672    
+    2.06210  84.578    
+    2.12520  77.240    
+    2.18090  72.015    
+    2.23940  67.572    
+    2.30000  63.866    
+    2.36100  60.849    
+    2.42600  58.236    
+    2.48210  56.367    
+    2.55340  54.387    
+    2.65770  52.086    
+    2.76340  50.264    
+ &
+@    world xmin      1.372
+@    world xmax      2.763
+@    world ymin     52.302
+@    world ymax    167.281
+@    xaxis  tick major      0.348
+@    xaxis  tick minor      0.116
+@    yaxis  tick major     28.745
+@    yaxis  tick minor      9.582
+@type xydy
+    1.26500  52.140     0.78260    
+    1.32400  54.953     0.82429    
+    1.38410  59.474     0.89210    
+    1.50120  71.429      1.0749    
+    1.55700  84.690      1.2703    
+    1.61640  96.142      1.4467    
+    1.66570  106.49      1.5973    
+    1.70720  112.52      1.6878    
+    1.77270  117.54      1.7681    
+    1.80440  114.53      1.7179    
+    1.83200  112.52      1.6978    
+    1.86270  108.50      1.6275    
+    1.89170  101.47      1.5220    
+    1.95290  91.320      1.3698    
+    2.00890  81.173      1.2176    
+    2.06630  73.337      1.1001    
+    2.11900  65.501     0.98252    
+    2.18240  59.775     0.89713    
+    2.24180  55.254     0.82881    
+    2.30190  51.738     0.77657    
+    2.35730  48.523     0.72785    
+    2.41720  44.806     0.67209    
+    2.47940  45.007     0.67511    
+    2.56390  42.495     0.63743    
+    2.66410  42.094     0.63140    
+    2.75420  40.989     0.61483    
+@subtitle size 0.7
+@legend ON
+@             s4 legend         " 42: Fasoli_pp@a117.0 +  0.5% @ 10.8"
+@ s4 linestyle 0
+@ s4 errorbar length 0.10
+@ s4 symbol  4
+@ s4 color  3
+@ s4 symbol fill 1
+@ s4 symbol size 0.3
+@ s4 symbol fill color 3
+@ s4 symbol color 3
+@ s4 errorbar color  3
+&
+@type xy
+#        Dataset  42
+@ s5 color  3
+@ s5 linewidth  1
+    1.26500  58.114    
+    1.32400  60.990    
+    1.38410  65.203    
+    1.50120  78.242    
+    1.55700  86.971    
+    1.61640  97.445    
+    1.66570  105.76    
+    1.70720  111.09    
+    1.77270  113.59    
+    1.80440  111.71    
+    1.83200  108.61    
+    1.86270  103.94    
+    1.89170  98.793    
+    1.95290  87.278    
+    2.00890  77.580    
+    2.06630  69.277    
+    2.11900  63.160    
+    2.18240  57.440    
+    2.24180  53.367    
+    2.30190  50.209    
+    2.35730  47.948    
+    2.41720  46.039    
+    2.47940  44.505    
+    2.56390  42.964    
+    2.66410  41.714    
+    2.75420  40.963    
+ &
+@    world xmin      1.265
+@    world xmax      2.763
+@    world ymin     40.989
+@    world ymax    167.281
+@    xaxis  tick major      0.375
+@    xaxis  tick minor      0.125
+@    yaxis  tick major     31.573
+@    yaxis  tick minor     10.524
+@type xydy
+    1.25300  46.965     0.70555    
+    1.37830  56.186     0.84387    
+    1.43680  65.408     0.98219    
+    1.48680  76.452      1.1473    
+    1.55730  89.748      1.3510    
+    1.61610  106.90      1.6084    
+    1.64370  112.59      1.6942    
+    1.67290  121.17      1.8175    
+    1.71400  125.45      1.8872    
+    1.73900  127.60      1.9140    
+    1.77290  127.60      1.9193    
+    1.80480  125.45      1.8872    
+    1.83010  120.09      1.8014    
+    1.84800  111.51      1.6727    
+    1.88740  112.59      1.6942    
+    1.94370  95.967      1.4395    
+    2.00210  82.671      1.2438    
+    2.06150  70.876      1.0631    
+    2.12460  64.764     0.97147    
+    2.18190  57.259     0.85888    
+    2.24050  51.683     0.77524    
+    2.29930  46.429     0.69697    
+    2.35930  42.998     0.64550    
+    2.48100  39.030     0.58545    
+    2.56570  36.886     0.55329    
+    2.66000  34.848     0.52326    
+    2.75460  33.347     0.50075    
+@subtitle size 0.7
+@legend ON
+@             s6 legend         " 43: Fasoli_pp@a141.0 +  7.2% @ 15.4"
+@ s6 linestyle 0
+@ s6 errorbar length 0.10
+@ s6 symbol  5
+@ s6 color  4
+@ s6 symbol fill 1
+@ s6 symbol size 0.3
+@ s6 symbol fill color 4
+@ s6 symbol color 4
+@ s6 errorbar color  4
+&
+@type xy
+#        Dataset  43
+@ s7 color  4
+@ s7 linewidth  1
+    1.25300  51.066    
+    1.37830  61.269    
+    1.43680  68.551    
+    1.48680  76.380    
+    1.55730  89.996    
+    1.61610  102.84    
+    1.64370  108.73    
+    1.67290  114.33    
+    1.71400  120.15    
+    1.73900  122.01    
+    1.77290  122.09    
+    1.80480  119.59    
+    1.83010  116.04    
+    1.84800  112.86    
+    1.88740  104.60    
+    1.94370  91.736    
+    2.00210  79.395    
+    2.06150  69.030    
+    2.12460  60.525    
+    2.18190  54.697    
+    2.24050  50.195    
+    2.29930  46.811    
+    2.35930  44.239    
+    2.48100  40.916    
+    2.56570  39.606    
+    2.66000  38.775    
+    2.75460  38.400    
+ &
+@    world xmin      1.253
+@    world xmax      2.763
+@    world ymin     33.347
+@    world ymax    167.281
+@    xaxis  tick major      0.378
+@    xaxis  tick minor      0.126
+@    yaxis  tick major     33.484
+@    yaxis  tick minor     11.161
+@type xydy
+    1.26070  44.139     0.66209    
+    1.32100  48.596     0.72894    
+    1.38180  54.007     0.81064    
+    1.43660  64.724     0.97191    
+    1.49200  76.501      1.1475    
+    1.55890  91.143      1.3687    
+    1.60750  107.17      1.6075    
+    1.64180  115.65      1.7348    
+    1.66430  120.96      1.8144    
+    1.70240  128.39      1.9258    
+    1.73240  130.51      1.9576    
+    1.76340  133.69      2.0054    
+    1.79440  129.45      1.9523    
+    1.81610  126.26      1.8993    
+    1.85450  119.90      1.7985    
+    1.88310  112.47      1.6871    
+    1.94230  100.06      1.5008    
+    2.00450  85.520      1.2839    
+    2.05560  75.864      1.1380    
+    2.11570  65.360     0.98040    
+    2.17780  57.933     0.86899    
+    2.24110  52.415     0.78623    
+    2.29610  48.702     0.73106    
+    2.35530  44.352     0.66527    
+    2.41090  41.699     0.62548    
+    2.47650  39.577     0.59365    
+    2.56500  36.075     0.54113    
+    2.65860  32.998     0.49498    
+    2.74880  31.937     0.47959    
+@subtitle size 0.7
+@legend ON
+@             s8 legend         " 44: Fasoli_pp@a144.0 +  6.1% @ 31.8"
+@ s8 linestyle 0
+@ s8 errorbar length 0.10
+@ s8 symbol  6
+@ s8 color  5
+@ s8 symbol fill 1
+@ s8 symbol size 0.3
+@ s8 symbol fill color 5
+@ s8 symbol color 5
+@ s8 errorbar color  5
+&
+@type xy
+#        Dataset  44
+@ s9 color  5
+@ s9 linewidth  1
+    1.26070  51.081    
+    1.32100  55.505    
+    1.38180  61.501    
+    1.43660  68.544    
+    1.49200  77.516    
+    1.55890  90.873    
+    1.60750  101.74    
+    1.64180  109.30    
+    1.66430  113.85    
+    1.70240  120.05    
+    1.73240  122.97    
+    1.76340  123.71    
+    1.79440  122.01    
+    1.81610  119.46    
+    1.85450  112.80    
+    1.88310  106.65    
+    1.94230  92.900    
+    2.00450  79.533    
+    2.05560  70.388    
+    2.11570  61.861    
+    2.17780  55.224    
+    2.24110  50.232    
+    2.29610  46.996    
+    2.35530  44.375    
+    2.41090  42.537    
+    2.47650  40.955    
+    2.56500  39.560    
+    2.65860  38.738    
+    2.74880  38.384    
+ &
+@    world xmin      1.253
+@    world xmax      2.763
+@    world ymin     31.937
+@    world ymax    167.281
+@    xaxis  tick major      0.378
+@    xaxis  tick minor      0.126
+@    yaxis  tick major     33.836
+@    yaxis  tick minor     11.279
+@type xydy
+    1.25160  41.032     0.61548    
+    1.37130  55.731     0.83597    
+    1.43160  67.258      1.0089    
+    1.48750  79.420      1.1950    
+    1.54930  93.379      1.4007    
+    1.61090  114.21      1.7132    
+    1.64530  122.67      1.8401    
+    1.67830  129.02      1.9353    
+    1.70070  134.30      2.0146    
+    1.72990  134.30      2.0199    
+    1.76450  136.42      2.0516    
+    1.79160  134.30      2.0146    
+    1.82280  131.13      1.9670    
+    1.83380  125.84      1.8877    
+    1.87650  118.44      1.7766    
+    1.93750  102.05      1.5334    
+    2.00060  89.149      1.3372    
+    2.05540  78.151      1.1738    
+    2.10990  66.835      1.0025    
+    2.17590  58.269     0.87404    
+    2.23100  54.885     0.82328    
+    2.30340  48.646     0.72969    
+    2.35840  45.156     0.67734    
+    2.41270  40.503     0.60807    
+    2.47390  39.128     0.58798    
+    2.56180  34.792     0.52241    
+    2.65260  34.898     0.52347    
+    2.74720  33.418     0.50126    
+@subtitle size 0.7
+@legend ON
+@             s10 legend         " 45: Fasoli_pp@a166.0 +  5.8% @ 21.3"
+@ s10 linestyle 0
+@ s10 errorbar length 0.10
+@ s10 symbol  7
+@ s10 color  6
+@ s10 symbol fill 1
+@ s10 symbol size 0.3
+@ s10 symbol fill color 6
+@ s10 symbol color 6
+@ s10 errorbar color  6
+&
+@type xy
+#        Dataset  45
+@ s11 color  6
+@ s11 linewidth  1
+    1.25160  48.550    
+    1.37130  59.720    
+    1.43160  68.138    
+    1.48750  78.087    
+    1.54930  91.617    
+    1.61090  106.97    
+    1.64530  115.44    
+    1.67830  122.63    
+    1.70070  126.55    
+    1.72990  130.02    
+    1.76450  131.22    
+    1.79160  129.80    
+    1.82280  125.81    
+    1.83380  123.89    
+    1.87650  114.63    
+    1.93750  99.241    
+    2.00060  84.234    
+    2.05540  73.386    
+    2.10990  64.782    
+    2.17590  56.888    
+    2.23100  51.983    
+    2.30340  47.280    
+    2.35840  44.698    
+    2.41270  42.778    
+    2.47390  41.190    
+    2.56180  39.703    
+    2.65260  38.869    
+    2.74720  38.521    
+ &
+@    world xmin      1.252
+@    world xmax      2.763
+@    world ymin     31.937
+@    world ymax    167.281
+@    xaxis  tick major      0.378
+@    xaxis  tick minor      0.126
+@    yaxis  tick major     33.836
+@    yaxis  tick minor     11.279
