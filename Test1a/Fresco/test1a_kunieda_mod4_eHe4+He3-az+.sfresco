@@ -1,7 +1,7 @@
- '=' 'test1a_kunieda_mod3.amur_eHe4+He3-az+.sfresco.frout' 
+ '=' 'test1a_kunieda_mod4.amur_eHe4+He3-az+.sfresco.frout' 
  12 75 
 
-R-matrix calculation test1a_kunieda_mod3.amur_eHe4+He3-az+.sfresco
+R-matrix calculation test1a_kunieda_mod4.amur_eHe4+He3-az+.sfresco
 NAMELIST 
 &FRESCO 
  hcm=0.100000 rmatch=4.241510 rintp=0.500000 
@@ -12,7 +12,7 @@ NAMELIST
  
  &PARTITION namep='He4' massp=4.002603 zp=2 nex=1 namet='He3' masst=3.016029 zt=2 qval=0.000000 prmax=4.241510 /
  &STATES  cpot =1 jp=0.0 ptyp=1 ep=0.000000  jt=0.5 ptyt=1 et=0.000000 /
- &PARTITION namep='H1' massp=1.007825 zp=1 nex=1 namet='Li6' masst=6.015123 zt=3 qval=-4.019632 prmax=3.943970 /
+ &PARTITION namep='H1' massp=1.007825 zp=1 nex=1 namet='Li6' masst=6.015122 zt=3 qval=-4.01972 prmax=3.943970 /
  &STATES  cpot =2 jp=0.5 ptyp=1 ep=0.000000  jt=1.0 ptyt=1 et=0.000000 /
  &PARTITION /
 

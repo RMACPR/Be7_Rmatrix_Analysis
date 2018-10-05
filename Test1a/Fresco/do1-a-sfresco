@@ -1,1 +1,1 @@
-ferdinand.py test1a_kunieda_mod3.amur  sfresco -l 1 -u 12 -e 'He4 + He3' -z -a
+ferdinand.py test1a_kunieda_mod4.amur  sfresco -l 1 -u 12 -e 'He4 + He3' -z -a
